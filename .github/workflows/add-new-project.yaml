@@ -23,7 +23,7 @@ jobs:
           node-version: '16'
 
       - name: parse issue values
-        uses: tech-x-good/github-issue-parser@v3
+        uses: techXgood/github-issue-parser@v3
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/submit-new-project.yaml # optional but recommended
