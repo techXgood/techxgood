@@ -1,0 +1,290 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Sfondo bianco */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4CAF50; /* Verde chiaro per la navbar */
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 20%;
+    text-decoration: none;
+    font-weight: bold;
+    width: 40%; /* Adjust the percentage as needed */
+    height: auto;
+    max-height: 30%;
+    margin-left: 5px;
+    border-radius: 15%;
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .paragraph-title {
+        align-items: center;
+        display: flex;
+        font-family: "Tiny5", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: rgb(2, 20, 2);
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .paragraph-title {
+        display: none;
+    }
+}
+
+.navbar-links {
+    display: flex;
+    float: right;
+}
+
+.navbar-links a {
+    color: rgb(223, 231, 227);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar-links a:hover {
+    background-color: #b4beb4; /* Verde ancora più chiaro al passaggio del mouse */
+    color: black;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: rgb(27, 55, 35);
+    cursor: pointer;
+}
+
+/* About Section */
+.about-text {
+    font-size: 120%;
+    color: #173219;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #d1d3c5;
+}
+
+/* Grid of categories */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 5%;
+}
+
+.category-item {
+    background-color: #66BB6A; /* Verde chiaro per le categorie */
+    color: white;
+    text-align: center;
+    border-radius: 6%;
+    overflow: hidden;
+}
+
+.category-item img {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    display: block;
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+
+.banner-content {
+    background-color: #96cc9600;
+    color: hsl(124, 49%, 22%);
+    padding: 10% 3% 10% 3%;
+    border-radius: 30%;
+    position: relative;
+    top: 5%;
+    left: 0%;
+    display: none;
+    font-size: small;
+}
+
+.category-item img:hover + .banner-content{display:block;}
+
+.category-item a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.category-item a:hover {
+    background-color: #81C784; /* Verde più chiaro al passaggio del mouse */
+}
+
+/* Grid of partners */
+.partners-section {
+    background-color: #d1d3c5;
+    padding: 50px;
+    text-align: center;
+}
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 1%;
+}
+
+.partner-item {
+    background-color: #b0cc96a5; /* Verde chiaro per le categorie */
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 3vw; 
+    font-size: 1vh;
+}
+
+.partner-item img {
+    width: 100%;
+    height: 10vw;
+    object-fit: fill;
+    display: block;
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+
+.partner-item a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 1%;
+}
+
+.partner-item a:hover {
+    background-color: #81C784; /* Verde più chiaro al passaggio del mouse */
+}
+
+.partner-name {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section form {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Verde chiaro per il pulsante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #388E3C; /* Verde più scuro al passaggio del mouse */
+}
+
+.submit-project-button {
+    font-size: 150%;
+    padding: 20% 40%;
+    border-radius: 10%;
+    background-color: #388E3C; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+/* Footer */
+.footer {
+    background-color: #4CAF50; /* Stesso verde chiaro della navbar */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .category-item {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Modifica della navbar con icona hamburger */
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active + .navbar-links {
+        display: flex;
+    }
+
+    .navbar-links a {
+        padding: 10px;
+        text-align: left;
+        background-color: #4CAF50; /* Verde chiaro */
+        width: 100%;
+    }
+
+    .navbar-links a:hover {
+        background-color: #81C784;
+    }
+
+    .categories {
+        grid-template-columns: 1fr;
+    }
+
+    .about-section, .contact-section {
+        padding: 20px;
+    }
+
+    .category-item {
+        padding: 20px;
+    }
+}

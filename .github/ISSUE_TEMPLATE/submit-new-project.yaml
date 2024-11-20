@@ -1,0 +1,65 @@
+name: Submit new project
+description: fill the form to submit new project
+title: "[Submit new project 🆕]: <project name>"
+labels: ["new project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping to expand the database of *Tech x Good* projects!
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL [MANDATORY]
+      description: The URL where to find the code (must be open source). It can be a Github link, Gitlab or whatever you want.
+      placeholder: https://github.com/<author>/<repo>
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category [MANDATORY]
+      description: The thematic area of the project 
+      options:
+        - environment
+        - tech
+        - health
+        - humanitarian
+        - society
+        - open knowledge
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: image
+    attributes:
+      label: Preview Image / Logo [OPTIONAL]
+      description: The URL to the project's cover image or logo
+      placeholder: https://via.placeholder.com/300x200
+    validations:
+      required: false
+  - type: input
+    id: website
+    attributes:
+      label: External Website [OPTIONAL]
+      description: The reference to the project homepage (if it does not coincide with the code repository)
+      placeholder: https://<project-homepage>
+    validations:
+      required: false
+  - type: checkboxes
+    id: poc
+    attributes:
+      label: PoC [OPTIONAL]
+      description: Is the project a Proof of Concept (PoC), i.e. is it still a prototype?
+      options:
+        - label: PoC
+          required: false
+  # - type: textarea
+  #   id: what-happened
+  #   attributes:
+  #     label: What happened?
+  #     description: Also tell us, what did you expect to happen?
+  #     placeholder: Tell us what you see!
+  #     value: "A bug happened!"
+  #   validations:
+  #     required: true

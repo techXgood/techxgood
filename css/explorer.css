@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+/* Barra di ricerca */
+.search-bar {
+    background-color: #4CAF50;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filters {
+    display: inline-flex;
+}
+
+.filters input, .filters select, .filters button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(208, 212, 184);
+    font-size: 16px;
+    display: inline-block;
+    overflow: scroll;
+    align-content: left;
+}
+
+.search-bar input[type="text"] {
+    width: 40%;
+}
+
+.search-bar select {
+    /*width: 20%;*/
+}
+
+.searching-button {
+    /*padding: 10px 10px;
+    width: 30%;
+    font-size: 16px;
+    font: bold;
+    background-color: #0e3e10;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;*/
+    width: 20%;
+    cursor: pointer;
+}
+
+.search-bar-logo {
+    border-radius: 10px;
+    max-width: 12vw;
+    margin-right: 30px;
+}
+
+.search-bar-img {
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+}
+
+.search-bar-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Griglia delle card */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.card {
+    background-color: #66BB6A;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-project-logo-img {
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 20%;
+    max-height: 20%;
+    object-fit: fill;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    /*margin-right: 1%;*/
+    align-items: center;
+}
+
+.card-project-title-img {
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 20%;
+    max-height: 20%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 5vw;     /* Adjust padding to center text */
+    padding-bottom: 5vw;  /* Adjust padding to center text */
+    box-sizing: border-box; /* Ensure padding doesn't affect total height */
+    background-color: #dad6d6ef;
+    overflow: auto;
+    color: rgb(8, 119, 119);
+}
+
+.oxanium-title-img {
+  font-family: "Oxanium", sans-serif;
+  font-size: 4vw;
+  font-weight: 500;
+  font-style: normal;
+  color:rgb(26, 97, 97);
+}
+
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: green;
+  }
+
+.card_category {
+    margin-left: 0%;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.category_item {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card-category-img {
+    width: 10%;
+    height: auto;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-right: 7px;
+    float: left;
+}
+
+.card_stats {
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+}
+
+.card_stats_info {
+    margin-left: 1px;
+    padding: 2px;
+}
+
+.card_gh_logo {
+    max-width: 7%;
+}
+
+.card_homepage_icon {
+    max-width: 7%;
+}
+
+.card_stats_icons {
+    margin-left: 4px;
+    margin-right: 3px;
+    vertical-align: middle;
+    display: inline-flex;
+    max-width: 2vw;
+    max-width: 2vw;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .search-bar input[type="text"] {
+        width: 80%;
+    }
+
+    .search-bar select {
+        width: 40%;
+    }
+
+    .filters {
+        flex-wrap: wrap;
+    }
+
+    .filters .searching-button {
+        font-size: 12px;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: #4CAF50; /* Stesso verde chiaro della navbar */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

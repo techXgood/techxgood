@@ -1,0 +1,63 @@
+{
+    "cat": [
+        {   
+            "id": "environment",
+            "name": "environment",
+            "subcat": {
+                "energy": "energy"
+            },
+            "preview_img": "imgs/index/category-cards/environment.png",
+            "description": "environmental problems"
+        },
+        {
+            "id": "tech",
+            "name": "tech",
+            "subcat": {},
+            "preview_img": "imgs/index/category-cards/tech.png"
+        },
+        {
+            "id": "humanitarian",
+            "name": "humanitarian",
+            "subcat": {},
+            "preview_img": "imgs/index/category-cards/humanitarian.png",
+            "description": "environmental problems"
+        },
+        {
+            "id": "health",
+            "name": "health",
+            "subcat": {},
+            "preview_img": "imgs/index/category-cards/health.png",
+            "description": "environmental problems"
+        },
+        {
+            "id": "open-knowledge",
+            "name": "open knowledge",
+            "subcat": {},
+            "preview_img": "imgs/index/category-cards/open-knoledge.png",
+            "description": "environmental problems"
+        },
+        {
+            "id": "society",
+            "name": "society",
+            "subcat": {},
+            "preview_img": "imgs/index/category-cards/society.png",
+            "description": "environmental problems"
+        }
+    ],
+    "extracat": [
+        {
+            "id": "poc",
+            "name": "PoC",
+            "subcat": {},
+            "preview_img": "https://via.placeholder.com/300x200",
+            "description": "environmental problems"
+        },
+        {
+            "id": "new-idea",
+            "name": "new idea",
+            "subcat": {},
+            "preview_img": "https://via.placeholder.com/300x200",
+            "description": "environmental problems"
+        }
+    ]
+}

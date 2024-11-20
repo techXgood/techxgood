@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech X Good</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Oxanium:wght@200..800&family=Tiny5&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#" class="navbar-logo">
+            <img src="imgs/index/logo.png" class="navbar-logo">
+            <div class="paragraph-title">
+                <p>TECH</p> 
+                <p style="padding-left: 5px; color: rgb(6, 234, 6); ">X</p> 
+                <p>GOOD</p>
+            </div>
+        </a>
+        <span class="hamburger" onclick="toggleMenu()">&#9776;</span>
+        <div class="navbar-links">
+            <a href="#about">About</a>
+            <a href="/explorer.html">Explore</a>
+            <!--<a href="#contacts">Contacts</a>-->
+            <a href="#submit-project">Submit Project</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="about-section">
+        <h2>Open source projects for a better world.</h2>
+
+        <div class="about-text">
+            <p>We are a community of developers who believe in the power of technology to create a more sustainable future.
+            <br>
+            <br>
+            This site is a showcase for open source projects that have a big positive impact on society and the environment. Here you can find inspiration, collaborate with other developers and contribute to projects.
+            <br>
+            <br>
+            Join us and help solve our Planet's problems. Follow us on GitHub <link gh>.
+            <br>
+            <br>
+            Are you a student looking for a project for your thesis? Explore projects tagged with ‘new idea’ and choose the project you are most passionate about! Don't waste your time with little projects for their own sake, help us make the world a better place and contribute to a remarkable project! 💪
+        </div>
+    </div>
+
+    <!-- Categories Grid -->
+    <div id="categories-grid" class="categories"></div>
+    <script>
+        // Funzione per caricare i dati dal file JSON
+        async function loadCategories() {
+            try {
+                const response = await fetch('conf/categories.json'); // Sostituisci 'data.json' con il percorso corretto
+                const data = await response.json();
+                console.log(data);
+                const cardGrid = document.getElementById('categories-grid');
+                cardGrid.innerHTML = ''; // Pulisci il contenuto prima di aggiungere nuove card
+                var cat = data.cat;
+                console.log(cat);
+                cat.forEach(item => {
+                    console.log(item);
+                    const card = document.createElement('div');
+                    card.className = 'category-item';
+                    card.innerHTML = `
+                        <a href="/explorer.html?cat=${item.id}">
+                            <img src="${item.preview_img}" alt="${item.name}">
+                            ${item.name}
+                            <div class="banner-content">
+                                ${item.description}
+                            </div>
+                        </a>
+                        
+                    `;
+                    cardGrid.appendChild(card);
+                    });
+            } catch (error) {
+                console.error('Errore durante il caricamento dei dati:', error);
+            }
+        }
+        // Esegui il caricamento delle card al caricamento della pagina
+        loadCategories();
+    </script>
+
+    <!-- Partners Grid -->
+    <div id="partners" class="partners-section">
+        <h2>Partners</h2>
+        <div id="partners-grid" class="partners"></div>
+        <script>
+            // Funzione per caricare i dati dal file JSON
+            async function loadPartners() {
+                try {
+                    const response = await fetch('data/partners.json'); // Sostituisci 'data.json' con il percorso corretto
+                    const data = await response.json();
+                    console.log(data);
+                    if (Object.keys(data).length === 0) {
+                        var partners_section = document.getElementById('partners');
+                        partners_section.style.display = "none";
+                    } else {
+                        const cardGrid = document.getElementById('partners-grid');
+                        cardGrid.innerHTML = ''; // Pulisci il contenuto prima di aggiungere nuove card
+                        data.forEach(item => {
+                            console.log(item);
+                            const card = document.createElement('div');
+                            card.className = 'partner-item';
+                            card.innerHTML = `
+                                <a href="${item.website}">
+                                    <img src="${item.preview_img}" alt="${item.name}">
+                                </a>
+                                <p class="partner-name">${item.name}</p>
+                            `;
+                            cardGrid.appendChild(card);
+                            });
+                    }
+                } catch (error) {
+                    console.error('Errore durante il caricamento dei dati:', error);
+                    var partners_section = document.getElementById('partners');
+                    partners_section.style.display = "none";
+                }
+            }
+            // Esegui il caricamento delle card al caricamento della pagina
+            loadPartners();
+        </script>
+    </div>
+
+    <!-- Contact Section 
+    <div id="contacts" class="contact-section">
+        <h2>Contact Me</h2>
+        <form action="mailto:example@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div> -->
+
+    <!-- Submit New Project Section --> 
+    <div id="submit-project" class="contact-section">
+        <h2>Submit New Project</h2>
+        <a href="https://github.com/tech-x-good/tech-x-good/issues/new?assignees=&labels=new+project&projects=&template=submit-new-project.yaml&title=%5BSubmit+new+project+%F0%9F%86%95%5D%3A+%3Cproject+name%3E">
+            <button class="submit-project-button">Submit Project</button>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Tech X Good © 2024</p>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const hamburger = document.querySelector('.hamburger');
+            const navbarLinks = document.querySelector('.navbar-links');
+            hamburger.classList.toggle('active');
+            navbarLinks.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>

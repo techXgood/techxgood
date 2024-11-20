@@ -1,0 +1,4 @@
+requests==2.32.3
+rake_nltk==1.0.6
+nltk==3.9.1
+beartype==0.12.0

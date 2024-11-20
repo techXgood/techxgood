@@ -1,0 +1,55 @@
+name: Add new project
+
+permissions: 
+  contents: write
+  
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-project:
+    #  && github.event.label.name == 'new-project' 
+    if: ${{ github.event.sender.login == 'tech-x-good' && (contains(github.event.issue.labels.*.name, 'new-project') || contains(github.event.issue.labels.*.name, 'approved')) }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: parse issue values
+        uses: tech-x-good/github-issue-parser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/submit-new-project.yaml # optional but recommended
+      - run: cat ${HOME}/issue-parser-result.json
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10" #install the python needed
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip3 install requests nltk rake_nltk beartype
+
+      - name: Modify file based on issue infos
+        run: |
+          echo "## Modifying file"
+          PROJECTS_FILE="data/projects.json"
+          python3 scripts/add_new_project.py $PROJECTS_FILE ${HOME}/issue-parser-result.json
+          # check if was added
+          cat $PROJECTS_FILE
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions-add_new_project[bot]"
+          git config user.email "github-actions-add_new_project[bot]@users.noreply.github.com"
+          git add "data/projects.json"
+          git commit -m "data: Add new project ${{ steps.issue-parser.outputs.issueparser_repo }}"
+          git push
