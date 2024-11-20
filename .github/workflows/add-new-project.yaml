@@ -10,7 +10,7 @@ on:
 jobs:
   add-project:
     #  && github.event.label.name == 'new-project' 
-    if: ${{ github.event.sender.login == 'tech-x-good' && (contains(github.event.issue.labels.*.name, 'new-project') || contains(github.event.issue.labels.*.name, 'approved')) }}
+    if: ${{ github.event.sender.login == 'techXgood' && (contains(github.event.issue.labels.*.name, 'new-project') || contains(github.event.issue.labels.*.name, 'approved')) }}
     runs-on: ubuntu-latest
 
     steps:
@@ -23,7 +23,7 @@ jobs:
           node-version: '16'
 
       - name: parse issue values
-        uses: tech-x-good/github-issue-parser@v3
+        uses: techXgood/github-issue-parser@v3
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/submit-new-project.yaml # optional but recommended
