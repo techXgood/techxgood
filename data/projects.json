@@ -1,1 +1,23 @@
-[]
+[
+    {
+        "repo": "https://github.com/mlco2/codecarbon",
+        "category": "environment",
+        "image": "https://github.com/mlco2/codecarbon/blob/master/docs/edit/images/banner.png",
+        "website": "https://mlco2.github.io/codecarbon",
+        "poc": [],
+        "title": "codecarbon",
+        "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
+        "language": "Python",
+        "stars": 1169,
+        "keywords": [
+            "ways",
+            "compute",
+            "environment",
+            "impact",
+            "recommend",
+            "emissions",
+            "track",
+            "reduce"
+        ]
+    }
+]
