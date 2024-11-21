@@ -1,5 +1,7 @@
 import json
+import os
 import sys
+sys.path.append(os.path.abspath(os.getcwd()))
 
 from scripts.update_db import extract_info_from_repo
 
