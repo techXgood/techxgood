@@ -3,6 +3,9 @@ import os
 import sys
 sys.path.append(os.path.abspath(os.getcwd()))
 
+from beartype import beartype
+from beartype.typing import *
+
 from scripts.update_db import extract_info_from_repo
 
 
@@ -17,7 +20,8 @@ def already_in(db, obj):
             return False
 
 
-def append_if_not_present(projects_file, new_project) -> int:
+@beartype
+def append_if_not_present(projects_file: str, new_project: Dict) -> int:
     try:
         # Read the existing JSON data from the file
         with open(projects_file, 'r') as db:
@@ -57,6 +61,7 @@ if __name__ == '__main__':
         print(f"projects file: {projects_file}\nnew project file: {new_object_file}")
         with open(new_object_file, "r") as new_object_file:
             new_project = json.load(new_object_file)
+        append_if_not_present(projects_file, new_project)
     else:
         print(f"Usage: add_new_project <projects_file> <new_project_json_file>")
         exit(1)
