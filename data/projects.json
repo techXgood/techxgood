@@ -19,5 +19,23 @@
             "track",
             "reduce"
         ]
+    },
+    {
+        "repo": "https://github.com/ushahidi/platform",
+        "category": "humanitarian",
+        "image": "https://avatars.githubusercontent.com/u/16959?s=200&v=4",
+        "website": "http://ushahidi.com/",
+        "poc": [],
+        "title": "platform",
+        "description": "Ushahidi Platform API version 3+",
+        "language": "PHP",
+        "stars": 682,
+        "keywords": [
+            "hacktoberfest",
+            "ushahidi",
+            "version",
+            "platform",
+            "api"
+        ]
     }
 ]
