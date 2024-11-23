@@ -12,12 +12,12 @@
         "keywords": [
             "reduce",
             "impact",
-            "ways",
-            "emissions",
+            "compute",
             "environment",
+            "ways",
             "track",
-            "recommend",
-            "compute"
+            "emissions",
+            "recommend"
         ]
     },
     {
@@ -33,9 +33,9 @@
         "keywords": [
             "hacktoberfest",
             "platform",
-            "api",
             "version",
-            "ushahidi"
+            "ushahidi",
+            "api"
         ]
     }
 ]
