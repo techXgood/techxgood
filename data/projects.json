@@ -8,16 +8,16 @@
         "title": "codecarbon",
         "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
         "language": "Python",
-        "stars": 1169,
+        "stars": 1170,
         "keywords": [
-            "recommend",
-            "impact",
-            "emissions",
             "reduce",
+            "impact",
             "ways",
-            "compute",
+            "emissions",
+            "environment",
             "track",
-            "environment"
+            "recommend",
+            "compute"
         ]
     },
     {
@@ -32,10 +32,10 @@
         "stars": 682,
         "keywords": [
             "hacktoberfest",
-            "api",
-            "ushahidi",
             "platform",
-            "version"
+            "api",
+            "version",
+            "ushahidi"
         ]
     }
 ]
