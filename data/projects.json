@@ -8,16 +8,16 @@
         "title": "codecarbon",
         "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
         "language": "Python",
-        "stars": 1172,
+        "stars": 1173,
         "keywords": [
-            "reduce",
             "environment",
+            "recommend",
+            "ways",
             "emissions",
             "track",
+            "compute",
             "impact",
-            "ways",
-            "recommend",
-            "compute"
+            "reduce"
         ]
     },
     {
