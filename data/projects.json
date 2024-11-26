@@ -10,14 +10,14 @@
         "language": "Python",
         "stars": 1174,
         "keywords": [
-            "reduce",
-            "track",
-            "ways",
             "recommend",
             "compute",
             "impact",
+            "environment",
             "emissions",
-            "environment"
+            "ways",
+            "reduce",
+            "track"
         ]
     },
     {
@@ -34,8 +34,8 @@
             "hacktoberfest",
             "ushahidi",
             "version",
-            "api",
-            "platform"
+            "platform",
+            "api"
         ]
     }
 ]
