@@ -11,12 +11,12 @@
         "stars": 1175,
         "keywords": [
             "track",
-            "emissions",
             "recommend",
-            "reduce",
-            "ways",
-            "compute",
             "environment",
+            "ways",
+            "reduce",
+            "compute",
+            "emissions",
             "impact"
         ]
     },
@@ -32,10 +32,10 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "version",
-            "api",
             "ushahidi",
-            "platform"
+            "api",
+            "platform",
+            "version"
         ]
     }
 ]
