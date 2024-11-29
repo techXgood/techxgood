@@ -77,5 +77,36 @@
             "private",
             "messenger"
         ]
+    },
+    {
+        "repo": "https://github.com/meshtastic/firmware",
+        "category": "society",
+        "image": "",
+        "website": "https://meshtastic.org",
+        "poc": [],
+        "title": "firmware",
+        "description": "Meshtastic device firmware",
+        "language": "C++",
+        "stars": 3651,
+        "keywords": [
+            "esp32",
+            "gps",
+            "heltec",
+            "hiking",
+            "lora",
+            "mesh",
+            "mesh-networks",
+            "meshtastic",
+            "nrf52",
+            "off-grid",
+            "pico",
+            "rp2040",
+            "stm32",
+            "ttgo",
+            "ttgo-tbeam",
+            "meshtastic",
+            "device",
+            "firmware"
+        ]
     }
 ]
