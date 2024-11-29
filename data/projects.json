@@ -108,5 +108,38 @@
             "device",
             "firmware"
         ]
+    },
+    {
+        "repo": "https://github.com/ckan/ckan",
+        "category": "tech",
+        "image": "",
+        "website": "https://ckan.org/",
+        "poc": [],
+        "title": "ckan",
+        "description": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites.",
+        "language": "Python",
+        "stars": 4490,
+        "keywords": [
+            "api",
+            "catalog",
+            "ckan",
+            "ckanext",
+            "data",
+            "digitalpublicgoods",
+            "dpg",
+            "open-data",
+            "python",
+            "sdg16",
+            "ckan",
+            "system",
+            "dms",
+            "share",
+            "publish",
+            "among",
+            "many",
+            "management",
+            "canada",
+            "org"
+        ]
     }
 ]
