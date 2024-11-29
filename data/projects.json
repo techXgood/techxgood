@@ -37,5 +37,23 @@
             "version",
             "ushahidi"
         ]
+    },
+    {
+        "repo": "https://github.com/signalapp/Signal-Desktop",
+        "category": "society",
+        "image": "",
+        "website": "https://signal.org/download",
+        "poc": [],
+        "title": "Signal-Desktop",
+        "description": "A private messenger for Windows, macOS, and Linux.",
+        "language": "TypeScript",
+        "stars": 14688,
+        "keywords": [
+            "macos",
+            "private",
+            "messenger",
+            "windows",
+            "linux"
+        ]
     }
 ]
