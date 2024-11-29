@@ -40,13 +40,13 @@ Contribute to one of the projects displayed here or submit new ones by following
 
 ## Roadmap
 <input type="checkbox" disabled /> refactor: Remove js code from html file and put it into a separate, well organized, folder.
-
+<br>
 <input type="checkbox" disabled /> style: Add a good css
-
+<br>
 <input type="checkbox" disabled /> data: Add new projects
-
+<br>
 <input type="checkbox" disabled /> cicd: Create a workflow to automatically search for new projects
-
+<br>
 <input type="checkbox" disabled /> refactor: Add model for projects to better handle them during db updates
-
+<br>
 <!--<input type="checkbox" disabled checked />-->
