@@ -8,16 +8,16 @@
         "title": "codecarbon",
         "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
         "language": "Python",
-        "stars": 1169,
+        "stars": 1174,
         "keywords": [
-            "ways",
+            "emissions",
             "compute",
             "environment",
-            "impact",
-            "recommend",
-            "emissions",
             "track",
-            "reduce"
+            "impact",
+            "reduce",
+            "ways",
+            "recommend"
         ]
     },
     {
@@ -29,13 +29,13 @@
         "title": "platform",
         "description": "Ushahidi Platform API version 3+",
         "language": "PHP",
-        "stars": 682,
+        "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "ushahidi",
-            "version",
             "platform",
-            "api"
+            "api",
+            "version",
+            "ushahidi"
         ]
     }
 ]
