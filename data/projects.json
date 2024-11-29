@@ -55,5 +55,27 @@
             "windows",
             "linux"
         ]
+    },
+    {
+        "repo": "https://github.com/signalapp/Signal-Server",
+        "category": "tech",
+        "image": "",
+        "website": "https://signal.org/",
+        "poc": [],
+        "title": "Signal-Server",
+        "description": "Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS",
+        "language": "Java",
+        "stars": 9273,
+        "keywords": [
+            "server",
+            "ios",
+            "desktop",
+            "supporting",
+            "android",
+            "signal",
+            "applications",
+            "private",
+            "messenger"
+        ]
     }
 ]
