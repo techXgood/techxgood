@@ -1,2 +1,0 @@
-https://github.com/muke1908/chat-e2ee - tech
-https://github.com/HXLStandard/libhxl-python - hum
