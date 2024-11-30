@@ -10,14 +10,14 @@
         "language": "Python",
         "stars": 1174,
         "keywords": [
+            "compute",
+            "environment",
+            "emissions",
             "track",
             "ways",
             "recommend",
-            "reduce",
-            "emissions",
-            "compute",
-            "environment",
-            "impact"
+            "impact",
+            "reduce"
         ]
     },
     {
@@ -32,10 +32,10 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "platform",
-            "api",
             "ushahidi",
-            "version"
+            "version",
+            "api",
+            "platform"
         ]
     },
     {
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9273,
         "keywords": [
-            "android",
-            "ios",
-            "supporting",
-            "applications",
             "desktop",
+            "ios",
+            "signal",
+            "android",
             "private",
+            "applications",
             "server",
-            "messenger",
-            "signal"
+            "supporting",
+            "messenger"
         ]
     },
     {
@@ -104,9 +104,9 @@
             "stm32",
             "ttgo",
             "ttgo-tbeam",
-            "device",
             "firmware",
-            "meshtastic"
+            "meshtastic",
+            "device"
         ]
     },
     {
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "source",
-            "org",
-            "publish",
-            "hubs",
             "open",
-            "system",
-            "makes",
-            "easy",
-            "share",
-            "sites"
+            "dms",
+            "many",
+            "gov",
+            "use",
+            "data",
+            "management",
+            "portals",
+            "org",
+            "makes"
         ]
     },
     {
@@ -155,13 +155,13 @@
         "keywords": [
             "non-profit",
             "search-engine",
-            "profit",
-            "engine",
-            "source",
             "open",
+            "engine",
             "web",
+            "profit",
             "search",
-            "non"
+            "non",
+            "source"
         ]
     },
     {
@@ -182,9 +182,9 @@
             "p2p",
             "privacy",
             "rust",
+            "independence",
             "digital",
-            "declare",
-            "independence"
+            "declare"
         ]
     }
 ]
