@@ -141,5 +141,27 @@
             "canada",
             "org"
         ]
+    },
+    {
+        "repo": "https://github.com/mwmbl/mwmbl",
+        "category": "society",
+        "image": "",
+        "website": "https://mwmbl.org",
+        "poc": [],
+        "title": "mwmbl",
+        "description": "An open source, non-profit web search engine",
+        "language": "Python",
+        "stars": 1512,
+        "keywords": [
+            "non-profit",
+            "search-engine",
+            "source",
+            "engine",
+            "profit",
+            "non",
+            "search",
+            "web",
+            "open"
+        ]
     }
 ]
