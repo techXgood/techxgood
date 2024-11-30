@@ -64,6 +64,7 @@ def extract_info_from_repo(proj: Dict[str, Any]) -> Dict[str, Any]:
     proj["description"] = data.get("description")
     proj["language"] = data.get("language")
     proj["stars"] = data.get("stargazers_count")
+    proj["image"] = data.get('owner').get('avatar_url')
     if proj.get("website") is None or proj["website"] == '':
         if data.get("homepage") is not None and data["homepage"] != proj["repo"]:
             proj["website"] = data["homepage"]
