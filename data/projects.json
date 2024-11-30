@@ -163,5 +163,28 @@
             "web",
             "open"
         ]
+    },
+    {
+        "repo": "https://github.com/freenet/freenet-core",
+        "category": "society",
+        "image": "",
+        "website": "https://freenet.org/",
+        "poc": [],
+        "title": "freenet-core",
+        "description": "Declare your digital independence",
+        "language": "Rust",
+        "stars": 2282,
+        "keywords": [
+            "cryptography",
+            "decentralized",
+            "distributed-hash-table",
+            "freenet",
+            "p2p",
+            "privacy",
+            "rust",
+            "declare",
+            "digital",
+            "independence"
+        ]
     }
 ]
