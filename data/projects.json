@@ -10,14 +10,14 @@
         "language": "Python",
         "stars": 1174,
         "keywords": [
-            "compute",
+            "impact",
             "environment",
-            "emissions",
+            "compute",
             "track",
             "ways",
             "recommend",
-            "impact",
-            "reduce"
+            "reduce",
+            "emissions"
         ]
     },
     {
@@ -32,10 +32,10 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "ushahidi",
-            "version",
             "api",
-            "platform"
+            "platform",
+            "ushahidi",
+            "version"
         ]
     },
     {
@@ -49,11 +49,11 @@
         "language": "TypeScript",
         "stars": 14688,
         "keywords": [
-            "linux",
-            "windows",
             "macos",
-            "private",
-            "messenger"
+            "windows",
+            "messenger",
+            "linux",
+            "private"
         ]
     },
     {
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9273,
         "keywords": [
-            "desktop",
-            "ios",
-            "signal",
-            "android",
-            "private",
-            "applications",
-            "server",
             "supporting",
-            "messenger"
+            "applications",
+            "android",
+            "messenger",
+            "signal",
+            "ios",
+            "private",
+            "server",
+            "desktop"
         ]
     },
     {
@@ -105,8 +105,8 @@
             "ttgo",
             "ttgo-tbeam",
             "firmware",
-            "meshtastic",
-            "device"
+            "device",
+            "meshtastic"
         ]
     },
     {
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "open",
-            "dms",
-            "many",
-            "gov",
-            "use",
-            "data",
             "management",
+            "gov",
+            "data",
             "portals",
-            "org",
-            "makes"
+            "catalog",
+            "dms",
+            "humdata",
+            "hubs",
+            "use",
+            "open"
         ]
     },
     {
@@ -155,13 +155,13 @@
         "keywords": [
             "non-profit",
             "search-engine",
-            "open",
-            "engine",
-            "web",
             "profit",
-            "search",
+            "engine",
             "non",
-            "source"
+            "search",
+            "source",
+            "open",
+            "web"
         ]
     },
     {
@@ -182,9 +182,9 @@
             "p2p",
             "privacy",
             "rust",
-            "independence",
             "digital",
-            "declare"
+            "declare",
+            "independence"
         ]
     }
 ]
