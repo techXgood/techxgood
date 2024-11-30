@@ -2,7 +2,7 @@
     {
         "repo": "https://github.com/mlco2/codecarbon",
         "category": "environment",
-        "image": "https://github.com/mlco2/codecarbon/blob/master/docs/edit/images/banner.png",
+        "image": "https://avatars.githubusercontent.com/u/54071934?v=4",
         "website": "https://mlco2.github.io/codecarbon",
         "poc": [],
         "title": "codecarbon",
@@ -10,20 +10,20 @@
         "language": "Python",
         "stars": 1174,
         "keywords": [
-            "emissions",
             "compute",
-            "environment",
             "track",
-            "impact",
             "reduce",
             "ways",
+            "impact",
+            "emissions",
+            "environment",
             "recommend"
         ]
     },
     {
         "repo": "https://github.com/ushahidi/platform",
         "category": "humanitarian",
-        "image": "https://avatars.githubusercontent.com/u/16959?s=200&v=4",
+        "image": "https://avatars.githubusercontent.com/u/16959?v=4",
         "website": "http://ushahidi.com/",
         "poc": [],
         "title": "platform",
@@ -32,16 +32,16 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "platform",
-            "api",
             "version",
-            "ushahidi"
+            "platform",
+            "ushahidi",
+            "api"
         ]
     },
     {
         "repo": "https://github.com/signalapp/Signal-Desktop",
         "category": "society",
-        "image": "",
+        "image": "https://avatars.githubusercontent.com/u/702459?v=4",
         "website": "https://signal.org/download",
         "poc": [],
         "title": "Signal-Desktop",
@@ -49,17 +49,17 @@
         "language": "TypeScript",
         "stars": 14688,
         "keywords": [
-            "macos",
-            "private",
             "messenger",
-            "windows",
-            "linux"
+            "macos",
+            "linux",
+            "private",
+            "windows"
         ]
     },
     {
         "repo": "https://github.com/signalapp/Signal-Server",
         "category": "tech",
-        "image": "",
+        "image": "https://avatars.githubusercontent.com/u/702459?v=4",
         "website": "https://signal.org/",
         "poc": [],
         "title": "Signal-Server",
@@ -67,27 +67,27 @@
         "language": "Java",
         "stars": 9273,
         "keywords": [
-            "server",
-            "ios",
-            "desktop",
+            "messenger",
             "supporting",
             "android",
-            "signal",
+            "ios",
             "applications",
+            "desktop",
+            "signal",
             "private",
-            "messenger"
+            "server"
         ]
     },
     {
         "repo": "https://github.com/meshtastic/firmware",
         "category": "society",
-        "image": "",
+        "image": "https://avatars.githubusercontent.com/u/61627050?v=4",
         "website": "https://meshtastic.org",
         "poc": [],
         "title": "firmware",
         "description": "Meshtastic device firmware",
         "language": "C++",
-        "stars": 3651,
+        "stars": 3652,
         "keywords": [
             "esp32",
             "gps",
@@ -104,15 +104,15 @@
             "stm32",
             "ttgo",
             "ttgo-tbeam",
-            "meshtastic",
             "device",
+            "meshtastic",
             "firmware"
         ]
     },
     {
         "repo": "https://github.com/ckan/ckan",
         "category": "tech",
-        "image": "",
+        "image": "https://avatars.githubusercontent.com/u/1630326?v=4",
         "website": "https://ckan.org/",
         "poc": [],
         "title": "ckan",
@@ -130,22 +130,22 @@
             "open-data",
             "python",
             "sdg16",
-            "ckan",
+            "catalog",
+            "management",
+            "use",
+            "org",
             "system",
             "dms",
             "share",
-            "publish",
-            "among",
-            "many",
-            "management",
-            "canada",
-            "org"
+            "source",
+            "powers",
+            "humdata"
         ]
     },
     {
         "repo": "https://github.com/mwmbl/mwmbl",
         "category": "society",
-        "image": "",
+        "image": "https://avatars.githubusercontent.com/u/96680880?v=4",
         "website": "https://mwmbl.org",
         "poc": [],
         "title": "mwmbl",
@@ -155,19 +155,19 @@
         "keywords": [
             "non-profit",
             "search-engine",
-            "source",
-            "engine",
-            "profit",
-            "non",
-            "search",
+            "open",
             "web",
-            "open"
+            "engine",
+            "source",
+            "profit",
+            "search",
+            "non"
         ]
     },
     {
         "repo": "https://github.com/freenet/freenet-core",
         "category": "society",
-        "image": "",
+        "image": "https://avatars.githubusercontent.com/u/77513?v=4",
         "website": "https://freenet.org/",
         "poc": [],
         "title": "freenet-core",
@@ -183,8 +183,8 @@
             "privacy",
             "rust",
             "declare",
-            "digital",
-            "independence"
+            "independence",
+            "digital"
         ]
     }
 ]
