@@ -8,16 +8,16 @@
         "title": "codecarbon",
         "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
         "language": "Python",
-        "stars": 1174,
+        "stars": 1175,
         "keywords": [
-            "impact",
-            "environment",
-            "compute",
-            "track",
             "ways",
-            "recommend",
+            "track",
+            "compute",
             "reduce",
-            "emissions"
+            "emissions",
+            "recommend",
+            "impact",
+            "environment"
         ]
     },
     {
@@ -33,9 +33,9 @@
         "keywords": [
             "hacktoberfest",
             "api",
-            "platform",
             "ushahidi",
-            "version"
+            "version",
+            "platform"
         ]
     },
     {
@@ -47,13 +47,13 @@
         "title": "Signal-Desktop",
         "description": "A private messenger for Windows, macOS, and Linux.",
         "language": "TypeScript",
-        "stars": 14688,
+        "stars": 14694,
         "keywords": [
-            "macos",
             "windows",
-            "messenger",
             "linux",
-            "private"
+            "messenger",
+            "private",
+            "macos"
         ]
     },
     {
@@ -65,17 +65,17 @@
         "title": "Signal-Server",
         "description": "Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS",
         "language": "Java",
-        "stars": 9273,
+        "stars": 9276,
         "keywords": [
-            "supporting",
             "applications",
-            "android",
             "messenger",
-            "signal",
             "ios",
-            "private",
+            "supporting",
+            "desktop",
+            "signal",
             "server",
-            "desktop"
+            "private",
+            "android"
         ]
     },
     {
@@ -87,7 +87,7 @@
         "title": "firmware",
         "description": "Meshtastic device firmware",
         "language": "C++",
-        "stars": 3652,
+        "stars": 3659,
         "keywords": [
             "esp32",
             "gps",
@@ -104,9 +104,9 @@
             "stm32",
             "ttgo",
             "ttgo-tbeam",
+            "meshtastic",
             "firmware",
-            "device",
-            "meshtastic"
+            "device"
         ]
     },
     {
@@ -118,7 +118,7 @@
         "title": "ckan",
         "description": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites.",
         "language": "Python",
-        "stars": 4490,
+        "stars": 4489,
         "keywords": [
             "api",
             "catalog",
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "management",
-            "gov",
-            "data",
-            "portals",
             "catalog",
-            "dms",
-            "humdata",
-            "hubs",
-            "use",
-            "open"
+            "makes",
+            "open",
+            "many",
+            "among",
+            "management",
+            "powers",
+            "ckan",
+            "gov",
+            "source"
         ]
     },
     {
@@ -151,17 +151,17 @@
         "title": "mwmbl",
         "description": "An open source, non-profit web search engine",
         "language": "Python",
-        "stars": 1512,
+        "stars": 1511,
         "keywords": [
             "non-profit",
             "search-engine",
             "profit",
-            "engine",
-            "non",
-            "search",
-            "source",
             "open",
-            "web"
+            "source",
+            "engine",
+            "search",
+            "web",
+            "non"
         ]
     },
     {
@@ -173,7 +173,7 @@
         "title": "freenet-core",
         "description": "Declare your digital independence",
         "language": "Rust",
-        "stars": 2282,
+        "stars": 2283,
         "keywords": [
             "cryptography",
             "decentralized",
