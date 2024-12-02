@@ -8,16 +8,16 @@
         "title": "codecarbon",
         "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
         "language": "Python",
-        "stars": 1175,
+        "stars": 1176,
         "keywords": [
-            "ways",
-            "track",
-            "compute",
-            "reduce",
+            "environment",
             "emissions",
-            "recommend",
             "impact",
-            "environment"
+            "compute",
+            "ways",
+            "recommend",
+            "track",
+            "reduce"
         ]
     },
     {
@@ -32,9 +32,9 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
+            "version",
             "api",
             "ushahidi",
-            "version",
             "platform"
         ]
     },
@@ -47,13 +47,13 @@
         "title": "Signal-Desktop",
         "description": "A private messenger for Windows, macOS, and Linux.",
         "language": "TypeScript",
-        "stars": 14694,
+        "stars": 14695,
         "keywords": [
-            "windows",
-            "linux",
             "messenger",
+            "macos",
             "private",
-            "macos"
+            "linux",
+            "windows"
         ]
     },
     {
@@ -65,15 +65,15 @@
         "title": "Signal-Server",
         "description": "Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS",
         "language": "Java",
-        "stars": 9276,
+        "stars": 9278,
         "keywords": [
-            "applications",
             "messenger",
             "ios",
+            "server",
             "supporting",
+            "applications",
             "desktop",
             "signal",
-            "server",
             "private",
             "android"
         ]
@@ -87,7 +87,7 @@
         "title": "firmware",
         "description": "Meshtastic device firmware",
         "language": "C++",
-        "stars": 3659,
+        "stars": 3662,
         "keywords": [
             "esp32",
             "gps",
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "catalog",
-            "makes",
-            "open",
-            "many",
-            "among",
-            "management",
             "powers",
-            "ckan",
+            "dms",
+            "portals",
             "gov",
-            "source"
+            "data",
+            "use",
+            "publish",
+            "share",
+            "powering",
+            "canada"
         ]
     },
     {
@@ -155,13 +155,13 @@
         "keywords": [
             "non-profit",
             "search-engine",
-            "profit",
-            "open",
-            "source",
             "engine",
+            "profit",
             "search",
             "web",
-            "non"
+            "open",
+            "non",
+            "source"
         ]
     },
     {
@@ -183,8 +183,8 @@
             "privacy",
             "rust",
             "digital",
-            "declare",
-            "independence"
+            "independence",
+            "declare"
         ]
     }
 ]
