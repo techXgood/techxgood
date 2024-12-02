@@ -10,14 +10,14 @@
         "language": "Python",
         "stars": 1176,
         "keywords": [
-            "recommend",
-            "emissions",
-            "environment",
-            "ways",
-            "compute",
-            "reduce",
             "impact",
-            "track"
+            "emissions",
+            "recommend",
+            "environment",
+            "track",
+            "reduce",
+            "compute",
+            "ways"
         ]
     },
     {
@@ -32,10 +32,10 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "ushahidi",
             "version",
-            "platform",
-            "api"
+            "ushahidi",
+            "api",
+            "platform"
         ]
     },
     {
@@ -52,8 +52,8 @@
             "linux",
             "macos",
             "windows",
-            "messenger",
-            "private"
+            "private",
+            "messenger"
         ]
     },
     {
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9278,
         "keywords": [
-            "applications",
-            "desktop",
-            "supporting",
-            "signal",
-            "android",
-            "ios",
-            "messenger",
             "server",
-            "private"
+            "android",
+            "supporting",
+            "ios",
+            "desktop",
+            "applications",
+            "private",
+            "signal",
+            "messenger"
         ]
     },
     {
@@ -104,9 +104,9 @@
             "stm32",
             "ttgo",
             "ttgo-tbeam",
-            "device",
+            "meshtastic",
             "firmware",
-            "meshtastic"
+            "device"
         ]
     },
     {
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
+            "among",
             "management",
-            "canada",
-            "source",
-            "org",
-            "system",
-            "use",
-            "share",
-            "easy",
             "portals",
-            "makes"
+            "share",
+            "system",
+            "open",
+            "sites",
+            "powers",
+            "data",
+            "easy"
         ]
     },
     {
@@ -155,13 +155,13 @@
         "keywords": [
             "non-profit",
             "search-engine",
-            "web",
-            "profit",
-            "engine",
-            "non",
             "source",
+            "engine",
             "search",
-            "open"
+            "non",
+            "open",
+            "profit",
+            "web"
         ]
     },
     {
@@ -183,8 +183,8 @@
             "privacy",
             "rust",
             "declare",
-            "digital",
-            "independence"
+            "independence",
+            "digital"
         ]
     }
 ]
