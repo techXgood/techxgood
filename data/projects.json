@@ -10,14 +10,14 @@
         "language": "Python",
         "stars": 1177,
         "keywords": [
-            "recommend",
             "impact",
-            "track",
-            "emissions",
-            "ways",
-            "reduce",
             "environment",
-            "compute"
+            "emissions",
+            "track",
+            "ways",
+            "compute",
+            "reduce",
+            "recommend"
         ]
     },
     {
@@ -32,10 +32,10 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "api",
             "platform",
             "version",
-            "ushahidi"
+            "ushahidi",
+            "api"
         ]
     },
     {
@@ -49,10 +49,10 @@
         "language": "TypeScript",
         "stars": 14697,
         "keywords": [
-            "windows",
             "private",
-            "macos",
             "linux",
+            "macos",
+            "windows",
             "messenger"
         ]
     },
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9278,
         "keywords": [
-            "ios",
-            "applications",
-            "android",
-            "desktop",
-            "signal",
             "private",
-            "supporting",
+            "desktop",
             "server",
-            "messenger"
+            "signal",
+            "android",
+            "applications",
+            "messenger",
+            "ios",
+            "supporting"
         ]
     },
     {
@@ -104,8 +104,8 @@
             "stm32",
             "ttgo",
             "ttgo-tbeam",
-            "firmware",
             "device",
+            "firmware",
             "meshtastic"
         ]
     },
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "among",
-            "source",
+            "data",
             "org",
-            "easy",
-            "open",
-            "hubs",
-            "publish",
-            "powers",
+            "portals",
+            "gov",
+            "powering",
             "management",
-            "canada"
+            "humdata",
+            "use",
+            "among",
+            "open"
         ]
     },
     {
@@ -156,12 +156,12 @@
             "non-profit",
             "search-engine",
             "profit",
-            "source",
-            "open",
-            "web",
-            "engine",
+            "search",
             "non",
-            "search"
+            "engine",
+            "source",
+            "web",
+            "open"
         ]
     },
     {
@@ -182,9 +182,9 @@
             "p2p",
             "privacy",
             "rust",
-            "independence",
+            "digital",
             "declare",
-            "digital"
+            "independence"
         ]
     }
 ]
