@@ -8,16 +8,16 @@
         "title": "codecarbon",
         "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
         "language": "Python",
-        "stars": 1176,
+        "stars": 1177,
         "keywords": [
+            "compute",
             "impact",
-            "emissions",
+            "ways",
             "recommend",
+            "reduce",
             "environment",
             "track",
-            "reduce",
-            "compute",
-            "ways"
+            "emissions"
         ]
     },
     {
@@ -32,9 +32,9 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "version",
-            "ushahidi",
             "api",
+            "ushahidi",
+            "version",
             "platform"
         ]
     },
@@ -47,13 +47,13 @@
         "title": "Signal-Desktop",
         "description": "A private messenger for Windows, macOS, and Linux.",
         "language": "TypeScript",
-        "stars": 14695,
+        "stars": 14697,
         "keywords": [
-            "linux",
             "macos",
-            "windows",
+            "messenger",
             "private",
-            "messenger"
+            "linux",
+            "windows"
         ]
     },
     {
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9278,
         "keywords": [
-            "server",
-            "android",
-            "supporting",
-            "ios",
-            "desktop",
-            "applications",
+            "messenger",
             "private",
+            "android",
+            "desktop",
+            "ios",
+            "server",
             "signal",
-            "messenger"
+            "applications",
+            "supporting"
         ]
     },
     {
@@ -87,7 +87,7 @@
         "title": "firmware",
         "description": "Meshtastic device firmware",
         "language": "C++",
-        "stars": 3662,
+        "stars": 3666,
         "keywords": [
             "esp32",
             "gps",
@@ -104,9 +104,9 @@
             "stm32",
             "ttgo",
             "ttgo-tbeam",
+            "device",
             "meshtastic",
-            "firmware",
-            "device"
+            "firmware"
         ]
     },
     {
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
+            "source",
+            "many",
             "among",
-            "management",
-            "portals",
-            "share",
-            "system",
-            "open",
             "sites",
-            "powers",
+            "portals",
+            "ckan",
+            "use",
+            "canada",
             "data",
-            "easy"
+            "open"
         ]
     },
     {
@@ -151,17 +151,17 @@
         "title": "mwmbl",
         "description": "An open source, non-profit web search engine",
         "language": "Python",
-        "stars": 1511,
+        "stars": 1512,
         "keywords": [
             "non-profit",
             "search-engine",
             "source",
             "engine",
-            "search",
-            "non",
             "open",
+            "search",
+            "web",
             "profit",
-            "web"
+            "non"
         ]
     },
     {
@@ -182,9 +182,9 @@
             "p2p",
             "privacy",
             "rust",
-            "declare",
+            "digital",
             "independence",
-            "digital"
+            "declare"
         ]
     }
 ]
