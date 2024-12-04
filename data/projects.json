@@ -8,16 +8,16 @@
         "title": "codecarbon",
         "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
         "language": "Python",
-        "stars": 1177,
+        "stars": 1179,
         "keywords": [
-            "impact",
-            "environment",
-            "emissions",
             "track",
+            "recommend",
+            "emissions",
+            "environment",
             "ways",
-            "compute",
             "reduce",
-            "recommend"
+            "compute",
+            "impact"
         ]
     },
     {
@@ -47,13 +47,13 @@
         "title": "Signal-Desktop",
         "description": "A private messenger for Windows, macOS, and Linux.",
         "language": "TypeScript",
-        "stars": 14697,
+        "stars": 14698,
         "keywords": [
-            "private",
-            "linux",
             "macos",
             "windows",
-            "messenger"
+            "linux",
+            "messenger",
+            "private"
         ]
     },
     {
@@ -65,17 +65,17 @@
         "title": "Signal-Server",
         "description": "Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS",
         "language": "Java",
-        "stars": 9278,
+        "stars": 9281,
         "keywords": [
-            "private",
-            "desktop",
+            "ios",
+            "applications",
+            "supporting",
             "server",
             "signal",
-            "android",
-            "applications",
             "messenger",
-            "ios",
-            "supporting"
+            "private",
+            "desktop",
+            "android"
         ]
     },
     {
@@ -87,7 +87,7 @@
         "title": "firmware",
         "description": "Meshtastic device firmware",
         "language": "C++",
-        "stars": 3666,
+        "stars": 3671,
         "keywords": [
             "esp32",
             "gps",
@@ -104,8 +104,8 @@
             "stm32",
             "ttgo",
             "ttgo-tbeam",
-            "device",
             "firmware",
+            "device",
             "meshtastic"
         ]
     },
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "data",
-            "org",
             "portals",
-            "gov",
+            "system",
+            "org",
+            "dms",
             "powering",
-            "management",
-            "humdata",
-            "use",
-            "among",
-            "open"
+            "many",
+            "data",
+            "sites",
+            "publish",
+            "easy"
         ]
     },
     {
@@ -155,13 +155,13 @@
         "keywords": [
             "non-profit",
             "search-engine",
+            "engine",
+            "open",
+            "web",
+            "non",
             "profit",
             "search",
-            "non",
-            "engine",
-            "source",
-            "web",
-            "open"
+            "source"
         ]
     },
     {
@@ -182,9 +182,9 @@
             "p2p",
             "privacy",
             "rust",
-            "digital",
             "declare",
-            "independence"
+            "independence",
+            "digital"
         ]
     }
 ]
