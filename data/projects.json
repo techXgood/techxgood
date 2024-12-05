@@ -10,13 +10,13 @@
         "language": "Python",
         "stars": 1183,
         "keywords": [
-            "recommend",
-            "emissions",
-            "reduce",
             "compute",
-            "ways",
-            "track",
+            "emissions",
+            "recommend",
+            "reduce",
             "impact",
+            "track",
+            "ways",
             "environment"
         ]
     },
@@ -32,9 +32,9 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "platform",
-            "ushahidi",
             "api",
+            "ushahidi",
+            "platform",
             "version"
         ]
     },
@@ -49,11 +49,11 @@
         "language": "TypeScript",
         "stars": 14700,
         "keywords": [
+            "macos",
+            "messenger",
             "private",
             "linux",
-            "windows",
-            "macos",
-            "messenger"
+            "windows"
         ]
     },
     {
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9281,
         "keywords": [
-            "server",
-            "private",
             "android",
-            "desktop",
             "applications",
-            "signal",
+            "messenger",
+            "desktop",
             "ios",
+            "private",
+            "server",
             "supporting",
-            "messenger"
+            "signal"
         ]
     },
     {
@@ -104,9 +104,9 @@
             "stm32",
             "ttgo",
             "ttgo-tbeam",
-            "meshtastic",
             "device",
-            "firmware"
+            "firmware",
+            "meshtastic"
         ]
     },
     {
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "humdata",
-            "dms",
-            "system",
-            "powers",
-            "hubs",
-            "powering",
-            "many",
+            "makes",
             "use",
-            "management",
-            "open"
+            "system",
+            "hubs",
+            "dms",
+            "sites",
+            "canada",
+            "open",
+            "easy",
+            "powering"
         ]
     },
     {
@@ -155,13 +155,13 @@
         "keywords": [
             "non-profit",
             "search-engine",
-            "non",
-            "search",
-            "web",
-            "profit",
-            "engine",
             "source",
-            "open"
+            "search",
+            "engine",
+            "non",
+            "profit",
+            "open",
+            "web"
         ]
     },
     {
@@ -182,9 +182,9 @@
             "p2p",
             "privacy",
             "rust",
+            "declare",
             "independence",
-            "digital",
-            "declare"
+            "digital"
         ]
     }
 ]
