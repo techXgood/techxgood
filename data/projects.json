@@ -8,16 +8,16 @@
         "title": "codecarbon",
         "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
         "language": "Python",
-        "stars": 1179,
+        "stars": 1183,
         "keywords": [
-            "track",
-            "impact",
-            "compute",
-            "reduce",
-            "environment",
             "recommend",
             "emissions",
-            "ways"
+            "reduce",
+            "compute",
+            "ways",
+            "track",
+            "impact",
+            "environment"
         ]
     },
     {
@@ -32,9 +32,9 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
+            "platform",
             "ushahidi",
             "api",
-            "platform",
             "version"
         ]
     },
@@ -47,13 +47,13 @@
         "title": "Signal-Desktop",
         "description": "A private messenger for Windows, macOS, and Linux.",
         "language": "TypeScript",
-        "stars": 14698,
+        "stars": 14700,
         "keywords": [
-            "linux",
-            "macos",
             "private",
-            "messenger",
-            "windows"
+            "linux",
+            "windows",
+            "macos",
+            "messenger"
         ]
     },
     {
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9281,
         "keywords": [
-            "applications",
-            "ios",
-            "android",
             "server",
             "private",
-            "messenger",
+            "android",
             "desktop",
+            "applications",
+            "signal",
+            "ios",
             "supporting",
-            "signal"
+            "messenger"
         ]
     },
     {
@@ -87,7 +87,7 @@
         "title": "firmware",
         "description": "Meshtastic device firmware",
         "language": "C++",
-        "stars": 3671,
+        "stars": 3675,
         "keywords": [
             "esp32",
             "gps",
@@ -104,9 +104,9 @@
             "stm32",
             "ttgo",
             "ttgo-tbeam",
+            "meshtastic",
             "device",
-            "firmware",
-            "meshtastic"
+            "firmware"
         ]
     },
     {
@@ -118,7 +118,7 @@
         "title": "ckan",
         "description": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites.",
         "language": "Python",
-        "stars": 4489,
+        "stars": 4490,
         "keywords": [
             "api",
             "catalog",
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "gov",
-            "use",
+            "humdata",
+            "dms",
+            "system",
+            "powers",
             "hubs",
+            "powering",
             "many",
-            "open",
-            "easy",
-            "ckan",
-            "share",
-            "catalog",
-            "powers"
+            "use",
+            "management",
+            "open"
         ]
     },
     {
@@ -151,17 +151,17 @@
         "title": "mwmbl",
         "description": "An open source, non-profit web search engine",
         "language": "Python",
-        "stars": 1512,
+        "stars": 1513,
         "keywords": [
             "non-profit",
             "search-engine",
-            "open",
-            "web",
-            "source",
-            "engine",
+            "non",
             "search",
+            "web",
             "profit",
-            "non"
+            "engine",
+            "source",
+            "open"
         ]
     },
     {
@@ -183,8 +183,8 @@
             "privacy",
             "rust",
             "independence",
-            "declare",
-            "digital"
+            "digital",
+            "declare"
         ]
     }
 ]
