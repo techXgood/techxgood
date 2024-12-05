@@ -10,14 +10,14 @@
         "language": "Python",
         "stars": 1183,
         "keywords": [
+            "environment",
             "compute",
             "emissions",
-            "recommend",
             "reduce",
-            "impact",
+            "recommend",
             "track",
             "ways",
-            "environment"
+            "impact"
         ]
     },
     {
@@ -32,10 +32,10 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "api",
-            "ushahidi",
             "platform",
-            "version"
+            "version",
+            "ushahidi",
+            "api"
         ]
     },
     {
@@ -50,10 +50,10 @@
         "stars": 14700,
         "keywords": [
             "macos",
+            "windows",
             "messenger",
             "private",
-            "linux",
-            "windows"
+            "linux"
         ]
     },
     {
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9281,
         "keywords": [
-            "android",
-            "applications",
-            "messenger",
-            "desktop",
             "ios",
+            "desktop",
+            "applications",
+            "android",
+            "messenger",
+            "signal",
             "private",
             "server",
-            "supporting",
-            "signal"
+            "supporting"
         ]
     },
     {
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "makes",
-            "use",
-            "system",
-            "hubs",
-            "dms",
-            "sites",
-            "canada",
-            "open",
             "easy",
-            "powering"
+            "org",
+            "ckan",
+            "data",
+            "dms",
+            "portals",
+            "makes",
+            "hubs",
+            "among",
+            "canada"
         ]
     },
     {
@@ -155,13 +155,13 @@
         "keywords": [
             "non-profit",
             "search-engine",
-            "source",
-            "search",
-            "engine",
-            "non",
-            "profit",
+            "web",
             "open",
-            "web"
+            "engine",
+            "source",
+            "profit",
+            "search",
+            "non"
         ]
     },
     {
@@ -182,9 +182,9 @@
             "p2p",
             "privacy",
             "rust",
-            "declare",
             "independence",
-            "digital"
+            "digital",
+            "declare"
         ]
     }
 ]
