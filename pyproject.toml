@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "techxgood"
+version = "0.1.0"
+description = ""
+authors = ["techXgood <technology.x.good@gmail.com >"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+nltk = "^3.9.1"
+rake-nltk = "^1.0.6"
+beartype = "^0.19.0"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
