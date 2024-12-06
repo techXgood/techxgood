@@ -186,5 +186,35 @@
             "digital",
             "declare"
         ]
+    },
+    {
+        "repo": "https://github.com/libremesh/lime-packages",
+        "category": "tech",
+        "image": "https://avatars.githubusercontent.com/u/4405582?v=4",
+        "website": "https://libremesh.org/",
+        "poc": [],
+        "title": "lime-packages",
+        "description": "LibreMesh packages configuring OpenWrt for wireless mesh networking",
+        "language": "Lua",
+        "stars": 281,
+        "keywords": [
+            "firmware",
+            "hacktoberfest",
+            "libremesh",
+            "lua",
+            "mesh",
+            "mesh-networks",
+            "openwrt",
+            "openwrt-buildroot",
+            "openwrt-package",
+            "routing",
+            "mesh",
+            "packages",
+            "libremesh",
+            "networking",
+            "wireless",
+            "configuring",
+            "openwrt"
+        ]
     }
 ]
