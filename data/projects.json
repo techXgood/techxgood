@@ -11101,5 +11101,33 @@
         "repo": "https://github.com/eleanorlutz/earth_atlas_of_space",
         "category": "environment",
         "image": ""
+    },
+    {
+        "repo": "https://github.com/mastodon/mastodon",
+        "category": "society",
+        "image": "",
+        "website": "https://joinmastodon.org",
+        "poc": [],
+        "title": "mastodon",
+        "description": "Your self-hosted, globally interconnected microblogging community",
+        "language": "Ruby",
+        "stars": 47297,
+        "keywords": [
+            "activity-stream",
+            "activitypub",
+            "docker",
+            "fediverse",
+            "mastodon",
+            "microblog",
+            "social-network",
+            "social-web",
+            "webfinger",
+            "microblogging",
+            "interconnected",
+            "self",
+            "community",
+            "hosted",
+            "globally"
+        ]
     }
 ]
