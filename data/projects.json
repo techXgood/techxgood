@@ -10,14 +10,14 @@
         "language": "Python",
         "stars": 1185,
         "keywords": [
-            "recommend",
+            "track",
             "impact",
+            "compute",
             "environment",
-            "reduce",
             "ways",
             "emissions",
-            "compute",
-            "track"
+            "recommend",
+            "reduce"
         ]
     },
     {
@@ -32,10 +32,10 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "version",
             "platform",
+            "api",
             "ushahidi",
-            "api"
+            "version"
         ]
     },
     {
@@ -49,11 +49,11 @@
         "language": "TypeScript",
         "stars": 14703,
         "keywords": [
+            "macos",
             "messenger",
             "private",
-            "windows",
             "linux",
-            "macos"
+            "windows"
         ]
     },
     {
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9282,
         "keywords": [
-            "applications",
-            "supporting",
-            "desktop",
             "messenger",
-            "android",
-            "private",
+            "desktop",
             "signal",
+            "private",
             "ios",
-            "server"
+            "android",
+            "server",
+            "supporting",
+            "applications"
         ]
     },
     {
@@ -105,8 +105,8 @@
             "ttgo",
             "ttgo-tbeam",
             "device",
-            "firmware",
-            "meshtastic"
+            "meshtastic",
+            "firmware"
         ]
     },
     {
@@ -131,15 +131,15 @@
             "python",
             "sdg16",
             "dms",
-            "powering",
-            "makes",
-            "many",
-            "hubs",
+            "canada",
             "share",
+            "publish",
+            "catalog",
             "management",
             "gov",
-            "ckan",
-            "humdata"
+            "open",
+            "powers",
+            "system"
         ]
     },
     {
@@ -156,12 +156,12 @@
             "non-profit",
             "search-engine",
             "search",
-            "non",
             "source",
+            "non",
             "open",
-            "web",
+            "engine",
             "profit",
-            "engine"
+            "web"
         ]
     },
     {
@@ -182,8 +182,8 @@
             "p2p",
             "privacy",
             "rust",
-            "declare",
             "independence",
+            "declare",
             "digital"
         ]
     },
@@ -208,10 +208,10 @@
             "openwrt-buildroot",
             "openwrt-package",
             "routing",
+            "packages",
+            "wireless",
             "mesh",
             "libremesh",
-            "wireless",
-            "packages",
             "openwrt",
             "configuring",
             "networking"
@@ -237,11 +237,11 @@
             "medical-records",
             "openmrs",
             "openmrs-community",
-            "code",
-            "openmrs",
             "api",
+            "application",
+            "code",
             "web",
-            "application"
+            "openmrs"
         ]
     },
     {
@@ -255,16 +255,16 @@
         "language": null,
         "stars": 243,
         "keywords": [
-            "openly",
-            "layer",
-            "licensed",
-            "access",
-            "imagery",
-            "services",
-            "provide",
             "openaerialmap",
+            "commons",
+            "services",
+            "access",
             "service",
-            "open"
+            "open",
+            "licensed",
+            "imagery",
+            "map",
+            "layer"
         ]
     }
 ]
