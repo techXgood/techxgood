@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip3 install requests nltk rake_nltk beartype
+          pip3 install requests nltk rake_nltk beartype beautifulsoup4
       - name: Run Python script
         run: python3 scripts/update_db.py "data/projects.json"
       
