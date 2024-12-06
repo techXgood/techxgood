@@ -243,5 +243,28 @@
             "application",
             "openmrs"
         ]
+    },
+    {
+        "repo": "https://github.com/hotosm/OpenAerialMap",
+        "category": "environment",
+        "image": "https://avatars.githubusercontent.com/u/458752?v=4",
+        "website": "https://openaerialmap.org/",
+        "poc": [],
+        "title": "OpenAerialMap",
+        "description": "OpenAerialMap is an open service to provide access to a commons of openly licensed imagery and map layer services.",
+        "language": null,
+        "stars": 243,
+        "keywords": [
+            "map",
+            "provide",
+            "services",
+            "access",
+            "openly",
+            "open",
+            "openaerialmap",
+            "commons",
+            "licensed",
+            "imagery"
+        ]
     }
 ]
