@@ -219,7 +219,7 @@
     },
     {
         "repo": "https://github.com/openmrs/openmrs-core",
-        "category": "humanitarian",
+        "category": "health",
         "image": "https://avatars.githubusercontent.com/u/860776?v=4",
         "website": "http://openmrs.org",
         "poc": [],
