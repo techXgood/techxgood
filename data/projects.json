@@ -8,16 +8,16 @@
         "title": "codecarbon",
         "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
         "language": "Python",
-        "stars": 1183,
+        "stars": 1185,
         "keywords": [
-            "environment",
-            "compute",
-            "emissions",
-            "reduce",
             "recommend",
-            "track",
+            "impact",
+            "environment",
+            "reduce",
             "ways",
-            "impact"
+            "emissions",
+            "compute",
+            "track"
         ]
     },
     {
@@ -32,8 +32,8 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "platform",
             "version",
+            "platform",
             "ushahidi",
             "api"
         ]
@@ -47,13 +47,13 @@
         "title": "Signal-Desktop",
         "description": "A private messenger for Windows, macOS, and Linux.",
         "language": "TypeScript",
-        "stars": 14700,
+        "stars": 14703,
         "keywords": [
-            "macos",
-            "windows",
             "messenger",
             "private",
-            "linux"
+            "windows",
+            "linux",
+            "macos"
         ]
     },
     {
@@ -65,17 +65,17 @@
         "title": "Signal-Server",
         "description": "Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS",
         "language": "Java",
-        "stars": 9281,
+        "stars": 9282,
         "keywords": [
-            "ios",
-            "desktop",
             "applications",
-            "android",
+            "supporting",
+            "desktop",
             "messenger",
-            "signal",
+            "android",
             "private",
-            "server",
-            "supporting"
+            "signal",
+            "ios",
+            "server"
         ]
     },
     {
@@ -87,7 +87,7 @@
         "title": "firmware",
         "description": "Meshtastic device firmware",
         "language": "C++",
-        "stars": 3675,
+        "stars": 3678,
         "keywords": [
             "esp32",
             "gps",
@@ -118,7 +118,7 @@
         "title": "ckan",
         "description": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites.",
         "language": "Python",
-        "stars": 4490,
+        "stars": 4494,
         "keywords": [
             "api",
             "catalog",
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "easy",
-            "org",
-            "ckan",
-            "data",
             "dms",
-            "portals",
+            "powering",
             "makes",
+            "many",
             "hubs",
-            "among",
-            "canada"
+            "share",
+            "management",
+            "gov",
+            "ckan",
+            "humdata"
         ]
     },
     {
@@ -155,13 +155,13 @@
         "keywords": [
             "non-profit",
             "search-engine",
-            "web",
-            "open",
-            "engine",
-            "source",
-            "profit",
             "search",
-            "non"
+            "non",
+            "source",
+            "open",
+            "web",
+            "profit",
+            "engine"
         ]
     },
     {
@@ -182,9 +182,9 @@
             "p2p",
             "privacy",
             "rust",
+            "declare",
             "independence",
-            "digital",
-            "declare"
+            "digital"
         ]
     },
     {
@@ -209,12 +209,12 @@
             "openwrt-package",
             "routing",
             "mesh",
-            "packages",
             "libremesh",
-            "networking",
             "wireless",
+            "packages",
+            "openwrt",
             "configuring",
-            "openwrt"
+            "networking"
         ]
     },
     {
@@ -238,10 +238,10 @@
             "openmrs",
             "openmrs-community",
             "code",
+            "openmrs",
             "api",
             "web",
-            "application",
-            "openmrs"
+            "application"
         ]
     },
     {
@@ -255,16 +255,16 @@
         "language": null,
         "stars": 243,
         "keywords": [
-            "map",
-            "provide",
-            "services",
-            "access",
             "openly",
-            "open",
-            "openaerialmap",
-            "commons",
+            "layer",
             "licensed",
-            "imagery"
+            "access",
+            "imagery",
+            "services",
+            "provide",
+            "openaerialmap",
+            "service",
+            "open"
         ]
     }
 ]
