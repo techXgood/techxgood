@@ -170,8 +170,14 @@ body {
     padding: 2px;
 }
 
-.card_gh_logo {
-    max-width: 7%;
+.card_github_logo {
+    max-width: 7%
+}
+
+.card_gitlab_logo {
+    max-width: 12%;
+    vertical-align: middle;
+    display: inline-flex;
 }
 
 .card_homepage_icon {

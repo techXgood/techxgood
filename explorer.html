@@ -135,6 +135,16 @@
                     const card = document.createElement('div');
                     if (apply_filter(item, cat)) {
                         card.className = 'card';
+                        if (item.repo.includes("github.com")) {
+                            repo_logo = "github-logo.png";
+                            repo_logo_class = "card_github_logo";
+                        } else if (item.repo.includes("gitlab.com")) {
+                            repo_logo = "gitlab-logo.png";
+                            repo_logo_class = "card_gitlab_logo";
+                        } else {
+                            repo_logo = "homepage-icon.png";
+                             repo_logo_class = "card_github_logo";
+                        }
                         card.innerHTML = `
                             <div>
                                 <div class="card-overview">
@@ -145,7 +155,7 @@
                                 <hr>
                                 <div class="card-links">
                                     <a href="${item.repo}">
-                                        <img src="imgs/explorer/github-mark.png" class="card_gh_logo">
+                                        <img src="imgs/explorer/${repo_logo}" class=${repo_logo_class}>
                                         code
                                     </a>
                                     ${website_link_tag}
