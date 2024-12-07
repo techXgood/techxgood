@@ -45,11 +45,13 @@ def extract_info_from_repo(proj: Dict[str, Any]) -> Dict[str, Any]:
         headers = {
             'Accept': 'application/vnd.github.mercy-preview+json'
         }
+        star_count = "stargazers_count"
     elif provider == "gitlab.com":
         project_path = '/'.join(proj["repo"].strip('https://').split('/')[1:])
         encoded_project_path = urllib.parse.quote_plus(project_path)
         api_url = f"https://gitlab.com/api/v4/projects/{encoded_project_path}"
         headers = {}
+        star_count = "star_count"
     else:
         raise NotImplementedError(f"Cannot get infos from external site actually - {proj['repo']}.")
     
@@ -62,7 +64,7 @@ def extract_info_from_repo(proj: Dict[str, Any]) -> Dict[str, Any]:
     proj["title"] = data.get("name")
     proj["description"] = data.get("description")
     proj["language"] = data.get("language")
-    proj["stars"] = data.get("stargazers_count")
+    proj["stars"] = data.get(star_count)
     proj["image"] = data.get('owner').get('avatar_url') if proj.get("image") is None else proj["image"]
     if proj.get("website") is None or proj["website"] == '':
         if data.get("homepage") is not None and data["homepage"] != proj["repo"]:
