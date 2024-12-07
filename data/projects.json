@@ -10,14 +10,14 @@
         "language": "Python",
         "stars": 1185,
         "keywords": [
-            "environment",
-            "ways",
             "impact",
             "track",
-            "recommend",
             "compute",
-            "emissions",
-            "reduce"
+            "environment",
+            "reduce",
+            "recommend",
+            "ways",
+            "emissions"
         ]
     },
     {
@@ -32,10 +32,10 @@
         "stars": 684,
         "keywords": [
             "hacktoberfest",
-            "version",
+            "platform",
             "ushahidi",
             "api",
-            "platform"
+            "version"
         ]
     },
     {
@@ -49,11 +49,11 @@
         "language": "TypeScript",
         "stars": 14707,
         "keywords": [
-            "messenger",
-            "macos",
+            "linux",
             "windows",
-            "private",
-            "linux"
+            "macos",
+            "messenger",
+            "private"
         ]
     },
     {
@@ -67,15 +67,15 @@
         "language": "Java",
         "stars": 9283,
         "keywords": [
-            "supporting",
-            "messenger",
-            "android",
-            "applications",
-            "server",
-            "signal",
             "desktop",
+            "server",
+            "applications",
+            "messenger",
+            "supporting",
             "private",
-            "ios"
+            "android",
+            "ios",
+            "signal"
         ]
     },
     {
@@ -130,16 +130,16 @@
             "open-data",
             "python",
             "sdg16",
-            "open",
-            "humdata",
-            "source",
-            "use",
-            "publish",
-            "makes",
             "system",
-            "data",
-            "dms",
-            "catalog"
+            "source",
+            "catalog",
+            "humdata",
+            "org",
+            "use",
+            "management",
+            "many",
+            "publish",
+            "share"
         ]
     },
     {
@@ -155,12 +155,12 @@
         "keywords": [
             "non-profit",
             "search-engine",
+            "source",
+            "non",
+            "search",
             "web",
             "open",
             "engine",
-            "search",
-            "non",
-            "source",
             "profit"
         ]
     },
@@ -183,8 +183,8 @@
             "privacy",
             "rust",
             "independence",
-            "digital",
-            "declare"
+            "declare",
+            "digital"
         ]
     },
     {
@@ -208,13 +208,13 @@
             "openwrt-buildroot",
             "openwrt-package",
             "routing",
-            "networking",
-            "wireless",
-            "libremesh",
-            "configuring",
             "mesh",
+            "libremesh",
+            "wireless",
+            "networking",
+            "packages",
             "openwrt",
-            "packages"
+            "configuring"
         ]
     },
     {
@@ -237,11 +237,11 @@
             "medical-records",
             "openmrs",
             "openmrs-community",
+            "application",
+            "api",
             "web",
             "code",
-            "api",
-            "openmrs",
-            "application"
+            "openmrs"
         ]
     },
     {
@@ -256,15 +256,15 @@
         "stars": 243,
         "keywords": [
             "licensed",
-            "open",
-            "commons",
             "map",
-            "openly",
-            "provide",
-            "services",
-            "imagery",
+            "openaerialmap",
             "service",
-            "layer"
+            "services",
+            "open",
+            "imagery",
+            "layer",
+            "provide",
+            "commons"
         ]
     },
     {
@@ -297,16 +297,16 @@
             "sustainability",
             "sustainable-development-goals",
             "wind-turbine",
-            "biodiversity",
-            "open",
-            "natural",
-            "docs",
-            "resources",
             "source",
+            "biodiversity",
             "opensustaintech",
-            "https",
-            "com",
-            "analysis"
+            "energy",
+            "docs",
+            "://",
+            "sustainable",
+            "climate",
+            "getgrist",
+            "https"
         ]
     },
     {
@@ -339,16 +339,16 @@
             "sustainability",
             "sustainable-development-goals",
             "wind-turbine",
-            "biodiversity",
-            "open",
-            "natural",
-            "docs",
-            "resources",
             "source",
+            "biodiversity",
             "opensustaintech",
-            "https",
-            "com",
-            "analysis"
+            "energy",
+            "docs",
+            "://",
+            "sustainable",
+            "climate",
+            "getgrist",
+            "https"
         ]
     },
     {
@@ -362,15 +362,15 @@
         "website": "https://ost.ecosyste.ms",
         "keywords": [
             "biodiversity",
-            "open",
-            "natural",
-            "resources",
-            "technology",
-            "tech",
+            "curated",
+            "energy",
+            "://",
+            "climate",
+            "projects",
             "https",
-            "opensustain",
-            "data",
-            "based"
+            "stable",
+            "list",
+            "sustain"
         ]
     },
     {
@@ -389,13 +389,13 @@
             "renewables",
             "solar-energy",
             "systems",
+            "functions",
             "performance",
+            "photovoltaic",
             "simulating",
             "documented",
-            "functions",
-            "set",
             "energy",
-            "photovoltaic"
+            "set"
         ]
     },
     {
@@ -412,16 +412,16 @@
             "python",
             "renewable-energy",
             "solar-energy",
-            "factor",
-            "open",
-            "documentation",
-            "shading",
             "model",
-            "sunny",
+            "shading",
             "source",
             "bifacial",
-            "view",
-            "diffuse"
+            "sunny",
+            "diffuse",
+            "open",
+            "modeling",
+            "documentation",
+            "factor"
         ]
     },
     {
@@ -442,10 +442,10 @@
             "photovoltaic",
             "pv",
             "solar",
-            "estimator",
             "global",
-            "gsee",
+            "estimator",
             "energy",
+            "gsee",
             "solar"
         ]
     },
@@ -464,15 +464,15 @@
             "python",
             "scipy",
             "solar",
-            "mismatch",
             "system",
-            "calculate",
-            "also",
-            "python",
-            "calculator",
-            "explicit",
             "curve",
-            "trace"
+            "trace",
+            "calculator",
+            "python",
+            "explicit",
+            "also",
+            "mismatch",
+            "calculate"
         ]
     },
     {
@@ -485,8 +485,8 @@
         "stars": 158,
         "website": "https://rdtools.readthedocs.io/",
         "keywords": [
-            "tools",
             "analysis",
+            "tools",
             "python"
         ]
     },
@@ -506,16 +506,16 @@
             "neural-network",
             "python",
             "tensorflow",
-            "weather",
-            "measurements",
-            "panel",
             "predict",
+            "power",
+            "learning",
             "production",
-            "using",
-            "solar",
+            "weather",
             "farm",
+            "using",
             "machine",
-            "power"
+            "measurements",
+            "panel"
         ]
     },
     {
@@ -533,14 +533,14 @@
             "photovoltaic",
             "solar-cells",
             "solar-energy",
-            "modules",
-            "functional",
+            "extracted",
             "dataset",
             "defective",
-            "images",
+            "modules",
+            "functional",
             "cells",
-            "solar",
-            "extracted"
+            "images",
+            "solar"
         ]
     },
     {
@@ -553,16 +553,16 @@
         "stars": 102,
         "website": "",
         "keywords": [
+            "implementations",
             "radiation",
-            "electricity",
-            "calculations",
-            "repository",
-            "calculate",
-            "necessary",
-            "based",
             "models",
+            "necessary",
             "pre",
-            "installation"
+            "generation",
+            "based",
+            "calculations",
+            "furthermore",
+            "photovoltaic"
         ]
     },
     {
@@ -586,16 +586,16 @@
         "stars": 19,
         "website": "",
         "keywords": [
-            "automate",
-            "jupyter",
-            "partially",
-            "running",
-            "following",
-            "test",
-            "astm",
+            "e2848",
             "functions",
+            "automate",
+            "capacity",
+            "test",
+            "partially",
+            "jupyter",
             "notebooks",
-            "e2848"
+            "running",
+            "following"
         ]
     },
     {
@@ -614,14 +614,14 @@
             "python",
             "raytracing",
             "materials",
-            "devices",
-            "luminescent",
-            "converter",
             "optical",
-            "ray",
             "spectral",
             "tracing",
-            "photovoltaic"
+            "photovoltaic",
+            "converter",
+            "devices",
+            "luminescent",
+            "ray"
         ]
     },
     {
@@ -634,12 +634,12 @@
         "stars": 48,
         "website": "https://www.nrel.gov/csp/solarpilot.html",
         "keywords": [
-            "solarpilot",
             "optimization",
-            "tower",
-            "tool",
             "power",
-            "layout"
+            "layout",
+            "solarpilot",
+            "tower",
+            "tool"
         ]
     },
     {
@@ -652,15 +652,15 @@
         "stars": 58,
         "website": "https://solar-data-tools.readthedocs.io",
         "keywords": [
+            "historical",
+            "working",
             "tools",
             "data",
-            "working",
-            "series",
             "analysis",
             "time",
-            "historical",
-            "solar",
-            "sets"
+            "sets",
+            "series",
+            "solar"
         ]
     },
     {
@@ -673,16 +673,16 @@
         "stars": 36,
         "website": "",
         "keywords": [
-            "results",
-            "disturbance",
-            "external",
+            "visualizing",
             "source",
-            "solar",
-            "using",
-            "parameters",
-            "photovoltaic",
-            "voltage",
-            "visualizing"
+            "introducing",
+            "energy",
+            "dynamic",
+            "concept",
+            "resource",
+            "der",
+            "results",
+            "distributed"
         ]
     },
     {
@@ -701,14 +701,14 @@
             "radiance",
             "renewable-energy",
             "renewables",
+            "trace",
             "working",
             "photovoltaics",
-            "toolkit",
-            "ray",
             "bifacial",
-            "radiance",
+            "toolkit",
             "modeling",
-            "trace"
+            "ray",
+            "radiance"
         ]
     },
     {
@@ -721,16 +721,16 @@
         "stars": 50,
         "website": "",
         "keywords": [
-            "activation",
             "materials",
-            "automatic",
-            "xrd",
-            "data",
-            "classification",
-            "thin",
+            "film",
             "maps",
-            "using",
-            "augmentation"
+            "xrd",
+            "class",
+            "data",
+            "thin",
+            "classification",
+            "augmentation",
+            "automatic"
         ]
     },
     {
@@ -743,16 +743,16 @@
         "stars": 31,
         "website": "",
         "keywords": [
+            "bayesian",
+            "matching",
+            "informed",
             "network",
             "performance",
-            "informed",
-            "bayesian",
-            "autoencoder",
-            "matching",
             "variable",
             "cells",
-            "solar",
-            "process"
+            "physics",
+            "process",
+            "autoencoder"
         ]
     },
     {
@@ -770,16 +770,16 @@
             "python",
             "semiconductor",
             "solar-cells",
-            "scale",
             "materials",
-            "library",
-            "semiconductor",
-            "based",
             "multi",
+            "scale",
+            "modelling",
+            "based",
             "python",
             "cells",
-            "solar",
-            "modelling"
+            "library",
+            "semiconductor",
+            "solar"
         ]
     },
     {
@@ -798,10 +798,10 @@
             "raspberry-pi",
             "solar",
             "solax",
-            "solax",
-            "inverter",
             "wrapper",
-            "api"
+            "api",
+            "inverter",
+            "solax"
         ]
     },
     {
@@ -814,13 +814,13 @@
         "stars": 30,
         "website": "https://bifacialvf.readthedocs.io",
         "keywords": [
-            "factor",
             "system",
             "model",
             "calculation",
             "bifacial",
-            "view",
-            "performance"
+            "performance",
+            "factor",
+            "view"
         ]
     },
     {
@@ -834,8 +834,8 @@
         "website": "http://oscarperpinan.github.io/solar/",
         "keywords": [
             "radiation",
-            "photovoltaic",
             "systems",
+            "photovoltaic",
             "solar"
         ]
     },
@@ -857,16 +857,16 @@
             "simulation",
             "solar",
             "thermodynamics",
-            "thermal",
-            "station",
-            "paper",
-            "optimisation",
-            "modelica",
-            "read",
-            "://",
-            "solth",
+            "power",
             "fuel",
-            "solar"
+            "thermal",
+            "://",
+            "performance",
+            "modelica",
+            "optimisation",
+            "https",
+            "station",
+            "paper"
         ]
     },
     {
@@ -879,14 +879,14 @@
         "stars": 157,
         "website": "https://libre.solar/bms-firmware/",
         "keywords": [
-            "bq769x0",
-            "isl94202",
-            "libresolar",
-            "based",
-            "bms",
             "bq769x2",
+            "bms",
             "boards",
-            "firmware"
+            "based",
+            "isl94202",
+            "firmware",
+            "libresolar",
+            "bq769x0"
         ]
     },
     {
@@ -900,12 +900,12 @@
         "website": "https://libre.solar/charge-controller-firmware/",
         "keywords": [
             "charge",
-            "pwm",
-            "solar",
             "controllers",
             "mppt",
             "firmware",
-            "libre"
+            "libre",
+            "pwm",
+            "solar"
         ]
     },
     {
@@ -923,12 +923,12 @@
             "python",
             "python-library",
             "solar",
-            "code",
-            "data",
+            "downloading",
             "org",
-            "pvoutput",
             "python",
-            "downloading"
+            "data",
+            "code",
+            "pvoutput"
         ]
     },
     {
@@ -950,16 +950,16 @@
             "solar-cells",
             "solar-energy",
             "sun-position",
-            "radiation",
-            "thermal",
-            "duffie",
-            "1974",
-            "processes",
             "model",
+            "radiation",
+            "duffie",
+            "thermal",
+            "processes",
             "based",
-            "flight",
+            "1974",
             "energy",
-            "solar"
+            "dynamics",
+            "flight"
         ]
     },
     {
@@ -982,16 +982,16 @@
             "solar-energy",
             "sungrow-inverter",
             "telemetry",
-            "dashboard",
-            "data",
-            "inverter",
+            "enabled",
             "iot",
-            "usage",
+            "dashboard",
+            "real",
+            "leverage",
+            "data",
             "stream",
-            "time",
             "energy",
-            "solar",
-            "enabled"
+            "inverter",
+            "usage"
         ]
     },
     {
@@ -1009,16 +1009,16 @@
             "renewable-energy",
             "renewables",
             "solar-energy",
-            "tools",
-            "systems",
             "working",
-            "quality",
-            "data",
-            "control",
+            "systems",
             "filtering",
-            "feature",
+            "quality",
+            "control",
+            "photovoltaic",
+            "data",
             "energy",
-            "photovoltaic"
+            "feature",
+            "labeling"
         ]
     },
     {
@@ -1033,16 +1033,16 @@
         "keywords": [
             "halide-ion-migration",
             "perovskite-solar-cells",
-            "free",
-            "coupled",
-            "solar",
-            "ion",
-            "one",
-            "wiki",
             "website",
-            "information",
-            "dynamics",
-            "simulator"
+            "coupled",
+            "simulator",
+            "cell",
+            "see",
+            "one",
+            "free",
+            "dimension",
+            "find",
+            "perovskite"
         ]
     },
     {
@@ -1063,13 +1063,13 @@
             "rigorous-coupled-wave",
             "solar-cells",
             "transfer-matrix-method",
-            "open",
-            "complex",
-            "stacks",
             "optical",
+            "complex",
             "source",
+            "modelling",
+            "stacks",
             "integrated",
-            "modelling"
+            "open"
         ]
     },
     {
@@ -1082,9 +1082,9 @@
         "stars": 16,
         "website": "",
         "keywords": [
-            "standard",
+            "nomenclature",
             "systems",
-            "nomenclature"
+            "standard"
         ]
     },
     {
@@ -1098,13 +1098,13 @@
         "website": "",
         "keywords": [
             "system",
-            "data",
-            "sky",
-            "estimation",
-            "statistical",
             "clear",
-            "signal",
-            "power"
+            "statistical",
+            "power",
+            "data",
+            "estimation",
+            "sky",
+            "signal"
         ]
     },
     {
@@ -1128,16 +1128,16 @@
             "solar-energy",
             "tensorflow",
             "yolo3",
-            "yolov",
-            "fault",
-            "detector",
-            "repository",
             "model",
-            "based",
             "models",
+            "weights",
+            "yolov",
             "use",
-            "contains",
-            "explanation"
+            "fault",
+            "based",
+            "detector",
+            "explanation",
+            "photovoltaic"
         ]
     },
     {
@@ -1162,16 +1162,16 @@
             "weather",
             "weather-data",
             "weather-variables",
-            "global",
             "api",
-            "meteorology",
+            "power",
+            "global",
             "client",
-            "nasa",
-            "solar",
-            "energy",
             "surface",
+            "nasa",
+            "energy",
             "climatology",
-            "power"
+            "meteorology",
+            "solar"
         ]
     },
     {
@@ -1184,16 +1184,16 @@
         "stars": 13,
         "website": "",
         "keywords": [
-            "scenarios",
-            "local",
-            "systems",
             "model",
+            "technologies",
+            "supply",
+            "systems",
+            "different",
             "benefits",
             "pvcompare",
-            "different",
             "energy",
-            "technologies",
-            "supply"
+            "local",
+            "comparing"
         ]
     },
     {
@@ -1224,15 +1224,15 @@
             "materials-design",
             "semiconductors",
             "solar-cells",
-            "electron",
-            "capture",
-            "compute",
-            "package",
-            "hole",
             "trap",
-            "semiconductors",
             "julia",
-            "assisted"
+            "package",
+            "semiconductors",
+            "compute",
+            "hole",
+            "assisted",
+            "electron",
+            "capture"
         ]
     },
     {
@@ -1245,16 +1245,16 @@
         "stars": 93,
         "website": "http://ladybug-tools.github.io/honeybee/docs",
         "keywords": [
-            "visualize",
-            "library",
             "core",
-            "honeybee",
-            "create",
-            "studies",
+            "[+].",
+            "visualize",
             "python",
+            "library",
+            "honeybee",
             "run",
-            "radiance",
-            "[+]."
+            "studies",
+            "create",
+            "radiance"
         ]
     },
     {
@@ -1267,12 +1267,12 @@
         "stars": 146,
         "website": "",
         "keywords": [
+            "charger",
+            "software",
+            "mppt",
             "documentation",
             "supporting",
-            "software",
-            "solar",
-            "charger",
-            "mppt"
+            "solar"
         ]
     },
     {
@@ -1289,15 +1289,15 @@
             "simulation",
             "solar",
             "solar-concentrating-systems",
-            "systems",
             "tracer",
+            "systems",
+            "optical",
             "concentrating",
             "carlo",
-            "ray",
-            "optical",
             "monte",
-            "solar",
-            "simulation"
+            "simulation",
+            "ray",
+            "solar"
         ]
     },
     {
@@ -1325,16 +1325,16 @@
             "satellite-imagery",
             "solar",
             "solar-panels",
-            "scale",
-            "systems",
-            "rooftop",
-            "repo",
-            "publication",
-            "applied",
-            "based",
-            "large",
             "mounted",
-            "energy"
+            "systems",
+            "scale",
+            "large",
+            "rooftop",
+            "based",
+            "applied",
+            "photovoltaic",
+            "repo",
+            "locator"
         ]
     },
     {
@@ -1350,8 +1350,8 @@
             "api",
             "python",
             "solar-energy",
-            "free",
-            "api"
+            "api",
+            "free"
         ]
     },
     {
@@ -1364,16 +1364,16 @@
         "stars": 376,
         "website": "http://pysolar.org",
         "keywords": [
-            "irradiation",
-            "includes",
-            "calculations",
-            "code",
-            "collection",
-            "simulating",
+            "sun",
+            "pysolar",
             "ephemeris",
+            "calculations",
+            "earth",
             "python",
-            "point",
-            "earth"
+            "extremely",
+            "simulating",
+            "code",
+            "irradiation"
         ]
     },
     {
@@ -1397,16 +1397,16 @@
             "repair",
             "reuse",
             "solar-energy",
-            "open",
-            "approach",
-            "flows",
-            "lifetime",
-            "photovoltaics",
-            "circular",
-            "economy",
             "source",
-            "quantify",
-            "mass"
+            "solar",
+            "economy",
+            "photovoltaics",
+            "approach",
+            "circular",
+            "reliability",
+            "energy",
+            "open",
+            "quantify"
         ]
     },
     {
@@ -1431,11 +1431,11 @@
         "website": "",
         "keywords": [
             "FAME",
-            "library",
             "core",
             "fame",
-            "java",
-            "written"
+            "library",
+            "written",
+            "java"
         ]
     },
     {
@@ -1448,11 +1448,11 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "remix",
-            "optimization",
             "system",
+            "optimization",
             "models",
             "framework",
+            "remix",
             "energy"
         ]
     },
@@ -1466,15 +1466,15 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "tools",
+            "model",
+            "://",
+            "dlr",
+            "python",
             "gitlab",
             "electricity",
             "amiris",
-            "model",
-            "://",
-            "python",
-            "market",
             "esy",
+            "com",
             "https"
         ]
     },
@@ -1495,15 +1495,15 @@
             "policy",
             "python",
             "renewable energy",
-            "open",
-            "monitoring",
-            "data",
-            "targets",
-            "policy",
-            "energy",
-            "platform",
             "visualizing",
-            "tracker"
+            "policy",
+            "targets",
+            "tracker",
+            "data",
+            "platform",
+            "monitoring",
+            "energy",
+            "open"
         ]
     },
     {
@@ -1518,9 +1518,9 @@
         "keywords": [
             "flexible",
             "framework",
-            "simulation",
+            "grid",
             "smart",
-            "grid"
+            "simulation"
         ]
     },
     {
@@ -1533,16 +1533,16 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "documentation",
+            "://",
+            "tutorials",
+            "etc",
+            "see",
+            "information",
+            "pages",
+            "grid",
             "gitlab",
             "library",
-            "etc",
-            "pages",
-            "://",
-            "smartgridtoolbox",
-            "information",
-            "see",
-            "tutorials"
+            "https"
         ]
     },
     {
@@ -1555,16 +1555,16 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "integer",
-            "using",
-            "demand",
-            "balancing",
-            "capacity",
-            "network",
             "system",
-            "sizing",
-            "based",
-            "supply"
+            "integer",
+            "linear",
+            "energy",
+            "balancing",
+            "demand",
+            "mixed",
+            "programming",
+            "using",
+            "hub"
         ]
     },
     {
@@ -1583,14 +1583,14 @@
             "python",
             "renewable energy",
             "storage",
-            "gams",
-            "repository",
             "model",
             "dieter",
-            "python",
-            "market",
+            "power",
             "version",
-            "power"
+            "python",
+            "gams",
+            "market",
+            "repository"
         ]
     },
     {
@@ -1614,12 +1614,12 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "building",
-            "retrofit",
             "primarily",
+            "building",
+            "modelling",
             "assessments",
-            "tool",
-            "modelling"
+            "retrofit",
+            "tool"
         ]
     },
     {
@@ -1632,16 +1632,16 @@
         "stars": null,
         "website": "",
         "keywords": [
+            "climate",
             "torino",
-            "evaluation",
             "python",
-            "realtime",
-            "politecnico",
             "energy",
             "dynamics",
-            "climate",
-            "tool",
-            "developed"
+            "developed",
+            "politecnico",
+            "realtime",
+            "evaluation",
+            "tool"
         ]
     },
     {
@@ -1659,15 +1659,15 @@
             "public transport",
             "python",
             "renewable energy",
-            "offset",
-            "determines",
-            "computes",
-            "website",
             "models",
+            "website",
+            "vehicles",
             "also",
-            "analyzing",
+            "online",
+            "energy",
             "gps",
             "project",
+            "traces",
             "software"
         ]
     },
@@ -1681,16 +1681,16 @@
         "stars": null,
         "website": "https://gitlab.com/bioeconomy/forobs/biotrade",
         "keywords": [
-            "bio",
-            "data",
-            "commodities",
-            "products",
-            "based",
             "loads",
-            "comtrade",
             "package",
             "faostat",
-            "trade"
+            "based",
+            "trade",
+            "commodities",
+            "data",
+            "products",
+            "comtrade",
+            "bio"
         ]
     },
     {
@@ -1703,11 +1703,11 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "foodsharing",
+            "food",
+            "platform",
             "waste",
             "initiative",
-            "platform",
-            "food"
+            "foodsharing"
         ]
     },
     {
@@ -1720,16 +1720,16 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "open",
+            "national",
             "iam",
-            "phases",
             "source",
             "carbon",
-            "nrap",
-            "assurance",
-            "geologic",
-            "assessment",
-            "national"
+            "sequestration",
+            "integrated",
+            "facilitate",
+            "risk",
+            "iii",
+            "phases"
         ]
     },
     {
@@ -1764,12 +1764,12 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "biodiversity",
-            "open",
-            "data",
             "source",
+            "biodiversity",
+            "software",
             "entry",
-            "software"
+            "data",
+            "open"
         ]
     },
     {
@@ -1782,14 +1782,14 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "storing",
-            "monitoring",
             "system",
-            "data",
-            "retrieving",
             "biological",
-            "floristics",
-            "ecology"
+            "retrieving",
+            "data",
+            "storing",
+            "ecology",
+            "monitoring",
+            "floristics"
         ]
     },
     {
@@ -1802,16 +1802,16 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "mapping",
+            "compilation",
             "natural",
-            "potential",
             "data",
-            "coverage",
-            "purpose",
             "analysis",
-            "point",
             "ready",
-            "vegetation"
+            "coverage",
+            "mapping",
+            "point",
+            "vegetation",
+            "potential"
         ]
     },
     {
@@ -1830,15 +1830,15 @@
             "glacier",
             "glaciology",
             "global",
-            "gtn",
-            "://",
             "thickness",
             "glathida",
-            "glacier",
+            "://",
+            "www",
+            "gtn",
+            "data_catalogue_glathida",
             "database",
             "https",
-            "www",
-            "data_catalogue_glathida"
+            "glacier"
         ]
     },
     {
@@ -1854,9 +1854,9 @@
             "dataset",
             "earth science",
             "geography",
-            "temperature",
-            "permafrost",
             "python",
+            "permafrost",
+            "temperature",
             "data"
         ]
     },
@@ -1871,9 +1871,9 @@
         "website": "",
         "keywords": [
             "wavestoweather",
-            "met3d",
             "http",
-            "://"
+            "://",
+            "met3d"
         ]
     },
     {
@@ -1889,16 +1889,16 @@
             "climate",
             "deep-learning",
             "weather",
-            "mip",
-            "weather",
             "model",
             "models",
-            "researchers",
-            "python",
             "inter",
-            "scientists",
+            "climate",
+            "framework",
             "earth",
-            "intercomparison"
+            "python",
+            "researchers",
+            "weather",
+            "compare"
         ]
     },
     {
@@ -1911,1256 +1911,13 @@
         "stars": 7,
         "website": "https://earthsystemdiagnostics.github.io/sedproxy/",
         "keywords": [
+            "package",
+            "modelling",
+            "climate",
             "records",
-            "archived",
-            "package",
-            "sediment",
             "proxy",
-            "climate",
-            "modelling"
-        ]
-    },
-    {
-        "repo": "https://github.com/uDALES/u-dales",
-        "category": "environment",
-        "image": "",
-        "title": "u-dales",
-        "description": "uDALES: large-eddy-simulation software for urban flow, dispersion and microclimate modelling",
-        "language": "Fortran",
-        "stars": 57,
-        "website": "https://udales.github.io/u-dales",
-        "keywords": [
-            "cfd",
-            "computational-fluid-dynamics",
-            "large-eddy-simulation",
-            "urban-climate",
-            "urban",
-            "microclimate",
-            "dispersion",
-            "large",
-            "flow",
-            "udales",
-            "simulation",
-            "software",
-            "eddy",
-            "modelling"
-        ]
-    },
-    {
-        "repo": "https://github.com/UMEP-dev/SUEWS",
-        "category": "environment",
-        "image": "",
-        "title": "SUEWS",
-        "description": "Surface Urban Energy and Water Balance Scheme",
-        "language": "Fortran",
-        "stars": 12,
-        "website": "https://suews.readthedocs.io/",
-        "keywords": [
-            "land-surface-model",
-            "urban-analytics",
-            "urban-climate-model",
-            "urban",
-            "water",
-            "balance",
-            "scheme",
-            "energy",
-            "surface"
-        ]
-    },
-    {
-        "repo": "https://github.com/ladybug-tools/dragonfly-legacy",
-        "category": "environment",
-        "image": "",
-        "title": "dragonfly-legacy",
-        "description": ":bug:  Legacy dragonfly plugin for large-scale climate and urban heat island modeling.",
-        "language": "Python",
-        "stars": 42,
-        "website": "",
-        "keywords": [
-            "scale",
-            "urban",
-            "island",
-            "bug",
-            "dragonfly",
-            "large",
-            "legacy",
-            "plugin",
-            "heat",
-            "modeling"
-        ]
-    },
-    {
-        "repo": "https://github.com/ladybug-tools/uwg",
-        "category": "environment",
-        "image": "",
-        "title": "uwg",
-        "description": ":city_sunrise: The Urban Weather Generator (uwg) is a Python application for modeling the urban heat island effect.",
-        "language": "Python",
-        "stars": 56,
-        "website": "https://www.ladybug.tools/uwg/docs/",
-        "keywords": [
-            "uwg",
-            "urban",
-            "island",
-            "city_sunrise",
-            "weather",
-            "python",
-            "effect",
-            "generator",
-            "application",
-            "heat"
-        ]
-    },
-    {
-        "repo": "https://github.com/contrailcirrus/pycontrails",
-        "category": "environment",
-        "image": "",
-        "title": "pycontrails",
-        "description": "Python library for modeling contrails and other aviation climate impacts",
-        "language": "Python",
-        "stars": 60,
-        "website": "https://py.contrails.org/",
-        "keywords": [
-            "library",
-            "library",
-            "python",
-            "contrails",
-            "aviation",
-            "modeling",
-            "climate",
-            "impacts"
-        ]
-    },
-    {
-        "repo": "https://github.com/ByMaxAnjos/LCZ4r",
-        "category": "environment",
-        "image": "",
-        "title": "LCZ4r",
-        "description": "An R Package for Local Climate Zones and Urban Heat Island Analysis",
-        "language": "R",
-        "stars": 5,
-        "website": "https://bymaxanjos.github.io/LCZ4r/",
-        "keywords": [
-            "urban",
-            "local",
-            "island",
-            "analysis",
-            "package",
-            "heat",
-            "zones",
-            "climate"
-        ]
-    },
-    {
-        "repo": "https://github.com/PCMDI/pcmdi_metrics",
-        "category": "environment",
-        "image": "",
-        "title": "pcmdi_metrics",
-        "description": "Open-source Python package for Systematic Evaluation of Climate and Earth System Models ",
-        "language": "Python",
-        "stars": 104,
-        "website": "http://pcmdi.github.io/pcmdi_metrics/",
-        "keywords": [
-            "climate",
-            "climate-analysis",
-            "climate-data",
-            "climate-model",
-            "climate-model-evaluation",
-            "climate-models",
-            "climate-science",
-            "climate-variability",
-            "python",
-            "open",
-            "systematic",
-            "system",
-            "models",
-            "climate",
-            "python",
-            "earth",
-            "source",
-            "package",
-            "evaluation"
-        ]
-    },
-    {
-        "repo": "https://github.com/GEOS-ESM/swell",
-        "category": "environment",
-        "image": "",
-        "title": "swell",
-        "description": "Workflow system for coupled data assimilation applications",
-        "language": "Python",
-        "stars": 15,
-        "website": "https://geos-esm.github.io/swell/",
-        "keywords": [
-            "system",
-            "data",
-            "assimilation",
-            "workflow",
-            "applications",
-            "coupled"
-        ]
-    },
-    {
-        "repo": "https://github.com/HPSCTerrSys/TSMP",
-        "category": "environment",
-        "image": "",
-        "title": "TSMP",
-        "description": "Terrestrial Systems Modelling Platform (TSMP or TerrSysMP)",
-        "language": "Fortran",
-        "stars": 23,
-        "website": "https://www.terrsysmp.org/",
-        "keywords": [
-            "systems",
-            "terrestrial",
-            "tsmp",
-            "terrsysmp",
-            "platform",
-            "modelling"
-        ]
-    },
-    {
-        "repo": "https://github.com/JGCRI/helios",
-        "category": "environment",
-        "image": "",
-        "title": "helios",
-        "description": "Heating and Cooling Degree processing for GCAM from various sources such as WRF and CMIP",
-        "language": "R",
-        "stars": 3,
-        "website": "http://jgcri.github.io/helios/",
-        "keywords": [
-            "cooling",
-            "processing",
-            "cmip",
-            "degree",
-            "sources",
-            "heating",
-            "various",
-            "wrf",
-            "gcam"
-        ]
-    },
-    {
-        "repo": "https://github.com/google-research/dinosaur",
-        "category": "environment",
-        "image": "",
-        "title": "dinosaur",
-        "description": null,
-        "language": "Jupyter Notebook",
-        "stars": 222,
-        "website": "https://github.com/neuralgcm/dinosaur",
-        "keywords": []
-    },
-    {
-        "repo": "https://github.com/google-research/neuralgcm",
-        "category": "environment",
-        "image": "",
-        "title": "neuralgcm",
-        "description": "Hybrid ML + physics model of the Earth's atmosphere",
-        "language": "Python",
-        "stars": 711,
-        "website": "https://neuralgcm.readthedocs.io",
-        "keywords": [
-            "climate",
-            "neuralgcm",
-            "weather",
-            "hybrid",
-            "model",
-            "earth",
-            "atmosphere",
-            "physics"
-        ]
-    },
-    {
-        "repo": "https://github.com/NOAA-GFDL/FMScoupler",
-        "category": "environment",
-        "image": "",
-        "title": "FMScoupler",
-        "description": null,
-        "language": "Fortran",
-        "stars": 13,
-        "website": "",
-        "keywords": []
-    },
-    {
-        "repo": "https://github.com/CABLE-LSM/CABLE",
-        "category": "environment",
-        "image": "",
-        "title": "CABLE",
-        "description": "Home to the CABLE land surface model and its documentation",
-        "language": "Fortran",
-        "stars": 12,
-        "website": "https://cable.readthedocs.io/en/latest/",
-        "keywords": [
-            "documentation",
-            "land",
-            "model",
-            "home",
-            "cable",
-            "surface"
-        ]
-    },
-    {
-        "repo": "https://github.com/NVIDIA/earth2studio",
-        "category": "environment",
-        "image": "",
-        "title": "earth2studio",
-        "description": "Open-source deep-learning framework for exploring, building and deploying AI weather/climate workflows.",
-        "language": "Python",
-        "stars": 107,
-        "website": "https://nvidia.github.io/earth2studio/",
-        "keywords": [
-            "ai",
-            "climate-science",
-            "deep-learning",
-            "weather",
-            "building",
-            "deploying",
-            "open",
-            "exploring",
-            "weather",
-            "deep",
-            "source",
-            "framework",
-            "climate",
-            "workflows"
-        ]
-    },
-    {
-        "repo": "https://github.com/nci/scores",
-        "category": "environment",
-        "image": "",
-        "title": "scores",
-        "description": "scores: Metrics for the verification, evaluation and optimisation of forecasts, predictions or models.",
-        "language": "Jupyter Notebook",
-        "stars": 84,
-        "website": "https://scores.readthedocs.io/",
-        "keywords": [
-            "climate",
-            "contingency-table",
-            "dask",
-            "forecast-evaluation",
-            "forecast-verification",
-            "forecasting",
-            "model-validation",
-            "oceanography",
-            "pandas",
-            "python",
-            "verification",
-            "weather",
-            "xarray",
-            "predictions",
-            "metrics",
-            "optimisation",
-            "models",
-            "verification",
-            "scores",
-            "forecasts",
-            "evaluation"
-        ]
-    },
-    {
-        "repo": "https://github.com/pik-copan/pyunicorn",
-        "category": "environment",
-        "image": "",
-        "title": "pyunicorn",
-        "description": "Unified Complex Network and Recurrence Analysis Toolbox",
-        "language": "Python",
-        "stars": 200,
-        "website": "http://pik-potsdam.de/~donges/pyunicorn/",
-        "keywords": [
-            "network",
-            "complex",
-            "analysis",
-            "unified",
-            "toolbox",
-            "recurrence"
-        ]
-    },
-    {
-        "repo": "https://github.com/escomp/ctsm",
-        "category": "environment",
-        "image": "",
-        "title": "CTSM",
-        "description": "Community Terrestrial Systems Model (includes the Community Land Model of CESM)",
-        "language": "Fortran",
-        "stars": 310,
-        "website": "http://www.cesm.ucar.edu/models/cesm2.0/land/",
-        "keywords": [
-            "cesm",
-            "climate",
-            "clm",
-            "ecosystem",
-            "hydrology",
-            "land",
-            "land-surface-model",
-            "ncar",
-            "land",
-            "systems",
-            "terrestrial",
-            "model",
-            "cesm",
-            "includes",
-            "community"
-        ]
-    },
-    {
-        "repo": "https://github.com/ICTP/RegCM",
-        "category": "environment",
-        "image": "",
-        "title": "RegCM",
-        "description": "ICTP Regional Climate Model",
-        "language": "Fortran",
-        "stars": 58,
-        "website": "https://www.ictp.it/esp/about",
-        "keywords": [
-            "climate-model",
-            "regional-climate-model",
-            "model",
-            "climate",
-            "regional",
-            "ictp"
-        ]
-    },
-    {
-        "repo": "https://github.com/Geodels/gospl",
-        "category": "environment",
-        "image": "",
-        "title": "gospl",
-        "description": "Global Scalable Paleo Landscape Evolution Model",
-        "language": "Python",
-        "stars": 66,
-        "website": "https://gospl.readthedocs.io",
-        "keywords": [
-            "basin-modeling",
-            "compaction",
-            "erosion-process",
-            "landscape",
-            "landscape-evolution-model",
-            "lithology",
-            "paleoclimate",
-            "paleogeography",
-            "sediment-transport",
-            "sedimentation",
-            "global",
-            "scalable",
-            "model",
-            "paleo",
-            "landscape",
-            "evolution"
-        ]
-    },
-    {
-        "repo": "https://github.com/Aalto-QuML/ClimODE",
-        "category": "environment",
-        "image": "",
-        "title": "ClimODE",
-        "description": "ClimODE: Climate and Weather Forecasting With Physics-informed Neural ODEs",
-        "language": "Python",
-        "stars": 75,
-        "website": "https://yogeshverma1998.github.io/ClimODE/",
-        "keywords": [
-            "odes",
-            "informed",
-            "neural",
-            "weather",
-            "climode",
-            "forecasting",
-            "climate",
-            "physics"
-        ]
-    },
-    {
-        "repo": "https://github.com/ciceroOslo/ciceroscm",
-        "category": "environment",
-        "image": "",
-        "title": "ciceroscm",
-        "description": "Python version of the CICERO-SCM simple climate model/emulator",
-        "language": "Jupyter Notebook",
-        "stars": 19,
-        "website": "",
-        "keywords": [
-            "simple",
-            "scm",
-            "model",
-            "python",
-            "emulator",
-            "version",
-            "climate",
-            "cicero"
-        ]
-    },
-    {
-        "repo": "https://github.com/cf-convention/cf-conventions",
-        "category": "environment",
-        "image": "",
-        "title": "cf-conventions",
-        "description": "AsciiDoc Source",
-        "language": "R",
-        "stars": 89,
-        "website": "http://cfconventions.org/cf-conventions/cf-conventions",
-        "keywords": [
-            "source",
-            "asciidoc"
-        ]
-    },
-    {
-        "repo": "https://github.com/NCAS-CMS/cf-python",
-        "category": "environment",
-        "image": "",
-        "title": "cf-python",
-        "description": "A CF-compliant Earth Science data analysis library",
-        "language": "Python",
-        "stars": 128,
-        "website": "http://ncas-cms.github.io/cf-python",
-        "keywords": [
-            "cf",
-            "cfdm",
-            "cfunits",
-            "data-analysis",
-            "earth-science",
-            "metadata",
-            "netcdf",
-            "pp",
-            "python",
-            "um",
-            "compliant",
-            "library",
-            "data",
-            "analysis",
-            "earth",
-            "science"
-        ]
-    },
-    {
-        "repo": "https://github.com/cedadev/cf-checker",
-        "category": "environment",
-        "image": "",
-        "title": "cf-checker",
-        "description": null,
-        "language": "Python",
-        "stars": 73,
-        "website": "",
-        "keywords": []
-    },
-    {
-        "repo": "https://github.com/Unidata/netcdf-fortran",
-        "category": "environment",
-        "image": "",
-        "title": "netcdf-fortran",
-        "description": "Official GitHub repository for netCDF-Fortran libraries, which depend on the netCDF C library.  Install the netCDF C library first. ",
-        "language": "Fortran",
-        "stars": 244,
-        "website": "",
-        "keywords": [
-            "dataset",
-            "hacktoberfest",
-            "netcdf-fortran",
-            "netcdf-library",
-            "unidata",
-            "first",
-            "install",
-            "library",
-            "repository",
-            "github",
-            "depend",
-            "official",
-            "libraries",
-            "fortran",
-            "netcdf"
-        ]
-    },
-    {
-        "repo": "https://github.com/Unidata/netcdf-c",
-        "category": "environment",
-        "image": "",
-        "title": "netcdf-c",
-        "description": "Official GitHub repository for netCDF-C libraries and utilities.",
-        "language": "C",
-        "stars": 522,
-        "website": "",
-        "keywords": [
-            "c",
-            "hacktoberfest",
-            "netcdf",
-            "unidata",
-            "unidata-netcdf",
-            "utilities",
-            "repository",
-            "github",
-            "official",
-            "libraries",
-            "netcdf"
-        ]
-    },
-    {
-        "repo": "https://github.com/Unidata/netcdf4-python",
-        "category": "environment",
-        "image": "",
-        "title": "netcdf4-python",
-        "description": "netcdf4-python: python/numpy interface to the netCDF C library",
-        "language": "Cython",
-        "stars": 760,
-        "website": "http://unidata.github.io/netcdf4-python",
-        "keywords": [
-            "netcdf",
-            "netcdf4",
-            "python",
-            "netcdf4",
-            "library",
-            "python",
-            "numpy",
-            "interface",
-            "netcdf"
-        ]
-    },
-    {
-        "repo": "https://github.com/PCMDI/cmor",
-        "category": "environment",
-        "image": "",
-        "title": "cmor",
-        "description": "Climate Model Output Rewriter",
-        "language": "C",
-        "stars": 53,
-        "website": "",
-        "keywords": [
-            "cmip6",
-            "cmor3",
-            "esgf",
-            "prepare",
-            "rewriter",
-            "climate",
-            "model",
-            "output"
-        ]
-    },
-    {
-        "repo": "https://github.com/h5netcdf/h5netcdf",
-        "category": "environment",
-        "image": "",
-        "title": "h5netcdf",
-        "description": "Pythonic interface to netCDF4 via h5py",
-        "language": "Python",
-        "stars": 189,
-        "website": "https://h5netcdf.org",
-        "keywords": [
-            "h5py",
-            "hdf5",
-            "netcdf",
-            "python",
-            "netcdf4",
-            "pythonic",
-            "h5py",
-            "interface",
-            "via"
-        ]
-    },
-    {
-        "repo": "https://github.com/pydata/xarray",
-        "category": "environment",
-        "image": "",
-        "title": "xarray",
-        "description": "N-D labeled arrays and datasets in Python",
-        "language": "Python",
-        "stars": 3655,
-        "website": "https://xarray.dev",
-        "keywords": [
-            "dask",
-            "netcdf",
-            "numpy",
-            "pandas",
-            "python",
-            "xarray",
-            "labeled",
-            "arrays",
-            "python",
-            "datasets"
-        ]
-    },
-    {
-        "repo": "https://github.com/xarray-contrib/cf-xarray",
-        "category": "environment",
-        "image": "",
-        "title": "cf-xarray",
-        "description": "an accessor for xarray objects that interprets CF attributes",
-        "language": "Python",
-        "stars": 160,
-        "website": "https://cf-xarray.readthedocs.io/",
-        "keywords": [
-            "cf-conventions",
-            "metadata",
-            "xarray",
-            "attributes",
-            "objects",
-            "xarray",
-            "interprets",
-            "accessor"
-        ]
-    },
-    {
-        "repo": "https://github.com/ropensci/rnoaa",
-        "category": "environment",
-        "image": "",
-        "title": "rnoaa",
-        "description": "R interface to many NOAA data APIs",
-        "language": "R",
-        "stars": 332,
-        "website": "https://docs.ropensci.org/rnoaa",
-        "keywords": [
-            "climate",
-            "noaa",
-            "noaa-data",
-            "r",
-            "r-package",
-            "rstats",
-            "data",
-            "many",
-            "noaa",
-            "apis",
-            "interface"
-        ]
-    },
-    {
-        "repo": "https://github.com/meteostat/meteostat-python",
-        "category": "environment",
-        "image": "",
-        "title": "meteostat-python",
-        "description": "Access and analyze historical weather and climate data with Python.",
-        "language": "Python",
-        "stars": 440,
-        "website": "https://dev.meteostat.net/python/",
-        "keywords": [
-            "climate",
-            "climate-change",
-            "climate-data",
-            "data-science",
-            "meteostat",
-            "open-data",
-            "statistics",
-            "weather",
-            "weather-data",
-            "weather-station",
-            "data",
-            "analyze",
-            "weather",
-            "python",
-            "historical",
-            "access",
-            "climate"
-        ]
-    },
-    {
-        "repo": "https://github.com/SantanderMetGroup/loadeR",
-        "category": "environment",
-        "image": "",
-        "title": "loadeR",
-        "description": "A climate4R package for data access ",
-        "language": "R",
-        "stars": 13,
-        "website": "https://github.com/SantanderMetGroup/climate4R",
-        "keywords": [
-            "access",
-            "climate4r",
-            "package",
-            "data"
-        ]
-    },
-    {
-        "repo": "https://github.com/VeruGHub/easyclimate",
-        "category": "environment",
-        "image": "",
-        "title": "easyclimate",
-        "description": "Easy access to high-resolution daily climate data for Europe",
-        "language": "R",
-        "stars": 48,
-        "website": "https://verughub.github.io/easyclimate/",
-        "keywords": [
-            "climate-data",
-            "europe",
-            "r-package",
-            "data",
-            "daily",
-            "access",
-            "high",
-            "resolution",
-            "europe",
-            "climate",
-            "easy"
-        ]
-    },
-    {
-        "repo": "https://github.com/ropensci/GSODR",
-        "category": "environment",
-        "image": "",
-        "title": "GSODR",
-        "description": "API Client for Global Surface Summary of the Day (GSOD) Weather Data Client in R",
-        "language": "R",
-        "stars": 92,
-        "website": "https://docs.ropensci.org/GSODR",
-        "keywords": [
-            "daily-data",
-            "daily-weather",
-            "data-access",
-            "global-data",
-            "gsod",
-            "historical-data",
-            "historical-weather",
-            "ncdc",
-            "ncei",
-            "r",
-            "r-package",
-            "rstats",
-            "weather",
-            "weather-data",
-            "weather-information",
-            "weather-stations",
-            "gsod",
-            "global",
-            "api",
-            "data",
-            "weather",
-            "summary",
-            "client",
-            "day",
-            "surface"
-        ]
-    },
-    {
-        "repo": "https://github.com/IPCC-WG1/Chapter-9",
-        "category": "environment",
-        "image": "",
-        "title": "Chapter-9",
-        "description": "Repository with the code and data for all figures from Chapter 9 of the IPCC AR6",
-        "language": "MATLAB",
-        "stars": 78,
-        "website": "",
-        "keywords": [
-            "chapter",
-            "code",
-            "repository",
-            "ar6",
-            "ipcc",
-            "data",
-            "figures"
-        ]
-    },
-    {
-        "repo": "https://github.com/SantanderMetGroup/ATLAS",
-        "category": "environment",
-        "image": "",
-        "title": "ATLAS",
-        "description": "Datasets, code and virtual workspace for the Climate Change ATLAS",
-        "language": "Jupyter Notebook",
-        "stars": 88,
-        "website": "",
-        "keywords": [
-            "climate-change-atlas",
-            "climate4r",
-            "cmip6",
-            "cordex",
-            "ipcc-regions",
-            "warming-levels",
-            "atlas",
-            "code",
-            "workspace",
-            "virtual",
-            "change",
-            "climate",
-            "datasets"
-        ]
-    },
-    {
-        "repo": "https://github.com/pylandtemp/pylandtemp",
-        "category": "environment",
-        "image": "",
-        "title": "pylandtemp",
-        "description": "Algorithms for computing global land surface temperature and emissivity from NASA's Landsat satellite images with Python.",
-        "language": "Python",
-        "stars": 173,
-        "website": "",
-        "keywords": [
-            "climate",
-            "earth-observation",
-            "earth-science",
-            "geodata",
-            "geospatial",
-            "image-processing",
-            "landsat",
-            "landsat-8",
-            "landsat-data",
-            "nasa-api",
-            "nasa-data",
-            "python",
-            "raster",
-            "remote-sensing",
-            "satellite-data",
-            "satellite-imagery-analysis",
-            "satellite-images",
-            "landsat",
-            "land",
-            "global",
-            "emissivity",
-            "temperature",
-            "computing",
-            "python",
-            "images",
-            "nasa",
-            "surface"
-        ]
-    },
-    {
-        "repo": "https://github.com/ecmwf/cdsapi",
-        "category": "environment",
-        "image": "",
-        "title": "cdsapi",
-        "description": "Python API to access the Copernicus Climate Data Store (CDS) ",
-        "language": "Python",
-        "stars": 246,
-        "website": "",
-        "keywords": [
-            "api",
-            "data",
-            "python",
-            "access",
-            "copernicus",
-            "climate",
-            "cds",
-            "store"
-        ]
-    },
-    {
-        "repo": "https://github.com/ropensci/prism",
-        "category": "environment",
-        "image": "",
-        "title": "prism",
-        "description": "Download data from the Oregon PRISM climate data project http://www.prism.oregonstate.edu/",
-        "language": "R",
-        "stars": 57,
-        "website": "https://docs.ropensci.org/prism",
-        "keywords": [
-            "r",
-            "r-package",
-            "rstats",
-            "oregon",
-            "http",
-            "data",
-            "www",
-            "://",
-            "prism",
-            "download",
-            "oregonstate",
-            "edu",
-            "project"
-        ]
-    },
-    {
-        "repo": "https://github.com/rOpenSpain/climaemet",
-        "category": "environment",
-        "image": "",
-        "title": "climaemet",
-        "description": "R Climate AEMET Tools",
-        "language": "R",
-        "stars": 42,
-        "website": "https://ropenspain.github.io/climaemet/",
-        "keywords": [
-            "aemet",
-            "climate",
-            "cran",
-            "data",
-            "forecast-api",
-            "r",
-            "r-package",
-            "ropenspain",
-            "rstats",
-            "science",
-            "spain",
-            "weather-api",
-            "tools",
-            "climate",
-            "aemet"
-        ]
-    },
-    {
-        "repo": "https://github.com/ropensci/chirps",
-        "category": "environment",
-        "image": "",
-        "title": "chirps",
-        "description": "API Client for CHIRPS",
-        "language": "R",
-        "stars": 31,
-        "website": "https://docs.ropensci.org/chirps/",
-        "keywords": [
-            "chirps",
-            "climatology",
-            "precipitation-data",
-            "rstats",
-            "chirps",
-            "client",
-            "api"
-        ]
-    },
-    {
-        "repo": "https://github.com/SERVIR/ClimateSERVpy",
-        "category": "environment",
-        "image": "",
-        "title": "ClimateSERVpy",
-        "description": "This is a package to access the ClimateSERV API",
-        "language": "Python",
-        "stars": 9,
-        "website": "https://pypi.org/project/climateserv/",
-        "keywords": [
-            "chirps",
-            "climateserv",
-            "dataset",
-            "emodis",
-            "esi",
-            "imerg",
-            "python",
-            "smap",
-            "time-series",
-            "access",
-            "package",
-            "climateserv",
-            "api"
-        ]
-    },
-    {
-        "repo": "https://github.com/bluegreen-labs/ecmwfr",
-        "category": "environment",
-        "image": "",
-        "title": "ecmwfr",
-        "description": "Interface to the public ECMWF API Web Services",
-        "language": "R",
-        "stars": 106,
-        "website": "https://bluegreen-labs.github.io/ecmwfr/",
-        "keywords": [
-            "cds",
-            "climate-data",
-            "copernicus",
-            "ecmwf-api",
-            "ecmwf-services",
-            "r-package",
-            "rstats",
-            "web",
-            "api",
-            "services",
-            "interface",
-            "public",
-            "ecmwf"
-        ]
-    },
-    {
-        "repo": "https://github.com/cortinah/hockeystick",
-        "category": "environment",
-        "image": "",
-        "title": "hockeystick",
-        "description": "Download and Visualize Essential Global Heating Data in R",
-        "language": "R",
-        "stars": 52,
-        "website": "https://cortinah.github.io/hockeystick/",
-        "keywords": [
-            "carbon",
-            "carbon-dioxide-data",
-            "carbon-emissions",
-            "climate",
-            "climate-change",
-            "climate-data",
-            "climate-science",
-            "ggplot2",
-            "methane",
-            "noaa",
-            "r",
-            "rstats",
-            "sea-ice",
-            "sea-levels",
-            "temperature-data",
-            "warming-stripes",
-            "visualize",
-            "global",
-            "data",
-            "essential",
-            "heating",
-            "download"
-        ]
-    },
-    {
-        "repo": "https://github.com/ropensci/clifro",
-        "category": "environment",
-        "image": "",
-        "title": "clifro",
-        "description": "Easily download and visualise climate data from CliFlo",
-        "language": "R",
-        "stars": 27,
-        "website": "https://docs.ropensci.org/clifro",
-        "keywords": [
-            "climate-data",
-            "climate-stations",
-            "kml",
-            "national-climate-database",
-            "r",
-            "r-package",
-            "rstats",
-            "weather",
-            "windrose",
-            "zealand",
-            "data",
-            "easily",
-            "visualise",
-            "download",
-            "climate",
-            "cliflo"
-        ]
-    },
-    {
-        "repo": "https://github.com/ropensci/rWBclimate",
-        "category": "environment",
-        "image": "",
-        "title": "rWBclimate",
-        "description": ":warning: ARCHIVED :warning: R interface for the World Bank climate data",
-        "language": "HTML",
-        "stars": 68,
-        "website": "",
-        "keywords": [
-            "r",
-            "r-package",
-            "rstats",
-            "world",
-            "data",
-            "warning",
-            "archived",
-            "bank",
-            "climate",
-            "interface"
-        ]
-    },
-    {
-        "repo": "https://github.com/zmlabe/IceVarFigs",
-        "category": "environment",
-        "image": "",
-        "title": "IceVarFigs",
-        "description": "🌀 Weather and climate graphics for science communication 🌀",
-        "language": "Python",
-        "stars": 82,
-        "website": "https://zacklabe.com/",
-        "keywords": [
-            "arctic-sea-ice",
-            "climate-change",
-            "climate-variability",
-            "scicomm",
-            "sea-ice-thickness",
-            "graphics",
-            "weather",
-            "communication",
-            "science",
-            "climate"
-        ]
-    },
-    {
-        "repo": "https://github.com/JuliaClimate/ClimateSatellite.jl",
-        "category": "environment",
-        "image": "",
-        "title": "ClimateSatellite.jl",
-        "description": "Julia package that downloads satellite measurements and observational data",
-        "language": "Julia",
-        "stars": 43,
-        "website": "",
-        "keywords": [
-            "climate",
-            "climate-analysis",
-            "climate-science",
-            "gpm-imerg",
-            "data",
-            "measurements",
-            "downloads",
-            "package",
-            "julia",
-            "observational",
-            "satellite"
-        ]
-    },
-    {
-        "repo": "https://github.com/SERVIR/ClimateSERV2",
-        "category": "environment",
-        "image": "",
-        "title": "ClimateSERV2",
-        "description": "ClimateSERV allows development practitioners, scientists/researchers, and government decision-makers to visualize and download historical rainfall data, vegetation condition data, and 180-day forecasts of rainfall and temperature to improve understanding of, and make improved decisions for, issues related to agriculture and water availability.",
-        "language": "Python",
-        "stars": 9,
-        "website": "https://climateserv.servirglobal.net/",
-        "keywords": [
-            "chirps",
-            "climate",
-            "climateserv",
-            "emodis",
-            "esi",
-            "imerg",
-            "ndvi",
-            "servir",
-            "servirglobal",
-            "government",
-            "forecasts",
-            "day",
-            "development",
-            "climateserv",
-            "rainfall",
-            "makers",
-            "allows",
-            "data",
-            "agriculture"
-        ]
-    },
-    {
-        "repo": "https://github.com/pytroll/pygac",
-        "category": "environment",
-        "image": "",
-        "title": "pygac",
-        "description": "A python package to read and calibrate NOAA and Metop AVHRR GAC and LAC data",
-        "language": "Python",
-        "stars": 21,
-        "website": "https://pygac.readthedocs.org/",
-        "keywords": [
-            "avhrr",
-            "calibration",
-            "climate",
-            "gac",
-            "hacktoberfest",
-            "lac",
-            "metop",
-            "navigation",
-            "noaa",
-            "radiometric",
-            "satellite",
-            "tiros",
-            "data",
-            "avhrr",
-            "gac",
-            "lac",
-            "calibrate",
-            "python",
-            "read",
-            "noaa",
-            "package",
-            "metop"
-        ]
-    },
-    {
-        "repo": "https://github.com/CCI-Tools/cate",
-        "category": "environment",
-        "image": "",
-        "title": "cate",
-        "description": "ESA CCI Toolbox (Cate)",
-        "language": "Python",
-        "stars": 51,
-        "website": "",
-        "keywords": [
-            "cci",
-            "climate",
-            "conda",
-            "esa",
-            "python",
-            "toolbox",
-            "esa",
-            "cci",
-            "cate"
+            "sediment",
+            "archived"
         ]
     },
     {
@@ -3174,9 +1931,9 @@
         "website": "",
         "keywords": [
             "tool",
-            "climate",
             "cornwall",
-            "council"
+            "council",
+            "climate"
         ]
     },
     {
@@ -3189,13 +1946,13 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "waste",
-            "local",
-            "potential",
-            "water",
-            "yearly",
             "resolution",
-            "nuts3"
+            "yearly",
+            "water",
+            "nuts3",
+            "local",
+            "waste",
+            "potential"
         ]
     },
     {
@@ -3208,8 +1965,8 @@
         "stars": null,
         "website": "",
         "keywords": [
-            "implementation",
             "model",
+            "implementation",
             "xdc"
         ]
     }
