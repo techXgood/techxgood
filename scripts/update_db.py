@@ -1,6 +1,5 @@
 import urllib.parse
 import json
-from enum import Enum
 from time import time
 import sys
 
