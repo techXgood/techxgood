@@ -6,7 +6,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* 3 * * *" # Runs at 03:00 UTC daily
+    - cron: "0 */6 * * *" # Runs every 6 hours
 
 jobs:
   run-python-script:
