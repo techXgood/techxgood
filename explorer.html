@@ -126,12 +126,6 @@
                                     ${item.stars}
                                 </p>`;
                     }
-                    var image_preview = `<div class="card-project-title-img"><h2 class="bungee-tint-regular">${item.title}</h2></div>`;
-                    if ("image" in item && item["image"] !== "") {
-                        image_preview = `
-                        <img class="card-project-logo-img" src="${item.image}" alt="${item.title}">
-                        `;
-                    }
                     const card = document.createElement('div');
                     if (apply_filter(item, cat)) {
                         card.className = 'card';
@@ -148,7 +142,6 @@
                         card.innerHTML = `
                             <div>
                                 <div class="card-overview">
-                                    ${image_preview}
                                     <h3 class="oxanium-title-img">${item.title}</h3>
                                     <p>${desc}</p>
                                 </div>
