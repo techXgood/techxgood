@@ -189,8 +189,8 @@ body {
     margin-right: 3px;
     vertical-align: middle;
     display: inline-flex;
-    max-width: 2vw;
-    max-width: 2vw;
+    min-width: 15%;
+    max-width: 15%;
 }
 
 /* Media Queries */
