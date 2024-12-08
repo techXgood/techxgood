@@ -1,5 +1,6 @@
 import urllib.parse
 import json
+from datetime import datetime
 from time import time
 import sys
 
@@ -80,6 +81,7 @@ def extract_info_from_repo(proj: Dict[str, Any]) -> Dict[str, Any]:
     else:
         topics = []
     proj["keywords"] = data.get("topics") + topics
+    proj["last_update"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[+] {proj['title']} - processing time: {time() - starting_time}")
     return proj
 
@@ -98,6 +100,12 @@ def main():
     with open(projects_file, 'r') as f:
         projects = json.load(f)
 
+    # "repo" is the key of dictionary
+    def get_timestamp(x):
+        if x.get("last_update") is None:
+            return '1970-01-01 00:00:00'
+        return x["last_update"]
+    projects = sorted(projects, key=get_timestamp, reverse=True)
     results = []
     for proj in projects:
         try:
@@ -106,6 +114,7 @@ def main():
                 results.append(info)
         except requests.HTTPError as e:
             print(f"[-] {proj['repo'].split('/')[-1]} - code: {str(e)}")
+            results.append(proj)
     
     # Salva i risultati in un file JSON
     if debug_mode:
