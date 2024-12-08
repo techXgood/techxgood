@@ -105,16 +105,25 @@ def main():
         if x.get("last_update") is None:
             return '1970-01-01 00:00:00'
         return x["last_update"]
+
     projects = sorted(projects, key=get_timestamp, reverse=True)
+
     results = []
+    hit_403_error_code = 0
     for proj in projects:
         try:
-            info = extract_info_from_repo(proj)
-            if info:
-                results.append(info)
+            if hit_403_error_code < 10:
+                info = extract_info_from_repo(proj)
+                if info:
+                    results.append(info)
+            else:
+                results.append(proj)
         except requests.HTTPError as e:
             print(f"[-] {proj['repo'].split('/')[-1]} - code: {str(e)}")
-            results.append(proj)
+            if str(e) != '404':  # remove proj from project.json if error 404
+                results.append(proj)
+            if str(e) == '403':
+                hit_403_error_code += 1
     
     # Salva i risultati in un file JSON
     if debug_mode:
