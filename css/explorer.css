@@ -29,7 +29,7 @@ body {
     border: 2px solid rgb(208, 212, 184);
     font-size: 16px;
     display: inline-block;
-    overflow: scroll;
+    overflow: fill;
     align-content: left;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .search-bar-logo {
     border-radius: 10px;
-    max-width: 12vw;
+    max-width: 15%;
     margin-right: 30px;
 }
 
@@ -225,6 +225,14 @@ body {
 
     .filters .searching-button {
         font-size: 12px;
+    }
+}
+
+@media (min-width: 480px) {
+    .search-bar-logo {
+    border-radius: 10px;
+    max-width: 7%;
+    margin-right: 30px;
     }
 }
 
