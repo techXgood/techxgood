@@ -61,7 +61,7 @@ def extract_info_from_repo(proj: Dict[str, Any]) -> Dict[str, Any]:
     else:
         raise requests.HTTPError(f"{proj['repo']} - return this HTTP status code: {response.status_code}")
 
-    proj["title"] = data.get("name")
+    proj["title"] = '/'.join(proj["repo"].split('/')[-2:])
     proj["description"] = data.get("description")
     proj["language"] = data.get("language")
     proj["stars"] = data.get(star_count)
