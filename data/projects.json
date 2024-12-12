@@ -1,844 +1,1064 @@
 [
     {
-        "repo": "https://gitlab.com/bioeconomy/forobs/biotrade/",
+        "repo": "https://github.com/bikeindex/bike_index",
         "category": "environment",
         "image": "",
-        "title": "biotrade/",
-        "description": "This package loads trade data on bio based commodities and products from the UN Comtrade\r\nand from FAOSTAT.",
-        "language": null,
-        "stars": 2,
-        "website": "https://gitlab.com/bioeconomy/forobs/biotrade",
+        "title": "bikeindex/bike_index",
+        "description": "All the code for Bike Index, because we love you",
+        "language": "Ruby",
+        "stars": 274,
+        "website": "https://bikeindex.org",
         "keywords": [
-            "products",
-            "faostat",
-            "bio",
-            "based",
-            "data",
-            "comtrade",
-            "package",
-            "trade",
-            "commodities",
-            "loads"
+            "code",
+            "love",
+            "index",
+            "bike"
         ],
-        "last_update": "2024-12-12 13:19:02"
+        "last_update": "2024-12-12 18:47:53"
     },
     {
-        "repo": "https://gitlab.com/ibarraespinosa/vein",
+        "repo": "https://github.com/goat-community/goat",
         "category": "environment",
         "image": "",
-        "title": "ibarraespinosa/vein",
-        "description": "",
-        "language": null,
-        "stars": 2,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-12 13:19:02"
-    },
-    {
-        "repo": "https://gitlab.com/hotmaps/potential/WWTP",
-        "category": "environment",
-        "image": "",
-        "title": "potential/WWTP",
-        "description": "Waste water potential nuts3 and local resolution yearly",
-        "language": null,
-        "stars": 0,
+        "title": "goat-community/goat",
+        "description": "This is the home of Geo Open Accessibility Tool (GOAT)",
+        "language": "TypeScript",
+        "stars": 93,
         "website": "",
         "keywords": [
-            "potential",
-            "water",
-            "resolution",
-            "waste",
-            "yearly",
-            "local",
-            "nuts3"
-        ],
-        "last_update": "2024-12-12 13:19:02"
-    },
-    {
-        "repo": "https://gitlab.com/opendatabio/opendatabio",
-        "category": "environment",
-        "image": "",
-        "title": "opendatabio/opendatabio",
-        "description": "A  system for storing and retrieving biological data - floristics, ecology and monitoring",
-        "language": null,
-        "stars": 0,
-        "website": "",
-        "keywords": [
-            "storing",
-            "ecology",
-            "data",
-            "monitoring",
-            "biological",
-            "retrieving",
-            "floristics",
-            "system"
-        ],
-        "last_update": "2024-12-12 13:19:02"
-    },
-    {
-        "repo": "https://gitlab.com/mosaik/mosaik",
-        "category": "environment",
-        "image": "",
-        "title": "mosaik/mosaik",
-        "description": "A flexible Smart Grid co-simulation framework.",
-        "language": null,
-        "stars": 14,
-        "website": "",
-        "keywords": [
-            "simulation",
-            "smart",
-            "grid",
-            "flexible",
-            "framework"
-        ],
-        "last_update": "2024-12-12 13:19:02"
-    },
-    {
-        "repo": "https://gitlab.com/wgms/glathida",
-        "category": "environment",
-        "image": "",
-        "title": "wgms/glathida",
-        "description": "Glacier Thickness Database (GlaThiDa)\r\nhttps://www.gtn-g.ch/data_catalogue_glathida\r\n",
-        "language": null,
-        "stars": 2,
-        "website": "",
-        "keywords": [
-            "collaboration",
-            "database",
-            "datapackage",
-            "glacier",
-            "glaciology",
-            "global",
-            "database",
-            "://",
-            "https",
-            "www",
-            "gtn",
-            "glacier",
-            "data_catalogue_glathida",
-            "thickness",
-            "glathida"
-        ],
-        "last_update": "2024-12-12 13:19:03"
-    },
-    {
-        "repo": "https://gitlab.com/diw-evu/oet/openenergytracker",
-        "category": "environment",
-        "image": "",
-        "title": "oet/openenergytracker",
-        "description": "The Open Energy Tracker is an open data platform for monitoring and visualizing energy policy targets.",
-        "language": null,
-        "stars": 7,
-        "website": "",
-        "keywords": [
-            "data visualization",
-            "dataset",
-            "energy",
-            "plotly",
-            "policy",
-            "python",
-            "renewable energy",
-            "energy",
-            "targets",
-            "tracker",
-            "policy",
-            "data",
-            "monitoring",
+            "accessibility-analysis",
+            "accessiblity-scenarios",
+            "cycling",
+            "isochrones",
+            "mobility",
+            "walking",
+            "webgis",
             "open",
-            "platform",
-            "visualizing"
-        ],
-        "last_update": "2024-12-12 13:19:03"
-    },
-    {
-        "repo": "https://gitlab.com/polito-edyce-prelude/predyce",
-        "category": "environment",
-        "image": "",
-        "title": "polito-edyce-prelude/predyce",
-        "description": "Python Realtime Energy DYnamics and Climate Evaluation tool developed by Politecnico di Torino",
-        "language": null,
-        "stars": 4,
-        "website": "",
-        "keywords": [
-            "dynamics",
-            "python",
-            "energy",
             "tool",
-            "evaluation",
-            "torino",
-            "realtime",
-            "developed",
-            "climate",
-            "politecnico"
+            "geo",
+            "goat",
+            "accessibility",
+            "home"
         ],
-        "last_update": "2024-12-12 13:19:03"
+        "last_update": "2024-12-12 18:47:53"
     },
     {
-        "repo": "https://gitlab.com/dlr-ve/esy/amiris/amiris-py",
+        "repo": "https://github.com/UrbanAnalyst/gtfsrouter",
         "category": "environment",
         "image": "",
-        "title": "amiris/amiris-py",
-        "description": "Python tools for the electricity market model [AMIRIS](https://gitlab.com/dlr-ve/esy/amiris/amiris)",
-        "language": null,
-        "stars": 3,
-        "website": "",
+        "title": "UrbanAnalyst/gtfsrouter",
+        "description": "Routing and analysis engine for GTFS (General Transit Feed Specification) data",
+        "language": "R",
+        "stars": 85,
+        "website": "https://urbananalyst.github.io/gtfsrouter/",
         "keywords": [
-            "esy",
-            "python",
-            "://",
-            "https",
-            "gitlab",
-            "tools",
-            "amiris",
-            "electricity",
-            "com",
-            "market"
-        ],
-        "last_update": "2024-12-12 13:19:03"
-    },
-    {
-        "repo": "https://gitlab.com/xdc-model/xdc",
-        "category": "environment",
-        "image": "",
-        "title": "xdc-model/xdc",
-        "description": "XDC Model implementation",
-        "language": null,
-        "stars": 1,
-        "website": "",
-        "keywords": [
-            "model",
-            "xdc",
-            "implementation"
-        ],
-        "last_update": "2024-12-12 13:19:03"
-    },
-    {
-        "repo": "https://gitlab.com/natural-solutions/reneco/ecoreleve-data",
-        "category": "environment",
-        "image": "",
-        "title": "reneco/ecoreleve-data",
-        "description": "Open source biodiversity data entry software",
-        "language": null,
-        "stars": 0,
-        "website": "",
-        "keywords": [
-            "entry",
-            "biodiversity",
-            "data",
-            "open",
-            "software",
-            "source"
-        ],
-        "last_update": "2024-12-12 13:19:04"
-    },
-    {
-        "repo": "https://gitlab.com/energyincities/energy-signature-analyser",
-        "category": "environment",
-        "image": "",
-        "title": "energyincities/energy-signature-analyser",
-        "description": "",
-        "language": null,
-        "stars": 2,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-12 13:19:04"
-    },
-    {
-        "repo": "https://gitlab.com/wxmetvis/met.3d",
-        "category": "environment",
-        "image": "",
-        "title": "wxmetvis/met.3d",
-        "description": "http://met3d.wavestoweather.de/",
-        "language": null,
-        "stars": 13,
-        "website": "",
-        "keywords": [
-            "wavestoweather",
-            "met3d",
-            "http",
-            "://"
-        ],
-        "last_update": "2024-12-12 13:19:04"
-    },
-    {
-        "repo": "https://gitlab.com/dlr-ve/esy/remix/framework",
-        "category": "environment",
-        "image": "",
-        "title": "remix/framework",
-        "description": "The REMix framework for energy system optimization models",
-        "language": null,
-        "stars": 10,
-        "website": "",
-        "keywords": [
-            "energy",
-            "models",
-            "framework",
-            "remix",
-            "optimization",
-            "system"
-        ],
-        "last_update": "2024-12-12 13:19:04"
-    },
-    {
-        "repo": "https://gitlab.com/NRAP/OpenIAM",
-        "category": "environment",
-        "image": "",
-        "title": "NRAP/OpenIAM",
-        "description": "NRAP-Open-IAM is an open-source integrated assessment model developed by National Risk Assessment Partnership during Phases II and III to facilitate risk assessment, management and containment assurance for geologic carbon sequestration projects. ",
-        "language": null,
-        "stars": 1,
-        "website": "",
-        "keywords": [
-            "nrap",
-            "containment",
-            "integrated",
-            "assessment",
-            "iii",
-            "sequestration",
-            "risk",
-            "partnership",
-            "geologic",
-            "projects"
-        ],
-        "last_update": "2024-12-12 13:19:04"
-    },
-    {
-        "repo": "https://gitlab.com/foodsharing-dev/foodsharing",
-        "category": "environment",
-        "image": "",
-        "title": "foodsharing-dev/foodsharing",
-        "description": "foodsharing.de - A platform and initiative against food waste\r\n",
-        "language": null,
-        "stars": 153,
-        "website": "",
-        "keywords": [
-            "initiative",
-            "food",
-            "foodsharing",
-            "waste",
-            "platform"
-        ],
-        "last_update": "2024-12-12 13:19:05"
-    },
-    {
-        "repo": "https://gitlab.com/fame-framework/fame-core",
-        "category": "environment",
-        "image": "",
-        "title": "fame-framework/fame-core",
-        "description": "Core library of FAME written in Java",
-        "language": null,
-        "stars": 4,
-        "website": "",
-        "keywords": [
-            "FAME",
-            "library",
-            "core",
-            "java",
-            "written",
-            "fame"
-        ],
-        "last_update": "2024-12-12 13:19:05"
-    },
-    {
-        "repo": "https://gitlab.com/then-try-this/climate-tool",
-        "category": "environment",
-        "image": "",
-        "title": "then-try-this/climate-tool",
-        "description": "A climate tool for Cornwall Council",
-        "language": null,
-        "stars": 1,
-        "website": "",
-        "keywords": [
-            "climate",
-            "council",
-            "cornwall",
-            "tool"
-        ],
-        "last_update": "2024-12-12 13:19:05"
-    },
-    {
-        "repo": "https://gitlab.com/permafrostnet/teaspoon",
-        "category": "environment",
-        "image": "",
-        "title": "permafrostnet/teaspoon",
-        "description": "Python for permafrost temperature data",
-        "language": null,
-        "stars": 5,
-        "website": "",
-        "keywords": [
-            "dataset",
-            "earth science",
-            "geography",
-            "permafrost",
-            "data",
-            "python",
-            "temperature"
-        ],
-        "last_update": "2024-12-12 13:19:05"
-    },
-    {
-        "repo": "https://gitlab.com/diw-evu/dieter_public/dieterpy",
-        "category": "environment",
-        "image": "",
-        "title": "dieter_public/dieterpy",
-        "description": "Repository for the Python-GAMS version of the power market model DIETER",
-        "language": null,
-        "stars": 4,
-        "website": "",
-        "keywords": [
-            "GAMS",
-            "open source model",
-            "power market model",
-            "python",
-            "renewable energy",
-            "storage",
-            "version",
-            "python",
-            "gams",
-            "dieter",
-            "repository",
-            "market",
-            "power",
-            "model"
-        ],
-        "last_update": "2024-12-12 13:19:06"
-    },
-    {
-        "repo": "https://gitlab.com/bonsamurais/bonsai/util/ipcc",
-        "category": "environment",
-        "image": "",
-        "title": "util/ipcc",
-        "description": "",
-        "language": null,
-        "stars": 1,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-12 13:19:06"
-    },
-    {
-        "repo": "https://gitlab.com/SmartGridToolbox/SmartGridToolbox",
-        "category": "environment",
-        "image": "",
-        "title": "SmartGridToolbox/SmartGridToolbox",
-        "description": "Modern C++ Smart Grid Simulation Library. See the [project pages](https://smartgridtoolbox.gitlab.io/SmartGridToolbox/) for more information, documentation, tutorials etc.",
-        "language": null,
-        "stars": 8,
-        "website": "",
-        "keywords": [
-            "simulation",
-            "documentation",
-            "smart",
-            "://",
-            "library",
-            "tutorials",
-            "grid",
-            "project",
-            "https",
-            "see"
-        ],
-        "last_update": "2024-12-12 13:19:06"
-    },
-    {
-        "repo": "https://gitlab.com/retrofitcoop/macquette",
-        "category": "environment",
-        "image": "",
-        "title": "retrofitcoop/macquette",
-        "description": "Building modelling tool primarily for retrofit assessments",
-        "language": null,
-        "stars": 8,
-        "website": "",
-        "keywords": [
-            "assessments",
-            "primarily",
-            "tool",
-            "building",
-            "modelling",
-            "retrofit"
-        ],
-        "last_update": "2024-12-12 13:19:06"
-    },
-    {
-        "repo": "https://gitlab.com/eputs/ev-fleet-sim",
-        "category": "environment",
-        "image": "",
-        "title": "eputs/ev-fleet-sim",
-        "description": "This software computes the electrical energy requirements of a fleet of vehicles. It also determines how much of this energy can be offset by renewable energy. It does all this by analyzing the fleet's GPS traces and applying EV and PV models.  Project website: 🔗 www.ev-fleet-sim.online ",
-        "language": null,
-        "stars": 7,
-        "website": "",
-        "keywords": [
-            "data analysis",
-            "electric vehicles",
-            "public transport",
-            "python",
-            "renewable energy",
-            "offset",
-            "applying",
-            "online",
-            "project",
-            "analyzing",
-            "much",
-            "website",
-            "traces",
-            "models",
-            "renewable"
-        ],
-        "last_update": "2024-12-12 13:19:06"
-    },
-    {
-        "repo": "https://gitlab.com/energyincities/python-ehub",
-        "category": "environment",
-        "image": "",
-        "title": "energyincities/python-ehub",
-        "description": "A python-based, modular and nestable implementation of the Energy Hub model (balancing demand and supply, system capacity sizing and network flows using Mixed-Integer Linear Programming).",
-        "language": null,
-        "stars": 6,
-        "website": "",
-        "keywords": [
-            "using",
-            "capacity",
-            "nestable",
-            "mixed",
-            "system",
-            "flows",
-            "python",
-            "integer",
-            "programming",
-            "implementation"
-        ],
-        "last_update": "2024-12-12 13:19:07"
-    },
-    {
-        "repo": "https://gitlab.com/openlandmap/eu-forest-tree-point-data",
-        "category": "environment",
-        "image": "",
-        "title": "openlandmap/eu-forest-tree-point-data",
-        "description": "A compilation of analysis-ready point data for the purpose of vegetation and Potential Natural Vegetation mapping (EU coverage only)",
-        "language": null,
-        "stars": 3,
-        "website": "",
-        "keywords": [
-            "natural",
-            "potential",
-            "mapping",
+            "gtfs",
+            "gtfsrouter",
+            "public-transportation",
+            "r-package",
+            "router",
+            "routing",
+            "gtfs",
             "analysis",
+            "transit",
+            "general",
+            "specification",
+            "engine",
             "data",
-            "ready",
-            "coverage",
-            "purpose",
-            "vegetation",
-            "point"
+            "feed"
         ],
-        "last_update": "2024-12-12 13:19:07"
+        "last_update": "2024-12-12 18:47:54"
     },
     {
-        "repo": "https://github.com/cozy/coachCO2",
+        "repo": "https://github.com/eskerda/pybikes",
         "category": "environment",
         "image": "",
-        "title": "cozy/coachCO2",
-        "description": "CoachCO2 aims to raise user awareness about their carbon footprint, notably based on their transport data.",
-        "language": "JavaScript",
-        "stars": 7,
-        "website": "",
+        "title": "eskerda/pybikes",
+        "description": "bike sharing + python = pybikes",
+        "language": "Python",
+        "stars": 563,
+        "website": "https://citybik.es",
         "keywords": [
-            "user",
-            "based",
-            "coachco2",
-            "data",
-            "footprint",
-            "awareness",
-            "transport",
-            "notably",
-            "aims",
-            "raise"
+            "python",
+            "pybikes",
+            "sharing",
+            "bike"
         ],
-        "last_update": "2024-12-12 13:19:07"
+        "last_update": "2024-12-12 18:47:54"
     },
     {
-        "repo": "https://github.com/FixMyBerlin/atlas-app",
+        "repo": "https://github.com/OpenChargingCloud/ChargyDesktopApp",
         "category": "environment",
         "image": "",
-        "title": "FixMyBerlin/atlas-app",
-        "description": "Radverkehrsatlas provides access to bicycle infrastructure data from OpenStreetMap (OSM) for administrative staff.",
+        "title": "OpenChargingCloud/ChargyDesktopApp",
+        "description": "The Chargy E-Mobility Transparency Application for Windows, Mac OS X and Linux (based on Electron)",
         "language": "TypeScript",
         "stars": 11,
-        "website": "https://radverkehrsatlas.de/",
-        "keywords": [
-            "openstreetmap",
-            "osm",
-            "radinfrastruktur",
-            "radverkehr",
-            "verkehrswende",
-            "access",
-            "openstreetmap",
-            "data",
-            "osm",
-            "infrastructure",
-            "administrative",
-            "provides",
-            "bicycle",
-            "radverkehrsatlas",
-            "staff"
-        ],
-        "last_update": "2024-12-12 13:19:08"
-    },
-    {
-        "repo": "https://github.com/microsoft/PlanetaryComputerDataCatalog",
-        "category": "environment",
-        "image": "",
-        "title": "microsoft/PlanetaryComputerDataCatalog",
-        "description": "Data catalog for the Microsoft Planetary Computer",
-        "language": "TypeScript",
-        "stars": 37,
-        "website": "https://planetarycomputer.microsoft.com",
-        "keywords": [
-            "aiforearth",
-            "data",
-            "planetary",
-            "catalog",
-            "microsoft",
-            "computer"
-        ],
-        "last_update": "2024-12-12 13:19:08"
-    },
-    {
-        "repo": "https://gitlab.com/diw-evu/emobpy/emobpy",
-        "category": "environment",
-        "image": "",
-        "title": "emobpy/emobpy",
-        "description": "",
-        "language": null,
-        "stars": 8,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-12 13:19:08"
-    },
-    {
-        "repo": "https://github.com/kylemcdonald/nvidia-co2",
-        "category": "environment",
-        "image": "",
-        "title": "kylemcdonald/nvidia-co2",
-        "description": "Adds gCO2eq emissions to nvidia-smi.",
-        "language": "Python",
-        "stars": 116,
         "website": "",
         "keywords": [
-            "gco2eq",
-            "adds",
-            "emissions",
-            "smi",
-            "nvidia"
+            "chargy",
+            "e-mobility",
+            "eichrecht",
+            "electron",
+            "evroaming",
+            "evroamingdeluxe",
+            "premiumeichrecht",
+            "smartmetering",
+            "transparency",
+            "chargy",
+            "linux",
+            "based",
+            "mac",
+            "windows",
+            "transparency",
+            "application",
+            "mobility",
+            "electron"
         ],
-        "last_update": "2024-12-12 13:19:08"
+        "last_update": "2024-12-12 18:47:54"
     },
     {
-        "repo": "https://github.com/StavrosOrf/EV2Gym",
+        "repo": "https://github.com/OpenChargingCloud/WWCP_OCPP",
         "category": "environment",
         "image": "",
-        "title": "StavrosOrf/EV2Gym",
-        "description": "A V2G Simulation Environment for large scale EV charging optimization",
-        "language": "Python",
+        "title": "OpenChargingCloud/WWCP_OCPP",
+        "description": "Connectivity between the World Wide Charging Protocol (WWCP) and the Open Charge Point Protocol (OCPP v1.6/v2.0.1/v2.1).",
+        "language": "C#",
         "stars": 55,
         "website": "",
         "keywords": [
-            "deep-reinforcement-learning",
-            "electric-vehicles",
-            "gurobi",
-            "gym",
-            "mathematical-programming",
-            "model-predictive-control",
-            "simulator",
-            "simulation",
-            "large",
-            "scale",
-            "environment",
             "charging",
-            "v2g",
-            "optimization"
+            "chargingstation",
+            "e-mobility",
+            "ocpp",
+            "wwcp",
+            "open",
+            "point",
+            "world",
+            "ocpp",
+            "wide",
+            "charge",
+            "connectivity",
+            "protocol",
+            "charging"
         ],
-        "last_update": "2024-12-12 13:19:08"
+        "last_update": "2024-12-12 18:47:54"
     },
     {
-        "repo": "https://github.com/transportenergy/database",
+        "repo": "https://github.com/RAMP-project/RAMP-mobility",
         "category": "environment",
         "image": "",
-        "title": "transportenergy/database",
-        "description": "Tools for accessing and maintaining the iTEM model & historical databases",
+        "title": "RAMP-project/RAMP-mobility",
+        "description": "A novel application of the RAMP main engine for generating bottom-up stochastic electric vehicles load profiles.",
         "language": "Python",
-        "stars": 24,
-        "website": "https://transportenergy.rtfd.io",
-        "keywords": [
-            "historical",
-            "databases",
-            "item",
-            "maintaining",
-            "tools",
-            "accessing",
-            "model"
-        ],
-        "last_update": "2024-12-12 13:19:09"
-    },
-    {
-        "repo": "https://github.com/fvaleye/tracarbon",
-        "category": "environment",
-        "image": "",
-        "title": "fvaleye/tracarbon",
-        "description": "🌍 Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location.",
-        "language": "Python",
-        "stars": 98,
-        "website": "https://fvaleye.github.io/tracarbon/documentation/",
-        "keywords": [
-            "carbon-footprint",
-            "electricity-consumption",
-            "energy",
-            "energy-consumption",
-            "energy-efficiency",
-            "sustainability",
-            "tracarbon",
-            "using",
-            "energy",
-            "consumption",
-            "calculates",
-            "location",
-            "tracks",
-            "device",
-            "emissions",
-            "carbon"
-        ],
-        "last_update": "2024-12-12 13:19:09"
-    },
-    {
-        "repo": "https://github.com/greensoftwarelab/Energy-Languages",
-        "category": "environment",
-        "image": "",
-        "title": "greensoftwarelab/Energy-Languages",
-        "description": "The complete set of tools for energy consumption analysis of programming languages, using Computer Language Benchmark Game",
-        "language": "C",
-        "stars": 694,
+        "stars": 25,
         "website": "",
         "keywords": [
-            "clbg",
-            "energy",
-            "languages",
-            "programming",
-            "using",
-            "energy",
-            "complete",
-            "analysis",
-            "game",
-            "languages",
-            "language",
-            "benchmark",
-            "set",
-            "tools"
+            "charging-profiles",
+            "charging-strategies",
+            "demand",
+            "electric-vehicles-mobility",
+            "ramp-model",
+            "ramp",
+            "electric",
+            "main",
+            "bottom",
+            "application",
+            "engine",
+            "vehicles",
+            "profiles",
+            "novel",
+            "generating"
         ],
-        "last_update": "2024-12-12 13:19:09"
+        "last_update": "2024-12-12 18:47:54"
     },
     {
-        "repo": "https://github.com/OpenModelica/OpenModelica",
+        "repo": "https://github.com/carbonalyser/Carbonalyser",
         "category": "environment",
         "image": "",
-        "title": "OpenModelica/OpenModelica",
-        "description": "OpenModelica is an open-source Modelica-based modeling and simulation environment intended for industrial and academic usage.",
-        "language": "Modelica",
-        "stars": 863,
-        "website": "https://openmodelica.org",
+        "title": "carbonalyser/Carbonalyser",
+        "description": "The add-on \"Carbonalyser\" allows to visualize the electricity consumption and greenhouse gases (GHG) emissions that your Internet browsing leads to.",
+        "language": "JavaScript",
+        "stars": 149,
+        "website": "https://theshiftproject.org/en/carbonalyser-browser-extension/",
         "keywords": [
-            "compiler",
-            "modelica",
-            "simulation",
-            "industrial",
-            "environment",
-            "based",
-            "usage",
-            "modelica",
-            "openmodelica",
-            "academic",
-            "open",
-            "intended"
+            "addon",
+            "carbon-emissions",
+            "chrome-extension",
+            "ecology",
+            "firefox-addon",
+            "leads",
+            "emissions",
+            "carbonalyser",
+            "allows",
+            "greenhouse",
+            "add",
+            "electricity",
+            "internet",
+            "ghg",
+            "gases"
         ],
-        "last_update": "2024-12-12 13:19:09"
+        "last_update": "2024-12-12 18:47:54"
     },
     {
-        "repo": "https://github.com/green-coding-berlin/eco-ci-energy-estimation",
+        "repo": "https://github.com/jawache/principles-green",
         "category": "environment",
         "image": "",
-        "title": "green-coding-berlin/eco-ci-energy-estimation",
-        "description": "Eco CI Energy estimation for Github Actions Runner VMs",
-        "language": "Shell",
-        "stars": 70,
-        "website": "https://metrics.green-coding.io/ci-index.html",
+        "title": "jawache/principles-green",
+        "description": "Website for Principles of Sustainable Software Engineering",
+        "language": "SCSS",
+        "stars": 170,
+        "website": "",
         "keywords": [
+            "software",
+            "website",
+            "principles",
+            "sustainable",
+            "engineering"
+        ],
+        "last_update": "2024-12-12 18:47:55"
+    },
+    {
+        "repo": "https://github.com/thegreenwebfoundation/grid-intensity-go",
+        "category": "environment",
+        "image": "",
+        "title": "thegreenwebfoundation/grid-intensity-go",
+        "description": "A tool written in go to help you factor carbon intensity into decisions about where and when to run computing jobs.",
+        "language": "Go",
+        "stars": 67,
+        "website": "",
+        "keywords": [
+            "jobs",
+            "run",
+            "intensity",
+            "carbon",
+            "tool",
+            "computing",
+            "help",
+            "written",
+            "decisions",
+            "factor"
+        ],
+        "last_update": "2024-12-12 18:47:55"
+    },
+    {
+        "repo": "https://github.com/sb-ai-lab/Eco2AI",
+        "category": "environment",
+        "image": "",
+        "title": "sb-ai-lab/Eco2AI",
+        "description": "eco2AI is a python library which accumulates statistics about power consumption and CO2 emission during running code. ",
+        "language": "Python",
+        "stars": 237,
+        "website": "",
+        "keywords": [
+            "ai",
+            "carbon-emissions",
             "carbon-footprint",
+            "co2-emissions",
+            "co2-monitoring",
+            "deep-learning",
+            "emission-tracker",
+            "energy-consumption",
+            "environment",
+            "esg",
+            "ghg",
+            "machine-learning",
+            "power-consumption-measurement",
+            "python",
+            "sustainability",
+            "accumulates",
+            "code",
+            "power",
+            "library",
+            "running",
+            "statistics",
+            "python",
+            "eco2ai",
+            "co2",
+            "consumption"
+        ],
+        "last_update": "2024-12-12 18:47:55"
+    },
+    {
+        "repo": "https://github.com/ev-map/EVMap",
+        "category": "environment",
+        "image": "",
+        "title": "ev-map/EVMap",
+        "description": "Android app to find electric vehicle charging stations - compatible with community databases such as GoingElectric.de and OpenChargeMap.org.",
+        "language": "Kotlin",
+        "stars": 205,
+        "website": "https://ev-map.app/",
+        "keywords": [
+            "android",
+            "charging-stations",
+            "electric-vehicle",
+            "hacktoberfest",
+            "map",
+            "vehicle",
+            "stations",
+            "find",
+            "compatible",
+            "electric",
+            "android",
+            "community",
+            "org",
+            "openchargemap",
+            "goingelectric"
+        ],
+        "last_update": "2024-12-12 18:47:55"
+    },
+    {
+        "repo": "https://github.com/d-wasserman/Complete_Street_Rule",
+        "category": "environment",
+        "image": "",
+        "title": "d-wasserman/Complete_Street_Rule",
+        "description": "The Complete Street Rule for ArcGIS CityEngine is a scenario oriented design tool intended to enable users to quickly create procedurally generated multimodal streets. ",
+        "language": "Python",
+        "stars": 182,
+        "website": "https://geonet.esri.com/docs/DOC-6915",
+        "keywords": [
+            "arcgis-cityengine",
+            "cga",
+            "cityengine",
+            "complete",
+            "environmental-modelling",
+            "geometry",
+            "procedural-generation",
+            "simulation",
+            "street-configuration",
+            "street-rule",
+            "streets",
+            "transportation",
+            "treatments",
+            "urban-design",
+            "urban-planning",
+            "quickly",
+            "tool",
+            "intended",
+            "complete",
+            "multimodal",
+            "rule",
+            "generated",
+            "enable",
+            "street",
+            "cityengine"
+        ],
+        "last_update": "2024-12-12 18:47:55"
+    },
+    {
+        "repo": "https://github.com/jrester/tesla_powerwall",
+        "category": "environment",
+        "image": "",
+        "title": "jrester/tesla_powerwall",
+        "description": "Python API for Tesla Powerwall",
+        "language": "Python",
+        "stars": 73,
+        "website": "",
+        "keywords": [
+            "api",
+            "battery",
+            "powerwall",
+            "powerwall-api",
+            "powerwall-status",
+            "python",
+            "tesla",
+            "tesla-powerwall",
+            "tesla",
+            "api",
+            "python",
+            "powerwall"
+        ],
+        "last_update": "2024-12-12 18:47:55"
+    },
+    {
+        "repo": "https://github.com/gsoh/VED",
+        "category": "environment",
+        "image": "",
+        "title": "gsoh/VED",
+        "description": "VED (Vehicle Energy Dataset): A Large-scale Dataset for Vehicle Energy Consumption Research. (IEEE Transactions on Intelligent Transportation Systems, 2020)",
+        "language": null,
+        "stars": 93,
+        "website": "",
+        "keywords": [
+            "vehicle",
+            "transportation",
+            "intelligent",
+            "systems",
+            "energy",
+            "ieee",
+            "transactions",
+            "large",
+            "dataset",
+            "scale"
+        ],
+        "last_update": "2024-12-12 18:47:55"
+    },
+    {
+        "repo": "https://github.com/daviddao/green-ai",
+        "category": "environment",
+        "image": "",
+        "title": "daviddao/green-ai",
+        "description": "🌱 The Green AI Standard aims to develop a standard and raise awareness for best environmental practices in AI research and development",
+        "language": null,
+        "stars": 81,
+        "website": "",
+        "keywords": [
+            "development",
+            "raise",
+            "green",
+            "awareness",
+            "environmental",
+            "standard",
+            "best",
+            "develop",
+            "aims",
+            "practices"
+        ],
+        "last_update": "2024-12-12 18:47:55"
+    },
+    {
+        "repo": "https://github.com/mlco2/codecarbon",
+        "category": "environment",
+        "image": "",
+        "title": "mlco2/codecarbon",
+        "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
+        "language": "Python",
+        "stars": 1195,
+        "website": "https://mlco2.github.io/codecarbon",
+        "keywords": [
+            "recommend",
+            "emissions",
+            "compute",
+            "track",
+            "ways",
+            "impact",
+            "environment",
+            "reduce"
+        ],
+        "last_update": "2024-12-12 18:47:56"
+    },
+    {
+        "repo": "https://github.com/Breakend/experiment-impact-tracker",
+        "category": "environment",
+        "image": "",
+        "title": "Breakend/experiment-impact-tracker",
+        "description": null,
+        "language": "Python",
+        "stars": 277,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-12 18:47:56"
+    },
+    {
+        "repo": "https://github.com/voltbras/go-ocpp",
+        "category": "environment",
+        "image": "",
+        "title": "voltbras/go-ocpp",
+        "description": "v1.5 and v1.6 OCPP implementation in Golang",
+        "language": "Go",
+        "stars": 46,
+        "website": "",
+        "keywords": [
+            "charging-stations",
+            "chargingstation",
+            "electric-vehicles",
+            "emobility",
+            "ocpp",
+            "ocpp",
+            "implementation",
+            "golang"
+        ],
+        "last_update": "2024-12-12 18:47:56"
+    },
+    {
+        "repo": "https://github.com/mszell/bikenwgrowth",
+        "category": "environment",
+        "image": "",
+        "title": "mszell/bikenwgrowth",
+        "description": "Source code for the paper \"Growing urban bicycle networks\", exploring algorithmically the limitations of urban bicycle network growth",
+        "language": "Jupyter Notebook",
+        "stars": 70,
+        "website": "https://GrowBike.Net",
+        "keywords": [
+            "bicycle-network",
+            "cycling",
+            "gis",
+            "network-analysis",
+            "openstreetmap",
+            "osmnx",
+            "transportation-network",
+            "urban-data-science",
+            "urban-planning",
+            "growth",
+            "code",
+            "exploring",
+            "urban",
+            "source",
+            "growing",
+            "paper",
+            "bicycle",
+            "algorithmically",
+            "limitations"
+        ],
+        "last_update": "2024-12-12 18:47:56"
+    },
+    {
+        "repo": "https://github.com/MobilityData/gbfs",
+        "category": "environment",
+        "image": "",
+        "title": "MobilityData/gbfs",
+        "description": "Documentation for the General Bikeshare Feed Specification, a standardized data feed for shared mobility system availability.     Maintained by MobilityData",
+        "language": null,
+        "stars": 804,
+        "website": "https://gbfs.org",
+        "keywords": [
+            "bike-share",
+            "bike-sharing",
+            "bikesharing",
+            "carshare",
+            "carsharing",
+            "civic-tech",
+            "gbfs",
+            "gbfs-documentation",
+            "mobility",
+            "mobility-as-a-service",
+            "mobilitydata",
+            "open-data",
+            "scooter-sharing",
+            "shared-mobility",
+            "urban-mobility",
+            "standardized",
+            "mobilitydata",
+            "general",
+            "documentation",
+            "specification",
+            "shared",
+            "maintained",
+            "availability",
+            "data",
+            "system"
+        ],
+        "last_update": "2024-12-12 18:47:56"
+    },
+    {
+        "repo": "https://github.com/dos-group/leaf",
+        "category": "environment",
+        "image": "",
+        "title": "dos-group/leaf",
+        "description": "Simulator for modeling energy consumption in cloud, fog, and edge computing environments 🌱",
+        "language": "Python",
+        "stars": 107,
+        "website": "https://leaf.readthedocs.io",
+        "keywords": [
+            "edge-computing",
+            "energy-consumption",
+            "fog-computing",
+            "modeling",
+            "simulation",
+            "energy",
+            "modeling",
+            "simulator",
+            "computing",
+            "edge",
+            "fog",
+            "cloud",
+            "consumption",
+            "environments"
+        ],
+        "last_update": "2024-12-12 18:47:56"
+    },
+    {
+        "repo": "https://github.com/patch-technology/patch-node",
+        "category": "environment",
+        "image": "",
+        "title": "patch-technology/patch-node",
+        "description": "Patch's Javascript client library - https://www.patch.io",
+        "language": "JavaScript",
+        "stars": 69,
+        "website": "https://www.patch.io",
+        "keywords": [
+            "carbon",
+            "carbon-emissions",
+            "carbon-neutral",
+            "carbon-offsets",
+            "carbon-offsetting",
+            "javascript",
+            "https",
+            "client",
+            "library",
+            "patch",
+            "javascript",
+            "://",
+            "www"
+        ],
+        "last_update": "2024-12-12 18:47:57"
+    },
+    {
+        "repo": "https://github.com/lfwa/carbontracker",
+        "category": "environment",
+        "image": "",
+        "title": "lfwa/carbontracker",
+        "description": "Track and predict the energy consumption and carbon footprint of training deep learning models.",
+        "language": "Python",
+        "stars": 405,
+        "website": "",
+        "keywords": [
+            "predict",
+            "training",
+            "carbon",
+            "energy",
+            "footprint",
+            "models",
+            "learning",
+            "track",
+            "consumption",
+            "deep"
+        ],
+        "last_update": "2024-12-12 18:47:57"
+    },
+    {
+        "repo": "https://github.com/Organic-Basics/ob-low-impact-website",
+        "category": "environment",
+        "image": "",
+        "title": "Organic-Basics/ob-low-impact-website",
+        "description": "The Low Impact version of the Organic Basics website",
+        "language": "Vue",
+        "stars": 226,
+        "website": "https://lowimpact.organicbasics.com",
+        "keywords": [
+            "climate",
+            "co2",
+            "nuxtjs",
+            "shopify",
+            "sustainability",
+            "website",
+            "organic",
+            "version",
+            "low",
+            "basics",
+            "impact"
+        ],
+        "last_update": "2024-12-12 18:47:57"
+    },
+    {
+        "repo": "https://github.com/responsibleproblemsolving/energy-usage",
+        "category": "environment",
+        "image": "",
+        "title": "responsibleproblemsolving/energy-usage",
+        "description": "Provides a function to measure the energy usage of another function.",
+        "language": "Python",
+        "stars": 154,
+        "website": "",
+        "keywords": [
+            "energy",
+            "another",
+            "usage",
+            "measure",
+            "function",
+            "provides"
+        ],
+        "last_update": "2024-12-12 18:47:57"
+    },
+    {
+        "repo": "https://github.com/chargeprice/open-ev-data",
+        "category": "environment",
+        "image": "",
+        "title": "chargeprice/open-ev-data",
+        "description": "Previously Open Dataset of Electric Vehicle specs. Now part of the Chargeprice API!",
+        "language": null,
+        "stars": 76,
+        "website": "",
+        "keywords": [
+            "open",
+            "vehicle",
+            "part",
+            "api",
+            "electric",
+            "dataset",
+            "chargeprice",
+            "previously",
+            "specs"
+        ],
+        "last_update": "2024-12-12 18:47:57"
+    },
+    {
+        "repo": "https://github.com/andmos/BikeshareClient",
+        "category": "environment",
+        "image": "",
+        "title": "andmos/BikeshareClient",
+        "description": "C# client for General Bikeshare Feed Specification (GBFS)",
+        "language": "C#",
+        "stars": 5,
+        "website": "",
+        "keywords": [
+            "bikeshare",
+            "bikeshare-systems",
+            "gbfs",
+            "netstandard",
+            "client",
+            "gbfs",
+            "general",
+            "specification",
+            "feed",
+            "bikeshare"
+        ],
+        "last_update": "2024-12-12 18:47:57"
+    },
+    {
+        "repo": "https://github.com/Green-Software-Foundation/sci",
+        "category": "environment",
+        "image": "",
+        "title": "Green-Software-Foundation/sci",
+        "description": "A specification that describes how to calculate a carbon intensity for software applications.",
+        "language": "HTML",
+        "stars": 267,
+        "website": "",
+        "keywords": [
+            "software",
+            "intensity",
+            "carbon",
+            "specification",
+            "describes",
+            "calculate",
+            "applications"
+        ],
+        "last_update": "2024-12-12 18:47:57"
+    },
+    {
+        "repo": "https://github.com/cloud-carbon-footprint/cloud-carbon-footprint",
+        "category": "environment",
+        "image": "",
+        "title": "cloud-carbon-footprint/cloud-carbon-footprint",
+        "description": "Cloud Carbon Footprint is a tool to estimate energy use (kilowatt-hours) and carbon emissions (metric tons CO2e) from public cloud usage",
+        "language": "TypeScript",
+        "stars": 927,
+        "website": "https://cloudcarbonfootprint.org",
+        "keywords": [
+            "carbon-emissions",
+            "carbon-footprint",
+            "climate",
+            "cloud",
+            "hacktoberfest",
+            "sustainability",
+            "thoughtworks",
+            "kilowatt",
+            "carbon",
+            "public",
+            "emissions",
+            "energy",
+            "tool",
+            "use",
+            "estimate",
+            "footprint",
+            "usage"
+        ],
+        "last_update": "2024-12-12 18:47:58"
+    },
+    {
+        "repo": "https://github.com/powerapi-ng/pyJoules",
+        "category": "environment",
+        "image": "",
+        "title": "powerapi-ng/pyJoules",
+        "description": "A Python library to capture the energy consumption of code snippets",
+        "language": "Python",
+        "stars": 74,
+        "website": "",
+        "keywords": [
+            "energy",
+            "energy-consumption",
+            "intel-rapl",
+            "power",
+            "python",
+            "rapl",
+            "capture",
+            "code",
+            "library",
+            "energy",
+            "snippets",
+            "python",
+            "consumption"
+        ],
+        "last_update": "2024-12-12 18:47:58"
+    },
+    {
+        "repo": "https://github.com/GoogleCloudPlatform/region-carbon-info",
+        "category": "environment",
+        "image": "",
+        "title": "GoogleCloudPlatform/region-carbon-info",
+        "description": "Carbon characteristics of Google Cloud regions",
+        "language": null,
+        "stars": 75,
+        "website": "",
+        "keywords": [
+            "carbon-emissions",
+            "carbon-free",
+            "google-cloud",
+            "carbon",
+            "characteristics",
+            "regions",
+            "google",
+            "cloud"
+        ],
+        "last_update": "2024-12-12 18:47:58"
+    },
+    {
+        "repo": "https://github.com/thegreenwebfoundation/co2.js",
+        "category": "environment",
+        "image": "",
+        "title": "thegreenwebfoundation/co2.js",
+        "description": "An npm module for accessing the green web API, and estimating the carbon emissions from using digital services",
+        "language": "JavaScript",
+        "stars": 430,
+        "website": "https://developers.thegreenwebfoundation.org/",
+        "keywords": [
+            "carbon-estimates",
+            "co2",
+            "co2-emissions",
+            "hacktoberfest",
+            "non-profit",
+            "open-source",
+            "sustainability",
+            "estimating",
+            "accessing",
+            "carbon",
+            "emissions",
+            "using",
+            "api",
+            "web",
+            "green",
+            "services",
+            "digital"
+        ],
+        "last_update": "2024-12-12 18:47:58"
+    },
+    {
+        "repo": "https://github.com/Boavizta/environmental-footprint-data",
+        "category": "environment",
+        "image": "",
+        "title": "Boavizta/environmental-footprint-data",
+        "description": "💾 Boavizta.org Data repository",
+        "language": "Python",
+        "stars": 118,
+        "website": "",
+        "keywords": [
+            "carbon-emissions",
+            "carbon-footprint",
+            "digital-sustainability",
+            "environment",
+            "footprint",
+            "ghg-emissions",
+            "sustainability",
+            "boavizta",
+            "repository",
+            "data",
+            "org"
+        ],
+        "last_update": "2024-12-12 18:47:58"
+    },
+    {
+        "repo": "https://github.com/kylemcdonald/ethereum-nft-activity",
+        "category": "environment",
+        "image": "",
+        "title": "kylemcdonald/ethereum-nft-activity",
+        "description": "Estimate the total emissions for popular CryptoArt platforms.",
+        "language": "Jupyter Notebook",
+        "stars": 187,
+        "website": "",
+        "keywords": [
+            "climate",
+            "cryptoart",
+            "ethereum",
+            "popular",
+            "emissions",
+            "cryptoart",
+            "platforms",
+            "estimate",
+            "total"
+        ],
+        "last_update": "2024-12-12 18:47:58"
+    },
+    {
+        "repo": "https://github.com/kube-green/kube-green",
+        "category": "environment",
+        "image": "",
+        "title": "kube-green/kube-green",
+        "description": "A K8s operator to reduce CO2 footprint of your clusters",
+        "language": "Go",
+        "stars": 1084,
+        "website": "https://kube-green.dev",
+        "keywords": [
+            "climate-change",
+            "cloud-native",
+            "downscale",
+            "green-software",
+            "hacktoberfest",
+            "k8s",
+            "kubernetes",
+            "resources",
+            "clusters",
+            "footprint",
+            "operator",
+            "k8s",
+            "co2",
+            "reduce"
+        ],
+        "last_update": "2024-12-12 18:47:58"
+    },
+    {
+        "repo": "https://github.com/sustainable-computing-io/kepler",
+        "category": "environment",
+        "image": "",
+        "title": "sustainable-computing-io/kepler",
+        "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe performance counters and other system stats, use ML models to estimate workload energy consumption based on these stats, and exports them as Prometheus metrics",
+        "language": "Go",
+        "stars": 1196,
+        "website": "https://sustainable-computing.io",
+        "keywords": [
+            "cloud-native",
+            "ebpf",
+            "energy-consumption",
+            "energy-efficiency",
+            "energy-monitor",
+            "kubernetes",
+            "machine-learning",
+            "prometheus",
+            "prometheus-exporter",
+            "sustainability",
+            "power",
+            "energy",
+            "performance",
+            "based",
+            "stats",
+            "uses",
+            "probe",
+            "consumption",
+            "models",
+            "level"
+        ],
+        "last_update": "2024-12-12 18:47:59"
+    },
+    {
+        "repo": "https://github.com/green-coding-berlin/green-metrics-tool",
+        "category": "environment",
+        "image": "",
+        "title": "green-coding-berlin/green-metrics-tool",
+        "description": "Measure energy and carbon consumption of software ",
+        "language": "Python",
+        "stars": 180,
+        "website": "https://metrics.green-coding.io",
+        "keywords": [
+            "carbon-emissions",
+            "carbon-footprint",
+            "carbon-measurement",
             "climate-change",
             "co2-emissions",
-            "energy-consumption",
+            "co2-footprint",
+            "co2-measurement",
             "green-coding",
             "green-computing",
             "green-software",
             "metrics",
             "power-consumption",
+            "power-consumption-measurement",
             "sustainability",
             "sustainable-software",
-            "eco",
+            "software",
+            "carbon",
             "energy",
-            "github",
-            "vms",
-            "actions",
-            "estimation",
-            "runner"
+            "measure",
+            "consumption"
         ],
-        "last_update": "2024-12-12 13:19:10"
+        "last_update": "2024-12-12 18:47:59"
     },
     {
-        "repo": "https://github.com/ipeaGIT/accessibility",
+        "repo": "https://github.com/SAP-samples/btp-ai-sustainability-bootcamp",
         "category": "environment",
         "image": "",
-        "title": "ipeaGIT/accessibility",
-        "description": "Calculate accessibility measures in R",
-        "language": "R",
-        "stars": 54,
-        "website": "https://ipeagit.github.io/accessibility/",
+        "title": "SAP-samples/btp-ai-sustainability-bootcamp",
+        "description": "This github repository contains the sample code and exercises of btp-ai-sustainability-bootcamp, which showcases how to build Intelligence and Sustainability into Your Solutions on SAP Business Technology Platform with SAP AI Core and SAP Analytics Cloud for Planning. ",
+        "language": "Jupyter Notebook",
+        "stars": 44,
+        "website": "https://blogs.sap.com/2022/05/19/building-intelligent-scenarios-and-sustainability-on-sap-btp/",
         "keywords": [
-            "accessibility",
-            "r",
-            "transport",
-            "transport-accessibility",
-            "measures",
-            "calculate",
-            "accessibility"
+            "computer-vision",
+            "condition-monitoring",
+            "deep-learning",
+            "defect-detection",
+            "image-segmentation",
+            "machine-learning",
+            "predictive-maintenance",
+            "sac-planning",
+            "sample",
+            "sample-code",
+            "sap-ai-core",
+            "sap-ai-launchpad",
+            "sap-analytics-cloud",
+            "sound-classification",
+            "sustainability",
+            "repository",
+            "sample",
+            "planning",
+            "solutions",
+            "core",
+            "sap",
+            "btp",
+            "intelligence",
+            "build",
+            "technology"
         ],
-        "last_update": "2024-12-12 13:19:10"
+        "last_update": "2024-12-12 18:47:59"
     },
     {
-        "repo": "https://github.com/mcsc-impact-climate/FAF5-Analysis",
+        "repo": "https://github.com/ORNL-AMO/AMO-Tools-Desktop",
         "category": "environment",
         "image": "",
-        "title": "mcsc-impact-climate/FAF5-Analysis",
-        "description": "Source code for the MCSC interactive geospatial tool for fleet transition planning and decision support",
+        "title": "ORNL-AMO/AMO-Tools-Desktop",
+        "description": "AMO-Tools-Desktop is an energy efficiency calculation application for use with industrial equipment such as pumps, furnaces, fans, and motors, as well as for industrial systems such as steam.",
+        "language": "TypeScript",
+        "stars": 39,
+        "website": "https://measur.ornl.gov/",
+        "keywords": [
+            "energy",
+            "energy-assessment",
+            "energy-efficiency",
+            "factory",
+            "furnace",
+            "industrial",
+            "measur",
+            "modeling",
+            "modeling-tool",
+            "plants",
+            "pump",
+            "steam",
+            "tools",
+            "equipment",
+            "desktop",
+            "systems",
+            "energy",
+            "fans",
+            "use",
+            "steam",
+            "application",
+            "calculation"
+        ],
+        "last_update": "2024-12-12 18:47:59"
+    },
+    {
+        "repo": "https://github.com/NREL/Industry-Energy-Tool",
+        "category": "environment",
+        "image": "",
+        "title": "NREL/Industry-Energy-Tool",
+        "description": "Industry-Energy-Tool-(IET)",
         "language": "Python",
-        "stars": 2,
-        "website": "https://climatedata.mit.edu/faf5/transportation/",
+        "stars": 17,
+        "website": "",
         "keywords": [
-            "biofuels",
-            "decarbonization",
-            "decision-support",
-            "electrification",
-            "geospatial",
-            "hydrogen",
-            "trucking",
-            "source",
-            "support",
-            "geospatial",
+            "energy",
+            "iet",
             "tool",
-            "transition",
-            "fleet",
-            "decision",
-            "code",
-            "mcsc",
-            "interactive"
+            "industry"
         ],
-        "last_update": "2024-12-12 13:19:10"
+        "last_update": "2024-12-12 18:47:59"
     },
     {
         "repo": "https://github.com/sosy-lab/cpu-energy-meter",
@@ -854,14 +1074,14 @@
             "linux",
             "rapl",
             "resource-measurement",
-            "measuring",
-            "energy",
             "tool",
             "intel",
-            "consumption",
-            "cpus"
+            "energy",
+            "cpus",
+            "measuring",
+            "consumption"
         ],
-        "last_update": "2024-12-12 13:19:11"
+        "last_update": "2024-12-12 18:47:59"
     },
     {
         "repo": "https://github.com/powerapi-ng/powerapi",
@@ -879,16 +1099,16 @@
             "inria",
             "power-meter",
             "python",
+            "powerapi",
+            "software",
+            "power",
+            "framework",
+            "building",
             "defined",
             "python",
-            "powerapi",
-            "building",
-            "framework",
-            "meters",
-            "software",
-            "power"
+            "meters"
         ],
-        "last_update": "2024-12-12 13:19:11"
+        "last_update": "2024-12-12 18:48:00"
     },
     {
         "repo": "https://github.com/marmelab/greenframe-cli",
@@ -901,15 +1121,15 @@
         "website": "https://greenframe.io",
         "keywords": [
             "green-software",
-            "application",
-            "estimate",
-            "web",
-            "user",
-            "footprint",
             "scenario",
-            "carbon"
+            "carbon",
+            "footprint",
+            "web",
+            "estimate",
+            "application",
+            "user"
         ],
-        "last_update": "2024-12-12 13:19:11"
+        "last_update": "2024-12-12 18:48:00"
     },
     {
         "repo": "https://github.com/hubblo-org/scaphandre",
@@ -941,1079 +1161,859 @@
             "virtual-machines",
             "wattmeter",
             "watts",
-            "scaph",
-            "systems",
-            "bring",
-            "energy",
-            "let",
-            "help",
+            "metrology",
             "agent",
-            "sustainable",
+            "make",
+            "systems",
+            "energy",
+            "dive",
+            "back",
+            "let",
             "metrics",
-            "dive"
+            "sustainable"
         ],
-        "last_update": "2024-12-12 13:19:11"
+        "last_update": "2024-12-12 18:48:00"
     },
     {
-        "repo": "https://github.com/green-coding-berlin/green-metrics-tool",
+        "repo": "https://github.com/green-coding-berlin/eco-ci-energy-estimation",
         "category": "environment",
         "image": "",
-        "title": "green-coding-berlin/green-metrics-tool",
-        "description": "Measure energy and carbon consumption of software ",
-        "language": "Python",
-        "stars": 180,
-        "website": "https://metrics.green-coding.io",
+        "title": "green-coding-berlin/eco-ci-energy-estimation",
+        "description": "Eco CI Energy estimation for Github Actions Runner VMs",
+        "language": "Shell",
+        "stars": 70,
+        "website": "https://metrics.green-coding.io/ci-index.html",
         "keywords": [
-            "carbon-emissions",
             "carbon-footprint",
-            "carbon-measurement",
             "climate-change",
             "co2-emissions",
-            "co2-footprint",
-            "co2-measurement",
+            "energy-consumption",
             "green-coding",
             "green-computing",
             "green-software",
             "metrics",
             "power-consumption",
-            "power-consumption-measurement",
             "sustainability",
             "sustainable-software",
-            "measure",
+            "vms",
             "energy",
-            "software",
-            "consumption",
-            "carbon"
+            "actions",
+            "estimation",
+            "eco",
+            "runner",
+            "github"
         ],
-        "last_update": "2024-12-12 13:19:12"
+        "last_update": "2024-12-12 18:48:00"
     },
     {
-        "repo": "https://github.com/SAP-samples/btp-ai-sustainability-bootcamp",
+        "repo": "https://github.com/ipeaGIT/accessibility",
         "category": "environment",
         "image": "",
-        "title": "SAP-samples/btp-ai-sustainability-bootcamp",
-        "description": "This github repository contains the sample code and exercises of btp-ai-sustainability-bootcamp, which showcases how to build Intelligence and Sustainability into Your Solutions on SAP Business Technology Platform with SAP AI Core and SAP Analytics Cloud for Planning. ",
-        "language": "Jupyter Notebook",
-        "stars": 44,
-        "website": "https://blogs.sap.com/2022/05/19/building-intelligent-scenarios-and-sustainability-on-sap-btp/",
-        "keywords": [
-            "computer-vision",
-            "condition-monitoring",
-            "deep-learning",
-            "defect-detection",
-            "image-segmentation",
-            "machine-learning",
-            "predictive-maintenance",
-            "sac-planning",
-            "sample",
-            "sample-code",
-            "sap-ai-core",
-            "sap-ai-launchpad",
-            "sap-analytics-cloud",
-            "sound-classification",
-            "sustainability",
-            "planning",
-            "build",
-            "github",
-            "core",
-            "solutions",
-            "cloud",
-            "intelligence",
-            "code",
-            "platform",
-            "contains"
-        ],
-        "last_update": "2024-12-12 13:19:12"
-    },
-    {
-        "repo": "https://github.com/ORNL-AMO/AMO-Tools-Desktop",
-        "category": "environment",
-        "image": "",
-        "title": "ORNL-AMO/AMO-Tools-Desktop",
-        "description": "AMO-Tools-Desktop is an energy efficiency calculation application for use with industrial equipment such as pumps, furnaces, fans, and motors, as well as for industrial systems such as steam.",
-        "language": "TypeScript",
-        "stars": 39,
-        "website": "https://measur.ornl.gov/",
-        "keywords": [
-            "energy",
-            "energy-assessment",
-            "energy-efficiency",
-            "factory",
-            "furnace",
-            "industrial",
-            "measur",
-            "modeling",
-            "modeling-tool",
-            "plants",
-            "pump",
-            "steam",
-            "application",
-            "industrial",
-            "steam",
-            "pumps",
-            "energy",
-            "use",
-            "efficiency",
-            "motors",
-            "furnaces",
-            "amo"
-        ],
-        "last_update": "2024-12-12 13:19:12"
-    },
-    {
-        "repo": "https://github.com/NREL/Industry-Energy-Tool",
-        "category": "environment",
-        "image": "",
-        "title": "NREL/Industry-Energy-Tool",
-        "description": "Industry-Energy-Tool-(IET)",
-        "language": "Python",
-        "stars": 17,
-        "website": "",
-        "keywords": [
-            "industry",
-            "energy",
-            "tool",
-            "iet"
-        ],
-        "last_update": "2024-12-12 13:19:12"
-    },
-    {
-        "repo": "https://github.com/thegreenwebfoundation/co2.js",
-        "category": "environment",
-        "image": "",
-        "title": "thegreenwebfoundation/co2.js",
-        "description": "An npm module for accessing the green web API, and estimating the carbon emissions from using digital services",
-        "language": "JavaScript",
-        "stars": 430,
-        "website": "https://developers.thegreenwebfoundation.org/",
-        "keywords": [
-            "carbon-estimates",
-            "co2",
-            "co2-emissions",
-            "hacktoberfest",
-            "non-profit",
-            "open-source",
-            "sustainability",
-            "carbon",
-            "services",
-            "digital",
-            "using",
-            "web",
-            "module",
-            "green",
-            "accessing",
-            "estimating",
-            "npm"
-        ],
-        "last_update": "2024-12-12 13:19:13"
-    },
-    {
-        "repo": "https://github.com/Boavizta/environmental-footprint-data",
-        "category": "environment",
-        "image": "",
-        "title": "Boavizta/environmental-footprint-data",
-        "description": "💾 Boavizta.org Data repository",
-        "language": "Python",
-        "stars": 118,
-        "website": "",
-        "keywords": [
-            "carbon-emissions",
-            "carbon-footprint",
-            "digital-sustainability",
-            "environment",
-            "footprint",
-            "ghg-emissions",
-            "sustainability",
-            "boavizta",
-            "data",
-            "org",
-            "repository"
-        ],
-        "last_update": "2024-12-12 13:19:13"
-    },
-    {
-        "repo": "https://github.com/kylemcdonald/ethereum-nft-activity",
-        "category": "environment",
-        "image": "",
-        "title": "kylemcdonald/ethereum-nft-activity",
-        "description": "Estimate the total emissions for popular CryptoArt platforms.",
-        "language": "Jupyter Notebook",
-        "stars": 187,
-        "website": "",
-        "keywords": [
-            "climate",
-            "cryptoart",
-            "ethereum",
-            "estimate",
-            "popular",
-            "cryptoart",
-            "total",
-            "emissions",
-            "platforms"
-        ],
-        "last_update": "2024-12-12 13:19:13"
-    },
-    {
-        "repo": "https://github.com/kube-green/kube-green",
-        "category": "environment",
-        "image": "",
-        "title": "kube-green/kube-green",
-        "description": "A K8s operator to reduce CO2 footprint of your clusters",
-        "language": "Go",
-        "stars": 1084,
-        "website": "https://kube-green.dev",
-        "keywords": [
-            "climate-change",
-            "cloud-native",
-            "downscale",
-            "green-software",
-            "hacktoberfest",
-            "k8s",
-            "kubernetes",
-            "resources",
-            "k8s",
-            "co2",
-            "operator",
-            "footprint",
-            "clusters",
-            "reduce"
-        ],
-        "last_update": "2024-12-12 13:19:13"
-    },
-    {
-        "repo": "https://github.com/sustainable-computing-io/kepler",
-        "category": "environment",
-        "image": "",
-        "title": "sustainable-computing-io/kepler",
-        "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe performance counters and other system stats, use ML models to estimate workload energy consumption based on these stats, and exports them as Prometheus metrics",
-        "language": "Go",
-        "stars": 1196,
-        "website": "https://sustainable-computing.io",
-        "keywords": [
-            "cloud-native",
-            "ebpf",
-            "energy-consumption",
-            "energy-efficiency",
-            "energy-monitor",
-            "kubernetes",
-            "machine-learning",
-            "prometheus",
-            "prometheus-exporter",
-            "sustainability",
-            "workload",
-            "exporter",
-            "estimate",
-            "exports",
-            "level",
-            "system",
-            "counters",
-            "models",
-            "use",
-            "prometheus"
-        ],
-        "last_update": "2024-12-12 13:19:13"
-    },
-    {
-        "repo": "https://github.com/Green-Software-Foundation/sci",
-        "category": "environment",
-        "image": "",
-        "title": "Green-Software-Foundation/sci",
-        "description": "A specification that describes how to calculate a carbon intensity for software applications.",
-        "language": "HTML",
-        "stars": 267,
-        "website": "",
-        "keywords": [
-            "calculate",
-            "specification",
-            "applications",
-            "intensity",
-            "software",
-            "describes",
-            "carbon"
-        ],
-        "last_update": "2024-12-12 13:19:14"
-    },
-    {
-        "repo": "https://github.com/cloud-carbon-footprint/cloud-carbon-footprint",
-        "category": "environment",
-        "image": "",
-        "title": "cloud-carbon-footprint/cloud-carbon-footprint",
-        "description": "Cloud Carbon Footprint is a tool to estimate energy use (kilowatt-hours) and carbon emissions (metric tons CO2e) from public cloud usage",
-        "language": "TypeScript",
-        "stars": 927,
-        "website": "https://cloudcarbonfootprint.org",
-        "keywords": [
-            "carbon-emissions",
-            "carbon-footprint",
-            "climate",
-            "cloud",
-            "hacktoberfest",
-            "sustainability",
-            "thoughtworks",
-            "carbon",
-            "estimate",
-            "energy",
-            "use",
-            "tool",
-            "kilowatt",
-            "usage",
-            "public",
-            "metric",
-            "footprint"
-        ],
-        "last_update": "2024-12-12 13:19:14"
-    },
-    {
-        "repo": "https://github.com/powerapi-ng/pyJoules",
-        "category": "environment",
-        "image": "",
-        "title": "powerapi-ng/pyJoules",
-        "description": "A Python library to capture the energy consumption of code snippets",
-        "language": "Python",
-        "stars": 74,
-        "website": "",
-        "keywords": [
-            "energy",
-            "energy-consumption",
-            "intel-rapl",
-            "power",
-            "python",
-            "rapl",
-            "python",
-            "energy",
-            "library",
-            "snippets",
-            "code",
-            "consumption",
-            "capture"
-        ],
-        "last_update": "2024-12-12 13:19:14"
-    },
-    {
-        "repo": "https://github.com/GoogleCloudPlatform/region-carbon-info",
-        "category": "environment",
-        "image": "",
-        "title": "GoogleCloudPlatform/region-carbon-info",
-        "description": "Carbon characteristics of Google Cloud regions",
-        "language": null,
-        "stars": 75,
-        "website": "",
-        "keywords": [
-            "carbon-emissions",
-            "carbon-free",
-            "google-cloud",
-            "cloud",
-            "regions",
-            "characteristics",
-            "google",
-            "carbon"
-        ],
-        "last_update": "2024-12-12 13:19:14"
-    },
-    {
-        "repo": "https://github.com/Organic-Basics/ob-low-impact-website",
-        "category": "environment",
-        "image": "",
-        "title": "Organic-Basics/ob-low-impact-website",
-        "description": "The Low Impact version of the Organic Basics website",
-        "language": "Vue",
-        "stars": 226,
-        "website": "https://lowimpact.organicbasics.com",
-        "keywords": [
-            "climate",
-            "co2",
-            "nuxtjs",
-            "shopify",
-            "sustainability",
-            "basics",
-            "low",
-            "version",
-            "organic",
-            "website",
-            "impact"
-        ],
-        "last_update": "2024-12-12 13:19:15"
-    },
-    {
-        "repo": "https://github.com/responsibleproblemsolving/energy-usage",
-        "category": "environment",
-        "image": "",
-        "title": "responsibleproblemsolving/energy-usage",
-        "description": "Provides a function to measure the energy usage of another function.",
-        "language": "Python",
-        "stars": 154,
-        "website": "",
-        "keywords": [
-            "measure",
-            "energy",
-            "usage",
-            "another",
-            "provides",
-            "function"
-        ],
-        "last_update": "2024-12-12 13:19:15"
-    },
-    {
-        "repo": "https://github.com/chargeprice/open-ev-data",
-        "category": "environment",
-        "image": "",
-        "title": "chargeprice/open-ev-data",
-        "description": "Previously Open Dataset of Electric Vehicle specs. Now part of the Chargeprice API!",
-        "language": null,
-        "stars": 76,
-        "website": "",
-        "keywords": [
-            "dataset",
-            "vehicle",
-            "chargeprice",
-            "previously",
-            "open",
-            "part",
-            "electric",
-            "specs",
-            "api"
-        ],
-        "last_update": "2024-12-12 13:19:15"
-    },
-    {
-        "repo": "https://github.com/andmos/BikeshareClient",
-        "category": "environment",
-        "image": "",
-        "title": "andmos/BikeshareClient",
-        "description": "C# client for General Bikeshare Feed Specification (GBFS)",
-        "language": "C#",
-        "stars": 5,
-        "website": "",
-        "keywords": [
-            "bikeshare",
-            "bikeshare-systems",
-            "gbfs",
-            "netstandard",
-            "client",
-            "general",
-            "gbfs",
-            "specification",
-            "feed",
-            "bikeshare"
-        ],
-        "last_update": "2024-12-12 13:19:15"
-    },
-    {
-        "repo": "https://github.com/mszell/bikenwgrowth",
-        "category": "environment",
-        "image": "",
-        "title": "mszell/bikenwgrowth",
-        "description": "Source code for the paper \"Growing urban bicycle networks\", exploring algorithmically the limitations of urban bicycle network growth",
-        "language": "Jupyter Notebook",
-        "stars": 70,
-        "website": "https://GrowBike.Net",
-        "keywords": [
-            "bicycle-network",
-            "cycling",
-            "gis",
-            "network-analysis",
-            "openstreetmap",
-            "osmnx",
-            "transportation-network",
-            "urban-data-science",
-            "urban-planning",
-            "source",
-            "growth",
-            "algorithmically",
-            "network",
-            "paper",
-            "urban",
-            "networks",
-            "exploring",
-            "bicycle",
-            "code"
-        ],
-        "last_update": "2024-12-12 13:19:16"
-    },
-    {
-        "repo": "https://github.com/MobilityData/gbfs",
-        "category": "environment",
-        "image": "",
-        "title": "MobilityData/gbfs",
-        "description": "Documentation for the General Bikeshare Feed Specification, a standardized data feed for shared mobility system availability.     Maintained by MobilityData",
-        "language": null,
-        "stars": 804,
-        "website": "https://gbfs.org",
-        "keywords": [
-            "bike-share",
-            "bike-sharing",
-            "bikesharing",
-            "carshare",
-            "carsharing",
-            "civic-tech",
-            "gbfs",
-            "gbfs-documentation",
-            "mobility",
-            "mobility-as-a-service",
-            "mobilitydata",
-            "open-data",
-            "scooter-sharing",
-            "shared-mobility",
-            "urban-mobility",
-            "mobilitydata",
-            "documentation",
-            "shared",
-            "mobility",
-            "general",
-            "standardized",
-            "specification",
-            "data",
-            "feed",
-            "bikeshare"
-        ],
-        "last_update": "2024-12-12 13:19:16"
-    },
-    {
-        "repo": "https://github.com/dos-group/leaf",
-        "category": "environment",
-        "image": "",
-        "title": "dos-group/leaf",
-        "description": "Simulator for modeling energy consumption in cloud, fog, and edge computing environments 🌱",
-        "language": "Python",
-        "stars": 107,
-        "website": "https://leaf.readthedocs.io",
-        "keywords": [
-            "edge-computing",
-            "energy-consumption",
-            "fog-computing",
-            "modeling",
-            "simulation",
-            "energy",
-            "edge",
-            "environments",
-            "computing",
-            "fog",
-            "cloud",
-            "simulator",
-            "consumption",
-            "modeling"
-        ],
-        "last_update": "2024-12-12 13:19:16"
-    },
-    {
-        "repo": "https://github.com/patch-technology/patch-node",
-        "category": "environment",
-        "image": "",
-        "title": "patch-technology/patch-node",
-        "description": "Patch's Javascript client library - https://www.patch.io",
-        "language": "JavaScript",
-        "stars": 69,
-        "website": "https://www.patch.io",
-        "keywords": [
-            "carbon",
-            "carbon-emissions",
-            "carbon-neutral",
-            "carbon-offsets",
-            "carbon-offsetting",
-            "javascript",
-            "://",
-            "client",
-            "library",
-            "https",
-            "www",
-            "patch",
-            "javascript"
-        ],
-        "last_update": "2024-12-12 13:19:16"
-    },
-    {
-        "repo": "https://github.com/lfwa/carbontracker",
-        "category": "environment",
-        "image": "",
-        "title": "lfwa/carbontracker",
-        "description": "Track and predict the energy consumption and carbon footprint of training deep learning models.",
-        "language": "Python",
-        "stars": 405,
-        "website": "",
-        "keywords": [
-            "track",
-            "predict",
-            "energy",
-            "models",
-            "footprint",
-            "learning",
-            "deep",
-            "consumption",
-            "training",
-            "carbon"
-        ],
-        "last_update": "2024-12-12 13:19:16"
-    },
-    {
-        "repo": "https://github.com/daviddao/green-ai",
-        "category": "environment",
-        "image": "",
-        "title": "daviddao/green-ai",
-        "description": "🌱 The Green AI Standard aims to develop a standard and raise awareness for best environmental practices in AI research and development",
-        "language": null,
-        "stars": 81,
-        "website": "",
-        "keywords": [
-            "environmental",
-            "development",
-            "standard",
-            "green",
-            "research",
-            "raise",
-            "practices",
-            "awareness",
-            "aims",
-            "best"
-        ],
-        "last_update": "2024-12-12 13:19:17"
-    },
-    {
-        "repo": "https://github.com/mlco2/codecarbon",
-        "category": "environment",
-        "image": "",
-        "title": "mlco2/codecarbon",
-        "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
-        "language": "Python",
-        "stars": 1195,
-        "website": "https://mlco2.github.io/codecarbon",
-        "keywords": [
-            "track",
-            "environment",
-            "compute",
-            "ways",
-            "reduce",
-            "emissions",
-            "impact",
-            "recommend"
-        ],
-        "last_update": "2024-12-12 13:19:17"
-    },
-    {
-        "repo": "https://github.com/Breakend/experiment-impact-tracker",
-        "category": "environment",
-        "image": "",
-        "title": "Breakend/experiment-impact-tracker",
-        "description": null,
-        "language": "Python",
-        "stars": 277,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-12 13:19:17"
-    },
-    {
-        "repo": "https://github.com/voltbras/go-ocpp",
-        "category": "environment",
-        "image": "",
-        "title": "voltbras/go-ocpp",
-        "description": "v1.5 and v1.6 OCPP implementation in Golang",
-        "language": "Go",
-        "stars": 46,
-        "website": "",
-        "keywords": [
-            "charging-stations",
-            "chargingstation",
-            "electric-vehicles",
-            "emobility",
-            "ocpp",
-            "golang",
-            "ocpp",
-            "implementation"
-        ],
-        "last_update": "2024-12-12 13:19:17"
-    },
-    {
-        "repo": "https://github.com/ev-map/EVMap",
-        "category": "environment",
-        "image": "",
-        "title": "ev-map/EVMap",
-        "description": "Android app to find electric vehicle charging stations - compatible with community databases such as GoingElectric.de and OpenChargeMap.org.",
-        "language": "Kotlin",
-        "stars": 205,
-        "website": "https://ev-map.app/",
-        "keywords": [
-            "android",
-            "charging-stations",
-            "electric-vehicle",
-            "hacktoberfest",
-            "map",
-            "goingelectric",
-            "databases",
-            "find",
-            "vehicle",
-            "openchargemap",
-            "android",
-            "charging",
-            "compatible",
-            "community",
-            "org"
-        ],
-        "last_update": "2024-12-12 13:19:18"
-    },
-    {
-        "repo": "https://github.com/d-wasserman/Complete_Street_Rule",
-        "category": "environment",
-        "image": "",
-        "title": "d-wasserman/Complete_Street_Rule",
-        "description": "The Complete Street Rule for ArcGIS CityEngine is a scenario oriented design tool intended to enable users to quickly create procedurally generated multimodal streets. ",
-        "language": "Python",
-        "stars": 182,
-        "website": "https://geonet.esri.com/docs/DOC-6915",
-        "keywords": [
-            "arcgis-cityengine",
-            "cga",
-            "cityengine",
-            "complete",
-            "environmental-modelling",
-            "geometry",
-            "procedural-generation",
-            "simulation",
-            "street-configuration",
-            "street-rule",
-            "streets",
-            "transportation",
-            "treatments",
-            "urban-design",
-            "urban-planning",
-            "streets",
-            "generated",
-            "create",
-            "tool",
-            "complete",
-            "users",
-            "multimodal",
-            "cityengine",
-            "procedurally",
-            "rule"
-        ],
-        "last_update": "2024-12-12 13:19:18"
-    },
-    {
-        "repo": "https://github.com/jrester/tesla_powerwall",
-        "category": "environment",
-        "image": "",
-        "title": "jrester/tesla_powerwall",
-        "description": "Python API for Tesla Powerwall",
-        "language": "Python",
-        "stars": 73,
-        "website": "",
-        "keywords": [
-            "api",
-            "battery",
-            "powerwall",
-            "powerwall-api",
-            "powerwall-status",
-            "python",
-            "tesla",
-            "tesla-powerwall",
-            "powerwall",
-            "python",
-            "api",
-            "tesla"
-        ],
-        "last_update": "2024-12-12 13:19:18"
-    },
-    {
-        "repo": "https://github.com/gsoh/VED",
-        "category": "environment",
-        "image": "",
-        "title": "gsoh/VED",
-        "description": "VED (Vehicle Energy Dataset): A Large-scale Dataset for Vehicle Energy Consumption Research. (IEEE Transactions on Intelligent Transportation Systems, 2020)",
-        "language": null,
-        "stars": 93,
-        "website": "",
-        "keywords": [
-            "large",
-            "ved",
-            "energy",
-            "intelligent",
-            "dataset",
-            "scale",
-            "vehicle",
-            "transportation",
-            "transactions",
-            "research"
-        ],
-        "last_update": "2024-12-12 13:19:18"
-    },
-    {
-        "repo": "https://github.com/RAMP-project/RAMP-mobility",
-        "category": "environment",
-        "image": "",
-        "title": "RAMP-project/RAMP-mobility",
-        "description": "A novel application of the RAMP main engine for generating bottom-up stochastic electric vehicles load profiles.",
-        "language": "Python",
-        "stars": 25,
-        "website": "",
-        "keywords": [
-            "charging-profiles",
-            "charging-strategies",
-            "demand",
-            "electric-vehicles-mobility",
-            "ramp-model",
-            "application",
-            "profiles",
-            "novel",
-            "stochastic",
-            "vehicles",
-            "load",
-            "main",
-            "bottom",
-            "electric",
-            "generating"
-        ],
-        "last_update": "2024-12-12 13:19:19"
-    },
-    {
-        "repo": "https://github.com/carbonalyser/Carbonalyser",
-        "category": "environment",
-        "image": "",
-        "title": "carbonalyser/Carbonalyser",
-        "description": "The add-on \"Carbonalyser\" allows to visualize the electricity consumption and greenhouse gases (GHG) emissions that your Internet browsing leads to.",
-        "language": "JavaScript",
-        "stars": 149,
-        "website": "https://theshiftproject.org/en/carbonalyser-browser-extension/",
-        "keywords": [
-            "addon",
-            "carbon-emissions",
-            "chrome-extension",
-            "ecology",
-            "firefox-addon",
-            "consumption",
-            "greenhouse",
-            "add",
-            "gases",
-            "allows",
-            "visualize",
-            "ghg",
-            "electricity",
-            "browsing",
-            "leads"
-        ],
-        "last_update": "2024-12-12 13:19:19"
-    },
-    {
-        "repo": "https://github.com/jawache/principles-green",
-        "category": "environment",
-        "image": "",
-        "title": "jawache/principles-green",
-        "description": "Website for Principles of Sustainable Software Engineering",
-        "language": "SCSS",
-        "stars": 170,
-        "website": "",
-        "keywords": [
-            "sustainable",
-            "engineering",
-            "software",
-            "website",
-            "principles"
-        ],
-        "last_update": "2024-12-12 13:19:19"
-    },
-    {
-        "repo": "https://github.com/thegreenwebfoundation/grid-intensity-go",
-        "category": "environment",
-        "image": "",
-        "title": "thegreenwebfoundation/grid-intensity-go",
-        "description": "A tool written in go to help you factor carbon intensity into decisions about where and when to run computing jobs.",
-        "language": "Go",
-        "stars": 67,
-        "website": "",
-        "keywords": [
-            "factor",
-            "run",
-            "help",
-            "tool",
-            "computing",
-            "decisions",
-            "intensity",
-            "jobs",
-            "written",
-            "carbon"
-        ],
-        "last_update": "2024-12-12 13:19:19"
-    },
-    {
-        "repo": "https://github.com/sb-ai-lab/Eco2AI",
-        "category": "environment",
-        "image": "",
-        "title": "sb-ai-lab/Eco2AI",
-        "description": "eco2AI is a python library which accumulates statistics about power consumption and CO2 emission during running code. ",
-        "language": "Python",
-        "stars": 237,
-        "website": "",
-        "keywords": [
-            "ai",
-            "carbon-emissions",
-            "carbon-footprint",
-            "co2-emissions",
-            "co2-monitoring",
-            "deep-learning",
-            "emission-tracker",
-            "energy-consumption",
-            "environment",
-            "esg",
-            "ghg",
-            "machine-learning",
-            "power-consumption-measurement",
-            "python",
-            "sustainability",
-            "python",
-            "library",
-            "co2",
-            "eco2ai",
-            "running",
-            "code",
-            "accumulates",
-            "consumption",
-            "power",
-            "statistics"
-        ],
-        "last_update": "2024-12-12 13:19:19"
-    },
-    {
-        "repo": "https://github.com/goat-community/goat",
-        "category": "environment",
-        "image": "",
-        "title": "goat-community/goat",
-        "description": "This is the home of Geo Open Accessibility Tool (GOAT)",
-        "language": "TypeScript",
-        "stars": 93,
-        "website": "",
-        "keywords": [
-            "accessibility-analysis",
-            "accessiblity-scenarios",
-            "cycling",
-            "isochrones",
-            "mobility",
-            "walking",
-            "webgis",
-            "home",
-            "tool",
-            "accessibility",
-            "goat",
-            "open",
-            "geo"
-        ],
-        "last_update": "2024-12-12 13:19:20"
-    },
-    {
-        "repo": "https://github.com/UrbanAnalyst/gtfsrouter",
-        "category": "environment",
-        "image": "",
-        "title": "UrbanAnalyst/gtfsrouter",
-        "description": "Routing and analysis engine for GTFS (General Transit Feed Specification) data",
+        "title": "ipeaGIT/accessibility",
+        "description": "Calculate accessibility measures in R",
         "language": "R",
-        "stars": 85,
-        "website": "https://urbananalyst.github.io/gtfsrouter/",
+        "stars": 54,
+        "website": "https://ipeagit.github.io/accessibility/",
         "keywords": [
-            "gtfs",
-            "gtfsrouter",
-            "public-transportation",
-            "r-package",
-            "router",
-            "analysis",
-            "general",
-            "specification",
-            "data",
-            "feed",
-            "transit",
-            "gtfs",
-            "routing",
-            "engine"
+            "accessibility",
+            "r",
+            "transport",
+            "transport-accessibility",
+            "calculate",
+            "accessibility",
+            "measures"
         ],
-        "last_update": "2024-12-12 13:19:20"
+        "last_update": "2024-12-12 18:48:00"
     },
     {
-        "repo": "https://github.com/eskerda/pybikes",
+        "repo": "https://github.com/mcsc-impact-climate/FAF5-Analysis",
         "category": "environment",
         "image": "",
-        "title": "eskerda/pybikes",
-        "description": "bike sharing + python = pybikes",
+        "title": "mcsc-impact-climate/FAF5-Analysis",
+        "description": "Source code for the MCSC interactive geospatial tool for fleet transition planning and decision support",
         "language": "Python",
-        "stars": 563,
-        "website": "https://citybik.es",
+        "stars": 2,
+        "website": "https://climatedata.mit.edu/faf5/transportation/",
         "keywords": [
-            "pybikes",
-            "python",
-            "bike",
-            "sharing"
+            "biofuels",
+            "decarbonization",
+            "decision-support",
+            "electrification",
+            "geospatial",
+            "hydrogen",
+            "trucking",
+            "support",
+            "code",
+            "tool",
+            "source",
+            "planning",
+            "transition",
+            "geospatial",
+            "mcsc",
+            "decision",
+            "interactive"
         ],
-        "last_update": "2024-12-12 13:19:20"
+        "last_update": "2024-12-12 18:48:00"
     },
     {
-        "repo": "https://github.com/OpenChargingCloud/ChargyDesktopApp",
+        "repo": "https://github.com/transportenergy/database",
         "category": "environment",
         "image": "",
-        "title": "OpenChargingCloud/ChargyDesktopApp",
-        "description": "The Chargy E-Mobility Transparency Application for Windows, Mac OS X and Linux (based on Electron)",
+        "title": "transportenergy/database",
+        "description": "Tools for accessing and maintaining the iTEM model & historical databases",
+        "language": "Python",
+        "stars": 24,
+        "website": "https://transportenergy.rtfd.io",
+        "keywords": [
+            "historical",
+            "item",
+            "tools",
+            "accessing",
+            "maintaining",
+            "model",
+            "databases"
+        ],
+        "last_update": "2024-12-12 18:48:01"
+    },
+    {
+        "repo": "https://github.com/fvaleye/tracarbon",
+        "category": "environment",
+        "image": "",
+        "title": "fvaleye/tracarbon",
+        "description": "🌍 Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location.",
+        "language": "Python",
+        "stars": 98,
+        "website": "https://fvaleye.github.io/tracarbon/documentation/",
+        "keywords": [
+            "carbon-footprint",
+            "electricity-consumption",
+            "energy",
+            "energy-consumption",
+            "energy-efficiency",
+            "sustainability",
+            "emissions",
+            "carbon",
+            "tracarbon",
+            "using",
+            "energy",
+            "location",
+            "calculates",
+            "tracks",
+            "consumption",
+            "device"
+        ],
+        "last_update": "2024-12-12 18:48:01"
+    },
+    {
+        "repo": "https://github.com/greensoftwarelab/Energy-Languages",
+        "category": "environment",
+        "image": "",
+        "title": "greensoftwarelab/Energy-Languages",
+        "description": "The complete set of tools for energy consumption analysis of programming languages, using Computer Language Benchmark Game",
+        "language": "C",
+        "stars": 694,
+        "website": "",
+        "keywords": [
+            "clbg",
+            "energy",
+            "languages",
+            "programming",
+            "game",
+            "programming",
+            "tools",
+            "language",
+            "using",
+            "energy",
+            "complete",
+            "analysis",
+            "computer",
+            "languages"
+        ],
+        "last_update": "2024-12-12 18:48:01"
+    },
+    {
+        "repo": "https://github.com/OpenModelica/OpenModelica",
+        "category": "environment",
+        "image": "",
+        "title": "OpenModelica/OpenModelica",
+        "description": "OpenModelica is an open-source Modelica-based modeling and simulation environment intended for industrial and academic usage.",
+        "language": "Modelica",
+        "stars": 863,
+        "website": "https://openmodelica.org",
+        "keywords": [
+            "compiler",
+            "modelica",
+            "open",
+            "intended",
+            "modeling",
+            "simulation",
+            "modelica",
+            "source",
+            "based",
+            "academic",
+            "usage",
+            "openmodelica"
+        ],
+        "last_update": "2024-12-12 18:48:01"
+    },
+    {
+        "repo": "https://github.com/FixMyBerlin/atlas-app",
+        "category": "environment",
+        "image": "",
+        "title": "FixMyBerlin/atlas-app",
+        "description": "Radverkehrsatlas provides access to bicycle infrastructure data from OpenStreetMap (OSM) for administrative staff.",
         "language": "TypeScript",
         "stars": 11,
-        "website": "",
+        "website": "https://radverkehrsatlas.de/",
         "keywords": [
-            "chargy",
-            "e-mobility",
-            "eichrecht",
-            "electron",
-            "evroaming",
-            "evroamingdeluxe",
-            "premiumeichrecht",
-            "smartmetering",
-            "transparency",
-            "application",
-            "electron",
-            "mobility",
-            "mac",
-            "based",
-            "linux",
-            "windows",
-            "chargy",
-            "transparency"
+            "openstreetmap",
+            "osm",
+            "radinfrastruktur",
+            "radverkehr",
+            "verkehrswende",
+            "staff",
+            "openstreetmap",
+            "administrative",
+            "bicycle",
+            "osm",
+            "access",
+            "data",
+            "provides",
+            "radverkehrsatlas",
+            "infrastructure"
         ],
-        "last_update": "2024-12-12 13:19:20"
+        "last_update": "2024-12-12 18:48:01"
     },
     {
-        "repo": "https://github.com/OpenChargingCloud/WWCP_OCPP",
+        "repo": "https://github.com/microsoft/PlanetaryComputerDataCatalog",
         "category": "environment",
         "image": "",
-        "title": "OpenChargingCloud/WWCP_OCPP",
-        "description": "Connectivity between the World Wide Charging Protocol (WWCP) and the Open Charge Point Protocol (OCPP v1.6/v2.0.1/v2.1).",
-        "language": "C#",
+        "title": "microsoft/PlanetaryComputerDataCatalog",
+        "description": "Data catalog for the Microsoft Planetary Computer",
+        "language": "TypeScript",
+        "stars": 37,
+        "website": "https://planetarycomputer.microsoft.com",
+        "keywords": [
+            "aiforearth",
+            "catalog",
+            "computer",
+            "planetary",
+            "data",
+            "microsoft"
+        ],
+        "last_update": "2024-12-12 18:48:01"
+    },
+    {
+        "repo": "https://gitlab.com/diw-evu/emobpy/emobpy",
+        "category": "environment",
+        "image": "",
+        "title": "emobpy/emobpy",
+        "description": "",
+        "language": null,
+        "stars": 8,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-12 18:48:02"
+    },
+    {
+        "repo": "https://github.com/kylemcdonald/nvidia-co2",
+        "category": "environment",
+        "image": "",
+        "title": "kylemcdonald/nvidia-co2",
+        "description": "Adds gCO2eq emissions to nvidia-smi.",
+        "language": "Python",
+        "stars": 116,
+        "website": "",
+        "keywords": [
+            "gco2eq",
+            "emissions",
+            "smi",
+            "nvidia",
+            "adds"
+        ],
+        "last_update": "2024-12-12 18:48:02"
+    },
+    {
+        "repo": "https://github.com/StavrosOrf/EV2Gym",
+        "category": "environment",
+        "image": "",
+        "title": "StavrosOrf/EV2Gym",
+        "description": "A V2G Simulation Environment for large scale EV charging optimization",
+        "language": "Python",
         "stars": 55,
         "website": "",
         "keywords": [
-            "charging",
-            "chargingstation",
-            "e-mobility",
-            "ocpp",
-            "charging",
-            "ocpp",
-            "charge",
-            "open",
-            "world",
-            "connectivity",
-            "wide",
-            "wwcp",
-            "protocol",
-            "point"
+            "deep-reinforcement-learning",
+            "electric-vehicles",
+            "gurobi",
+            "gym",
+            "mathematical-programming",
+            "model-predictive-control",
+            "simulator",
+            "simulation",
+            "large",
+            "scale",
+            "v2g",
+            "optimization",
+            "environment",
+            "charging"
         ],
-        "last_update": "2024-12-12 13:19:20"
+        "last_update": "2024-12-12 18:48:02"
     },
     {
-        "repo": "https://github.com/bikeindex/bike_index",
+        "repo": "https://gitlab.com/energyincities/python-ehub",
         "category": "environment",
         "image": "",
-        "title": "bikeindex/bike_index",
-        "description": "All the code for Bike Index, because we love you",
-        "language": "Ruby",
-        "stars": 274,
-        "website": "https://bikeindex.org",
+        "title": "energyincities/python-ehub",
+        "description": "A python-based, modular and nestable implementation of the Energy Hub model (balancing demand and supply, system capacity sizing and network flows using Mixed-Integer Linear Programming).",
+        "language": null,
+        "stars": 6,
+        "website": "",
         "keywords": [
-            "code",
-            "love",
-            "bike",
-            "index"
+            "programming",
+            "energy",
+            "based",
+            "flows",
+            "modular",
+            "using",
+            "implementation",
+            "capacity",
+            "balancing",
+            "system"
         ],
-        "last_update": "2024-12-12 13:19:21"
+        "last_update": "2024-12-12 18:48:02"
+    },
+    {
+        "repo": "https://gitlab.com/openlandmap/eu-forest-tree-point-data",
+        "category": "environment",
+        "image": "",
+        "title": "openlandmap/eu-forest-tree-point-data",
+        "description": "A compilation of analysis-ready point data for the purpose of vegetation and Potential Natural Vegetation mapping (EU coverage only)",
+        "language": null,
+        "stars": 3,
+        "website": "",
+        "keywords": [
+            "natural",
+            "point",
+            "analysis",
+            "mapping",
+            "ready",
+            "compilation",
+            "vegetation",
+            "coverage",
+            "data",
+            "potential"
+        ],
+        "last_update": "2024-12-12 18:48:02"
+    },
+    {
+        "repo": "https://github.com/cozy/coachCO2",
+        "category": "environment",
+        "image": "",
+        "title": "cozy/coachCO2",
+        "description": "CoachCO2 aims to raise user awareness about their carbon footprint, notably based on their transport data.",
+        "language": "JavaScript",
+        "stars": 7,
+        "website": "",
+        "keywords": [
+            "transport",
+            "raise",
+            "carbon",
+            "footprint",
+            "based",
+            "coachco2",
+            "notably",
+            "awareness",
+            "data",
+            "aims"
+        ],
+        "last_update": "2024-12-12 18:48:02"
+    },
+    {
+        "repo": "https://gitlab.com/diw-evu/dieter_public/dieterpy",
+        "category": "environment",
+        "image": "",
+        "title": "dieter_public/dieterpy",
+        "description": "Repository for the Python-GAMS version of the power market model DIETER",
+        "language": null,
+        "stars": 4,
+        "website": "",
+        "keywords": [
+            "GAMS",
+            "open source model",
+            "power market model",
+            "python",
+            "renewable energy",
+            "storage",
+            "repository",
+            "power",
+            "version",
+            "python",
+            "market",
+            "dieter",
+            "model",
+            "gams"
+        ],
+        "last_update": "2024-12-12 18:48:03"
+    },
+    {
+        "repo": "https://gitlab.com/bonsamurais/bonsai/util/ipcc",
+        "category": "environment",
+        "image": "",
+        "title": "util/ipcc",
+        "description": "",
+        "language": null,
+        "stars": 1,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-12 18:48:03"
+    },
+    {
+        "repo": "https://gitlab.com/SmartGridToolbox/SmartGridToolbox",
+        "category": "environment",
+        "image": "",
+        "title": "SmartGridToolbox/SmartGridToolbox",
+        "description": "Modern C++ Smart Grid Simulation Library. See the [project pages](https://smartgridtoolbox.gitlab.io/SmartGridToolbox/) for more information, documentation, tutorials etc.",
+        "language": null,
+        "stars": 8,
+        "website": "",
+        "keywords": [
+            "grid",
+            "https",
+            "library",
+            "information",
+            "simulation",
+            "etc",
+            "modern",
+            "smart",
+            "tutorials",
+            "pages"
+        ],
+        "last_update": "2024-12-12 18:48:03"
+    },
+    {
+        "repo": "https://gitlab.com/retrofitcoop/macquette",
+        "category": "environment",
+        "image": "",
+        "title": "retrofitcoop/macquette",
+        "description": "Building modelling tool primarily for retrofit assessments",
+        "language": null,
+        "stars": 8,
+        "website": "",
+        "keywords": [
+            "primarily",
+            "tool",
+            "modelling",
+            "assessments",
+            "building",
+            "retrofit"
+        ],
+        "last_update": "2024-12-12 18:48:03"
+    },
+    {
+        "repo": "https://gitlab.com/eputs/ev-fleet-sim",
+        "category": "environment",
+        "image": "",
+        "title": "eputs/ev-fleet-sim",
+        "description": "This software computes the electrical energy requirements of a fleet of vehicles. It also determines how much of this energy can be offset by renewable energy. It does all this by analyzing the fleet's GPS traces and applying EV and PV models.  Project website: 🔗 www.ev-fleet-sim.online ",
+        "language": null,
+        "stars": 7,
+        "website": "",
+        "keywords": [
+            "data analysis",
+            "electric vehicles",
+            "public transport",
+            "python",
+            "renewable energy",
+            "website",
+            "energy",
+            "computes",
+            "applying",
+            "traces",
+            "renewable",
+            "analyzing",
+            "www",
+            "fleet",
+            "models"
+        ],
+        "last_update": "2024-12-12 18:48:03"
+    },
+    {
+        "repo": "https://gitlab.com/foodsharing-dev/foodsharing",
+        "category": "environment",
+        "image": "",
+        "title": "foodsharing-dev/foodsharing",
+        "description": "foodsharing.de - A platform and initiative against food waste\r\n",
+        "language": null,
+        "stars": 153,
+        "website": "",
+        "keywords": [
+            "foodsharing",
+            "waste",
+            "platform",
+            "food",
+            "initiative"
+        ],
+        "last_update": "2024-12-12 18:48:04"
+    },
+    {
+        "repo": "https://gitlab.com/fame-framework/fame-core",
+        "category": "environment",
+        "image": "",
+        "title": "fame-framework/fame-core",
+        "description": "Core library of FAME written in Java",
+        "language": null,
+        "stars": 4,
+        "website": "",
+        "keywords": [
+            "FAME",
+            "java",
+            "library",
+            "core",
+            "written",
+            "fame"
+        ],
+        "last_update": "2024-12-12 18:48:04"
+    },
+    {
+        "repo": "https://gitlab.com/then-try-this/climate-tool",
+        "category": "environment",
+        "image": "",
+        "title": "then-try-this/climate-tool",
+        "description": "A climate tool for Cornwall Council",
+        "language": null,
+        "stars": 1,
+        "website": "",
+        "keywords": [
+            "council",
+            "tool",
+            "climate",
+            "cornwall"
+        ],
+        "last_update": "2024-12-12 18:48:04"
+    },
+    {
+        "repo": "https://gitlab.com/permafrostnet/teaspoon",
+        "category": "environment",
+        "image": "",
+        "title": "permafrostnet/teaspoon",
+        "description": "Python for permafrost temperature data",
+        "language": null,
+        "stars": 5,
+        "website": "",
+        "keywords": [
+            "dataset",
+            "earth science",
+            "geography",
+            "python",
+            "data",
+            "permafrost",
+            "temperature"
+        ],
+        "last_update": "2024-12-12 18:48:04"
+    },
+    {
+        "repo": "https://gitlab.com/natural-solutions/reneco/ecoreleve-data",
+        "category": "environment",
+        "image": "",
+        "title": "reneco/ecoreleve-data",
+        "description": "Open source biodiversity data entry software",
+        "language": null,
+        "stars": 0,
+        "website": "",
+        "keywords": [
+            "open",
+            "software",
+            "source",
+            "entry",
+            "data",
+            "biodiversity"
+        ],
+        "last_update": "2024-12-12 18:48:04"
+    },
+    {
+        "repo": "https://gitlab.com/energyincities/energy-signature-analyser",
+        "category": "environment",
+        "image": "",
+        "title": "energyincities/energy-signature-analyser",
+        "description": "",
+        "language": null,
+        "stars": 2,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-12 18:48:04"
+    },
+    {
+        "repo": "https://gitlab.com/wxmetvis/met.3d",
+        "category": "environment",
+        "image": "",
+        "title": "wxmetvis/met.3d",
+        "description": "http://met3d.wavestoweather.de/",
+        "language": null,
+        "stars": 13,
+        "website": "",
+        "keywords": [
+            "http",
+            "wavestoweather",
+            "met3d",
+            "://"
+        ],
+        "last_update": "2024-12-12 18:48:05"
+    },
+    {
+        "repo": "https://gitlab.com/dlr-ve/esy/remix/framework",
+        "category": "environment",
+        "image": "",
+        "title": "remix/framework",
+        "description": "The REMix framework for energy system optimization models",
+        "language": null,
+        "stars": 10,
+        "website": "",
+        "keywords": [
+            "framework",
+            "energy",
+            "models",
+            "system",
+            "optimization",
+            "remix"
+        ],
+        "last_update": "2024-12-12 18:48:05"
+    },
+    {
+        "repo": "https://gitlab.com/NRAP/OpenIAM",
+        "category": "environment",
+        "image": "",
+        "title": "NRAP/OpenIAM",
+        "description": "NRAP-Open-IAM is an open-source integrated assessment model developed by National Risk Assessment Partnership during Phases II and III to facilitate risk assessment, management and containment assurance for geologic carbon sequestration projects. ",
+        "language": null,
+        "stars": 1,
+        "website": "",
+        "keywords": [
+            "sequestration",
+            "nrap",
+            "integrated",
+            "facilitate",
+            "open",
+            "partnership",
+            "management",
+            "carbon",
+            "containment",
+            "phases"
+        ],
+        "last_update": "2024-12-12 18:48:05"
+    },
+    {
+        "repo": "https://gitlab.com/wgms/glathida",
+        "category": "environment",
+        "image": "",
+        "title": "wgms/glathida",
+        "description": "Glacier Thickness Database (GlaThiDa)\r\nhttps://www.gtn-g.ch/data_catalogue_glathida\r\n",
+        "language": null,
+        "stars": 2,
+        "website": "",
+        "keywords": [
+            "collaboration",
+            "database",
+            "datapackage",
+            "glacier",
+            "glaciology",
+            "global",
+            "https",
+            "database",
+            "thickness",
+            "glacier",
+            "gtn",
+            "glathida",
+            "data_catalogue_glathida",
+            "://",
+            "www"
+        ],
+        "last_update": "2024-12-12 18:48:05"
+    },
+    {
+        "repo": "https://gitlab.com/diw-evu/oet/openenergytracker",
+        "category": "environment",
+        "image": "",
+        "title": "oet/openenergytracker",
+        "description": "The Open Energy Tracker is an open data platform for monitoring and visualizing energy policy targets.",
+        "language": null,
+        "stars": 7,
+        "website": "",
+        "keywords": [
+            "data visualization",
+            "dataset",
+            "energy",
+            "plotly",
+            "policy",
+            "python",
+            "renewable energy",
+            "targets",
+            "open",
+            "energy",
+            "tracker",
+            "policy",
+            "monitoring",
+            "data",
+            "platform",
+            "visualizing"
+        ],
+        "last_update": "2024-12-12 18:48:05"
+    },
+    {
+        "repo": "https://gitlab.com/polito-edyce-prelude/predyce",
+        "category": "environment",
+        "image": "",
+        "title": "polito-edyce-prelude/predyce",
+        "description": "Python Realtime Energy DYnamics and Climate Evaluation tool developed by Politecnico di Torino",
+        "language": null,
+        "stars": 4,
+        "website": "",
+        "keywords": [
+            "tool",
+            "developed",
+            "climate",
+            "dynamics",
+            "energy",
+            "python",
+            "politecnico",
+            "torino",
+            "evaluation",
+            "realtime"
+        ],
+        "last_update": "2024-12-12 18:48:05"
+    },
+    {
+        "repo": "https://gitlab.com/dlr-ve/esy/amiris/amiris-py",
+        "category": "environment",
+        "image": "",
+        "title": "amiris/amiris-py",
+        "description": "Python tools for the electricity market model [AMIRIS](https://gitlab.com/dlr-ve/esy/amiris/amiris)",
+        "language": null,
+        "stars": 3,
+        "website": "",
+        "keywords": [
+            "https",
+            "tools",
+            "com",
+            "python",
+            "electricity",
+            "dlr",
+            "gitlab",
+            "://",
+            "market",
+            "esy"
+        ],
+        "last_update": "2024-12-12 18:48:06"
+    },
+    {
+        "repo": "https://gitlab.com/xdc-model/xdc",
+        "category": "environment",
+        "image": "",
+        "title": "xdc-model/xdc",
+        "description": "XDC Model implementation",
+        "language": null,
+        "stars": 1,
+        "website": "",
+        "keywords": [
+            "implementation",
+            "model",
+            "xdc"
+        ],
+        "last_update": "2024-12-12 18:48:06"
+    },
+    {
+        "repo": "https://gitlab.com/bioeconomy/forobs/biotrade/",
+        "category": "environment",
+        "image": "",
+        "title": "biotrade/",
+        "description": "This package loads trade data on bio based commodities and products from the UN Comtrade\r\nand from FAOSTAT.",
+        "language": null,
+        "stars": 2,
+        "website": "https://gitlab.com/bioeconomy/forobs/biotrade",
+        "keywords": [
+            "products",
+            "based",
+            "package",
+            "commodities",
+            "data",
+            "comtrade",
+            "bio",
+            "faostat",
+            "loads",
+            "trade"
+        ],
+        "last_update": "2024-12-12 18:48:06"
+    },
+    {
+        "repo": "https://gitlab.com/ibarraespinosa/vein",
+        "category": "environment",
+        "image": "",
+        "title": "ibarraespinosa/vein",
+        "description": "",
+        "language": null,
+        "stars": 2,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-12 18:48:06"
+    },
+    {
+        "repo": "https://gitlab.com/hotmaps/potential/WWTP",
+        "category": "environment",
+        "image": "",
+        "title": "potential/WWTP",
+        "description": "Waste water potential nuts3 and local resolution yearly",
+        "language": null,
+        "stars": 0,
+        "website": "",
+        "keywords": [
+            "nuts3",
+            "water",
+            "waste",
+            "local",
+            "resolution",
+            "potential",
+            "yearly"
+        ],
+        "last_update": "2024-12-12 18:48:06"
+    },
+    {
+        "repo": "https://gitlab.com/opendatabio/opendatabio",
+        "category": "environment",
+        "image": "",
+        "title": "opendatabio/opendatabio",
+        "description": "A  system for storing and retrieving biological data - floristics, ecology and monitoring",
+        "language": null,
+        "stars": 0,
+        "website": "",
+        "keywords": [
+            "storing",
+            "floristics",
+            "ecology",
+            "retrieving",
+            "biological",
+            "monitoring",
+            "data",
+            "system"
+        ],
+        "last_update": "2024-12-12 18:48:06"
+    },
+    {
+        "repo": "https://gitlab.com/mosaik/mosaik",
+        "category": "environment",
+        "image": "",
+        "title": "mosaik/mosaik",
+        "description": "A flexible Smart Grid co-simulation framework.",
+        "language": null,
+        "stars": 14,
+        "website": "",
+        "keywords": [
+            "grid",
+            "framework",
+            "simulation",
+            "smart",
+            "flexible"
+        ],
+        "last_update": "2024-12-12 18:48:07"
     },
     {
         "repo": "https://github.com/stac-utils/stac-index",
@@ -2244,14 +2244,14 @@
             "earth-observation",
             "remote-sensing",
             "sentinel-hub",
-            "hub",
             "sentinel",
+            "repository",
+            "hub",
             "scripts",
-            "used",
             "custom",
-            "repository"
+            "used"
         ],
-        "last_update": "2024-12-12 03:11:12"
+        "last_update": "2024-12-12 18:48:07"
     },
     {
         "repo": "https://github.com/rOpenGov/eurostat",
@@ -2269,11 +2269,11 @@
             "r",
             "r-package",
             "ropengov",
-            "eurostat",
+            "tools",
             "data",
-            "tools"
+            "eurostat"
         ],
-        "last_update": "2024-12-12 03:11:12"
+        "last_update": "2024-12-12 18:48:07"
     },
     {
         "repo": "https://github.com/rOpenGov/giscoR",
@@ -2298,14 +2298,14 @@
             "rstats",
             "spatial",
             "thematic-maps",
-            "gisco",
-            "download",
-            "eurostat",
             "api",
+            "eurostat",
+            "geospatial",
             "data",
-            "geospatial"
+            "download",
+            "gisco"
         ],
-        "last_update": "2024-12-12 03:11:12"
+        "last_update": "2024-12-12 18:48:08"
     },
     {
         "repo": "https://github.com/ONEcampaign/climate-finance-package",
@@ -2317,15 +2317,15 @@
         "stars": 8,
         "website": "https://datacommons.one.org/data/climate-finance-files",
         "keywords": [
-            "work",
-            "finance",
+            "public",
             "climate",
-            "clean",
-            "international",
+            "finance",
             "get",
-            "public"
+            "work",
+            "clean",
+            "international"
         ],
-        "last_update": "2024-12-12 03:11:11"
+        "last_update": "2024-12-12 18:48:08"
     },
     {
         "repo": "https://github.com/sovereign-nature/deep",
@@ -2337,7 +2337,7 @@
         "stars": 9,
         "website": "https://docs.sovereignnature.com/",
         "keywords": [],
-        "last_update": "2024-12-12 03:11:11"
+        "last_update": "2024-12-12 18:48:08"
     },
     {
         "repo": "https://github.com/fingreen-ai/greenlang",
@@ -2349,7 +2349,7 @@
         "stars": 3,
         "website": "",
         "keywords": [],
-        "last_update": "2024-12-12 03:11:11"
+        "last_update": "2024-12-12 18:48:08"
     },
     {
         "repo": "https://github.com/ONEARMY/community-platform",
@@ -2367,16 +2367,16 @@
             "reactjs",
             "theme-ui",
             "typescript",
-            "build",
-            "problems",
-            "communities",
-            "aim",
-            "global",
             "tackle",
-            "useful",
-            "platform"
+            "communities",
+            "platform",
+            "problems",
+            "global",
+            "build",
+            "aim",
+            "useful"
         ],
-        "last_update": "2024-12-12 03:11:11"
+        "last_update": "2024-12-12 18:48:08"
     },
     {
         "repo": "https://github.com/kartevonmorgen/kartevonmorgen.ts",
@@ -2394,18 +2394,18 @@
             "nextjs",
             "react",
             "typescript",
-            "org",
-            "sustainable",
-            "kartevonmorgen",
-            "frontend",
+            "mapoftomorrow",
             "find",
-            "mapping",
             "initiatives",
-            "add",
+            "kartevonmorgen",
             "events",
+            "mapping",
+            "org",
+            "add",
+            "sustainable",
             "organisations"
         ],
-        "last_update": "2024-12-12 03:11:11"
+        "last_update": "2024-12-12 18:48:08"
     },
     {
         "repo": "https://github.com/Education4Climate/Education4Climate",
@@ -2417,16 +2417,16 @@
         "stars": 17,
         "website": "https://education4climate.be",
         "keywords": [
-            "higher",
-            "education4climate",
-            "education",
             "tool",
-            "analyzing",
+            "crawling",
             "schools",
+            "education",
+            "higher",
             "data",
-            "crawling"
+            "analyzing",
+            "education4climate"
         ],
-        "last_update": "2024-12-12 03:11:11"
+        "last_update": "2024-12-12 18:48:09"
     },
     {
         "repo": "https://github.com/regen-network/regen-ledger",
@@ -2448,11 +2448,11 @@
             "origination",
             "tendermint",
             "planetary",
-            "regeneration",
             "seedling",
+            "regeneration",
             "blockchain"
         ],
-        "last_update": "2024-12-12 03:11:11"
+        "last_update": "2024-12-12 18:48:09"
     },
     {
         "repo": "https://github.com/cemsbv/pygef",
@@ -2468,12 +2468,12 @@
             "geotechnical-engineering",
             "pygef",
             "python",
-            "parse",
-            "data",
             "soil",
+            "data",
+            "parse",
             "measurement"
         ],
-        "last_update": "2024-12-12 03:11:10"
+        "last_update": "2024-12-12 18:48:09"
     },
     {
         "repo": "https://github.com/Permian-Global-Research/rsi",
@@ -2485,18 +2485,18 @@
         "stars": 47,
         "website": "https://permian-global-research.github.io/rsi/",
         "keywords": [
-            "stac",
-            "spectral",
-            "spatial",
             "infelicities",
+            "stac",
+            "code",
             "information",
-            "repeated",
-            "addressing",
+            "rsome",
+            "interfacing",
             "retrieving",
+            "spatial",
             "indices",
-            "interfacing"
+            "repeated"
         ],
-        "last_update": "2024-12-12 03:11:10"
+        "last_update": "2024-12-12 18:48:09"
     },
     {
         "repo": "https://github.com/pschmidtwalter/LWFBrook90R",
@@ -2513,14 +2513,14 @@
             "r-package",
             "waterbalance",
             "waterflux",
-            "brook90",
-            "hydrological",
-            "model",
             "run",
             "within",
+            "brook90",
+            "model",
+            "hydrological",
             "lwf"
         ],
-        "last_update": "2024-12-12 03:11:10"
+        "last_update": "2024-12-12 18:48:09"
     },
     {
         "repo": "https://github.com/tkrisztin/downscalr",
@@ -2533,12 +2533,12 @@
         "website": "https://tkrisztin.github.io/downscalr/",
         "keywords": [
             "downscaling",
-            "land",
-            "change",
+            "projections",
             "use",
-            "projections"
+            "land",
+            "change"
         ],
-        "last_update": "2024-12-12 03:11:10"
+        "last_update": "2024-12-12 18:48:09"
     },
     {
         "repo": "https://github.com/mammask/droughtR",
@@ -2555,14 +2555,14 @@
             "forecasting",
             "hydrology",
             "time-series",
-            "non",
+            "meteorological",
             "package",
             "monitoring",
             "stationary",
-            "meteorological",
-            "drought"
+            "drought",
+            "non"
         ],
-        "last_update": "2024-12-12 03:11:10"
+        "last_update": "2024-12-12 18:48:09"
     },
     {
         "repo": "https://github.com/google-research/neuralgcm",
@@ -2577,13 +2577,13 @@
             "climate",
             "neuralgcm",
             "weather",
+            "hybrid",
             "physics",
-            "model",
             "atmosphere",
             "earth",
-            "hybrid"
+            "model"
         ],
-        "last_update": "2024-12-12 03:11:10"
+        "last_update": "2024-12-12 18:48:10"
     },
     {
         "repo": "https://github.com/emf-creaf/meteoland",
@@ -2596,13 +2596,13 @@
         "website": "https://emf-creaf.github.io/meteoland/",
         "keywords": [
             "variables",
-            "weather",
-            "functions",
-            "landscape",
             "position",
-            "estimate"
+            "estimate",
+            "landscape",
+            "weather",
+            "functions"
         ],
-        "last_update": "2024-12-12 03:11:09"
+        "last_update": "2024-12-12 18:48:10"
     },
     {
         "repo": "https://github.com/ternaustralia/ausplotsR",
@@ -2614,13 +2614,13 @@
         "stars": 10,
         "website": "",
         "keywords": [
-            "package",
             "tern",
-            "data",
             "ausplots",
+            "package",
+            "data",
             "interact"
         ],
-        "last_update": "2024-12-12 03:11:09"
+        "last_update": "2024-12-12 18:48:10"
     },
     {
         "repo": "https://github.com/chjch/pylusat",
@@ -2635,14 +2635,14 @@
             "gis",
             "land-use",
             "suitability-analysis",
-            "analysis",
             "tools",
+            "use",
+            "analysis",
             "python",
             "suitability",
-            "land",
-            "use"
+            "land"
         ],
-        "last_update": "2024-12-12 03:11:09"
+        "last_update": "2024-12-12 18:48:10"
     },
     {
         "repo": "https://github.com/earth-chris/earthlib-legacy",
@@ -2659,16 +2659,16 @@
             "ecology",
             "remote-sensing",
             "spectral-unmixing",
-            "spectral",
             "tools",
+            "unmixing",
             "mapping",
             "land",
-            "endmembers",
             "cover",
-            "unmixing",
-            "satellite"
+            "spectral",
+            "satellite",
+            "endmembers"
         ],
-        "last_update": "2024-12-12 03:11:09"
+        "last_update": "2024-12-12 18:48:10"
     },
     {
         "repo": "https://github.com/NOAA-OWP/SoilFreezeThaw",
@@ -2680,18 +2680,18 @@
         "stars": 7,
         "website": "",
         "keywords": [
-            "depression",
-            "freeze",
-            "diffusion",
-            "profile",
-            "computes",
-            "point",
             "column",
             "thaw",
+            "code",
+            "point",
+            "using",
+            "temperature",
+            "computes",
+            "profile",
             "dynamics",
-            "equation"
+            "diffusion"
         ],
-        "last_update": "2024-12-12 03:11:09"
+        "last_update": "2024-12-12 18:48:10"
     },
     {
         "repo": "https://github.com/WA-Department-of-Agriculture/soils",
@@ -2703,18 +2703,18 @@
         "stars": 11,
         "website": "https://wa-department-of-agriculture.github.io/soils/",
         "keywords": [
-            "html",
-            "survey",
             "visualization",
-            "custom",
+            "html",
             "reports",
-            "reporting",
-            "word",
+            "rstudio",
+            "need",
             "collection",
-            "everything",
-            "generate"
+            "soil",
+            "participant",
+            "custom",
+            "template"
         ],
-        "last_update": "2024-12-12 03:11:09"
+        "last_update": "2024-12-12 18:48:11"
     },
     {
         "repo": "https://github.com/jgrss/cultionet",
@@ -2737,11 +2737,11 @@
             "remote-sensing",
             "satellite",
             "segmentation",
+            "image",
             "cultivated",
-            "land",
-            "image"
+            "land"
         ],
-        "last_update": "2024-12-12 03:11:09"
+        "last_update": "2024-12-12 18:48:11"
     },
     {
         "repo": "https://github.com/rubisco-sfa/ILAMB",
@@ -2757,17 +2757,17 @@
             "earth-system-model",
             "model",
             "python3",
-            "model",
+            "ilamb",
             "software",
+            "benchmarking",
             "python",
             "land",
-            "international",
-            "benchmarking",
             "project",
-            "used",
-            "ilamb"
+            "model",
+            "international",
+            "used"
         ],
-        "last_update": "2024-12-12 03:11:08"
+        "last_update": "2024-12-12 18:48:11"
     },
     {
         "repo": "https://github.com/awst-austria/qa4sm",
@@ -2779,15 +2779,15 @@
         "stars": 7,
         "website": "",
         "keywords": [
-            "web",
-            "service",
-            "qa4sm",
             "code",
-            "source",
             "repository",
-            "validation"
+            "source",
+            "web",
+            "validation",
+            "service",
+            "qa4sm"
         ],
-        "last_update": "2024-12-12 03:11:08"
+        "last_update": "2024-12-12 18:48:11"
     },
     {
         "repo": "https://github.com/zsteinmetz/envalysis",
@@ -2804,12 +2804,12 @@
             "ecotoxicology",
             "environment",
             "soil",
-            "analyses",
+            "environmental",
             "miscellaneous",
-            "functions",
-            "environmental"
+            "analyses",
+            "functions"
         ],
-        "last_update": "2024-12-12 03:11:08"
+        "last_update": "2024-12-12 18:48:11"
     },
     {
         "repo": "https://github.com/ncss-tech/stats_for_soil_survey",
@@ -2835,11 +2835,11 @@
             "tabular-data",
             "usda",
             "survey",
-            "s4ss",
             "soil",
+            "s4ss",
             "statistics"
         ],
-        "last_update": "2024-12-12 03:11:08"
+        "last_update": "2024-12-12 18:48:11"
     },
     {
         "repo": "https://github.com/DOI-USGS/COAWST",
@@ -2851,13 +2851,13 @@
         "stars": 110,
         "website": "",
         "keywords": [
-            "modeling",
-            "system",
             "repository",
+            "modeling",
+            "git",
             "coawst",
-            "git"
+            "system"
         ],
-        "last_update": "2024-12-12 03:11:08"
+        "last_update": "2024-12-12 18:48:12"
     },
     {
         "repo": "https://github.com/castelao/oceansdb",
@@ -2870,14 +2870,14 @@
         "website": "",
         "keywords": [
             "database",
-            "like",
-            "bathymetry",
+            "reference",
+            "marine",
             "climatologies",
             "data",
-            "marine",
-            "reference"
+            "bathymetry",
+            "like"
         ],
-        "last_update": "2024-12-12 03:11:08"
+        "last_update": "2024-12-12 18:48:12"
     },
     {
         "repo": "https://github.com/USGS-CMG/stglib",
@@ -2889,18 +2889,18 @@
         "stars": 19,
         "website": "",
         "keywords": [
-            "process",
-            "usgs",
             "routines",
-            "coastal",
             "program",
-            "oceanographic",
-            "used",
+            "process",
             "resources",
-            "data",
-            "marine"
+            "used",
+            "marine",
+            "hazards",
+            "time",
+            "coastal",
+            "data"
         ],
-        "last_update": "2024-12-12 03:11:08"
+        "last_update": "2024-12-12 18:48:12"
     },
     {
         "repo": "https://github.com/cheginit/HyRiver",
@@ -2917,16 +2917,16 @@
             "hydrology",
             "python",
             "webservice",
-            "software",
-            "python",
-            "web",
             "hydroclimate",
+            "software",
+            "web",
             "retrieving",
             "stack",
-            "data",
-            "services"
+            "python",
+            "services",
+            "data"
         ],
-        "last_update": "2024-12-12 03:11:07"
+        "last_update": "2024-12-12 18:48:12"
     },
     {
         "repo": "https://github.com/hyriver/pydaymet",
@@ -2944,18 +2944,18 @@
             "hydrology",
             "python",
             "webservice",
-            "processing",
             "software",
             "climate",
-            "webservice",
-            "post",
             "daymet",
+            "part",
             "hyriver",
-            "stack",
             "retrieving",
-            "part"
+            "stack",
+            "processing",
+            "webservice",
+            "data"
         ],
-        "last_update": "2024-12-12 03:11:07"
+        "last_update": "2024-12-12 18:48:12"
     },
     {
         "repo": "https://github.com/euroargodev/argopy",
@@ -2972,14 +2972,14 @@
             "argo-floats",
             "oceanography",
             "python",
-            "experts",
-            "python",
+            "library",
             "beginners",
-            "data",
             "argo",
-            "library"
+            "python",
+            "data",
+            "experts"
         ],
-        "last_update": "2024-12-12 03:11:07"
+        "last_update": "2024-12-12 18:48:12"
     },
     {
         "repo": "https://github.com/ropensci/tidyhydat",
@@ -3000,17 +3000,17 @@
             "rstats",
             "tidy-data",
             "water-resources",
+            "make",
+            "tidy",
+            "import",
+            "water",
             "package",
             "survey",
-            "import",
-            "hydrometric",
-            "water",
-            "make",
             "data",
-            "tidy",
+            "hydrometric",
             "canada"
         ],
-        "last_update": "2024-12-12 03:11:07"
+        "last_update": "2024-12-12 18:48:13"
     },
     {
         "repo": "https://github.com/NOAA-ORR-ERD/PyGnome",
@@ -3022,13 +3022,13 @@
         "stars": 59,
         "website": "https://gnome.orr.noaa.gov/doc/pygnome/index.html",
         "keywords": [
-            "environment",
-            "general",
+            "noaa",
             "modeling",
             "operational",
-            "noaa"
+            "general",
+            "environment"
         ],
-        "last_update": "2024-12-12 03:11:07"
+        "last_update": "2024-12-12 18:48:13"
     },
     {
         "repo": "https://github.com/NOAA-PMEL/Ferret",
@@ -3040,12 +3040,12 @@
         "stars": 55,
         "website": "https://ferret.pmel.noaa.gov/Ferret/",
         "keywords": [
-            "ferret",
-            "noaa",
             "pmel",
-            "program"
+            "program",
+            "ferret",
+            "noaa"
         ],
-        "last_update": "2024-12-12 03:11:07"
+        "last_update": "2024-12-12 18:48:13"
     },
     {
         "repo": "https://github.com/DOV-Vlaanderen/pydov",
@@ -3063,16 +3063,16 @@
             "package",
             "python",
             "water",
-            "package",
-            "python",
-            "retrieve",
-            "vlaanderen",
             "ondergrond",
-            "data",
+            "package",
             "dov",
-            "databank"
+            "python",
+            "data",
+            "databank",
+            "vlaanderen",
+            "retrieve"
         ],
-        "last_update": "2024-12-12 03:11:07"
+        "last_update": "2024-12-12 18:48:13"
     },
     {
         "repo": "https://github.com/thetisproject/thetis",
@@ -3084,16 +3084,16 @@
         "stars": 71,
         "website": "",
         "keywords": [
-            "flows",
-            "flow",
-            "coastal",
-            "estuarine",
             "element",
-            "solver",
+            "estuarine",
+            "flow",
+            "flows",
+            "coastal",
             "simulating",
-            "finite"
+            "finite",
+            "solver"
         ],
-        "last_update": "2024-12-12 03:11:06"
+        "last_update": "2024-12-12 18:48:13"
     },
     {
         "repo": "https://github.com/CHLNDDEV/OceanMesh2D",
@@ -3111,18 +3111,18 @@
             "multiscale-simulation",
             "open-source",
             "shallow-water-equations",
-            "build",
-            "dimensional",
+            "wave",
+            "schism",
+            "utilities",
+            "equations",
+            "triangular",
+            "processing",
             "environment",
-            "models",
-            "water",
-            "required",
-            "toolboxes",
+            "solve",
             "pre",
-            "specifically",
-            "telemac"
+            "models"
         ],
-        "last_update": "2024-12-12 03:11:06"
+        "last_update": "2024-12-12 18:48:13"
     },
     {
         "repo": "https://github.com/maureentsakiris/coastwards",
@@ -3137,18 +3137,18 @@
             "citizen-science",
             "coast",
             "sea-level-rise",
-            "org",
+            "sea",
+            "risks",
             "coastwards",
-            "help",
-            "scientists",
-            "rise",
+            "org",
             "science",
             "citizen",
-            "global",
-            "project",
-            "level"
+            "rise",
+            "level",
+            "help",
+            "scientists"
         ],
-        "last_update": "2024-12-12 03:11:06"
+        "last_update": "2024-12-12 18:48:13"
     },
     {
         "repo": "https://github.com/Smithsonian/CCN-Data-Library",
@@ -3164,18 +3164,18 @@
             "data-synthesis",
             "open-source",
             "wetland-science",
-            "database",
-            "around",
-            "wetlands",
-            "tidal",
-            "coastal",
             "open",
+            "database",
+            "carbon",
+            "library",
             "world",
+            "source",
             "featuring",
-            "data",
-            "network"
+            "tidal",
+            "wetlands",
+            "coastal"
         ],
-        "last_update": "2024-12-12 03:11:06"
+        "last_update": "2024-12-12 18:48:14"
     },
     {
         "repo": "https://github.com/GClunies/noaa_coops",
@@ -3196,17 +3196,17 @@
             "tides",
             "water-level",
             "weather-api",
-            "ops",
-            "wrapper",
-            "python",
             "tides",
             "metadata",
+            "wrapper",
+            "noaa",
+            "python",
+            "ops",
             "data",
-            "apis",
             "currents",
-            "noaa"
+            "apis"
         ],
-        "last_update": "2024-12-12 03:11:06"
+        "last_update": "2024-12-12 18:48:14"
     },
     {
         "repo": "https://github.com/climate-tech-handbook/climate-tech-handbook",
@@ -3223,15 +3223,15 @@
             "climate-science",
             "climate-tech",
             "accurate",
+            "climate",
             "tech",
+            "accessible",
+            "planet",
             "help",
             "build",
-            "climate",
-            "resource",
-            "accessible",
-            "planet"
+            "resource"
         ],
-        "last_update": "2024-12-12 03:11:06"
+        "last_update": "2024-12-12 18:48:14"
     },
     {
         "repo": "https://github.com/AustralianAntarcticDivision/blueant",
@@ -3243,14 +3243,14 @@
         "stars": 15,
         "website": "https://australianantarcticdivision.github.io/blueant/",
         "keywords": [
-            "environmental",
+            "ocean",
             "southern",
-            "science",
             "antarctic",
-            "data",
-            "ocean"
+            "science",
+            "environmental",
+            "data"
         ],
-        "last_update": "2024-12-12 03:11:05"
+        "last_update": "2024-12-12 18:48:14"
     },
     {
         "repo": "https://github.com/ioos/Cloud-Sandbox",
@@ -3262,18 +3262,18 @@
         "stars": 15,
         "website": "https://www-sandbox.ioos.us/",
         "keywords": [
-            "model",
-            "analysis",
-            "cloud",
-            "framework",
-            "running",
-            "validate",
+            "input",
+            "repeatable",
+            "modeling",
             "models",
-            "required",
-            "developing",
-            "configurations"
+            "libraries",
+            "sandbox",
+            "model",
+            "outputs",
+            "development",
+            "run"
         ],
-        "last_update": "2024-12-12 03:11:05"
+        "last_update": "2024-12-12 18:48:14"
     },
     {
         "repo": "https://github.com/floschl/pysamosa",
@@ -3285,18 +3285,18 @@
         "stars": 29,
         "website": "",
         "keywords": [
-            "inland",
-            "observation",
-            "framework",
-            "space",
-            "open",
-            "water",
-            "wind",
-            "software",
-            "borne",
-            "altimetry"
+            "wave",
+            "pysamosa",
+            "bodies",
+            "processing",
+            "technique",
+            "sensing",
+            "earth",
+            "speed",
+            "used",
+            "open"
         ],
-        "last_update": "2024-12-12 03:11:05"
+        "last_update": "2024-12-12 18:48:14"
     },
     {
         "repo": "https://github.com/GeoscienceAustralia/dea-coastlines",
@@ -3323,17 +3323,17 @@
             "remote-sensing",
             "satellite-imagery",
             "annual",
+            "robust",
+            "extracting",
+            "freely",
             "observation",
             "continental",
-            "available",
-            "tidally",
             "shorelines",
-            "freely",
-            "coastal",
-            "change",
-            "data"
+            "tidally",
+            "scale",
+            "coastal"
         ],
-        "last_update": "2024-12-12 03:11:05"
+        "last_update": "2024-12-12 18:48:15"
     },
     {
         "repo": "https://github.com/energywebfoundation/origin",
@@ -3345,18 +3345,18 @@
         "stars": 104,
         "website": "https://energyweb.org/technology/ew-origin/",
         "keywords": [
-            "issuance",
-            "attribute",
             "together",
             "management",
-            "certificates",
+            "origin",
             "toolkits",
-            "system",
             "energy",
-            "provide",
+            "certificates",
+            "system",
+            "issuance",
+            "attribute",
             "set"
         ],
-        "last_update": "2024-12-12 03:10:39"
+        "last_update": "2024-12-12 18:48:15"
     },
     {
         "repo": "https://github.com/assume-framework/assume",
@@ -3368,16 +3368,16 @@
         "stars": 25,
         "website": "https://assume.readthedocs.io",
         "keywords": [
-            "evolution",
+            "agent",
+            "understanding",
+            "simulation",
+            "based",
             "assume",
             "studying",
-            "based",
-            "understanding",
-            "agent",
-            "simulation",
+            "evolution",
             "market"
         ],
-        "last_update": "2024-12-12 03:10:39"
+        "last_update": "2024-12-12 18:48:15"
     },
     {
         "repo": "https://github.com/EIAgov/NEMS",
@@ -3389,7 +3389,7 @@
         "stars": 63,
         "website": "",
         "keywords": [],
-        "last_update": "2024-12-12 03:10:39"
+        "last_update": "2024-12-12 18:48:15"
     },
     {
         "repo": "https://github.com/Akkudoktor-EOS/EOS",
@@ -3398,21 +3398,21 @@
         "title": "Akkudoktor-EOS/EOS",
         "description": "This repository features an Energy Optimization System (EOS) that optimizes energy distribution, usage for batteries, heat pumps& household devices. It includes predictive models for electricity prices (planned), load forecasting& dynamic optimization to maximize energy efficiency & minimize costs. Founder Dr. Andreas Schmitz (YouTube @akkudoktor)",
         "language": "Python",
-        "stars": 392,
+        "stars": 393,
         "website": "https://akkudoktor.net",
         "keywords": [
-            "includes",
-            "prices",
-            "andreas",
-            "system",
-            "models",
-            "devices",
-            "forecasting",
+            "maximize",
             "repository",
-            "features",
-            "optimization"
+            "andreas",
+            "energy",
+            "usage",
+            "akkudoktor",
+            "devices",
+            "planned",
+            "includes",
+            "dynamic"
         ],
-        "last_update": "2024-12-12 03:10:39"
+        "last_update": "2024-12-12 18:48:15"
     },
     {
         "repo": "https://github.com/capytaine/capytaine",
@@ -3431,16 +3431,16 @@
             "python",
             "water-wave",
             "wave-energy",
-            "nemoh",
-            "based",
-            "bem",
-            "python",
-            "potential",
             "flow",
+            "bem",
+            "based",
+            "potential",
+            "python",
             "linear",
+            "nemoh",
             "solver"
         ],
-        "last_update": "2024-12-12 03:10:39"
+        "last_update": "2024-12-12 18:48:15"
     },
     {
         "repo": "https://github.com/macroenergy/Dolphyn.jl",
@@ -3452,16 +3452,16 @@
         "stars": 40,
         "website": "https://macroenergy.github.io/Dolphyn.jl/",
         "keywords": [
-            "optimization",
-            "decision",
-            "dolphyn",
-            "hydrogen",
-            "nexus",
-            "power",
             "carbon",
-            "low"
+            "power",
+            "nexus",
+            "low",
+            "hydrogen",
+            "dolphyn",
+            "optimization",
+            "decision"
         ],
-        "last_update": "2024-12-12 03:10:39"
+        "last_update": "2024-12-12 18:48:15"
     },
     {
         "repo": "https://github.com/gridsingularity/gsy-e",
@@ -3473,12 +3473,12 @@
         "stars": 77,
         "website": "",
         "keywords": [
-            "singularity",
-            "grid",
             "energy",
-            "exchange"
+            "exchange",
+            "grid",
+            "singularity"
         ],
-        "last_update": "2024-12-12 03:10:38"
+        "last_update": "2024-12-12 18:48:16"
     },
     {
         "repo": "https://github.com/PyPSA/powerplantmatching",
@@ -3490,15 +3490,15 @@
         "stars": 159,
         "website": "https://powerplantmatching.readthedocs.io/en/latest/",
         "keywords": [
-            "multiple",
-            "plant",
             "tools",
+            "power",
+            "plant",
+            "multiple",
             "combine",
             "databases",
-            "set",
-            "power"
+            "set"
         ],
-        "last_update": "2024-12-12 03:10:38"
+        "last_update": "2024-12-12 18:48:16"
     },
     {
         "repo": "https://github.com/quintel/etengine",
@@ -3510,13 +3510,13 @@
         "stars": 15,
         "website": "https://energytransitionmodel.com/",
         "keywords": [
-            "model",
-            "transition",
+            "energy",
             "calculation",
             "engine",
-            "energy"
+            "model",
+            "transition"
         ],
-        "last_update": "2024-12-12 03:10:38"
+        "last_update": "2024-12-12 18:48:16"
     },
     {
         "repo": "https://github.com/rebase-energy/enerflow",
@@ -3534,18 +3534,18 @@
             "openai-gym",
             "python",
             "sequential-decision-making-problems",
-            "modelling",
-            "problems",
-            "decision",
-            "python",
-            "framework",
             "open",
-            "sector",
+            "modelling",
+            "sequential",
+            "framework",
             "energy",
             "source",
-            "sequential"
+            "python",
+            "sector",
+            "problems",
+            "decision"
         ],
-        "last_update": "2024-12-12 03:10:38"
+        "last_update": "2024-12-12 18:48:16"
     },
     {
         "repo": "https://github.com/SmartTensors/GeoThermalCloud.jl",
@@ -16924,17 +16924,17 @@
             "public-transportation",
             "schema",
             "vocabulary",
-            "solutions",
-            "supporting",
-            "added",
             "value",
+            "supporting",
+            "vocabulary",
             "services",
-            "oriented",
-            "mobility",
+            "solutions",
+            "added",
             "future",
-            "vocabulary"
+            "oriented",
+            "mobility"
         ],
-        "last_update": "2024-12-09 03:15:54"
+        "last_update": "2024-12-12 18:48:47"
     },
     {
         "repo": "https://github.com/grote/Transportr",
@@ -16943,21 +16943,21 @@
         "title": "grote/Transportr",
         "description": "Free Public Transport Assistant without Ads or Tracking",
         "language": "Kotlin",
-        "stars": 1065,
+        "stars": 1066,
         "website": "https://transportr.app",
         "keywords": [
             "android-app",
             "map",
             "public-transportation",
-            "tracking",
-            "without",
             "public",
-            "transport",
-            "free",
+            "tracking",
             "assistant",
+            "without",
+            "free",
+            "transport",
             "ads"
         ],
-        "last_update": "2024-12-09 03:15:54"
+        "last_update": "2024-12-12 18:48:48"
     },
     {
         "repo": "https://github.com/OneBusAway/onebusaway-android",
@@ -16966,7 +16966,7 @@
         "title": "OneBusAway/onebusaway-android",
         "description": "The official Android app for OneBusAway",
         "language": "Java",
-        "stars": 484,
+        "stars": 486,
         "website": "http://www.onebusaway.org/",
         "keywords": [
             "android",
@@ -16977,10 +16977,10 @@
             "transit",
             "onebusaway",
             "official",
-            "app",
-            "android"
+            "android",
+            "app"
         ],
-        "last_update": "2024-12-09 03:15:54"
+        "last_update": "2024-12-12 18:48:48"
     },
     {
         "repo": "https://github.com/BlinkTagInc/node-gtfs",
@@ -16989,7 +16989,7 @@
         "title": "BlinkTagInc/node-gtfs",
         "description": "Import GTFS transit data into SQLite and query routes, stops, times, fares and more.",
         "language": "TypeScript",
-        "stars": 443,
+        "stars": 444,
         "website": "",
         "keywords": [
             "geojson",
@@ -16999,18 +16999,18 @@
             "sqlite",
             "transit",
             "transit-data",
-            "times",
-            "data",
-            "routes",
-            "stops",
             "gtfs",
             "query",
-            "import",
+            "stops",
             "transit",
+            "import",
+            "times",
+            "data",
             "fares",
+            "routes",
             "sqlite"
         ],
-        "last_update": "2024-12-09 03:15:54"
+        "last_update": "2024-12-12 18:48:48"
     },
     {
         "repo": "https://github.com/evcc-io/evcc",
@@ -17019,7 +17019,7 @@
         "title": "evcc-io/evcc",
         "description": "Solar Charging ☀️🚘",
         "language": "Go",
-        "stars": 3697,
+        "stars": 3710,
         "website": "https://evcc.io",
         "keywords": [
             "battery",
@@ -17036,11 +17036,11 @@
             "solar",
             "sunspec",
             "wallbox",
+            "solar",
             "☀️🚘",
-            "charging",
-            "solar"
+            "charging"
         ],
-        "last_update": "2024-12-09 03:15:53"
+        "last_update": "2024-12-12 18:48:48"
     },
     {
         "repo": "https://github.com/steve-community/steve",
@@ -17049,7 +17049,7 @@
         "title": "steve-community/steve",
         "description": "SteVe - OCPP server implementation in Java",
         "language": "Java",
-        "stars": 809,
+        "stars": 811,
         "website": "",
         "keywords": [
             "chargingstation",
@@ -17059,13 +17059,13 @@
             "ocpp",
             "smarthome",
             "steve",
-            "ocpp",
-            "implementation",
-            "steve",
             "java",
-            "server"
+            "implementation",
+            "server",
+            "ocpp",
+            "steve"
         ],
-        "last_update": "2024-12-09 03:15:53"
+        "last_update": "2024-12-12 18:48:48"
     },
     {
         "repo": "https://github.com/SwitchEV/RISE-V2G",
@@ -17077,18 +17077,18 @@
         "stars": 220,
         "website": "",
         "keywords": [
+            "vehicle",
             "grid",
+            "iso",
+            "featured",
             "reference",
+            "fully",
             "15118",
             "implementation",
-            "featured",
             "communication",
-            "interface",
-            "vehicle",
-            "fully",
-            "iso"
+            "interface"
         ],
-        "last_update": "2024-12-09 03:15:53"
+        "last_update": "2024-12-12 18:48:48"
     },
     {
         "repo": "https://github.com/sash-ko/simobility",
@@ -17111,17 +17111,17 @@
             "simulation-framework",
             "simulator",
             "transportation",
-            "simulation",
             "weight",
-            "prototyping",
-            "light",
-            "quick",
             "framework",
-            "mobility",
+            "simulation",
+            "light",
+            "best",
+            "prototyping",
             "simobility",
-            "best"
+            "mobility",
+            "quick"
         ],
-        "last_update": "2024-12-09 03:15:53"
+        "last_update": "2024-12-12 18:48:48"
     },
     {
         "repo": "https://github.com/vonfeng/DeepMove",
@@ -17130,25 +17130,25 @@
         "title": "vonfeng/DeepMove",
         "description": "Codes for WWW'18 Paper-DeepMove: Predicting Human Mobility with Attentional Recurrent Network",
         "language": "Python",
-        "stars": 147,
+        "stars": 148,
         "website": "",
         "keywords": [
             "attention",
             "mobility-trajectory",
             "prediction",
             "www",
-            "codes",
-            "deepmove",
-            "www",
             "attentional",
+            "codes",
+            "predicting",
+            "recurrent",
+            "deepmove",
+            "human",
+            "www",
             "paper",
             "mobility",
-            "network",
-            "predicting",
-            "human",
-            "recurrent"
+            "network"
         ],
-        "last_update": "2024-12-09 03:15:52"
+        "last_update": "2024-12-12 18:48:49"
     },
     {
         "repo": "https://github.com/openmobilityfoundation/mobility-data-specification",
@@ -17157,7 +17157,7 @@
         "title": "openmobilityfoundation/mobility-data-specification",
         "description": "A data standard to enable right-of-way regulation and two-way communication between mobility companies and local governments.",
         "language": null,
-        "stars": 689,
+        "stars": 691,
         "website": "https://www.openmobilityfoundation.org/about-mds/",
         "keywords": [
             "bike-share",
@@ -17180,18 +17180,18 @@
             "scooter-sharing",
             "scooters",
             "taxi",
-            "governments",
-            "standard",
-            "data",
-            "regulation",
             "local",
+            "governments",
+            "enable",
+            "mobility",
             "right",
+            "way",
+            "data",
+            "standard",
             "communication",
-            "two",
-            "companies",
-            "mobility"
+            "companies"
         ],
-        "last_update": "2024-12-09 03:15:52"
+        "last_update": "2024-12-12 18:48:49"
     },
     {
         "repo": "https://github.com/mdolab/openconcept",
@@ -17203,16 +17203,16 @@
         "stars": 37,
         "website": "",
         "keywords": [
-            "conceptual",
-            "toolkit",
-            "architectures",
+            "propulsion",
             "mdao",
+            "toolkit",
+            "conceptual",
             "aircraft",
             "openconcept",
-            "propulsion",
+            "architectures",
             "unconventional"
         ],
-        "last_update": "2024-12-09 03:15:52"
+        "last_update": "2024-12-12 18:48:49"
     },
     {
         "repo": "https://github.com/openchargemap/ocm-system",
@@ -17224,18 +17224,18 @@
         "stars": 109,
         "website": "https://openchargemap.org",
         "keywords": [
-            "electric",
-            "charging",
-            "charge",
-            "public",
-            "help",
-            "wanted",
-            "map",
             "vehicle",
             "open",
-            "2011"
+            "registry",
+            "established",
+            "public",
+            "electric",
+            "global",
+            "2011",
+            "locations",
+            "help"
         ],
-        "last_update": "2024-12-09 03:15:52"
+        "last_update": "2024-12-12 18:48:49"
     },
     {
         "repo": "https://github.com/STS-Rosario/carpoolear",
@@ -17254,18 +17254,18 @@
             "mobile",
             "vuejs",
             "web",
-            "argentinian",
-            "mobile",
-            "cordova",
-            "carpoolear",
             "carpooling",
-            "application",
             "open",
+            "mobile",
+            "carpoolear",
+            "source",
+            "application",
             "vue",
-            "frontend",
-            "app"
+            "cordova",
+            "app",
+            "frontend"
         ],
-        "last_update": "2024-12-09 03:15:51"
+        "last_update": "2024-12-12 18:48:49"
     },
     {
         "repo": "https://github.com/OpenEVSE/open_evse",
@@ -17277,11 +17277,11 @@
         "stars": 123,
         "website": "",
         "keywords": [
+            "evse",
             "open",
-            "firmware",
-            "evse"
+            "firmware"
         ],
-        "last_update": "2024-12-09 03:15:51"
+        "last_update": "2024-12-12 18:48:49"
     },
     {
         "repo": "https://github.com/OpenEVSE/ESP8266_WiFi_v2.x",
@@ -17300,12 +17300,12 @@
             "openenergymonitor",
             "openevse",
             "wifi",
+            "openevse",
             "wifi",
-            "esp8266",
             "version",
-            "openevse"
+            "esp8266"
         ],
-        "last_update": "2024-12-09 03:15:51"
+        "last_update": "2024-12-12 18:48:50"
     },
     {
         "repo": "https://github.com/maasglobal/maas-schemas",
@@ -17320,15 +17320,15 @@
             "mobility",
             "mobility-as-a-service",
             "transportation",
-            "validation",
-            "api",
-            "model",
-            "data",
             "tests",
+            "api",
             "mobility",
-            "service"
+            "service",
+            "data",
+            "validation",
+            "model"
         ],
-        "last_update": "2024-12-09 03:15:50"
+        "last_update": "2024-12-12 18:48:50"
     },
     {
         "repo": "https://github.com/coopcycle/coopcycle-web",
@@ -17337,21 +17337,21 @@
         "title": "coopcycle/coopcycle-web",
         "description": "Logistics & marketplace platform. Only for worker-owned business.",
         "language": "PHP",
-        "stars": 571,
+        "stars": 572,
         "website": "https://coopcycle.org",
         "keywords": [
             "apiplatform",
             "coop",
             "platformcoop",
             "symfony",
+            "marketplace",
+            "logistics",
             "owned",
-            "worker",
             "platform",
             "business",
-            "logistics",
-            "marketplace"
+            "worker"
         ],
-        "last_update": "2024-12-09 03:15:50"
+        "last_update": "2024-12-12 18:48:50"
     },
     {
         "repo": "https://github.com/EVNotify/EVNotify",
@@ -17363,18 +17363,18 @@
         "stars": 209,
         "website": "https://evnotify.com",
         "keywords": [
-            "allows",
-            "electric",
-            "notify",
-            "specified",
-            "charge",
-            "achieved",
-            "monitor",
             "vehicle",
+            "evnotify",
+            "allows",
+            "preset",
             "state",
-            "evnotify"
+            "specified",
+            "electric",
+            "let",
+            "notify",
+            "achieved"
         ],
-        "last_update": "2024-12-09 03:15:50"
+        "last_update": "2024-12-12 18:48:50"
     },
     {
         "repo": "https://github.com/diowa/icare",
@@ -17392,12 +17392,12 @@
             "ridesharing",
             "ruby",
             "travel",
-            "open",
             "carpooling",
-            "platform",
-            "source"
+            "open",
+            "source",
+            "platform"
         ],
-        "last_update": "2024-12-09 03:15:50"
+        "last_update": "2024-12-12 18:48:50"
     },
     {
         "repo": "https://github.com/RWTH-EBC/districtgenerator",
@@ -17410,12 +17410,12 @@
         "website": "",
         "keywords": [
             "demand",
-            "profile",
             "tool",
+            "profile",
             "districts",
             "generation"
         ],
-        "last_update": "2024-12-09 03:15:49"
+        "last_update": "2024-12-12 18:48:50"
     },
     {
         "repo": "https://github.com/ropensci/stplanr",
@@ -17424,7 +17424,7 @@
         "title": "ropensci/stplanr",
         "description": "Sustainable transport planning with R",
         "language": "R",
-        "stars": 421,
+        "stars": 422,
         "website": "https://docs.ropensci.org/stplanr",
         "keywords": [
             "cycle",
@@ -17444,11 +17444,11 @@
             "transport-planning",
             "transportation",
             "walking",
+            "planning",
             "transport",
-            "sustainable",
-            "planning"
+            "sustainable"
         ],
-        "last_update": "2024-12-09 03:15:49"
+        "last_update": "2024-12-12 18:48:50"
     },
     {
         "repo": "https://github.com/JRCSTU/CO2MPAS-TA",
@@ -17469,17 +17469,17 @@
             "simulator",
             "vehicle",
             "wltp",
-            "approving",
-            "nedc",
-            "simulator",
             "vehicle",
-            "type",
+            "nedc",
             "emissions",
-            "wltp",
+            "approving",
             "predicting",
-            "co2"
+            "simulator",
+            "wltp",
+            "co2",
+            "type"
         ],
-        "last_update": "2024-12-09 03:15:49"
+        "last_update": "2024-12-12 18:48:51"
     },
     {
         "repo": "https://github.com/mobilityhouse/ocpp",
@@ -17497,15 +17497,15 @@
             "hacktoberfest",
             "ocpp",
             "server",
-            "ocpp",
-            "charge",
-            "protocol",
-            "implementation",
             "open",
+            "point",
+            "implementation",
+            "protocol",
             "python",
-            "point"
+            "ocpp",
+            "charge"
         ],
-        "last_update": "2024-12-09 03:15:49"
+        "last_update": "2024-12-12 18:48:51"
     },
     {
         "repo": "https://github.com/pnnl/ConStrain",
@@ -17524,18 +17524,18 @@
             "hvac",
             "simulation",
             "verification",
-            "automatically",
-            "integrated",
+            "constrain",
+            "framework",
+            "intended",
             "building",
             "driven",
-            "controls",
-            "intended",
-            "data",
+            "system",
+            "verifies",
             "function",
-            "framework",
-            "verifies"
+            "controls",
+            "data"
         ],
-        "last_update": "2024-12-09 03:15:48"
+        "last_update": "2024-12-12 18:48:51"
     },
     {
         "repo": "https://github.com/openenergymonitor/emonpi",
@@ -17553,16 +17553,16 @@
             "energy-monitor",
             "hardware-designs",
             "raspberry-pi",
-            "based",
             "software",
-            "firmware",
-            "monitor",
-            "hardware",
             "energy",
+            "based",
+            "related",
+            "monitor",
             "raspberry",
-            "related"
+            "hardware",
+            "firmware"
         ],
-        "last_update": "2024-12-09 03:15:02"
+        "last_update": "2024-12-12 18:48:51"
     },
     {
         "repo": "https://github.com/openenergymonitor/EmonLib",
@@ -17574,17 +17574,17 @@
         "stars": 596,
         "website": "openenergymonitor.org",
         "keywords": [
+            "restart",
             "arduino",
+            "library",
             "ide",
-            "folder",
+            "electricity",
             "libraries",
             "monitoring",
-            "library",
             "install",
-            "electricity",
-            "restart"
+            "folder"
         ],
-        "last_update": "2024-12-09 03:15:02"
+        "last_update": "2024-12-12 18:48:51"
     },
     {
         "repo": "https://github.com/openenergymonitor/STM32",
@@ -17596,11 +17596,11 @@
         "stars": 78,
         "website": "",
         "keywords": [
-            "energy",
             "monitoring",
-            "stm32"
+            "stm32",
+            "energy"
         ],
-        "last_update": "2024-12-09 03:15:02"
+        "last_update": "2024-12-12 18:48:51"
     },
     {
         "repo": "https://github.com/SolarNetwork/solarnetwork-node",
@@ -17627,15 +17627,15 @@
             "modbus",
             "osgi",
             "plugin-architecture",
-            "distributed",
-            "controlling",
-            "data",
             "devices",
             "collecting",
             "solarnode",
-            "components"
+            "distributed",
+            "data",
+            "components",
+            "controlling"
         ],
-        "last_update": "2024-12-09 03:15:01"
+        "last_update": "2024-12-12 18:48:51"
     },
     {
         "repo": "https://github.com/Aalto-QuML/ClimODE",
@@ -17647,16 +17647,16 @@
         "stars": 75,
         "website": "https://yogeshverma1998.github.io/ClimODE/",
         "keywords": [
-            "neural",
-            "informed",
-            "climode",
             "climate",
+            "forecasting",
+            "informed",
             "physics",
             "odes",
-            "weather",
-            "forecasting"
+            "climode",
+            "neural",
+            "weather"
         ],
-        "last_update": "2024-12-09 03:14:15"
+        "last_update": "2024-12-12 18:48:52"
     },
     {
         "repo": "https://github.com/ciceroOslo/ciceroscm",
@@ -17668,16 +17668,16 @@
         "stars": 19,
         "website": "",
         "keywords": [
-            "model",
-            "cicero",
+            "emulator",
+            "climate",
             "version",
+            "python",
             "scm",
             "simple",
-            "emulator",
-            "python",
-            "climate"
+            "model",
+            "cicero"
         ],
-        "last_update": "2024-12-09 03:14:15"
+        "last_update": "2024-12-12 18:48:52"
     },
     {
         "repo": "https://github.com/cf-convention/cf-conventions",
@@ -17689,10 +17689,10 @@
         "stars": 89,
         "website": "http://cfconventions.org/cf-conventions/cf-conventions",
         "keywords": [
-            "asciidoc",
-            "source"
+            "source",
+            "asciidoc"
         ],
-        "last_update": "2024-12-09 03:14:15"
+        "last_update": "2024-12-12 18:48:52"
     },
     {
         "repo": "https://github.com/NCAS-CMS/cf-python",
@@ -17701,7 +17701,7 @@
         "title": "NCAS-CMS/cf-python",
         "description": "A CF-compliant Earth Science data analysis library",
         "language": "Python",
-        "stars": 128,
+        "stars": 129,
         "website": "http://ncas-cms.github.io/cf-python",
         "keywords": [
             "cf",
@@ -17714,14 +17714,14 @@
             "pp",
             "python",
             "um",
-            "analysis",
-            "earth",
-            "compliant",
-            "data",
             "library",
-            "science"
+            "analysis",
+            "science",
+            "data",
+            "compliant",
+            "earth"
         ],
-        "last_update": "2024-12-09 03:14:15"
+        "last_update": "2024-12-12 18:48:52"
     },
     {
         "repo": "https://github.com/pik-copan/pyunicorn",
@@ -17733,14 +17733,14 @@
         "stars": 200,
         "website": "http://pik-potsdam.de/~donges/pyunicorn/",
         "keywords": [
-            "analysis",
             "unified",
-            "recurrence",
-            "network",
+            "complex",
             "toolbox",
-            "complex"
+            "analysis",
+            "recurrence",
+            "network"
         ],
-        "last_update": "2024-12-09 03:14:14"
+        "last_update": "2024-12-12 18:48:52"
     },
     {
         "repo": "https://github.com/escomp/ctsm",
@@ -17760,15 +17760,15 @@
             "land",
             "land-surface-model",
             "ncar",
-            "land",
-            "model",
-            "includes",
             "cesm",
+            "terrestrial",
             "systems",
+            "includes",
             "community",
-            "terrestrial"
+            "land",
+            "model"
         ],
-        "last_update": "2024-12-09 03:14:14"
+        "last_update": "2024-12-12 18:48:52"
     },
     {
         "repo": "https://github.com/ICTP/RegCM",
@@ -17782,12 +17782,12 @@
         "keywords": [
             "climate-model",
             "regional-climate-model",
-            "regional",
-            "model",
             "climate",
+            "model",
+            "regional",
             "ictp"
         ],
-        "last_update": "2024-12-09 03:14:14"
+        "last_update": "2024-12-12 18:48:53"
     },
     {
         "repo": "https://github.com/Geodels/gospl",
@@ -17809,14 +17809,14 @@
             "paleogeography",
             "sediment-transport",
             "sedimentation",
-            "model",
             "scalable",
-            "global",
             "evolution",
             "landscape",
-            "paleo"
+            "paleo",
+            "global",
+            "model"
         ],
-        "last_update": "2024-12-09 03:14:14"
+        "last_update": "2024-12-12 18:48:53"
     },
     {
         "repo": "https://github.com/pydata/xarray",
@@ -17825,7 +17825,7 @@
         "title": "pydata/xarray",
         "description": "N-D labeled arrays and datasets in Python",
         "language": "Python",
-        "stars": 3656,
+        "stars": 3661,
         "website": "https://xarray.dev",
         "keywords": [
             "dask",
@@ -17835,11 +17835,11 @@
             "python",
             "xarray",
             "python",
-            "datasets",
+            "labeled",
             "arrays",
-            "labeled"
+            "datasets"
         ],
-        "last_update": "2024-12-09 03:14:13"
+        "last_update": "2024-12-12 18:48:53"
     },
     {
         "repo": "https://github.com/xarray-contrib/cf-xarray",
@@ -17848,19 +17848,19 @@
         "title": "xarray-contrib/cf-xarray",
         "description": "an accessor for xarray objects that interprets CF attributes",
         "language": "Python",
-        "stars": 160,
+        "stars": 161,
         "website": "https://cf-xarray.readthedocs.io/",
         "keywords": [
             "cf-conventions",
             "metadata",
             "xarray",
             "interprets",
-            "attributes",
-            "accessor",
+            "objects",
             "xarray",
-            "objects"
+            "accessor",
+            "attributes"
         ],
-        "last_update": "2024-12-09 03:14:13"
+        "last_update": "2024-12-12 18:48:53"
     },
     {
         "repo": "https://github.com/ropensci/rnoaa",
@@ -17878,13 +17878,13 @@
             "r",
             "r-package",
             "rstats",
+            "noaa",
             "data",
-            "interface",
-            "apis",
             "many",
-            "noaa"
+            "interface",
+            "apis"
         ],
-        "last_update": "2024-12-09 03:14:13"
+        "last_update": "2024-12-12 18:48:53"
     },
     {
         "repo": "https://github.com/nci/scores",
@@ -17893,7 +17893,7 @@
         "title": "nci/scores",
         "description": "scores: Metrics for the verification, evaluation and optimisation of forecasts, predictions or models.",
         "language": "Jupyter Notebook",
-        "stars": 84,
+        "stars": 85,
         "website": "https://scores.readthedocs.io/",
         "keywords": [
             "climate",
@@ -17909,16 +17909,16 @@
             "verification",
             "weather",
             "xarray",
-            "metrics",
-            "models",
-            "forecasts",
-            "scores",
-            "evaluation",
             "predictions",
+            "models",
+            "metrics",
+            "scores",
             "optimisation",
-            "verification"
+            "evaluation",
+            "verification",
+            "forecasts"
         ],
-        "last_update": "2024-12-09 03:14:13"
+        "last_update": "2024-12-12 18:48:53"
     },
     {
         "repo": "https://github.com/Unidata/netcdf-c",
@@ -17927,7 +17927,7 @@
         "title": "Unidata/netcdf-c",
         "description": "Official GitHub repository for netCDF-C libraries and utilities.",
         "language": "C",
-        "stars": 522,
+        "stars": 523,
         "website": "",
         "keywords": [
             "c",
@@ -17935,14 +17935,14 @@
             "netcdf",
             "unidata",
             "unidata-netcdf",
-            "libraries",
-            "github",
-            "utilities",
-            "official",
             "repository",
-            "netcdf"
+            "utilities",
+            "libraries",
+            "netcdf",
+            "github",
+            "official"
         ],
-        "last_update": "2024-12-09 03:14:12"
+        "last_update": "2024-12-12 18:48:53"
     },
     {
         "repo": "https://github.com/Unidata/netcdf4-python",
@@ -17957,14 +17957,14 @@
             "netcdf",
             "netcdf4",
             "python",
-            "interface",
-            "python",
             "numpy",
             "library",
+            "python",
+            "netcdf",
             "netcdf4",
-            "netcdf"
+            "interface"
         ],
-        "last_update": "2024-12-09 03:14:12"
+        "last_update": "2024-12-12 18:48:54"
     },
     {
         "repo": "https://github.com/PCMDI/cmor",
@@ -17980,12 +17980,12 @@
             "cmor3",
             "esgf",
             "prepare",
-            "model",
+            "rewriter",
             "output",
-            "climate",
-            "rewriter"
+            "model",
+            "climate"
         ],
-        "last_update": "2024-12-09 03:14:12"
+        "last_update": "2024-12-12 18:48:54"
     },
     {
         "repo": "https://github.com/h5netcdf/h5netcdf",
@@ -18001,13 +18001,13 @@
             "hdf5",
             "netcdf",
             "python",
-            "via",
             "pythonic",
-            "interface",
             "h5py",
-            "netcdf4"
+            "via",
+            "netcdf4",
+            "interface"
         ],
-        "last_update": "2024-12-09 03:14:12"
+        "last_update": "2024-12-12 18:48:54"
     },
     {
         "repo": "https://github.com/pylandtemp/pylandtemp",
@@ -18036,18 +18036,18 @@
             "satellite-data",
             "satellite-imagery-analysis",
             "satellite-images",
-            "land",
-            "algorithms",
-            "images",
-            "computing",
-            "emissivity",
-            "python",
-            "global",
-            "nasa",
             "temperature",
-            "surface"
+            "images",
+            "algorithms",
+            "computing",
+            "python",
+            "emissivity",
+            "land",
+            "surface",
+            "nasa",
+            "global"
         ],
-        "last_update": "2024-12-09 03:14:11"
+        "last_update": "2024-12-12 18:48:54"
     },
     {
         "repo": "https://github.com/ecmwf/cdsapi",
@@ -18059,16 +18059,16 @@
         "stars": 246,
         "website": "",
         "keywords": [
-            "store",
-            "api",
-            "data",
-            "cds",
             "copernicus",
+            "climate",
+            "api",
+            "store",
+            "cds",
             "python",
             "access",
-            "climate"
+            "data"
         ],
-        "last_update": "2024-12-09 03:14:11"
+        "last_update": "2024-12-12 18:48:54"
     },
     {
         "repo": "https://github.com/ropensci/prism",
@@ -18083,18 +18083,18 @@
             "r",
             "r-package",
             "rstats",
-            "edu",
-            "data",
-            "://",
+            "climate",
+            "oregon",
             "prism",
             "http",
-            "download",
+            "data",
+            "://",
             "project",
-            "oregon",
-            "www",
+            "download",
+            "edu",
             "oregonstate"
         ],
-        "last_update": "2024-12-09 03:14:11"
+        "last_update": "2024-12-12 18:48:54"
     },
     {
         "repo": "https://github.com/Unidata/netcdf-fortran",
@@ -18111,18 +18111,18 @@
             "netcdf-fortran",
             "netcdf-library",
             "unidata",
-            "github",
-            "libraries",
-            "official",
-            "fortran",
+            "repository",
             "library",
+            "first",
             "install",
             "depend",
-            "repository",
-            "first",
-            "netcdf"
+            "fortran",
+            "netcdf",
+            "libraries",
+            "github",
+            "official"
         ],
-        "last_update": "2024-12-09 03:14:11"
+        "last_update": "2024-12-12 18:48:55"
     },
     {
         "repo": "https://github.com/ropensci/GSODR",
@@ -18150,17 +18150,17 @@
             "weather-data",
             "weather-information",
             "weather-stations",
-            "api",
-            "summary",
-            "data",
-            "gsod",
-            "day",
-            "global",
             "client",
+            "api",
+            "data",
             "surface",
-            "weather"
+            "global",
+            "day",
+            "weather",
+            "summary",
+            "gsod"
         ],
-        "last_update": "2024-12-09 03:14:10"
+        "last_update": "2024-12-12 18:48:55"
     },
     {
         "repo": "https://github.com/IPCC-WG1/Chapter-9",
@@ -18172,15 +18172,15 @@
         "stars": 78,
         "website": "",
         "keywords": [
-            "data",
-            "chapter",
-            "ipcc",
-            "figures",
-            "code",
             "repository",
-            "ar6"
+            "code",
+            "ar6",
+            "ipcc",
+            "data",
+            "figures",
+            "chapter"
         ],
-        "last_update": "2024-12-09 03:14:10"
+        "last_update": "2024-12-12 18:48:55"
     },
     {
         "repo": "https://github.com/SantanderMetGroup/ATLAS",
@@ -18198,15 +18198,15 @@
             "cordex",
             "ipcc-regions",
             "warming-levels",
-            "change",
+            "code",
+            "climate",
+            "workspace",
             "virtual",
             "datasets",
-            "atlas",
-            "workspace",
-            "code",
-            "climate"
+            "change",
+            "atlas"
         ],
-        "last_update": "2024-12-09 03:14:10"
+        "last_update": "2024-12-12 18:48:55"
     },
     {
         "repo": "https://github.com/JuliaClimate/ClimateSatellite.jl",
@@ -18222,15 +18222,15 @@
             "climate-analysis",
             "climate-science",
             "gpm-imerg",
-            "data",
-            "measurements",
             "downloads",
-            "observational",
-            "julia",
+            "measurements",
             "package",
-            "satellite"
+            "data",
+            "julia",
+            "satellite",
+            "observational"
         ],
-        "last_update": "2024-12-09 03:14:09"
+        "last_update": "2024-12-12 18:48:55"
     },
     {
         "repo": "https://github.com/meteostat/meteostat-python",
@@ -18239,7 +18239,7 @@
         "title": "meteostat/meteostat-python",
         "description": "Access and analyze historical weather and climate data with Python.",
         "language": "Python",
-        "stars": 443,
+        "stars": 445,
         "website": "https://dev.meteostat.net/python/",
         "keywords": [
             "climate",
@@ -18253,14 +18253,14 @@
             "weather-data",
             "weather-station",
             "historical",
-            "data",
+            "climate",
             "analyze",
-            "weather",
             "python",
             "access",
-            "climate"
+            "data",
+            "weather"
         ],
-        "last_update": "2024-12-09 03:14:09"
+        "last_update": "2024-12-12 18:48:55"
     },
     {
         "repo": "https://github.com/SantanderMetGroup/loadeR",
@@ -18272,12 +18272,12 @@
         "stars": 13,
         "website": "https://github.com/SantanderMetGroup/climate4R",
         "keywords": [
-            "package",
-            "climate4r",
             "access",
-            "data"
+            "package",
+            "data",
+            "climate4r"
         ],
-        "last_update": "2024-12-09 03:14:09"
+        "last_update": "2024-12-12 18:48:56"
     },
     {
         "repo": "https://github.com/VeruGHub/easyclimate",
@@ -18292,16 +18292,16 @@
             "climate-data",
             "europe",
             "r-package",
-            "high",
-            "europe",
-            "resolution",
-            "data",
             "easy",
-            "access",
+            "climate",
             "daily",
-            "climate"
+            "europe",
+            "access",
+            "data",
+            "high",
+            "resolution"
         ],
-        "last_update": "2024-12-09 03:14:09"
+        "last_update": "2024-12-12 18:48:56"
     },
     {
         "repo": "https://github.com/cortinah/hockeystick",
@@ -18329,14 +18329,14 @@
             "sea-levels",
             "temperature-data",
             "warming-stripes",
+            "heating",
             "essential",
             "data",
-            "visualize",
-            "heating",
+            "global",
             "download",
-            "global"
+            "visualize"
         ],
-        "last_update": "2024-12-09 03:14:08"
+        "last_update": "2024-12-12 18:48:56"
     },
     {
         "repo": "https://github.com/ropensci/clifro",
@@ -18358,14 +18358,14 @@
             "weather",
             "windrose",
             "zealand",
-            "data",
+            "climate",
             "cliflo",
-            "visualise",
+            "data",
             "download",
-            "easily",
-            "climate"
+            "visualise",
+            "easily"
         ],
-        "last_update": "2024-12-09 03:14:08"
+        "last_update": "2024-12-12 18:48:56"
     },
     {
         "repo": "https://github.com/ropensci/rWBclimate",
@@ -18380,15 +18380,15 @@
             "r",
             "r-package",
             "rstats",
+            "warning",
+            "climate",
             "world",
+            "archived",
             "data",
             "interface",
-            "archived",
-            "bank",
-            "warning",
-            "climate"
+            "bank"
         ],
-        "last_update": "2024-12-09 03:14:08"
+        "last_update": "2024-12-12 18:48:56"
     },
     {
         "repo": "https://github.com/zmlabe/IceVarFigs",
