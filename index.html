@@ -52,80 +52,11 @@
 
     <!-- Categories Grid -->
     <div id="categories-grid" class="categories"></div>
-    <script>
-        // Funzione per caricare i dati dal file JSON
-        async function loadCategories() {
-            try {
-                const response = await fetch('conf/categories.json'); // Sostituisci 'data.json' con il percorso corretto
-                const data = await response.json();
-                console.log(data);
-                const cardGrid = document.getElementById('categories-grid');
-                cardGrid.innerHTML = ''; // Pulisci il contenuto prima di aggiungere nuove card
-                var cat = data.cat;
-                console.log(cat);
-                cat.forEach(item => {
-                    console.log(item);
-                    const card = document.createElement('div');
-                    card.className = 'category-item';
-                    card.innerHTML = `
-                        <a href="explorer.html?cat=${item.id}">
-                            <img src="${item.preview_img}" alt="${item.name}">
-                            ${item.name}
-                            <div class="banner-content">
-                                ${item.description}
-                            </div>
-                        </a>
-                        
-                    `;
-                    cardGrid.appendChild(card);
-                    });
-            } catch (error) {
-                console.error('Errore durante il caricamento dei dati:', error);
-            }
-        }
-        // Esegui il caricamento delle card al caricamento della pagina
-        loadCategories();
-    </script>
 
     <!-- Partners Grid -->
     <div id="partners" class="partners-section">
         <h2>Partners</h2>
         <div id="partners-grid" class="partners"></div>
-        <script>
-            // Funzione per caricare i dati dal file JSON
-            async function loadPartners() {
-                try {
-                    const response = await fetch('data/partners.json'); // Sostituisci 'data.json' con il percorso corretto
-                    const data = await response.json();
-                    console.log(data);
-                    if (Object.keys(data).length === 0) {
-                        var partners_section = document.getElementById('partners');
-                        partners_section.style.display = "none";
-                    } else {
-                        const cardGrid = document.getElementById('partners-grid');
-                        cardGrid.innerHTML = ''; // Pulisci il contenuto prima di aggiungere nuove card
-                        data.forEach(item => {
-                            console.log(item);
-                            const card = document.createElement('div');
-                            card.className = 'partner-item';
-                            card.innerHTML = `
-                                <a href="${item.website}">
-                                    <img src="${item.preview_img}" alt="${item.name}">
-                                </a>
-                                <p class="partner-name">${item.name}</p>
-                            `;
-                            cardGrid.appendChild(card);
-                            });
-                    }
-                } catch (error) {
-                    console.error('Errore durante il caricamento dei dati:', error);
-                    var partners_section = document.getElementById('partners');
-                    partners_section.style.display = "none";
-                }
-            }
-            // Esegui il caricamento delle card al caricamento della pagina
-            loadPartners();
-        </script>
     </div>
 
     <!-- Contact Section 
@@ -152,14 +83,6 @@
         <p>Tech X Good © 2024</p>
     </div>
 
-    <script>
-        function toggleMenu() {
-            const hamburger = document.querySelector('.hamburger');
-            const navbarLinks = document.querySelector('.navbar-links');
-            hamburger.classList.toggle('active');
-            navbarLinks.classList.toggle('active');
-        }
-    </script>
-
+    <script src="js/index.js"></script>
 </body>
 </html>
