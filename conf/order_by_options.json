@@ -1,0 +1,14 @@
+[
+    {
+        "id": "descending_stars",
+        "name": "Descending Stars",
+        "description": "Order by stars (descending order)",
+        "func": "(a, b) => b.stars - a.stars"
+    },
+    {
+        "id": "ascending_stars",
+        "name": "Ascending Stars",
+        "description": "Order by stars (ascending order)",
+        "func": "(a, b) => a.stars - b.stars"
+    }
+]

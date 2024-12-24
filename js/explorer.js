@@ -1,197 +1,153 @@
-const order_by_options = [
-        {
-            "id": "descending_stars",
-            "name": "descending stars",
-            "description": "order by stars (descending order)",
-            "func": (b, a) => a.stars - b.stars
-        },
-       {
-            "id": "ascending_stars",
-            "name": "ascending stars",
-            "description": "order by stars (ascending order)",
-            "func": (a, b) => a.stars - b.stars
-       }
-];
+// Utility function to clear and populate a dropdown
+function populateDropdown(elementId, options, defaultOption = { value: "None", label: "All" }) {
+    const dropdown = document.getElementById(elementId);
+    dropdown.innerHTML = ""; // Clear existing options
 
-async function loadFilterCat() {
-    const response = await fetch('conf/categories.json');
-    var data = await response.json();
-    data = data.cat;
-    console.log(data);
+    const defaultOptionElement = document.createElement('option');
+    defaultOptionElement.value = defaultOption.value;
+    defaultOptionElement.textContent = defaultOption.label;
+    dropdown.appendChild(defaultOptionElement);
 
-    const filter_cat = document.getElementById('filter_cat');
-    filter_cat.innerHTML = ''; // Clean the contents before adding new cards
-
-    const cat = document.createElement('option');
-    cat.value = "All";
-    cat.innerHTML = "All";
-    filter_cat.appendChild(cat);
-    data.forEach(item => {
-        const cat = document.createElement('option');
-        cat.value = item.id;
-        cat.innerHTML = item.name;
-        //cat = `<option value="${item.id}">${item.name}</option>`;
-        filter_cat.appendChild(cat);
+    options.forEach(option => {
+        const optionElement = document.createElement('option');
+        optionElement.value = option.id || option.value;
+        optionElement.textContent = option.name || option.label;
+        dropdown.appendChild(optionElement);
     });
 }
 
-async function loadOrderBy() {
-    const order_selection = document.getElementById('orderBy');
-    order_selection.innerHTML = ''; // Clean the contents before adding new cards
-
-    var order_by = document.createElement('option');
-    order_by.value = "None";
-    order_by.innerHTML = "All";
-    order_selection.appendChild(order_by);
-    order_by_options.forEach(item => {
-        order_by = document.createElement('option');
-        order_by.value = item.id;
-        order_by.innerHTML = item.name;
-        //cat = `<option value="${item.id}">${item.name}</option>`;
-        order_selection.appendChild(order_by);
-    });
+// Load categories from a JSON file and populate the filter dropdown
+async function loadFilterCategories() {
+    try {
+        const response = await fetch('conf/categories.json');
+        const { cat } = await response.json();
+        populateDropdown('filter_cat', cat.map(c => ({ id: c.id, name: c.name })));
+    } catch (error) {
+        console.error('Error loading categories:', error);
+    }
 }
 
-function apply_filter(item, cat = null) {
-    const searchTerm = searchInput.value.toLowerCase();
-    var filterCatValue = "";
-    if (cat !== null) {
-        filterCatValue = cat.toLowerCase();
-    } else {
-        filterCatValue = filter_cat.value.toLowerCase();
-    }
-    console.log(filterCatValue);
-
+// Load order-by options from the configuration file
+async function loadOrderByConfig() {
     try {
-        term_is_in_title = item.title.toLowerCase().includes(searchTerm);
-    } catch (e) {
-        term_is_in_title = false;
-    }
-    const titleMatches = searchTerm === "" || term_is_in_title || item.keywords.includes(searchTerm);
-    const categoryMatches = filterCatValue === "all" || item.category.toLowerCase() === filterCatValue;
-    //const tagsMatches = filter2Value === "" || item.tags.includes(filter2Value);
-    console.log(item, titleMatches, categoryMatches)
-    return titleMatches && categoryMatches; //&& tagsMatches;
-}
-
-// Function to load data from JSON file
-async function loadCards(cat = null) {
-    try {
-        const response = await fetch('data/projects.json'); // Replace 'data.json' with the correct path
+        const response = await fetch('conf/order_by_options.json');
         const data = await response.json();
 
-        const cardGrid = document.getElementById('cardGrid');
-        cardGrid.innerHTML = ''; // Clean the contents before adding new cards
+        // Parse and convert function strings to actual functions
+        orderByOptions = data.map(option => ({
+            ...option,
+            func: new Function('a', 'b', `return ${option.func};`) // Safely convert string to function
+        }));
 
-        var filtered_data = data.filter(item => apply_filter(item, cat));
-
-        const order_by = orderBy.value.toLowerCase();
-        console.log(order_by);
-        console.log(order_by_options);
-        const sortConf = order_by_options.find(config => config.id === order_by);
-        if (sortConf) {
-            filtered_data.sort(sortConf.func);
-        }
-
-        filtered_data.forEach(item => {
-            var website_link_tag = '';
-            if ("website" in item && item["website"] !== "") {
-                website_link_tag = `
-                <br><a href="${item.website}"><img src="imgs/explorer/homepage-icon.png" alt="homepage icons" class="card_homepage_icon"> homepage</a>
-                `;
-                console.log(website_link_tag);
-            }
-            var desc = "";
-            if ("description" in item) {
-                if (item.description === null) {
-                    desc = "";
-                } else if (item["description"].length > 200) {
-                    desc = item.description.slice(0, 200) + '...';
-                } else {
-                    desc = item.description;
-                }
-            } else {
-                desc = "";
-            }
-            var poc = "";
-            if ("poc" in item && item["poc"] == true) {
-                poc = `<p class="card_stats_info">
-                           <img src="imgs/explorer/poc-icon.png" alt="poc icon" class="card_stats_icons">
-                           PoC
-                        </p>`;
-            }
-            var lang = "";
-            // <p style="color: #fee003; margin-right: 5px;">&lt;/&gt;</p>
-            if ("language" in item && item["language"] !== "") {
-                lang = `<p class="card_stats_info">
-                            <img src="imgs/explorer/code-icon.png" alt="code icon" class="card_stats_icons">
-                            ${item.language}
-                        </p>`;
-            }
-            var stars = "";
-            if ("stars" in item && item["stars"] !== "") {
-                stars = `<p class="card_stats_info">
-                            <img src="imgs/explorer/star-icon.png" alt="star icon" class="card_stats_icons">
-                            ${item.stars}
-                        </p>`;
-            }
-            const card = document.createElement('div');
-            card.className = 'card';
-
-            // generic
-            var repo_logo = "homepage-icon.png";
-            var repo_logo_class = "card_github_logo";
-            if (item.repo.includes("github.com")) {
-                repo_logo = "github-logo.png";
-                repo_logo_class = "card_github_logo";
-            } else if (item.repo.includes("gitlab.com")) {
-                repo_logo = "gitlab-logo.png";
-                repo_logo_class = "card_gitlab_logo";
-            }
-            console.log(repo_logo);
-            console.log(repo_logo_class);
-            card.innerHTML = `
-                <div>
-                    <div class="card-overview">
-                        <h3 class="oxanium-title-img">${item.title}</h3>
-                        <p>${desc}</p>
-                    </div>
-                    <hr>
-                    <div class="card-links">
-                        <a href="${item.repo}">
-                            <img src="imgs/explorer/${repo_logo}" class="${repo_logo_class}">
-                            code
-                        </a>
-                        ${website_link_tag}
-                    </div>
-                    <hr>
-                    <div class="card_category">
-                        <div class="category_item">
-                            <img class="card-category-img" src="imgs/explorer/category/${item.category}.png">
-                            <p>${item.category}</p>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="card_stats">
-                        ${lang}
-                        ${stars}
-                        ${poc}
-                    </div>
-                </div>
-            `;
-        cardGrid.appendChild(card);
-        });
+        // Populate the dropdown once the options are loaded
+        populateDropdown('orderBy', orderByOptions);
     } catch (error) {
-        console.error('Error while loading data:', error);
+        console.error('Error loading order-by configuration:', error);
     }
 }
 
+// Apply filtering logic based on title, keywords, and category
+function applyFilter(item, categoryFilter = null) {
+    const searchTerms = searchInput.value.toLowerCase();
+    const selectedCategory = categoryFilter?.toLowerCase() || filter_cat.value.toLowerCase();
 
-/* call functions */
-loadFilterCat();
-loadOrderBy();
+    const titleMatches = searchTerms === "" ||
+                         item.title?.toLowerCase()?.split()?.some(word => searchTerms.toLowerCase().split(" ")?.includes(word)) ||
+                         item.keywords?.some(word => searchTerms.toLowerCase().split(" ")?.includes(word));
+    const categoryMatches = selectedCategory === "all" || item.category.toLowerCase() === selectedCategory;
 
-const urlParams = new URL(document.URL).searchParams;
-const cat = urlParams.get("cat");
-console.log(cat)
-window.onload = loadCards(cat);
+    return titleMatches && categoryMatches;
+}
+
+function createCard(item) {
+    const template = document.getElementById('card-template');
+    const card = template.content.cloneNode(true);
+
+    // Determine repository type
+    const repoType = item.repo.includes("github.com") ? "github" :
+                     item.repo.includes("gitlab.com") ? "gitlab" : "homepage";
+
+    // Populate card details
+    const description = item.description?.length > 200
+                        ? `${item.description.slice(0, 200)}...`
+                        : item.description || "";
+
+    card.querySelector('.oxanium-title-img').textContent = item.title || 'Untitled';
+    card.querySelector('.card-description').textContent = description;
+
+    const repoLink = card.querySelector('.repo-link');
+    repoLink.href = item.repo;
+    repoLink.querySelector('.repo-logo').src = `imgs/explorer/${repoType}-logo.png`;
+    repoLink.querySelector('.repo-logo').className = `card_${repoType}_logo`;
+
+    if (item.website) {
+        card.querySelector('.website-link').innerHTML = `
+            <br><a href="${item.website}">
+                <img src="imgs/explorer/homepage-icon.png" alt="homepage icon" class="card_homepage_icon">
+                homepage
+            </a>`;
+    }
+
+    const categoryImg = card.querySelector('.card-category-img');
+    categoryImg.src = `imgs/explorer/category/${item.category}.png`;
+    card.querySelector('.card-category-name').textContent = item.category;
+
+    const statsContainer = card.querySelector('.card_stats');
+    if (item.language) {
+        statsContainer.querySelector('.language').innerHTML = `
+            <img src="imgs/explorer/code-icon.png" class="card_stats_icons">
+            ${item.language}`;
+    }
+    if (item.stars) {
+        statsContainer.querySelector('.stars').innerHTML = `
+            <img src="imgs/explorer/star-icon.png" class="card_stats_icons">
+            ${item.stars}`;
+    }
+    if (item.poc) {
+        statsContainer.querySelector('.poc').innerHTML = `
+            <img src="imgs/explorer/poc-icon.png" class="card_stats_icons">
+            PoC`;
+    }
+
+    return card;
+}
+
+async function loadTemplate() {
+    const response = await fetch('card.html');
+    const templateHTML = await response.text();
+    document.body.insertAdjacentHTML('beforeend', templateHTML);
+}
+
+// Load and display cards based on filter and sort options
+async function loadCards(categoryFilter = null) {
+    try {
+        const response = await fetch('data/projects.json');
+        const data = await response.json();
+
+        const filteredData = data.filter(item => applyFilter(item, categoryFilter));
+
+        const order_by = orderBy.value.toLowerCase();
+        const sortConfig = orderByOptions.find(option => option.id === order_by);
+        if (sortConfig) {
+            console.log(sortConfig.func);
+            filteredData.sort(sortConfig.func());
+        }
+
+        const cardGrid = document.getElementById('cardGrid');
+        cardGrid.innerHTML = ""; // Clear existing cards
+        filteredData.forEach(item => cardGrid.appendChild(createCard(item)));
+    } catch (error) {
+        console.error('Error loading cards:', error);
+    }
+}
+
+/* Initialize functions */
+window.onload = async () => {
+    await loadTemplate(); // Load templates
+    await loadFilterCategories();
+    await loadOrderByConfig();
+
+    const urlParams = new URL(document.URL).searchParams;
+    const category = urlParams.get("cat");
+    await loadCards(category);
+};
