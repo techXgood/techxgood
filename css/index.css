@@ -10,10 +10,12 @@ body {
 .navbar {
     background-color: #4CAF50; /* Verde chiaro per la navbar */
     overflow: hidden;
-    padding: 5px;
+    padding: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 1%;
+    font-size: 100%;
 }
 
 .navbar-logo {
@@ -21,12 +23,12 @@ body {
     font-size: 20%;
     text-decoration: none;
     font-weight: bold;
-    width: 40%; /* Adjust the percentage as needed */
-    height: auto;
-    max-height: 30%;
-    margin-left: 5px;
+    width: 20%; /* Adjust the percentage as needed */
+    height: 3%;
+    margin-left: 1%;
     border-radius: 15%;
     display: flex;
+    align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -37,7 +39,7 @@ body {
         font-weight: 200;
         font-style: normal;
         color: rgb(2, 20, 2);
-        font-size: 5vw;
+        font-size: 1400%;
     }
 }
 
@@ -55,8 +57,10 @@ body {
 .navbar-links a {
     color: rgb(223, 231, 227);
     text-align: center;
-    padding: 14px 20px;
+    padding: 1% 5%;
     text-decoration: none;
+    font-size: 150%;
+    font: bold;
 }
 
 .navbar-links a:hover {
@@ -66,7 +70,7 @@ body {
 
 .hamburger {
     display: none;
-    font-size: 30px;
+    font-size: 100%;
     color: rgb(27, 55, 35);
     cursor: pointer;
 }
@@ -78,7 +82,7 @@ body {
 }
 
 .about-section {
-    padding: 50px;
+    padding: 5%;
     text-align: center;
     background-color: #d1d3c5;
 }
