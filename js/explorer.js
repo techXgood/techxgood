@@ -1,3 +1,18 @@
+const order_by_options = [
+        {
+            "id": "descending_stars",
+            "name": "descending stars",
+            "description": "order by stars (descending order)",
+            "func": (b, a) => a.stars - b.stars
+        },
+       {
+            "id": "ascending_stars",
+            "name": "ascending stars",
+            "description": "order by stars (ascending order)",
+            "func": (a, b) => a.stars - b.stars
+       }
+];
+
 async function loadFilterCat() {
     const response = await fetch('conf/categories.json');
     var data = await response.json();
@@ -20,6 +35,22 @@ async function loadFilterCat() {
     });
 }
 
+async function loadOrderBy() {
+    const order_selection = document.getElementById('orderBy');
+    order_selection.innerHTML = ''; // Clean the contents before adding new cards
+
+    var order_by = document.createElement('option');
+    order_by.value = "None";
+    order_by.innerHTML = "All";
+    order_selection.appendChild(order_by);
+    order_by_options.forEach(item => {
+        order_by = document.createElement('option');
+        order_by.value = item.id;
+        order_by.innerHTML = item.name;
+        //cat = `<option value="${item.id}">${item.name}</option>`;
+        order_selection.appendChild(order_by);
+    });
+}
 
 function apply_filter(item, cat = null) {
     const searchTerm = searchInput.value.toLowerCase();
@@ -31,7 +62,12 @@ function apply_filter(item, cat = null) {
     }
     console.log(filterCatValue);
 
-    const titleMatches = searchTerm === "" || item.title.toLowerCase().includes(searchTerm) || item.keywords.includes(searchTerm);
+    try {
+        term_is_in_title = item.title.toLowerCase().includes(searchTerm);
+    } catch (e) {
+        term_is_in_title = false;
+    }
+    const titleMatches = searchTerm === "" || term_is_in_title || item.keywords.includes(searchTerm);
     const categoryMatches = filterCatValue === "all" || item.category.toLowerCase() === filterCatValue;
     //const tagsMatches = filter2Value === "" || item.tags.includes(filter2Value);
     console.log(item, titleMatches, categoryMatches)
@@ -47,7 +83,17 @@ async function loadCards(cat = null) {
         const cardGrid = document.getElementById('cardGrid');
         cardGrid.innerHTML = ''; // Clean the contents before adding new cards
 
-        data.forEach(item => {
+        var filtered_data = data.filter(item => apply_filter(item, cat));
+
+        const order_by = orderBy.value.toLowerCase();
+        console.log(order_by);
+        console.log(order_by_options);
+        const sortConf = order_by_options.find(config => config.id === order_by);
+        if (sortConf) {
+            filtered_data.sort(sortConf.func);
+        }
+
+        filtered_data.forEach(item => {
             var website_link_tag = '';
             if ("website" in item && item["website"] !== "") {
                 website_link_tag = `
@@ -90,53 +136,50 @@ async function loadCards(cat = null) {
                         </p>`;
             }
             const card = document.createElement('div');
-            if (apply_filter(item, cat)) {
-                card.className = 'card';
-                if (item.repo.includes("github.com")) {
-                    repo_logo = "github-logo.png";
-                    repo_logo_class = "card_github_logo";
-                } else if (item.repo.includes("gitlab.com")) {
-                    repo_logo = "gitlab-logo.png";
-                    repo_logo_class = "card_gitlab_logo";
-                } else {
-                    repo_logo = "homepage-icon.png";
-                     repo_logo_class = "card_github_logo";
-                }
-                card.innerHTML = `
-                    <div>
-                        <div class="card-overview">
-                            <h3 class="oxanium-title-img">${item.title}</h3>
-                            <p>${desc}</p>
-                        </div>
-                        <hr>
-                        <div class="card-links">
-                            <a href="${item.repo}">
-                                <img src="imgs/explorer/${repo_logo}" class=${repo_logo_class}>
-                                code
-                            </a>
-                            ${website_link_tag}
-                        </div>
-                        <hr>
-                        <div class="card_category">
-                            <div class="category_item">
-                                <img class="card-category-img" src="imgs/explorer/category/${item.category}.png">
-                                <p>${item.category}</p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="card_stats">
-                            ${lang}
-                            ${stars}
-                            ${poc}
+            card.className = 'card';
+
+            // generic
+            var repo_logo = "homepage-icon.png";
+            var repo_logo_class = "card_github_logo";
+            if (item.repo.includes("github.com")) {
+                repo_logo = "github-logo.png";
+                repo_logo_class = "card_github_logo";
+            } else if (item.repo.includes("gitlab.com")) {
+                repo_logo = "gitlab-logo.png";
+                repo_logo_class = "card_gitlab_logo";
+            }
+            console.log(repo_logo);
+            console.log(repo_logo_class);
+            card.innerHTML = `
+                <div>
+                    <div class="card-overview">
+                        <h3 class="oxanium-title-img">${item.title}</h3>
+                        <p>${desc}</p>
+                    </div>
+                    <hr>
+                    <div class="card-links">
+                        <a href="${item.repo}">
+                            <img src="imgs/explorer/${repo_logo}" class="${repo_logo_class}">
+                            code
+                        </a>
+                        ${website_link_tag}
+                    </div>
+                    <hr>
+                    <div class="card_category">
+                        <div class="category_item">
+                            <img class="card-category-img" src="imgs/explorer/category/${item.category}.png">
+                            <p>${item.category}</p>
                         </div>
                     </div>
-                `;
-            }
-            else {
-                console.log(item.title);
-                card.style.display = "none";
-            }
-            cardGrid.appendChild(card);
+                    <hr>
+                    <div class="card_stats">
+                        ${lang}
+                        ${stars}
+                        ${poc}
+                    </div>
+                </div>
+            `;
+        cardGrid.appendChild(card);
         });
     } catch (error) {
         console.error('Error while loading data:', error);
@@ -146,6 +189,7 @@ async function loadCards(cat = null) {
 
 /* call functions */
 loadFilterCat();
+loadOrderBy();
 
 const urlParams = new URL(document.URL).searchParams;
 const cat = urlParams.get("cat");
