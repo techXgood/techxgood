@@ -54,7 +54,7 @@ function applyFilter(item, categoryFilter = null) {
     const titleMatches = searchTerms === "" ||
                          item.title?.toLowerCase()?.split()?.some(word => searchTerms.toLowerCase().split(" ")?.includes(word)) ||
                          item.keywords?.some(word => searchTerms.toLowerCase().split(" ")?.includes(word));
-    const categoryMatches = selectedCategory === "all" || item.category.toLowerCase() === selectedCategory;
+    const categoryMatches = selectedCategory === "None" || item.category.toLowerCase() === selectedCategory;
 
     return titleMatches && categoryMatches;
 }
