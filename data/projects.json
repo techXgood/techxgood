@@ -1,788 +1,1042 @@
 [
     {
-        "repo": "https://github.com/icesat2py/icepyx",
+        "repo": "https://gitlab.com/foodsharing-dev/foodsharing",
         "category": "environment",
         "image": "",
-        "title": "icesat2py/icepyx",
-        "description": "Python tools for obtaining and working with ICESat-2 data",
-        "language": "Python",
-        "stars": 220,
-        "website": "https://icepyx.readthedocs.io/en/latest/",
-        "keywords": [
-            "closember",
-            "community-driven",
-            "hacktoberfest",
-            "icesat-2",
-            "python3",
-            "working",
-            "python",
-            "data",
-            "obtaining",
-            "tools",
-            "icesat"
-        ],
-        "last_update": "2024-12-25 18:12:07"
-    },
-    {
-        "repo": "https://github.com/chadagreene/BedMachine",
-        "category": "environment",
-        "image": "",
-        "title": "chadagreene/BedMachine",
-        "description": "Matlab tools for loading, interpolating, and displaying BedMachine ice sheet topography.",
-        "language": "MATLAB",
-        "stars": 22,
+        "title": "foodsharing-dev/foodsharing",
+        "description": "foodsharing.de - A platform and initiative against food waste\r\n",
+        "language": null,
+        "stars": 153,
         "website": "",
         "keywords": [
-            "antarctica",
-            "bedmachine",
-            "geology",
-            "glaciers",
-            "glaciology",
-            "greenland",
-            "ice-shelves",
-            "matlab",
-            "interpolating",
-            "ice",
-            "matlab",
-            "displaying",
-            "topography",
-            "sheet",
-            "loading",
-            "tools",
-            "bedmachine"
+            "platform",
+            "waste",
+            "foodsharing",
+            "food",
+            "initiative"
         ],
-        "last_update": "2024-12-25 18:12:07"
+        "last_update": "2024-12-26 00:44:08"
     },
     {
-        "repo": "https://github.com/Joel-hanson/Iceberg-locations",
+        "repo": "https://gitlab.com/bonsamurais/bonsai/util/ipcc",
         "category": "environment",
         "image": "",
-        "title": "Joel-hanson/Iceberg-locations",
-        "description": "Current Antarctic large iceberg positions derived from ASCAT and OSCAT-2",
-        "language": "Python",
-        "stars": 6,
-        "website": "https://www.scp.byu.edu/current_icebergs.html",
-        "keywords": [
-            "beautifulsoup4",
-            "climate-change",
-            "git-scraping",
-            "iceberg",
-            "python",
-            "scraping",
-            "iceberg",
-            "current",
-            "oscat",
-            "antarctic",
-            "derived",
-            "large",
-            "ascat",
-            "positions"
-        ],
-        "last_update": "2024-12-25 18:12:08"
+        "title": "util/ipcc",
+        "description": "",
+        "language": null,
+        "stars": 1,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-26 00:44:08"
     },
     {
-        "repo": "https://github.com/cryotools/cosipy",
+        "repo": "https://gitlab.com/fame-framework/fame-core",
         "category": "environment",
         "image": "",
-        "title": "cryotools/cosipy",
-        "description": "Coupled snowpack and ice surface energy and mass balance model in Python",
-        "language": "Python",
-        "stars": 54,
+        "title": "fame-framework/fame-core",
+        "description": "Core library of FAME written in Java",
+        "language": null,
+        "stars": 4,
         "website": "",
         "keywords": [
-            "snowpack",
-            "coupled",
-            "mass",
-            "ice",
-            "python",
-            "model",
-            "balance",
-            "surface",
-            "energy"
-        ],
-        "last_update": "2024-12-25 18:12:08"
-    },
-    {
-        "repo": "https://github.com/CICE-Consortium/Icepack",
-        "category": "environment",
-        "image": "",
-        "title": "CICE-Consortium/Icepack",
-        "description": "Development repository for sea-ice column physics",
-        "language": "Fortran",
-        "stars": 25,
-        "website": "",
-        "keywords": [
-            "ice",
-            "repository",
-            "sea",
-            "column",
-            "physics",
-            "development"
-        ],
-        "last_update": "2024-12-25 18:12:08"
-    },
-    {
-        "repo": "https://github.com/weiji14/deepbedmap",
-        "category": "environment",
-        "image": "",
-        "title": "weiji14/deepbedmap",
-        "description": "Going beyond BEDMAP2 using a super resolution deep neural network. Also a convenient flat file data repository for high resolution bed elevation datasets around Antarctica.",
-        "language": "Jupyter Notebook",
-        "stars": 43,
-        "website": "",
-        "keywords": [
-            "antarctica",
-            "bedmap",
-            "binder",
-            "chainer",
-            "data-science",
-            "deep-neural-network",
-            "digital-elevation-model",
-            "flat-file-db",
-            "generative-adversarial-network",
-            "glaciology",
-            "jupyter-notebook",
-            "optuna",
-            "pangeo",
-            "remote-sensing",
-            "super-resolution",
-            "bed",
-            "also",
-            "flat",
-            "bedmap2",
-            "high",
-            "data",
-            "neural",
-            "going",
-            "deep",
-            "network"
-        ],
-        "last_update": "2024-12-25 18:12:08"
-    },
-    {
-        "repo": "https://github.com/NOAA-GFDL/SIS2",
-        "category": "environment",
-        "image": "",
-        "title": "NOAA-GFDL/SIS2",
-        "description": "NOAA-GFDL's Sea Ice Simulator version 2",
-        "language": "Fortran",
-        "stars": 16,
-        "website": "",
-        "keywords": [
-            "ice",
-            "sea",
-            "gfdl",
-            "version",
-            "noaa",
-            "simulator"
-        ],
-        "last_update": "2024-12-25 18:12:08"
-    },
-    {
-        "repo": "https://github.com/GEUS-Glaciology-and-Climate/freshwater",
-        "category": "environment",
-        "image": "",
-        "title": "GEUS-Glaciology-and-Climate/freshwater",
-        "description": "Greenland liquid water runoff from 1958 through 2019",
-        "language": "TeX",
-        "stars": 16,
-        "website": "https://doi.org/10.5194/essd-12-2811-2020",
-        "keywords": [
-            "grass-gis",
-            "greenland",
-            "org-mode",
-            "scientific-workflows",
-            "water",
-            "water",
-            "runoff",
-            "greenland",
-            "liquid",
-            "1958",
-            "2019"
-        ],
-        "last_update": "2024-12-25 18:12:09"
-    },
-    {
-        "repo": "https://github.com/ECCO-GROUP/ECCOv4-py",
-        "category": "environment",
-        "image": "",
-        "title": "ECCO-GROUP/ECCOv4-py",
-        "description": "A Python library with routines that support the loading, analysis, and plotting fields of the ECCO Version 4 Ocean and Sea-Ice State Estimate.  The ecco_v4_py library builds on several valuable tools such as xmitgcm, gcm, xarray, and dask.",
-        "language": "Python",
-        "stars": 31,
-        "website": "",
-        "keywords": [
-            "builds",
-            "ocean",
-            "loading",
-            "gcm",
-            "state",
-            "fields",
-            "python",
-            "version",
-            "plotting",
-            "analysis"
-        ],
-        "last_update": "2024-12-25 18:12:09"
-    },
-    {
-        "repo": "https://github.com/smwesten-usgs/swb",
-        "category": "environment",
-        "image": "",
-        "title": "smwesten-usgs/swb",
-        "description": "Soil-Water-Balance: A Modified Thornthwaite-Mather Soil-Water-Balance Code for Estimating Groundwater Recharge.",
-        "language": "Fortran",
-        "stars": 35,
-        "website": "",
-        "keywords": [
-            "deep-percolation",
-            "fortran",
-            "groundwater-recharge",
-            "soil-water-balance",
-            "usgs",
-            "water",
-            "soil",
-            "estimating",
-            "thornthwaite",
-            "balance",
-            "modified",
-            "code",
-            "groundwater",
-            "recharge",
-            "mather"
-        ],
-        "last_update": "2024-12-25 18:12:09"
-    },
-    {
-        "repo": "https://github.com/matthiasdemuzere/w2w",
-        "category": "environment",
-        "image": "",
-        "title": "matthiasdemuzere/w2w",
-        "description": "A python tool that ingests WUDAPT information into WRF.",
-        "language": "Jupyter Notebook",
-        "stars": 40,
-        "website": "",
-        "keywords": [
-            "ingests",
-            "python",
-            "information",
-            "wudapt",
-            "wrf",
-            "tool"
-        ],
-        "last_update": "2024-12-25 18:12:09"
-    },
-    {
-        "repo": "https://github.com/Planteome/plant-trait-ontology",
-        "category": "environment",
-        "image": "",
-        "title": "Planteome/plant-trait-ontology",
-        "description": "Explore the Plant Trait Ontology on the Planteome site.",
-        "language": "Python",
-        "stars": 39,
-        "website": "http://browser.planteome.org/amigo/term/TO:0000387#display-lineage-tab",
-        "keywords": [
-            "obo",
-            "obofoundry",
-            "owl",
-            "phenotype",
-            "plant-trait-ontology",
-            "plant-traits",
-            "explore",
-            "planteome",
-            "ontology",
-            "plant",
-            "site",
-            "trait"
-        ],
-        "last_update": "2024-12-25 18:12:09"
-    },
-    {
-        "repo": "https://github.com/AquaticEcoDynamics/libaed2",
-        "category": "environment",
-        "image": "",
-        "title": "AquaticEcoDynamics/libaed2",
-        "description": "Code for the AED2 water quality / ecology library",
-        "language": "Fortran",
-        "stars": 15,
-        "website": "http://aquatic.science.uwa.edu.au/research/models/AED/",
-        "keywords": [
-            "aem",
-            "aquatic",
-            "ecology",
-            "estuaries",
-            "lakes",
-            "nutrients",
-            "phytoplankton",
-            "quality",
-            "sediment",
-            "water",
-            "water",
-            "quality",
-            "ecology",
-            "code",
-            "aed2",
+            "FAME",
+            "written",
+            "fame",
+            "core",
+            "java",
             "library"
         ],
-        "last_update": "2024-12-25 18:12:10"
+        "last_update": "2024-12-26 00:44:08"
     },
     {
-        "repo": "https://github.com/bcgov/wqbc",
+        "repo": "https://gitlab.com/diw-evu/oet/openenergytracker",
         "category": "environment",
         "image": "",
-        "title": "bcgov/wqbc",
-        "description": "An R package for water quality thresholds and index calculation for British Columbia",
-        "language": "R",
-        "stars": 20,
-        "website": "http://bcgov.github.io/wqbc/",
-        "keywords": [
-            "data-science",
-            "env",
-            "r",
-            "r-package",
-            "rstats",
-            "water",
-            "british",
-            "index",
-            "thresholds",
-            "columbia",
-            "package",
-            "quality",
-            "calculation"
-        ],
-        "last_update": "2024-12-25 18:12:10"
-    },
-    {
-        "repo": "https://github.com/WikiWatershed/model-my-watershed",
-        "category": "environment",
-        "image": "",
-        "title": "WikiWatershed/model-my-watershed",
-        "description": "The web application front end for Model My Watershed.",
-        "language": "JavaScript",
-        "stars": 57,
-        "website": "https://modelmywatershed.org",
-        "keywords": [
-            "civic-apps-team",
-            "hydrology",
-            "stormwater",
-            "watersheds",
-            "web",
-            "end",
-            "watershed",
-            "model",
-            "front",
-            "application"
-        ],
-        "last_update": "2024-12-25 18:12:10"
-    },
-    {
-        "repo": "https://github.com/GlobalHydrologyLab/AquaSat",
-        "category": "environment",
-        "image": "",
-        "title": "GlobalHydrologyLab/AquaSat",
-        "description": "Monitoring water quality from space!",
-        "language": "HTML",
-        "stars": 49,
+        "title": "oet/openenergytracker",
+        "description": "The Open Energy Tracker is an open data platform for monitoring and visualizing energy policy targets.",
+        "language": null,
+        "stars": 7,
         "website": "",
         "keywords": [
-            "water",
+            "data visualization",
+            "dataset",
+            "energy",
+            "plotly",
+            "policy",
+            "python",
+            "renewable energy",
+            "visualizing",
+            "platform",
+            "policy",
             "monitoring",
-            "space",
-            "quality"
-        ],
-        "last_update": "2024-12-25 18:12:10"
-    },
-    {
-        "repo": "https://github.com/ropensci/cde",
-        "category": "environment",
-        "image": "",
-        "title": "ropensci/cde",
-        "description": "Repo for R package to query and download WFD data from the EA Catchment Data Explorer site",
-        "language": "R",
-        "stars": 5,
-        "website": "https://docs.ropensci.org/cde",
-        "keywords": [
-            "wfd",
-            "catchment",
-            "explorer",
             "data",
-            "download",
-            "site",
-            "repo",
-            "query",
-            "package"
+            "tracker",
+            "open",
+            "energy",
+            "targets"
         ],
-        "last_update": "2024-12-25 18:12:10"
+        "last_update": "2024-12-26 00:44:08"
     },
     {
-        "repo": "https://github.com/pygsflow/pygsflow",
+        "repo": "https://gitlab.com/mosaik/mosaik",
         "category": "environment",
         "image": "",
-        "title": "pygsflow/pygsflow",
-        "description": "Python package to Create, Read, Write, Edit, and Visualize GSFLOW models",
-        "language": "Python",
-        "stars": 34,
-        "website": "https://pygsflow.github.io/pygsflowdocs/",
+        "title": "mosaik/mosaik",
+        "description": "A flexible Smart Grid co-simulation framework.",
+        "language": null,
+        "stars": 14,
+        "website": "",
         "keywords": [
-            "groundwater",
-            "groundwater-modelling",
-            "gsflow",
-            "integrated-modelling",
-            "modflow",
-            "prms",
-            "pygsflow",
-            "python",
-            "surface-water",
-            "usgs",
-            "write",
-            "create",
-            "gsflow",
-            "python",
-            "models",
-            "visualize",
-            "package",
-            "edit",
-            "read"
+            "flexible",
+            "smart",
+            "framework",
+            "simulation",
+            "grid"
         ],
-        "last_update": "2024-12-25 18:12:11"
+        "last_update": "2024-12-26 00:44:09"
     },
     {
-        "repo": "https://github.com/Education4Climate/Education4Climate",
+        "repo": "https://gitlab.com/diw-evu/emobpy/emobpy",
         "category": "environment",
         "image": "",
-        "title": "Education4Climate/Education4Climate",
-        "description": "Education4Climate is a tool for crawling and analyzing data from higher education schools.",
-        "language": "Python",
-        "stars": 17,
-        "website": "https://education4climate.be",
+        "title": "emobpy/emobpy",
+        "description": "",
+        "language": null,
+        "stars": 8,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-26 00:44:09"
+    },
+    {
+        "repo": "https://gitlab.com/wxmetvis/met.3d",
+        "category": "environment",
+        "image": "",
+        "title": "wxmetvis/met.3d",
+        "description": "http://met3d.wavestoweather.de/",
+        "language": null,
+        "stars": 13,
+        "website": "",
         "keywords": [
-            "higher",
-            "education",
-            "schools",
-            "data",
-            "education4climate",
-            "analyzing",
-            "crawling",
-            "tool"
+            "met3d",
+            "://",
+            "http",
+            "wavestoweather"
         ],
-        "last_update": "2024-12-25 18:12:11"
+        "last_update": "2024-12-26 00:44:09"
     },
     {
-        "repo": "https://github.com/brazil-data-cube/rwlts",
+        "repo": "https://gitlab.com/diw-evu/dieter_public/dieterpy",
         "category": "environment",
         "image": "",
-        "title": "brazil-data-cube/rwlts",
-        "description": "R Client Library for Web Land Trajectory Service ",
-        "language": "R",
+        "title": "dieter_public/dieterpy",
+        "description": "Repository for the Python-GAMS version of the power market model DIETER",
+        "language": null,
+        "stars": 4,
+        "website": "",
+        "keywords": [
+            "GAMS",
+            "open source model",
+            "power market model",
+            "python",
+            "renewable energy",
+            "storage",
+            "version",
+            "power",
+            "market",
+            "repository",
+            "model",
+            "dieter",
+            "python",
+            "gams"
+        ],
+        "last_update": "2024-12-26 00:44:09"
+    },
+    {
+        "repo": "https://gitlab.com/wgms/glathida",
+        "category": "environment",
+        "image": "",
+        "title": "wgms/glathida",
+        "description": "Glacier Thickness Database (GlaThiDa)\r\nhttps://www.gtn-g.ch/data_catalogue_glathida\r\n",
+        "language": null,
+        "stars": 2,
+        "website": "",
+        "keywords": [
+            "collaboration",
+            "database",
+            "datapackage",
+            "glacier",
+            "glaciology",
+            "global",
+            "glacier",
+            "thickness",
+            "database",
+            "gtn",
+            "glathida",
+            "://",
+            "data_catalogue_glathida",
+            "https",
+            "www"
+        ],
+        "last_update": "2024-12-26 00:44:09"
+    },
+    {
+        "repo": "https://gitlab.com/retrofitcoop/macquette",
+        "category": "environment",
+        "image": "",
+        "title": "retrofitcoop/macquette",
+        "description": "Building modelling tool primarily for retrofit assessments",
+        "language": null,
         "stars": 8,
         "website": "",
         "keywords": [
-            "earth-observation",
-            "earth-science",
-            "geoinformatics",
-            "geoscience",
-            "geospatial",
-            "land-cover",
-            "r",
-            "trajectory",
-            "web",
-            "land",
-            "client",
-            "service",
-            "trajectory",
-            "library"
+            "assessments",
+            "retrofit",
+            "building",
+            "tool",
+            "modelling",
+            "primarily"
         ],
-        "last_update": "2024-12-25 18:12:11"
+        "last_update": "2024-12-26 00:44:09"
     },
     {
-        "repo": "https://github.com/PyPSA/powerplantmatching",
+        "repo": "https://gitlab.com/permafrostnet/teaspoon",
         "category": "environment",
         "image": "",
-        "title": "PyPSA/powerplantmatching",
-        "description": "Set of tools to combine multiple power plant databases",
-        "language": "Python",
-        "stars": 160,
-        "website": "https://powerplantmatching.readthedocs.io/en/latest/",
-        "keywords": [
-            "databases",
-            "set",
-            "combine",
-            "plant",
-            "power",
-            "tools",
-            "multiple"
-        ],
-        "last_update": "2024-12-25 18:12:11"
-    },
-    {
-        "repo": "https://github.com/NREL/BuildingMOTIF",
-        "category": "environment",
-        "image": "",
-        "title": "NREL/BuildingMOTIF",
-        "description": "Building Metadata OnTology Interoperability Framework (BuildingMOTIF). For models, see https://models.open223.info/",
-        "language": "Jupyter Notebook",
-        "stars": 50,
-        "website": "https://buildingmotif.readthedocs.io/",
-        "keywords": [
-            "://",
-            "framework",
-            "metadata",
-            "ontology",
-            "models",
-            "open223",
-            "info",
-            "https",
-            "buildingmotif",
-            "interoperability"
-        ],
-        "last_update": "2024-12-25 18:12:11"
-    },
-    {
-        "repo": "https://github.com/ZiluM/sacpy",
-        "category": "environment",
-        "image": "",
-        "title": "ZiluM/sacpy",
-        "description": "A Python Package for Statistical Analysis of Climate",
-        "language": "Python",
-        "stars": 58,
+        "title": "permafrostnet/teaspoon",
+        "description": "Python for permafrost temperature data",
+        "language": null,
+        "stars": 5,
         "website": "",
         "keywords": [
-            "statistical",
-            "climate",
-            "python",
-            "analysis",
-            "package"
-        ],
-        "last_update": "2024-12-25 18:12:12"
-    },
-    {
-        "repo": "https://github.com/sentinelsat/sentinelsat",
-        "category": "environment",
-        "image": "",
-        "title": "sentinelsat/sentinelsat",
-        "description": "Search and download Copernicus Sentinel satellite images",
-        "language": "Python",
-        "stars": 991,
-        "website": "https://sentinelsat.readthedocs.io",
-        "keywords": [
-            "copernicus",
-            "esa",
-            "geographic-data",
-            "hacktoberfest",
-            "open-data",
-            "remote-sensing",
-            "satellite-imagery",
-            "sentinel",
-            "images",
-            "satellite",
-            "search",
-            "copernicus",
-            "download",
-            "sentinel"
-        ],
-        "last_update": "2024-12-25 18:12:12"
-    },
-    {
-        "repo": "https://github.com/earth-chris/earthlib-legacy",
-        "category": "environment",
-        "image": "",
-        "title": "earth-chris/earthlib-legacy",
-        "description": "Spectral endmembers and unmixing tools for satellite land cover mapping.",
-        "language": "Jupyter Notebook",
-        "stars": 24,
-        "website": "https://earth-chris.github.io/earthlib",
-        "keywords": [
-            "conservation",
-            "earth-engine",
-            "ecology",
-            "remote-sensing",
-            "spectral-unmixing",
-            "endmembers",
-            "land",
-            "satellite",
-            "unmixing",
-            "spectral",
-            "tools",
-            "cover",
-            "mapping"
-        ],
-        "last_update": "2024-12-25 18:12:12"
-    },
-    {
-        "repo": "https://github.com/assume-framework/assume",
-        "category": "environment",
-        "image": "",
-        "title": "assume-framework/assume",
-        "description": "ASSUME - Agent-based Simulation for Studying and Understanding Market Evolution",
-        "language": "Python",
-        "stars": 27,
-        "website": "https://assume.readthedocs.io",
-        "keywords": [
-            "evolution",
-            "agent",
-            "understanding",
-            "assume",
-            "based",
-            "simulation",
-            "market",
-            "studying"
-        ],
-        "last_update": "2024-12-25 18:12:12"
-    },
-    {
-        "repo": "https://github.com/FoodOntology/foodon",
-        "category": "environment",
-        "image": "",
-        "title": "FoodOntology/foodon",
-        "description": "The core repository for the FOODON food ontology project. This holds the key classes of the ontology; larger files and the results of text-mining projects will be stored in other repos. ",
-        "language": "Python",
-        "stars": 186,
-        "website": "",
-        "keywords": [
-            "agriculture",
-            "food",
-            "obofoundry",
-            "ontology",
-            "owl",
-            "core",
-            "food",
-            "foodon",
-            "text",
-            "files",
-            "repository",
-            "projects",
-            "key",
-            "stored",
-            "ontology"
-        ],
-        "last_update": "2024-12-25 18:12:12"
-    },
-    {
-        "repo": "https://github.com/emf-creaf/meteoland",
-        "category": "environment",
-        "image": "",
-        "title": "emf-creaf/meteoland",
-        "description": "Functions to estimate weather variables at any position of a landscape",
-        "language": "R",
-        "stars": 10,
-        "website": "https://emf-creaf.github.io/meteoland/",
-        "keywords": [
-            "position",
-            "variables",
-            "weather",
-            "functions",
-            "landscape",
-            "estimate"
-        ],
-        "last_update": "2024-12-25 18:12:13"
-    },
-    {
-        "repo": "https://github.com/bluegreen-labs/daymetr",
-        "category": "environment",
-        "image": "",
-        "title": "bluegreen-labs/daymetr",
-        "description": "An R Interface to the Daymet Web Services",
-        "language": "R",
-        "stars": 31,
-        "website": "http://bluegreen-labs.github.io/daymetr/",
-        "keywords": [
-            "climate-data",
-            "data-science",
-            "daymet",
-            "gridded-data",
-            "netcdf",
-            "ornl-daac",
-            "r-package",
-            "rstats",
-            "web",
-            "daymet",
-            "services",
-            "interface"
-        ],
-        "last_update": "2024-12-25 18:12:13"
-    },
-    {
-        "repo": "https://github.com/cemsbv/pygef",
-        "category": "environment",
-        "image": "",
-        "title": "cemsbv/pygef",
-        "description": "Parse soil measurement data.",
-        "language": "Python",
-        "stars": 32,
-        "website": "https://cemsbv.github.io/pygef",
-        "keywords": [
-            "gef",
-            "geotechnical-engineering",
-            "pygef",
-            "python",
-            "data",
-            "soil",
-            "parse",
-            "measurement"
-        ],
-        "last_update": "2024-12-25 18:12:13"
-    },
-    {
-        "repo": "https://github.com/opengeos/leafmap",
-        "category": "environment",
-        "image": "",
-        "title": "opengeos/leafmap",
-        "description": "A Python package for interactive mapping and geospatial analysis with minimal coding in a Jupyter environment",
-        "language": "Python",
-        "stars": 3236,
-        "website": "https://leafmap.org",
-        "keywords": [
-            "data-science",
-            "dataviz",
-            "folium",
-            "geoparquet",
-            "geopython",
-            "geospatial",
-            "geospatial-analysis",
-            "gis",
-            "ipyleaflet",
-            "jupyter",
-            "jupyter-notebook",
-            "leafmap",
-            "mapping",
-            "plotly",
-            "python",
-            "solara",
-            "streamlit",
-            "streamlit-webapp",
-            "whiteboxtools",
-            "environment",
-            "jupyter",
-            "interactive",
-            "python",
-            "minimal",
-            "analysis",
-            "geospatial",
-            "package",
-            "coding",
-            "mapping"
-        ],
-        "last_update": "2024-12-25 18:12:13"
-    },
-    {
-        "repo": "https://github.com/EDIorg/ecocomDP",
-        "category": "environment",
-        "image": "",
-        "title": "EDIorg/ecocomDP",
-        "description": "A dataset design pattern and R package for ecological community data.",
-        "language": "R",
-        "stars": 32,
-        "website": "https://ediorg.github.io/ecocomDP/",
-        "keywords": [
-            "community",
-            "design",
-            "data",
-            "ecological",
             "dataset",
-            "package",
-            "pattern"
+            "earth science",
+            "geography",
+            "data",
+            "python",
+            "permafrost",
+            "temperature"
         ],
-        "last_update": "2024-12-25 18:12:13"
+        "last_update": "2024-12-26 00:44:10"
+    },
+    {
+        "repo": "https://gitlab.com/opendatabio/opendatabio",
+        "category": "environment",
+        "image": "",
+        "title": "opendatabio/opendatabio",
+        "description": "A  system for storing and retrieving biological data - floristics, ecology and monitoring",
+        "language": null,
+        "stars": 0,
+        "website": "",
+        "keywords": [
+            "floristics",
+            "retrieving",
+            "storing",
+            "monitoring",
+            "biological",
+            "data",
+            "system",
+            "ecology"
+        ],
+        "last_update": "2024-12-26 00:44:10"
+    },
+    {
+        "repo": "https://gitlab.com/energyincities/python-ehub",
+        "category": "environment",
+        "image": "",
+        "title": "energyincities/python-ehub",
+        "description": "A python-based, modular and nestable implementation of the Energy Hub model (balancing demand and supply, system capacity sizing and network flows using Mixed-Integer Linear Programming).",
+        "language": null,
+        "stars": 6,
+        "website": "",
+        "keywords": [
+            "nestable",
+            "model",
+            "programming",
+            "flows",
+            "using",
+            "demand",
+            "network",
+            "sizing",
+            "integer",
+            "system"
+        ],
+        "last_update": "2024-12-26 00:44:10"
+    },
+    {
+        "repo": "https://gitlab.com/dlr-ve/esy/amiris/amiris-py",
+        "category": "environment",
+        "image": "",
+        "title": "amiris/amiris-py",
+        "description": "Python tools for the electricity market model [AMIRIS](https://gitlab.com/dlr-ve/esy/amiris/amiris)",
+        "language": null,
+        "stars": 3,
+        "website": "",
+        "keywords": [
+            "dlr",
+            "esy",
+            "market",
+            "gitlab",
+            "amiris",
+            "tools",
+            "://",
+            "model",
+            "electricity",
+            "com"
+        ],
+        "last_update": "2024-12-26 00:44:10"
+    },
+    {
+        "repo": "https://gitlab.com/xdc-model/xdc",
+        "category": "environment",
+        "image": "",
+        "title": "xdc-model/xdc",
+        "description": "XDC Model implementation",
+        "language": null,
+        "stars": 1,
+        "website": "",
+        "keywords": [
+            "xdc",
+            "implementation",
+            "model"
+        ],
+        "last_update": "2024-12-26 00:44:10"
+    },
+    {
+        "repo": "https://gitlab.com/hotmaps/potential/WWTP",
+        "category": "environment",
+        "image": "",
+        "title": "potential/WWTP",
+        "description": "Waste water potential nuts3 and local resolution yearly",
+        "language": null,
+        "stars": 0,
+        "website": "",
+        "keywords": [
+            "resolution",
+            "waste",
+            "yearly",
+            "nuts3",
+            "potential",
+            "water",
+            "local"
+        ],
+        "last_update": "2024-12-26 00:44:10"
+    },
+    {
+        "repo": "https://gitlab.com/then-try-this/climate-tool",
+        "category": "environment",
+        "image": "",
+        "title": "then-try-this/climate-tool",
+        "description": "A climate tool for Cornwall Council",
+        "language": null,
+        "stars": 1,
+        "website": "",
+        "keywords": [
+            "cornwall",
+            "tool",
+            "council",
+            "climate"
+        ],
+        "last_update": "2024-12-26 00:44:11"
+    },
+    {
+        "repo": "https://gitlab.com/natural-solutions/reneco/ecoreleve-data",
+        "category": "environment",
+        "image": "",
+        "title": "reneco/ecoreleve-data",
+        "description": "Open source biodiversity data entry software",
+        "language": null,
+        "stars": 0,
+        "website": "",
+        "keywords": [
+            "biodiversity",
+            "software",
+            "source",
+            "data",
+            "entry",
+            "open"
+        ],
+        "last_update": "2024-12-26 00:44:11"
+    },
+    {
+        "repo": "https://gitlab.com/ibarraespinosa/vein",
+        "category": "environment",
+        "image": "",
+        "title": "ibarraespinosa/vein",
+        "description": "",
+        "language": null,
+        "stars": 2,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-26 00:44:11"
+    },
+    {
+        "repo": "https://gitlab.com/polito-edyce-prelude/predyce",
+        "category": "environment",
+        "image": "",
+        "title": "polito-edyce-prelude/predyce",
+        "description": "Python Realtime Energy DYnamics and Climate Evaluation tool developed by Politecnico di Torino",
+        "language": null,
+        "stars": 4,
+        "website": "",
+        "keywords": [
+            "climate",
+            "torino",
+            "politecnico",
+            "tool",
+            "developed",
+            "evaluation",
+            "python",
+            "realtime",
+            "dynamics",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:44:11"
+    },
+    {
+        "repo": "https://gitlab.com/NRAP/OpenIAM",
+        "category": "environment",
+        "image": "",
+        "title": "NRAP/OpenIAM",
+        "description": "NRAP-Open-IAM is an open-source integrated assessment model developed by National Risk Assessment Partnership during Phases II and III to facilitate risk assessment, management and containment assurance for geologic carbon sequestration projects. ",
+        "language": null,
+        "stars": 1,
+        "website": "",
+        "keywords": [
+            "national",
+            "source",
+            "model",
+            "open",
+            "assurance",
+            "management",
+            "geologic",
+            "developed",
+            "iii",
+            "assessment"
+        ],
+        "last_update": "2024-12-26 00:44:11"
+    },
+    {
+        "repo": "https://gitlab.com/bioeconomy/forobs/biotrade/",
+        "category": "environment",
+        "image": "",
+        "title": "biotrade/",
+        "description": "This package loads trade data on bio based commodities and products from the UN Comtrade\r\nand from FAOSTAT.",
+        "language": null,
+        "stars": 2,
+        "website": "https://gitlab.com/bioeconomy/forobs/biotrade",
+        "keywords": [
+            "package",
+            "products",
+            "based",
+            "data",
+            "commodities",
+            "comtrade",
+            "bio",
+            "trade",
+            "faostat",
+            "loads"
+        ],
+        "last_update": "2024-12-26 00:44:12"
+    },
+    {
+        "repo": "https://gitlab.com/SmartGridToolbox/SmartGridToolbox",
+        "category": "environment",
+        "image": "",
+        "title": "SmartGridToolbox/SmartGridToolbox",
+        "description": "Modern C++ Smart Grid Simulation Library. See the [project pages](https://smartgridtoolbox.gitlab.io/SmartGridToolbox/) for more information, documentation, tutorials etc.",
+        "language": null,
+        "stars": 8,
+        "website": "",
+        "keywords": [
+            "smart",
+            "see",
+            "information",
+            "modern",
+            "gitlab",
+            "://",
+            "simulation",
+            "project",
+            "pages",
+            "smartgridtoolbox"
+        ],
+        "last_update": "2024-12-26 00:44:12"
+    },
+    {
+        "repo": "https://gitlab.com/energyincities/energy-signature-analyser",
+        "category": "environment",
+        "image": "",
+        "title": "energyincities/energy-signature-analyser",
+        "description": "",
+        "language": null,
+        "stars": 2,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-26 00:44:12"
+    },
+    {
+        "repo": "https://gitlab.com/openlandmap/eu-forest-tree-point-data",
+        "category": "environment",
+        "image": "",
+        "title": "openlandmap/eu-forest-tree-point-data",
+        "description": "A compilation of analysis-ready point data for the purpose of vegetation and Potential Natural Vegetation mapping (EU coverage only)",
+        "language": null,
+        "stars": 3,
+        "website": "",
+        "keywords": [
+            "mapping",
+            "vegetation",
+            "compilation",
+            "ready",
+            "data",
+            "coverage",
+            "purpose",
+            "potential",
+            "natural",
+            "analysis"
+        ],
+        "last_update": "2024-12-26 00:44:12"
+    },
+    {
+        "repo": "https://gitlab.com/dlr-ve/esy/remix/framework",
+        "category": "environment",
+        "image": "",
+        "title": "remix/framework",
+        "description": "The REMix framework for energy system optimization models",
+        "language": null,
+        "stars": 10,
+        "website": "",
+        "keywords": [
+            "optimization",
+            "models",
+            "system",
+            "framework",
+            "remix",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:44:12"
+    },
+    {
+        "repo": "https://gitlab.com/eputs/ev-fleet-sim",
+        "category": "environment",
+        "image": "",
+        "title": "eputs/ev-fleet-sim",
+        "description": "This software computes the electrical energy requirements of a fleet of vehicles. It also determines how much of this energy can be offset by renewable energy. It does all this by analyzing the fleet's GPS traces and applying EV and PV models.  Project website: 🔗 www.ev-fleet-sim.online ",
+        "language": null,
+        "stars": 7,
+        "website": "",
+        "keywords": [
+            "data analysis",
+            "electric vehicles",
+            "public transport",
+            "python",
+            "renewable energy",
+            "gps",
+            "requirements",
+            "applying",
+            "analyzing",
+            "online",
+            "www",
+            "website",
+            "also",
+            "sim",
+            "renewable"
+        ],
+        "last_update": "2024-12-26 00:44:12"
+    },
+    {
+        "repo": "https://github.com/joshualerickson/gwavr",
+        "category": "environment",
+        "image": "",
+        "title": "joshualerickson/gwavr",
+        "description": "Get Water Attributes Visually in R (gwavr) ",
+        "language": "R",
+        "stars": 17,
+        "website": "",
+        "keywords": [
+            "visually",
+            "get",
+            "gwavr",
+            "water",
+            "attributes"
+        ],
+        "last_update": "2024-12-26 00:44:13"
+    },
+    {
+        "repo": "https://github.com/powerapi-ng/powerapi",
+        "category": "environment",
+        "image": "",
+        "title": "powerapi-ng/powerapi",
+        "description": "PowerAPI is a Python framework for building software-defined power meters.",
+        "language": "Python",
+        "stars": 206,
+        "website": "https://powerapi.org",
+        "keywords": [
+            "energy",
+            "energy-monitoring",
+            "green-computing",
+            "inria",
+            "power-meter",
+            "python",
+            "power",
+            "defined",
+            "python",
+            "software",
+            "framework",
+            "meters",
+            "powerapi",
+            "building"
+        ],
+        "last_update": "2024-12-26 00:44:13"
+    },
+    {
+        "repo": "https://github.com/lucadelu/pyModis",
+        "category": "environment",
+        "image": "",
+        "title": "lucadelu/pyModis",
+        "description": "python library to work with MODIS data",
+        "language": "Python",
+        "stars": 166,
+        "website": "http://www.pymodis.org/",
+        "keywords": [
+            "library",
+            "work",
+            "data",
+            "python",
+            "modis"
+        ],
+        "last_update": "2024-12-26 00:44:13"
+    },
+    {
+        "repo": "https://github.com/green-coding-berlin/eco-ci-energy-estimation",
+        "category": "environment",
+        "image": "",
+        "title": "green-coding-berlin/eco-ci-energy-estimation",
+        "description": "Eco CI Energy estimation for Github Actions Runner VMs",
+        "language": "Shell",
+        "stars": 71,
+        "website": "https://metrics.green-coding.io/ci-index.html",
+        "keywords": [
+            "carbon-footprint",
+            "climate-change",
+            "co2-emissions",
+            "energy-consumption",
+            "green-coding",
+            "green-computing",
+            "green-software",
+            "metrics",
+            "power-consumption",
+            "sustainability",
+            "sustainable-software",
+            "estimation",
+            "vms",
+            "github",
+            "runner",
+            "eco",
+            "actions",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:44:13"
+    },
+    {
+        "repo": "https://github.com/edgi-govdata-archiving/ECHO-Cross-Program",
+        "category": "environment",
+        "image": "",
+        "title": "edgi-govdata-archiving/ECHO-Cross-Program",
+        "description": "Jupyter Notebooks for ECHO that use data from multiple EPA programs",
+        "language": "Jupyter Notebook",
+        "stars": 9,
+        "website": "https://colab.research.google.com/github/edgi-govdata-archiving/ECHO-Cross-Program/blob/master/ECHO-Cross-Programs.ipynb",
+        "keywords": [
+            "echo",
+            "multiple",
+            "data",
+            "jupyter",
+            "notebooks",
+            "programs",
+            "use",
+            "epa"
+        ],
+        "last_update": "2024-12-26 00:44:13"
+    },
+    {
+        "repo": "https://github.com/jhnienhuis/GlobalDeltaChange",
+        "category": "environment",
+        "image": "",
+        "title": "jhnienhuis/GlobalDeltaChange",
+        "description": "Global Delta Dataset",
+        "language": "MATLAB",
+        "stars": 18,
+        "website": "http://jhnienhuis.github.io",
+        "keywords": [
+            "delta",
+            "dataset",
+            "global"
+        ],
+        "last_update": "2024-12-26 00:44:13"
+    },
+    {
+        "repo": "https://github.com/amandasaurus/waterwaymap.org",
+        "category": "environment",
+        "image": "",
+        "title": "amandasaurus/waterwaymap.org",
+        "description": "WaterwayMap.org | River Basins from OpenStreetMap",
+        "language": "Makefile",
+        "stars": 63,
+        "website": "https://WaterwayMap.org",
+        "keywords": [
+            "data-visualization",
+            "geo",
+            "geospatial",
+            "openstreetmap",
+            "openstreetmap-data",
+            "osm",
+            "osm-data",
+            "river-network-analysis",
+            "river-networks",
+            "topology",
+            "water",
+            "watershed",
+            "waterwaymap",
+            "openstreetmap",
+            "org",
+            "basins",
+            "river"
+        ],
+        "last_update": "2024-12-26 00:44:13"
+    },
+    {
+        "repo": "https://github.com/NOAA-OWP/SoilFreezeThaw",
+        "category": "environment",
+        "image": "",
+        "title": "NOAA-OWP/SoilFreezeThaw",
+        "description": "Code computes soil temperature profile using Diffusion equation and freezing point depression equation for freeze-thaw dynamics of soil column",
+        "language": "C++",
+        "stars": 8,
+        "website": "",
+        "keywords": [
+            "depression",
+            "using",
+            "temperature",
+            "thaw",
+            "profile",
+            "soil",
+            "equation",
+            "code",
+            "freeze",
+            "column"
+        ],
+        "last_update": "2024-12-26 00:44:13"
+    },
+    {
+        "repo": "https://github.com/mlco2/codecarbon",
+        "category": "environment",
+        "image": "https://avatars.githubusercontent.com/u/54071934?v=4",
+        "website": "https://mlco2.github.io/codecarbon",
+        "poc": [],
+        "title": "mlco2/codecarbon",
+        "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
+        "language": "Python",
+        "stars": 1211,
+        "keywords": [
+            "environment",
+            "compute",
+            "ways",
+            "reduce",
+            "impact",
+            "recommend",
+            "track",
+            "emissions"
+        ],
+        "last_update": "2024-12-26 00:44:13"
+    },
+    {
+        "repo": "https://github.com/meshtastic/firmware",
+        "category": "society",
+        "image": "https://avatars.githubusercontent.com/u/61627050?v=4",
+        "website": "https://meshtastic.org",
+        "poc": [],
+        "title": "meshtastic/firmware",
+        "description": "Meshtastic device firmware",
+        "language": "C++",
+        "stars": 3779,
+        "keywords": [
+            "esp32",
+            "gps",
+            "heltec",
+            "hiking",
+            "lora",
+            "mesh",
+            "mesh-networks",
+            "meshtastic",
+            "nrf52",
+            "off-grid",
+            "pico",
+            "rp2040",
+            "stm32",
+            "ttgo",
+            "ttgo-tbeam",
+            "firmware",
+            "meshtastic",
+            "device"
+        ],
+        "last_update": "2024-12-26 00:44:14"
+    },
+    {
+        "repo": "https://github.com/ClimateGlobalChange/tempestextremes",
+        "category": "environment",
+        "image": "",
+        "title": "ClimateGlobalChange/tempestextremes",
+        "description": "Extreme weather detection and characterization",
+        "language": "HTML",
+        "stars": 92,
+        "website": "",
+        "keywords": [
+            "characterization",
+            "weather",
+            "extreme",
+            "detection"
+        ],
+        "last_update": "2024-12-26 00:44:14"
+    },
+    {
+        "repo": "https://github.com/jbusecke/xMIP",
+        "category": "environment",
+        "image": "",
+        "title": "jbusecke/xMIP",
+        "description": "Analysis ready CMIP6 data in python the easy way with pangeo tools.",
+        "language": "Jupyter Notebook",
+        "stars": 198,
+        "website": "https://cmip6-preprocessing.readthedocs.io/en/latest/?badge=latest",
+        "keywords": [
+            "analysis-ready-data",
+            "climate-analysis",
+            "climate-models",
+            "cmip6",
+            "cmip6-data",
+            "pangeo",
+            "preprocessing",
+            "xgcm",
+            "way",
+            "cmip6",
+            "easy",
+            "tools",
+            "ready",
+            "data",
+            "pangeo",
+            "python",
+            "analysis"
+        ],
+        "last_update": "2024-12-26 00:44:14"
+    },
+    {
+        "repo": "https://github.com/google-research/neuralgcm",
+        "category": "environment",
+        "image": "",
+        "title": "google-research/neuralgcm",
+        "description": "Hybrid ML + physics model of the Earth's atmosphere",
+        "language": "Python",
+        "stars": 726,
+        "website": "https://neuralgcm.readthedocs.io",
+        "keywords": [
+            "climate",
+            "neuralgcm",
+            "weather",
+            "earth",
+            "physics",
+            "model",
+            "atmosphere",
+            "hybrid"
+        ],
+        "last_update": "2024-12-26 00:44:14"
+    },
+    {
+        "repo": "https://github.com/EIAgov/NEMS",
+        "category": "environment",
+        "image": "",
+        "title": "EIAgov/NEMS",
+        "description": null,
+        "language": "Fortran",
+        "stars": 63,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-26 00:44:14"
+    },
+    {
+        "repo": "https://github.com/open-data-rescue/climate-data-rescue",
+        "category": "environment",
+        "image": "",
+        "title": "open-data-rescue/climate-data-rescue",
+        "description": "Climate Data Rescue is an archival data rescue platform using Ruby on Rails.",
+        "language": "JavaScript",
+        "stars": 15,
+        "website": "https://citsci.geog.mcgill.ca",
+        "keywords": [
+            "archives",
+            "citizen-science",
+            "climate",
+            "community",
+            "data-rescue",
+            "digitization",
+            "hacktoberfest",
+            "science",
+            "transcription",
+            "platform",
+            "using",
+            "climate",
+            "archival",
+            "rails",
+            "ruby",
+            "data",
+            "rescue"
+        ],
+        "last_update": "2024-12-26 00:44:14"
+    },
+    {
+        "repo": "https://github.com/bird-house/finch",
+        "category": "environment",
+        "image": "",
+        "title": "bird-house/finch",
+        "description": "A Web Processing Service for Climate Indicators",
+        "language": "Python",
+        "stars": 13,
+        "website": "https://finch.readthedocs.io/en/latest/",
+        "keywords": [
+            "climate",
+            "indices",
+            "ogc",
+            "wps",
+            "xarray",
+            "xclim",
+            "climate",
+            "web",
+            "service",
+            "processing",
+            "indicators"
+        ],
+        "last_update": "2024-12-26 00:44:14"
+    },
+    {
+        "repo": "https://github.com/regen-network/regen-ledger",
+        "category": "environment",
+        "image": "",
+        "title": "regen-network/regen-ledger",
+        "description": ":seedling: Blockchain for planetary regeneration",
+        "language": "Go",
+        "stars": 214,
+        "website": "https://docs.regen.network",
+        "keywords": [
+            "biodiversity",
+            "blockchain",
+            "carbon",
+            "climate-tech",
+            "cosmos-sdk",
+            "credit",
+            "marketplace",
+            "origination",
+            "tendermint",
+            "planetary",
+            "seedling",
+            "blockchain",
+            "regeneration"
+        ],
+        "last_update": "2024-12-26 00:44:14"
+    },
+    {
+        "repo": "https://github.com/DOI-USGS/flow-tiles",
+        "category": "environment",
+        "image": "",
+        "title": "DOI-USGS/flow-tiles",
+        "description": "A tile map showing a month of streamflow conditions across the U.S.",
+        "language": "R",
+        "stars": 42,
+        "website": "",
+        "keywords": [
+            "tile",
+            "across",
+            "map",
+            "showing",
+            "month",
+            "conditions",
+            "streamflow"
+        ],
+        "last_update": "2024-12-26 00:44:15"
+    },
+    {
+        "repo": "https://github.com/pcraster/pcraster",
+        "category": "environment",
+        "image": "",
+        "title": "pcraster/pcraster",
+        "description": "Environmental modeling software",
+        "language": "C++",
+        "stars": 88,
+        "website": "http://www.pcraster.eu",
+        "keywords": [
+            "cpp",
+            "earth-science",
+            "hydrology",
+            "modflow",
+            "python",
+            "simulation",
+            "spatio-temporal-modeling",
+            "environmental",
+            "software",
+            "modeling"
+        ],
+        "last_update": "2024-12-26 00:44:15"
+    },
+    {
+        "repo": "https://github.com/earth-system-radiation/rte-rrtmgp",
+        "category": "environment",
+        "image": "",
+        "title": "earth-system-radiation/rte-rrtmgp",
+        "description": "RTE+RRTMGP is a set of codes for computing radiative fluxes in planetary atmospheres.",
+        "language": "Fortran",
+        "stars": 76,
+        "website": "",
+        "keywords": [
+            "climate-model",
+            "radiative-transfer",
+            "planetary",
+            "set",
+            "rrtmgp",
+            "computing",
+            "rte",
+            "codes",
+            "radiative",
+            "fluxes",
+            "atmospheres"
+        ],
+        "last_update": "2024-12-26 00:44:15"
+    },
+    {
+        "repo": "https://github.com/ncss-tech/stats_for_soil_survey",
+        "category": "environment",
+        "image": "",
+        "title": "ncss-tech/stats_for_soil_survey",
+        "description": "S4SS: Statistics for Soil Survey",
+        "language": "HTML",
+        "stars": 33,
+        "website": "http://ncss-tech.github.io/stats_for_soil_survey/book/intro.html",
+        "keywords": [
+            "digital-soil-mapping",
+            "eda",
+            "ncss",
+            "nrcs",
+            "pedology",
+            "pedometrics",
+            "s4ss",
+            "soil",
+            "soil-survey",
+            "spatial-data",
+            "statistics",
+            "tabular-data",
+            "usda",
+            "statistics",
+            "soil",
+            "s4ss",
+            "survey"
+        ],
+        "last_update": "2024-12-26 00:44:15"
     },
     {
         "repo": "https://github.com/hubblo-org/scaphandre",
@@ -814,18 +1068,18 @@
             "virtual-machines",
             "wattmeter",
             "watts",
-            "help",
-            "let",
-            "systems",
+            "bring",
             "metrics",
-            "sustainable",
             "dive",
+            "help",
+            "agent",
+            "back",
+            "systems",
+            "let",
             "consumption",
-            "metrology",
-            "applications",
-            "bring"
+            "scaph"
         ],
-        "last_update": "2024-12-25 18:12:14"
+        "last_update": "2024-12-26 00:44:15"
     },
     {
         "repo": "https://github.com/chjch/pylusat",
@@ -841,13 +1095,13 @@
             "land-use",
             "suitability-analysis",
             "land",
-            "python",
-            "analysis",
+            "suitability",
             "tools",
+            "python",
             "use",
-            "suitability"
+            "analysis"
         ],
-        "last_update": "2024-12-25 18:12:14"
+        "last_update": "2024-12-26 00:44:15"
     },
     {
         "repo": "https://github.com/kylemcdonald/nvidia-co2",
@@ -859,13 +1113,13 @@
         "stars": 117,
         "website": "",
         "keywords": [
-            "smi",
-            "nvidia",
-            "adds",
             "gco2eq",
+            "nvidia",
+            "smi",
+            "adds",
             "emissions"
         ],
-        "last_update": "2024-12-25 18:12:14"
+        "last_update": "2024-12-26 00:44:15"
     },
     {
         "repo": "https://github.com/OpenModelica/OpenModelica",
@@ -880,17 +1134,17 @@
             "compiler",
             "modelica",
             "environment",
-            "source",
-            "intended",
-            "modelica",
-            "academic",
-            "open",
-            "usage",
             "industrial",
+            "intended",
+            "based",
+            "source",
             "openmodelica",
-            "modeling"
+            "simulation",
+            "open",
+            "academic",
+            "modelica"
         ],
-        "last_update": "2024-12-25 18:12:14"
+        "last_update": "2024-12-26 00:44:15"
     },
     {
         "repo": "https://github.com/ternaustralia/ausplotsR",
@@ -903,507 +1157,797 @@
         "website": "",
         "keywords": [
             "package",
+            "ausplots",
             "data",
             "interact",
-            "tern",
-            "ausplots"
+            "tern"
         ],
-        "last_update": "2024-12-25 18:12:14"
+        "last_update": "2024-12-26 00:44:16"
     },
     {
-        "repo": "https://github.com/DOI-USGS/flow-tiles",
+        "repo": "https://github.com/emf-creaf/meteoland",
         "category": "environment",
         "image": "",
-        "title": "DOI-USGS/flow-tiles",
-        "description": "A tile map showing a month of streamflow conditions across the U.S.",
+        "title": "emf-creaf/meteoland",
+        "description": "Functions to estimate weather variables at any position of a landscape",
         "language": "R",
-        "stars": 42,
-        "website": "",
+        "stars": 10,
+        "website": "https://emf-creaf.github.io/meteoland/",
         "keywords": [
-            "month",
-            "map",
-            "streamflow",
-            "across",
-            "showing",
-            "tile",
-            "conditions"
+            "position",
+            "functions",
+            "estimate",
+            "landscape",
+            "variables",
+            "weather"
         ],
-        "last_update": "2024-12-25 18:12:15"
+        "last_update": "2024-12-26 00:44:16"
     },
     {
-        "repo": "https://github.com/pcraster/pcraster",
+        "repo": "https://github.com/bluegreen-labs/daymetr",
         "category": "environment",
         "image": "",
-        "title": "pcraster/pcraster",
-        "description": "Environmental modeling software",
-        "language": "C++",
-        "stars": 88,
-        "website": "http://www.pcraster.eu",
+        "title": "bluegreen-labs/daymetr",
+        "description": "An R Interface to the Daymet Web Services",
+        "language": "R",
+        "stars": 31,
+        "website": "http://bluegreen-labs.github.io/daymetr/",
         "keywords": [
-            "cpp",
-            "earth-science",
-            "hydrology",
-            "modflow",
-            "python",
-            "simulation",
-            "spatio-temporal-modeling",
-            "modeling",
-            "software",
-            "environmental"
-        ],
-        "last_update": "2024-12-25 18:12:15"
-    },
-    {
-        "repo": "https://github.com/earth-system-radiation/rte-rrtmgp",
-        "category": "environment",
-        "image": "",
-        "title": "earth-system-radiation/rte-rrtmgp",
-        "description": "RTE+RRTMGP is a set of codes for computing radiative fluxes in planetary atmospheres.",
-        "language": "Fortran",
-        "stars": 76,
-        "website": "",
-        "keywords": [
-            "climate-model",
-            "radiative-transfer",
-            "set",
-            "computing",
-            "fluxes",
-            "rrtmgp",
-            "radiative",
-            "planetary",
-            "codes",
-            "atmospheres",
-            "rte"
-        ],
-        "last_update": "2024-12-25 18:12:15"
-    },
-    {
-        "repo": "https://github.com/ncss-tech/stats_for_soil_survey",
-        "category": "environment",
-        "image": "",
-        "title": "ncss-tech/stats_for_soil_survey",
-        "description": "S4SS: Statistics for Soil Survey",
-        "language": "HTML",
-        "stars": 33,
-        "website": "http://ncss-tech.github.io/stats_for_soil_survey/book/intro.html",
-        "keywords": [
-            "digital-soil-mapping",
-            "eda",
-            "ncss",
-            "nrcs",
-            "pedology",
-            "pedometrics",
-            "s4ss",
-            "soil",
-            "soil-survey",
-            "spatial-data",
-            "statistics",
-            "tabular-data",
-            "usda",
-            "statistics",
-            "survey",
-            "soil",
-            "s4ss"
-        ],
-        "last_update": "2024-12-25 18:12:15"
-    },
-    {
-        "repo": "https://github.com/google-research/neuralgcm",
-        "category": "environment",
-        "image": "",
-        "title": "google-research/neuralgcm",
-        "description": "Hybrid ML + physics model of the Earth's atmosphere",
-        "language": "Python",
-        "stars": 726,
-        "website": "https://neuralgcm.readthedocs.io",
-        "keywords": [
-            "climate",
-            "neuralgcm",
-            "weather",
-            "hybrid",
-            "physics",
-            "model",
-            "earth",
-            "atmosphere"
-        ],
-        "last_update": "2024-12-25 18:12:16"
-    },
-    {
-        "repo": "https://github.com/EIAgov/NEMS",
-        "category": "environment",
-        "image": "",
-        "title": "EIAgov/NEMS",
-        "description": null,
-        "language": "Fortran",
-        "stars": 63,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-25 18:12:16"
-    },
-    {
-        "repo": "https://github.com/open-data-rescue/climate-data-rescue",
-        "category": "environment",
-        "image": "",
-        "title": "open-data-rescue/climate-data-rescue",
-        "description": "Climate Data Rescue is an archival data rescue platform using Ruby on Rails.",
-        "language": "JavaScript",
-        "stars": 15,
-        "website": "https://citsci.geog.mcgill.ca",
-        "keywords": [
-            "archives",
-            "citizen-science",
-            "climate",
-            "community",
-            "data-rescue",
-            "digitization",
-            "hacktoberfest",
-            "science",
-            "transcription",
-            "using",
-            "ruby",
-            "climate",
-            "data",
-            "archival",
-            "platform",
-            "rails",
-            "rescue"
-        ],
-        "last_update": "2024-12-25 18:12:16"
-    },
-    {
-        "repo": "https://github.com/bird-house/finch",
-        "category": "environment",
-        "image": "",
-        "title": "bird-house/finch",
-        "description": "A Web Processing Service for Climate Indicators",
-        "language": "Python",
-        "stars": 13,
-        "website": "https://finch.readthedocs.io/en/latest/",
-        "keywords": [
-            "climate",
-            "indices",
-            "ogc",
-            "wps",
-            "xarray",
-            "xclim",
+            "climate-data",
+            "data-science",
+            "daymet",
+            "gridded-data",
+            "netcdf",
+            "ornl-daac",
+            "r-package",
+            "rstats",
+            "services",
             "web",
-            "climate",
-            "processing",
-            "service",
-            "indicators"
+            "interface",
+            "daymet"
         ],
-        "last_update": "2024-12-25 18:12:16"
+        "last_update": "2024-12-26 00:44:16"
     },
     {
-        "repo": "https://github.com/regen-network/regen-ledger",
+        "repo": "https://github.com/cemsbv/pygef",
         "category": "environment",
         "image": "",
-        "title": "regen-network/regen-ledger",
-        "description": ":seedling: Blockchain for planetary regeneration",
-        "language": "Go",
-        "stars": 214,
-        "website": "https://docs.regen.network",
+        "title": "cemsbv/pygef",
+        "description": "Parse soil measurement data.",
+        "language": "Python",
+        "stars": 32,
+        "website": "https://cemsbv.github.io/pygef",
         "keywords": [
-            "biodiversity",
-            "blockchain",
-            "carbon",
-            "climate-tech",
-            "cosmos-sdk",
-            "credit",
-            "marketplace",
-            "origination",
-            "tendermint",
-            "planetary",
-            "regeneration",
-            "seedling",
-            "blockchain"
+            "gef",
+            "geotechnical-engineering",
+            "pygef",
+            "python",
+            "measurement",
+            "parse",
+            "data",
+            "soil"
         ],
-        "last_update": "2024-12-25 18:12:16"
+        "last_update": "2024-12-26 00:44:16"
     },
     {
-        "repo": "https://github.com/NOAA-OWP/SoilFreezeThaw",
+        "repo": "https://github.com/opengeos/leafmap",
         "category": "environment",
         "image": "",
-        "title": "NOAA-OWP/SoilFreezeThaw",
-        "description": "Code computes soil temperature profile using Diffusion equation and freezing point depression equation for freeze-thaw dynamics of soil column",
-        "language": "C++",
+        "title": "opengeos/leafmap",
+        "description": "A Python package for interactive mapping and geospatial analysis with minimal coding in a Jupyter environment",
+        "language": "Python",
+        "stars": 3236,
+        "website": "https://leafmap.org",
+        "keywords": [
+            "data-science",
+            "dataviz",
+            "folium",
+            "geoparquet",
+            "geopython",
+            "geospatial",
+            "geospatial-analysis",
+            "gis",
+            "ipyleaflet",
+            "jupyter",
+            "jupyter-notebook",
+            "leafmap",
+            "mapping",
+            "plotly",
+            "python",
+            "solara",
+            "streamlit",
+            "streamlit-webapp",
+            "whiteboxtools",
+            "environment",
+            "package",
+            "minimal",
+            "coding",
+            "interactive",
+            "mapping",
+            "geospatial",
+            "jupyter",
+            "python",
+            "analysis"
+        ],
+        "last_update": "2024-12-26 00:44:16"
+    },
+    {
+        "repo": "https://github.com/EDIorg/ecocomDP",
+        "category": "environment",
+        "image": "",
+        "title": "EDIorg/ecocomDP",
+        "description": "A dataset design pattern and R package for ecological community data.",
+        "language": "R",
+        "stars": 32,
+        "website": "https://ediorg.github.io/ecocomDP/",
+        "keywords": [
+            "package",
+            "pattern",
+            "data",
+            "design",
+            "ecological",
+            "dataset",
+            "community"
+        ],
+        "last_update": "2024-12-26 00:44:16"
+    },
+    {
+        "repo": "https://github.com/ZiluM/sacpy",
+        "category": "environment",
+        "image": "",
+        "title": "ZiluM/sacpy",
+        "description": "A Python Package for Statistical Analysis of Climate",
+        "language": "Python",
+        "stars": 58,
+        "website": "",
+        "keywords": [
+            "package",
+            "statistical",
+            "climate",
+            "python",
+            "analysis"
+        ],
+        "last_update": "2024-12-26 00:44:16"
+    },
+    {
+        "repo": "https://github.com/sentinelsat/sentinelsat",
+        "category": "environment",
+        "image": "",
+        "title": "sentinelsat/sentinelsat",
+        "description": "Search and download Copernicus Sentinel satellite images",
+        "language": "Python",
+        "stars": 991,
+        "website": "https://sentinelsat.readthedocs.io",
+        "keywords": [
+            "copernicus",
+            "esa",
+            "geographic-data",
+            "hacktoberfest",
+            "open-data",
+            "remote-sensing",
+            "satellite-imagery",
+            "sentinel",
+            "download",
+            "copernicus",
+            "sentinel",
+            "search",
+            "satellite",
+            "images"
+        ],
+        "last_update": "2024-12-26 00:44:16"
+    },
+    {
+        "repo": "https://github.com/earth-chris/earthlib-legacy",
+        "category": "environment",
+        "image": "",
+        "title": "earth-chris/earthlib-legacy",
+        "description": "Spectral endmembers and unmixing tools for satellite land cover mapping.",
+        "language": "Jupyter Notebook",
+        "stars": 24,
+        "website": "https://earth-chris.github.io/earthlib",
+        "keywords": [
+            "conservation",
+            "earth-engine",
+            "ecology",
+            "remote-sensing",
+            "spectral-unmixing",
+            "endmembers",
+            "land",
+            "mapping",
+            "spectral",
+            "tools",
+            "unmixing",
+            "satellite",
+            "cover"
+        ],
+        "last_update": "2024-12-26 00:44:16"
+    },
+    {
+        "repo": "https://github.com/assume-framework/assume",
+        "category": "environment",
+        "image": "",
+        "title": "assume-framework/assume",
+        "description": "ASSUME - Agent-based Simulation for Studying and Understanding Market Evolution",
+        "language": "Python",
+        "stars": 27,
+        "website": "https://assume.readthedocs.io",
+        "keywords": [
+            "market",
+            "based",
+            "agent",
+            "simulation",
+            "assume",
+            "studying",
+            "understanding",
+            "evolution"
+        ],
+        "last_update": "2024-12-26 00:44:16"
+    },
+    {
+        "repo": "https://github.com/FoodOntology/foodon",
+        "category": "environment",
+        "image": "",
+        "title": "FoodOntology/foodon",
+        "description": "The core repository for the FOODON food ontology project. This holds the key classes of the ontology; larger files and the results of text-mining projects will be stored in other repos. ",
+        "language": "Python",
+        "stars": 186,
+        "website": "",
+        "keywords": [
+            "agriculture",
+            "food",
+            "obofoundry",
+            "ontology",
+            "owl",
+            "holds",
+            "key",
+            "repos",
+            "foodon",
+            "files",
+            "core",
+            "text",
+            "stored",
+            "mining",
+            "food"
+        ],
+        "last_update": "2024-12-26 00:44:17"
+    },
+    {
+        "repo": "https://github.com/pygsflow/pygsflow",
+        "category": "environment",
+        "image": "",
+        "title": "pygsflow/pygsflow",
+        "description": "Python package to Create, Read, Write, Edit, and Visualize GSFLOW models",
+        "language": "Python",
+        "stars": 34,
+        "website": "https://pygsflow.github.io/pygsflowdocs/",
+        "keywords": [
+            "groundwater",
+            "groundwater-modelling",
+            "gsflow",
+            "integrated-modelling",
+            "modflow",
+            "prms",
+            "pygsflow",
+            "python",
+            "surface-water",
+            "usgs",
+            "package",
+            "models",
+            "write",
+            "edit",
+            "create",
+            "gsflow",
+            "read",
+            "python",
+            "visualize"
+        ],
+        "last_update": "2024-12-26 00:44:17"
+    },
+    {
+        "repo": "https://github.com/Education4Climate/Education4Climate",
+        "category": "environment",
+        "image": "",
+        "title": "Education4Climate/Education4Climate",
+        "description": "Education4Climate is a tool for crawling and analyzing data from higher education schools.",
+        "language": "Python",
+        "stars": 17,
+        "website": "https://education4climate.be",
+        "keywords": [
+            "education4climate",
+            "education",
+            "higher",
+            "analyzing",
+            "crawling",
+            "data",
+            "schools",
+            "tool"
+        ],
+        "last_update": "2024-12-26 00:44:17"
+    },
+    {
+        "repo": "https://github.com/brazil-data-cube/rwlts",
+        "category": "environment",
+        "image": "",
+        "title": "brazil-data-cube/rwlts",
+        "description": "R Client Library for Web Land Trajectory Service ",
+        "language": "R",
         "stars": 8,
         "website": "",
         "keywords": [
-            "using",
-            "soil",
-            "freezing",
-            "point",
-            "thaw",
-            "column",
-            "dynamics",
-            "code",
-            "diffusion",
-            "equation"
-        ],
-        "last_update": "2024-12-25 18:12:17"
-    },
-    {
-        "repo": "https://github.com/mlco2/codecarbon",
-        "category": "environment",
-        "image": "https://avatars.githubusercontent.com/u/54071934?v=4",
-        "website": "https://mlco2.github.io/codecarbon",
-        "poc": [],
-        "title": "mlco2/codecarbon",
-        "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
-        "language": "Python",
-        "stars": 1211,
-        "keywords": [
-            "reduce",
-            "environment",
-            "ways",
-            "track",
-            "impact",
-            "compute",
-            "emissions",
-            "recommend"
-        ],
-        "last_update": "2024-12-25 18:12:17"
-    },
-    {
-        "repo": "https://github.com/meshtastic/firmware",
-        "category": "society",
-        "image": "https://avatars.githubusercontent.com/u/61627050?v=4",
-        "website": "https://meshtastic.org",
-        "poc": [],
-        "title": "meshtastic/firmware",
-        "description": "Meshtastic device firmware",
-        "language": "C++",
-        "stars": 3776,
-        "keywords": [
-            "esp32",
-            "gps",
-            "heltec",
-            "hiking",
-            "lora",
-            "mesh",
-            "mesh-networks",
-            "meshtastic",
-            "nrf52",
-            "off-grid",
-            "pico",
-            "rp2040",
-            "stm32",
-            "ttgo",
-            "ttgo-tbeam",
-            "firmware",
-            "meshtastic",
-            "device"
-        ],
-        "last_update": "2024-12-25 18:12:17"
-    },
-    {
-        "repo": "https://github.com/ClimateGlobalChange/tempestextremes",
-        "category": "environment",
-        "image": "",
-        "title": "ClimateGlobalChange/tempestextremes",
-        "description": "Extreme weather detection and characterization",
-        "language": "HTML",
-        "stars": 92,
-        "website": "",
-        "keywords": [
-            "weather",
-            "characterization",
-            "detection",
-            "extreme"
-        ],
-        "last_update": "2024-12-25 18:12:17"
-    },
-    {
-        "repo": "https://github.com/jbusecke/xMIP",
-        "category": "environment",
-        "image": "",
-        "title": "jbusecke/xMIP",
-        "description": "Analysis ready CMIP6 data in python the easy way with pangeo tools.",
-        "language": "Jupyter Notebook",
-        "stars": 198,
-        "website": "https://cmip6-preprocessing.readthedocs.io/en/latest/?badge=latest",
-        "keywords": [
-            "analysis-ready-data",
-            "climate-analysis",
-            "climate-models",
-            "cmip6",
-            "cmip6-data",
-            "pangeo",
-            "preprocessing",
-            "xgcm",
-            "way",
-            "pangeo",
-            "ready",
-            "data",
-            "python",
-            "analysis",
-            "cmip6",
-            "tools",
-            "easy"
-        ],
-        "last_update": "2024-12-25 18:12:17"
-    },
-    {
-        "repo": "https://github.com/green-coding-berlin/eco-ci-energy-estimation",
-        "category": "environment",
-        "image": "",
-        "title": "green-coding-berlin/eco-ci-energy-estimation",
-        "description": "Eco CI Energy estimation for Github Actions Runner VMs",
-        "language": "Shell",
-        "stars": 71,
-        "website": "https://metrics.green-coding.io/ci-index.html",
-        "keywords": [
-            "carbon-footprint",
-            "climate-change",
-            "co2-emissions",
-            "energy-consumption",
-            "green-coding",
-            "green-computing",
-            "green-software",
-            "metrics",
-            "power-consumption",
-            "sustainability",
-            "sustainable-software",
-            "estimation",
-            "vms",
-            "eco",
-            "github",
-            "runner",
-            "energy",
-            "actions"
-        ],
-        "last_update": "2024-12-25 18:12:18"
-    },
-    {
-        "repo": "https://github.com/edgi-govdata-archiving/ECHO-Cross-Program",
-        "category": "environment",
-        "image": "",
-        "title": "edgi-govdata-archiving/ECHO-Cross-Program",
-        "description": "Jupyter Notebooks for ECHO that use data from multiple EPA programs",
-        "language": "Jupyter Notebook",
-        "stars": 9,
-        "website": "https://colab.research.google.com/github/edgi-govdata-archiving/ECHO-Cross-Program/blob/master/ECHO-Cross-Programs.ipynb",
-        "keywords": [
-            "jupyter",
-            "data",
-            "echo",
-            "use",
-            "programs",
-            "notebooks",
-            "epa",
-            "multiple"
-        ],
-        "last_update": "2024-12-25 18:12:18"
-    },
-    {
-        "repo": "https://github.com/jhnienhuis/GlobalDeltaChange",
-        "category": "environment",
-        "image": "",
-        "title": "jhnienhuis/GlobalDeltaChange",
-        "description": "Global Delta Dataset",
-        "language": "MATLAB",
-        "stars": 18,
-        "website": "http://jhnienhuis.github.io",
-        "keywords": [
-            "dataset",
-            "delta",
-            "global"
-        ],
-        "last_update": "2024-12-25 18:12:18"
-    },
-    {
-        "repo": "https://github.com/amandasaurus/waterwaymap.org",
-        "category": "environment",
-        "image": "",
-        "title": "amandasaurus/waterwaymap.org",
-        "description": "WaterwayMap.org | River Basins from OpenStreetMap",
-        "language": "Makefile",
-        "stars": 63,
-        "website": "https://WaterwayMap.org",
-        "keywords": [
-            "data-visualization",
-            "geo",
+            "earth-observation",
+            "earth-science",
+            "geoinformatics",
+            "geoscience",
             "geospatial",
-            "openstreetmap",
-            "openstreetmap-data",
-            "osm",
-            "osm-data",
-            "river-network-analysis",
-            "river-networks",
-            "topology",
-            "water",
-            "watershed",
-            "waterwaymap",
-            "river",
-            "openstreetmap",
-            "org",
-            "basins"
-        ],
-        "last_update": "2024-12-25 18:12:18"
-    },
-    {
-        "repo": "https://github.com/joshualerickson/gwavr",
-        "category": "environment",
-        "image": "",
-        "title": "joshualerickson/gwavr",
-        "description": "Get Water Attributes Visually in R (gwavr) ",
-        "language": "R",
-        "stars": 17,
-        "website": "",
-        "keywords": [
-            "water",
-            "attributes",
-            "get",
-            "gwavr",
-            "visually"
-        ],
-        "last_update": "2024-12-25 18:12:19"
-    },
-    {
-        "repo": "https://github.com/powerapi-ng/powerapi",
-        "category": "environment",
-        "image": "",
-        "title": "powerapi-ng/powerapi",
-        "description": "PowerAPI is a Python framework for building software-defined power meters.",
-        "language": "Python",
-        "stars": 206,
-        "website": "https://powerapi.org",
-        "keywords": [
-            "energy",
-            "energy-monitoring",
-            "green-computing",
-            "inria",
-            "power-meter",
-            "python",
-            "framework",
-            "powerapi",
-            "python",
-            "meters",
-            "software",
-            "power",
-            "defined",
-            "building"
-        ],
-        "last_update": "2024-12-25 18:12:19"
-    },
-    {
-        "repo": "https://github.com/lucadelu/pyModis",
-        "category": "environment",
-        "image": "",
-        "title": "lucadelu/pyModis",
-        "description": "python library to work with MODIS data",
-        "language": "Python",
-        "stars": 166,
-        "website": "http://www.pymodis.org/",
-        "keywords": [
-            "work",
-            "python",
-            "data",
-            "modis",
+            "land-cover",
+            "r",
+            "trajectory",
+            "land",
+            "trajectory",
+            "web",
+            "service",
+            "client",
             "library"
         ],
-        "last_update": "2024-12-25 18:12:19"
+        "last_update": "2024-12-26 00:44:17"
+    },
+    {
+        "repo": "https://github.com/PyPSA/powerplantmatching",
+        "category": "environment",
+        "image": "",
+        "title": "PyPSA/powerplantmatching",
+        "description": "Set of tools to combine multiple power plant databases",
+        "language": "Python",
+        "stars": 160,
+        "website": "https://powerplantmatching.readthedocs.io/en/latest/",
+        "keywords": [
+            "set",
+            "power",
+            "multiple",
+            "plant",
+            "combine",
+            "tools",
+            "databases"
+        ],
+        "last_update": "2024-12-26 00:44:17"
+    },
+    {
+        "repo": "https://github.com/NREL/BuildingMOTIF",
+        "category": "environment",
+        "image": "",
+        "title": "NREL/BuildingMOTIF",
+        "description": "Building Metadata OnTology Interoperability Framework (BuildingMOTIF). For models, see https://models.open223.info/",
+        "language": "Jupyter Notebook",
+        "stars": 50,
+        "website": "https://buildingmotif.readthedocs.io/",
+        "keywords": [
+            "open223",
+            "see",
+            "https",
+            "metadata",
+            "models",
+            "buildingmotif",
+            "framework",
+            "://",
+            "info",
+            "building"
+        ],
+        "last_update": "2024-12-26 00:44:17"
+    },
+    {
+        "repo": "https://github.com/AquaticEcoDynamics/libaed2",
+        "category": "environment",
+        "image": "",
+        "title": "AquaticEcoDynamics/libaed2",
+        "description": "Code for the AED2 water quality / ecology library",
+        "language": "Fortran",
+        "stars": 15,
+        "website": "http://aquatic.science.uwa.edu.au/research/models/AED/",
+        "keywords": [
+            "aem",
+            "aquatic",
+            "ecology",
+            "estuaries",
+            "lakes",
+            "nutrients",
+            "phytoplankton",
+            "quality",
+            "sediment",
+            "water",
+            "aed2",
+            "water",
+            "ecology",
+            "code",
+            "quality",
+            "library"
+        ],
+        "last_update": "2024-12-26 00:44:17"
+    },
+    {
+        "repo": "https://github.com/bcgov/wqbc",
+        "category": "environment",
+        "image": "",
+        "title": "bcgov/wqbc",
+        "description": "An R package for water quality thresholds and index calculation for British Columbia",
+        "language": "R",
+        "stars": 20,
+        "website": "http://bcgov.github.io/wqbc/",
+        "keywords": [
+            "data-science",
+            "env",
+            "r",
+            "r-package",
+            "rstats",
+            "package",
+            "calculation",
+            "water",
+            "index",
+            "thresholds",
+            "columbia",
+            "british",
+            "quality"
+        ],
+        "last_update": "2024-12-26 00:44:17"
+    },
+    {
+        "repo": "https://github.com/WikiWatershed/model-my-watershed",
+        "category": "environment",
+        "image": "",
+        "title": "WikiWatershed/model-my-watershed",
+        "description": "The web application front end for Model My Watershed.",
+        "language": "JavaScript",
+        "stars": 57,
+        "website": "https://modelmywatershed.org",
+        "keywords": [
+            "civic-apps-team",
+            "hydrology",
+            "stormwater",
+            "watersheds",
+            "end",
+            "front",
+            "model",
+            "web",
+            "application",
+            "watershed"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/GlobalHydrologyLab/AquaSat",
+        "category": "environment",
+        "image": "",
+        "title": "GlobalHydrologyLab/AquaSat",
+        "description": "Monitoring water quality from space!",
+        "language": "HTML",
+        "stars": 49,
+        "website": "",
+        "keywords": [
+            "quality",
+            "water",
+            "monitoring",
+            "space"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/ropensci/cde",
+        "category": "environment",
+        "image": "",
+        "title": "ropensci/cde",
+        "description": "Repo for R package to query and download WFD data from the EA Catchment Data Explorer site",
+        "language": "R",
+        "stars": 5,
+        "website": "https://docs.ropensci.org/cde",
+        "keywords": [
+            "download",
+            "package",
+            "repo",
+            "data",
+            "site",
+            "catchment",
+            "query",
+            "explorer",
+            "wfd"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/GEUS-Glaciology-and-Climate/freshwater",
+        "category": "environment",
+        "image": "",
+        "title": "GEUS-Glaciology-and-Climate/freshwater",
+        "description": "Greenland liquid water runoff from 1958 through 2019",
+        "language": "TeX",
+        "stars": 16,
+        "website": "https://doi.org/10.5194/essd-12-2811-2020",
+        "keywords": [
+            "grass-gis",
+            "greenland",
+            "org-mode",
+            "scientific-workflows",
+            "water",
+            "2019",
+            "runoff",
+            "greenland",
+            "1958",
+            "liquid",
+            "water"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/ECCO-GROUP/ECCOv4-py",
+        "category": "environment",
+        "image": "",
+        "title": "ECCO-GROUP/ECCOv4-py",
+        "description": "A Python library with routines that support the loading, analysis, and plotting fields of the ECCO Version 4 Ocean and Sea-Ice State Estimate.  The ecco_v4_py library builds on several valuable tools such as xmitgcm, gcm, xarray, and dask.",
+        "language": "Python",
+        "stars": 31,
+        "website": "",
+        "keywords": [
+            "version",
+            "dask",
+            "several",
+            "sea",
+            "loading",
+            "gcm",
+            "state",
+            "ice",
+            "analysis",
+            "builds"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/smwesten-usgs/swb",
+        "category": "environment",
+        "image": "",
+        "title": "smwesten-usgs/swb",
+        "description": "Soil-Water-Balance: A Modified Thornthwaite-Mather Soil-Water-Balance Code for Estimating Groundwater Recharge.",
+        "language": "Fortran",
+        "stars": 35,
+        "website": "",
+        "keywords": [
+            "deep-percolation",
+            "fortran",
+            "groundwater-recharge",
+            "soil-water-balance",
+            "usgs",
+            "groundwater",
+            "modified",
+            "estimating",
+            "soil",
+            "mather",
+            "balance",
+            "code",
+            "recharge",
+            "thornthwaite",
+            "water"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/matthiasdemuzere/w2w",
+        "category": "environment",
+        "image": "",
+        "title": "matthiasdemuzere/w2w",
+        "description": "A python tool that ingests WUDAPT information into WRF.",
+        "language": "Jupyter Notebook",
+        "stars": 40,
+        "website": "",
+        "keywords": [
+            "ingests",
+            "information",
+            "tool",
+            "wrf",
+            "wudapt",
+            "python"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/Planteome/plant-trait-ontology",
+        "category": "environment",
+        "image": "",
+        "title": "Planteome/plant-trait-ontology",
+        "description": "Explore the Plant Trait Ontology on the Planteome site.",
+        "language": "Python",
+        "stars": 39,
+        "website": "http://browser.planteome.org/amigo/term/TO:0000387#display-lineage-tab",
+        "keywords": [
+            "obo",
+            "obofoundry",
+            "owl",
+            "phenotype",
+            "plant-trait-ontology",
+            "plant-traits",
+            "plant",
+            "planteome",
+            "site",
+            "explore",
+            "trait",
+            "ontology"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/Joel-hanson/Iceberg-locations",
+        "category": "environment",
+        "image": "",
+        "title": "Joel-hanson/Iceberg-locations",
+        "description": "Current Antarctic large iceberg positions derived from ASCAT and OSCAT-2",
+        "language": "Python",
+        "stars": 6,
+        "website": "https://www.scp.byu.edu/current_icebergs.html",
+        "keywords": [
+            "beautifulsoup4",
+            "climate-change",
+            "git-scraping",
+            "iceberg",
+            "python",
+            "scraping",
+            "derived",
+            "positions",
+            "current",
+            "oscat",
+            "ascat",
+            "antarctic",
+            "iceberg",
+            "large"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/cryotools/cosipy",
+        "category": "environment",
+        "image": "",
+        "title": "cryotools/cosipy",
+        "description": "Coupled snowpack and ice surface energy and mass balance model in Python",
+        "language": "Python",
+        "stars": 54,
+        "website": "",
+        "keywords": [
+            "mass",
+            "snowpack",
+            "coupled",
+            "balance",
+            "python",
+            "surface",
+            "model",
+            "ice",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:44:18"
+    },
+    {
+        "repo": "https://github.com/CICE-Consortium/Icepack",
+        "category": "environment",
+        "image": "",
+        "title": "CICE-Consortium/Icepack",
+        "description": "Development repository for sea-ice column physics",
+        "language": "Fortran",
+        "stars": 25,
+        "website": "",
+        "keywords": [
+            "physics",
+            "sea",
+            "development",
+            "column",
+            "ice",
+            "repository"
+        ],
+        "last_update": "2024-12-26 00:44:19"
+    },
+    {
+        "repo": "https://github.com/weiji14/deepbedmap",
+        "category": "environment",
+        "image": "",
+        "title": "weiji14/deepbedmap",
+        "description": "Going beyond BEDMAP2 using a super resolution deep neural network. Also a convenient flat file data repository for high resolution bed elevation datasets around Antarctica.",
+        "language": "Jupyter Notebook",
+        "stars": 43,
+        "website": "",
+        "keywords": [
+            "antarctica",
+            "bedmap",
+            "binder",
+            "chainer",
+            "data-science",
+            "deep-neural-network",
+            "digital-elevation-model",
+            "flat-file-db",
+            "generative-adversarial-network",
+            "glaciology",
+            "jupyter-notebook",
+            "optuna",
+            "pangeo",
+            "remote-sensing",
+            "super-resolution",
+            "around",
+            "beyond",
+            "high",
+            "antarctica",
+            "datasets",
+            "flat",
+            "file",
+            "repository",
+            "using",
+            "network"
+        ],
+        "last_update": "2024-12-26 00:44:19"
+    },
+    {
+        "repo": "https://github.com/NOAA-GFDL/SIS2",
+        "category": "environment",
+        "image": "",
+        "title": "NOAA-GFDL/SIS2",
+        "description": "NOAA-GFDL's Sea Ice Simulator version 2",
+        "language": "Fortran",
+        "stars": 16,
+        "website": "",
+        "keywords": [
+            "simulator",
+            "version",
+            "gfdl",
+            "sea",
+            "noaa",
+            "ice"
+        ],
+        "last_update": "2024-12-26 00:44:19"
+    },
+    {
+        "repo": "https://github.com/icesat2py/icepyx",
+        "category": "environment",
+        "image": "",
+        "title": "icesat2py/icepyx",
+        "description": "Python tools for obtaining and working with ICESat-2 data",
+        "language": "Python",
+        "stars": 220,
+        "website": "https://icepyx.readthedocs.io/en/latest/",
+        "keywords": [
+            "closember",
+            "community-driven",
+            "hacktoberfest",
+            "icesat-2",
+            "python3",
+            "obtaining",
+            "icesat",
+            "tools",
+            "data",
+            "working",
+            "python"
+        ],
+        "last_update": "2024-12-26 00:44:19"
+    },
+    {
+        "repo": "https://github.com/chadagreene/BedMachine",
+        "category": "environment",
+        "image": "",
+        "title": "chadagreene/BedMachine",
+        "description": "Matlab tools for loading, interpolating, and displaying BedMachine ice sheet topography.",
+        "language": "MATLAB",
+        "stars": 22,
+        "website": "",
+        "keywords": [
+            "antarctica",
+            "bedmachine",
+            "geology",
+            "glaciers",
+            "glaciology",
+            "greenland",
+            "ice-shelves",
+            "matlab",
+            "bedmachine",
+            "matlab",
+            "loading",
+            "displaying",
+            "sheet",
+            "tools",
+            "topography",
+            "ice",
+            "interpolating"
+        ],
+        "last_update": "2024-12-26 00:44:19"
     },
     {
         "repo": "https://github.com/pik-primap/climate_categories",
@@ -1585,502 +2129,6 @@
         "last_update": "2024-12-25 12:17:30"
     },
     {
-        "repo": "https://gitlab.com/energyincities/energy-signature-analyser",
-        "category": "environment",
-        "image": "",
-        "title": "energyincities/energy-signature-analyser",
-        "description": "",
-        "language": null,
-        "stars": 2,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-25 18:12:20"
-    },
-    {
-        "repo": "https://gitlab.com/openlandmap/eu-forest-tree-point-data",
-        "category": "environment",
-        "image": "",
-        "title": "openlandmap/eu-forest-tree-point-data",
-        "description": "A compilation of analysis-ready point data for the purpose of vegetation and Potential Natural Vegetation mapping (EU coverage only)",
-        "language": null,
-        "stars": 3,
-        "website": "",
-        "keywords": [
-            "coverage",
-            "purpose",
-            "compilation",
-            "potential",
-            "point",
-            "ready",
-            "data",
-            "vegetation",
-            "analysis",
-            "natural"
-        ],
-        "last_update": "2024-12-25 18:12:20"
-    },
-    {
-        "repo": "https://gitlab.com/dlr-ve/esy/remix/framework",
-        "category": "environment",
-        "image": "",
-        "title": "remix/framework",
-        "description": "The REMix framework for energy system optimization models",
-        "language": null,
-        "stars": 10,
-        "website": "",
-        "keywords": [
-            "system",
-            "framework",
-            "optimization",
-            "models",
-            "remix",
-            "energy"
-        ],
-        "last_update": "2024-12-25 18:12:20"
-    },
-    {
-        "repo": "https://gitlab.com/eputs/ev-fleet-sim",
-        "category": "environment",
-        "image": "",
-        "title": "eputs/ev-fleet-sim",
-        "description": "This software computes the electrical energy requirements of a fleet of vehicles. It also determines how much of this energy can be offset by renewable energy. It does all this by analyzing the fleet's GPS traces and applying EV and PV models.  Project website: 🔗 www.ev-fleet-sim.online ",
-        "language": null,
-        "stars": 7,
-        "website": "",
-        "keywords": [
-            "data analysis",
-            "electric vehicles",
-            "public transport",
-            "python",
-            "renewable energy",
-            "determines",
-            "fleet",
-            "also",
-            "online",
-            "much",
-            "electrical",
-            "models",
-            "computes",
-            "website",
-            "traces"
-        ],
-        "last_update": "2024-12-25 18:12:20"
-    },
-    {
-        "repo": "https://gitlab.com/ibarraespinosa/vein",
-        "category": "environment",
-        "image": "",
-        "title": "ibarraespinosa/vein",
-        "description": "",
-        "language": null,
-        "stars": 2,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-25 18:12:21"
-    },
-    {
-        "repo": "https://gitlab.com/polito-edyce-prelude/predyce",
-        "category": "environment",
-        "image": "",
-        "title": "polito-edyce-prelude/predyce",
-        "description": "Python Realtime Energy DYnamics and Climate Evaluation tool developed by Politecnico di Torino",
-        "language": null,
-        "stars": 4,
-        "website": "",
-        "keywords": [
-            "evaluation",
-            "realtime",
-            "climate",
-            "python",
-            "developed",
-            "torino",
-            "dynamics",
-            "politecnico",
-            "energy",
-            "tool"
-        ],
-        "last_update": "2024-12-25 18:12:21"
-    },
-    {
-        "repo": "https://gitlab.com/NRAP/OpenIAM",
-        "category": "environment",
-        "image": "",
-        "title": "NRAP/OpenIAM",
-        "description": "NRAP-Open-IAM is an open-source integrated assessment model developed by National Risk Assessment Partnership during Phases II and III to facilitate risk assessment, management and containment assurance for geologic carbon sequestration projects. ",
-        "language": null,
-        "stars": 1,
-        "website": "",
-        "keywords": [
-            "risk",
-            "phases",
-            "projects",
-            "model",
-            "containment",
-            "integrated",
-            "national",
-            "assurance",
-            "iii",
-            "facilitate"
-        ],
-        "last_update": "2024-12-25 18:12:21"
-    },
-    {
-        "repo": "https://gitlab.com/bioeconomy/forobs/biotrade/",
-        "category": "environment",
-        "image": "",
-        "title": "biotrade/",
-        "description": "This package loads trade data on bio based commodities and products from the UN Comtrade\r\nand from FAOSTAT.",
-        "language": null,
-        "stars": 2,
-        "website": "https://gitlab.com/bioeconomy/forobs/biotrade",
-        "keywords": [
-            "loads",
-            "commodities",
-            "comtrade",
-            "data",
-            "faostat",
-            "bio",
-            "based",
-            "package",
-            "products",
-            "trade"
-        ],
-        "last_update": "2024-12-25 18:12:21"
-    },
-    {
-        "repo": "https://gitlab.com/SmartGridToolbox/SmartGridToolbox",
-        "category": "environment",
-        "image": "",
-        "title": "SmartGridToolbox/SmartGridToolbox",
-        "description": "Modern C++ Smart Grid Simulation Library. See the [project pages](https://smartgridtoolbox.gitlab.io/SmartGridToolbox/) for more information, documentation, tutorials etc.",
-        "language": null,
-        "stars": 8,
-        "website": "",
-        "keywords": [
-            "etc",
-            "://",
-            "smart",
-            "project",
-            "information",
-            "documentation",
-            "grid",
-            "https",
-            "see",
-            "pages"
-        ],
-        "last_update": "2024-12-25 18:12:21"
-    },
-    {
-        "repo": "https://gitlab.com/dlr-ve/esy/amiris/amiris-py",
-        "category": "environment",
-        "image": "",
-        "title": "amiris/amiris-py",
-        "description": "Python tools for the electricity market model [AMIRIS](https://gitlab.com/dlr-ve/esy/amiris/amiris)",
-        "language": null,
-        "stars": 3,
-        "website": "",
-        "keywords": [
-            "amiris",
-            "://",
-            "electricity",
-            "python",
-            "com",
-            "model",
-            "esy",
-            "https",
-            "gitlab",
-            "dlr"
-        ],
-        "last_update": "2024-12-25 18:12:22"
-    },
-    {
-        "repo": "https://gitlab.com/xdc-model/xdc",
-        "category": "environment",
-        "image": "",
-        "title": "xdc-model/xdc",
-        "description": "XDC Model implementation",
-        "language": null,
-        "stars": 1,
-        "website": "",
-        "keywords": [
-            "implementation",
-            "model",
-            "xdc"
-        ],
-        "last_update": "2024-12-25 18:12:22"
-    },
-    {
-        "repo": "https://gitlab.com/hotmaps/potential/WWTP",
-        "category": "environment",
-        "image": "",
-        "title": "potential/WWTP",
-        "description": "Waste water potential nuts3 and local resolution yearly",
-        "language": null,
-        "stars": 0,
-        "website": "",
-        "keywords": [
-            "water",
-            "waste",
-            "nuts3",
-            "potential",
-            "yearly",
-            "resolution",
-            "local"
-        ],
-        "last_update": "2024-12-25 18:12:22"
-    },
-    {
-        "repo": "https://gitlab.com/then-try-this/climate-tool",
-        "category": "environment",
-        "image": "",
-        "title": "then-try-this/climate-tool",
-        "description": "A climate tool for Cornwall Council",
-        "language": null,
-        "stars": 1,
-        "website": "",
-        "keywords": [
-            "council",
-            "tool",
-            "cornwall",
-            "climate"
-        ],
-        "last_update": "2024-12-25 18:12:22"
-    },
-    {
-        "repo": "https://gitlab.com/natural-solutions/reneco/ecoreleve-data",
-        "category": "environment",
-        "image": "",
-        "title": "reneco/ecoreleve-data",
-        "description": "Open source biodiversity data entry software",
-        "language": null,
-        "stars": 0,
-        "website": "",
-        "keywords": [
-            "source",
-            "open",
-            "data",
-            "software",
-            "biodiversity",
-            "entry"
-        ],
-        "last_update": "2024-12-25 18:12:22"
-    },
-    {
-        "repo": "https://gitlab.com/wgms/glathida",
-        "category": "environment",
-        "image": "",
-        "title": "wgms/glathida",
-        "description": "Glacier Thickness Database (GlaThiDa)\r\nhttps://www.gtn-g.ch/data_catalogue_glathida\r\n",
-        "language": null,
-        "stars": 2,
-        "website": "",
-        "keywords": [
-            "collaboration",
-            "database",
-            "datapackage",
-            "glacier",
-            "glaciology",
-            "global",
-            "database",
-            "://",
-            "thickness",
-            "gtn",
-            "www",
-            "https",
-            "glathida",
-            "glacier",
-            "data_catalogue_glathida"
-        ],
-        "last_update": "2024-12-25 18:12:23"
-    },
-    {
-        "repo": "https://gitlab.com/retrofitcoop/macquette",
-        "category": "environment",
-        "image": "",
-        "title": "retrofitcoop/macquette",
-        "description": "Building modelling tool primarily for retrofit assessments",
-        "language": null,
-        "stars": 8,
-        "website": "",
-        "keywords": [
-            "assessments",
-            "primarily",
-            "modelling",
-            "retrofit",
-            "tool",
-            "building"
-        ],
-        "last_update": "2024-12-25 18:12:23"
-    },
-    {
-        "repo": "https://gitlab.com/permafrostnet/teaspoon",
-        "category": "environment",
-        "image": "",
-        "title": "permafrostnet/teaspoon",
-        "description": "Python for permafrost temperature data",
-        "language": null,
-        "stars": 5,
-        "website": "",
-        "keywords": [
-            "dataset",
-            "earth science",
-            "geography",
-            "data",
-            "permafrost",
-            "temperature",
-            "python"
-        ],
-        "last_update": "2024-12-25 18:12:23"
-    },
-    {
-        "repo": "https://gitlab.com/opendatabio/opendatabio",
-        "category": "environment",
-        "image": "",
-        "title": "opendatabio/opendatabio",
-        "description": "A  system for storing and retrieving biological data - floristics, ecology and monitoring",
-        "language": null,
-        "stars": 0,
-        "website": "",
-        "keywords": [
-            "monitoring",
-            "system",
-            "data",
-            "floristics",
-            "storing",
-            "ecology",
-            "biological",
-            "retrieving"
-        ],
-        "last_update": "2024-12-25 18:12:23"
-    },
-    {
-        "repo": "https://gitlab.com/energyincities/python-ehub",
-        "category": "environment",
-        "image": "",
-        "title": "energyincities/python-ehub",
-        "description": "A python-based, modular and nestable implementation of the Energy Hub model (balancing demand and supply, system capacity sizing and network flows using Mixed-Integer Linear Programming).",
-        "language": null,
-        "stars": 6,
-        "website": "",
-        "keywords": [
-            "mixed",
-            "model",
-            "demand",
-            "nestable",
-            "system",
-            "modular",
-            "python",
-            "network",
-            "programming",
-            "capacity"
-        ],
-        "last_update": "2024-12-25 18:12:23"
-    },
-    {
-        "repo": "https://gitlab.com/mosaik/mosaik",
-        "category": "environment",
-        "image": "",
-        "title": "mosaik/mosaik",
-        "description": "A flexible Smart Grid co-simulation framework.",
-        "language": null,
-        "stars": 14,
-        "website": "",
-        "keywords": [
-            "framework",
-            "smart",
-            "flexible",
-            "grid",
-            "simulation"
-        ],
-        "last_update": "2024-12-25 18:12:24"
-    },
-    {
-        "repo": "https://gitlab.com/diw-evu/emobpy/emobpy",
-        "category": "environment",
-        "image": "",
-        "title": "emobpy/emobpy",
-        "description": "",
-        "language": null,
-        "stars": 8,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-25 18:12:24"
-    },
-    {
-        "repo": "https://gitlab.com/wxmetvis/met.3d",
-        "category": "environment",
-        "image": "",
-        "title": "wxmetvis/met.3d",
-        "description": "http://met3d.wavestoweather.de/",
-        "language": null,
-        "stars": 13,
-        "website": "",
-        "keywords": [
-            "wavestoweather",
-            "met3d",
-            "://",
-            "http"
-        ],
-        "last_update": "2024-12-25 18:12:24"
-    },
-    {
-        "repo": "https://gitlab.com/diw-evu/dieter_public/dieterpy",
-        "category": "environment",
-        "image": "",
-        "title": "dieter_public/dieterpy",
-        "description": "Repository for the Python-GAMS version of the power market model DIETER",
-        "language": null,
-        "stars": 4,
-        "website": "",
-        "keywords": [
-            "GAMS",
-            "open source model",
-            "power market model",
-            "python",
-            "renewable energy",
-            "storage",
-            "dieter",
-            "repository",
-            "python",
-            "gams",
-            "version",
-            "model",
-            "power",
-            "market"
-        ],
-        "last_update": "2024-12-25 18:12:24"
-    },
-    {
-        "repo": "https://gitlab.com/foodsharing-dev/foodsharing",
-        "category": "environment",
-        "image": "",
-        "title": "foodsharing-dev/foodsharing",
-        "description": "foodsharing.de - A platform and initiative against food waste\r\n",
-        "language": null,
-        "stars": 153,
-        "website": "",
-        "keywords": [
-            "waste",
-            "food",
-            "foodsharing",
-            "initiative",
-            "platform"
-        ],
-        "last_update": "2024-12-25 18:12:25"
-    },
-    {
-        "repo": "https://gitlab.com/bonsamurais/bonsai/util/ipcc",
-        "category": "environment",
-        "image": "",
-        "title": "util/ipcc",
-        "description": "",
-        "language": null,
-        "stars": 1,
-        "website": "",
-        "keywords": [],
-        "last_update": "2024-12-25 18:12:25"
-    },
-    {
         "repo": "https://github.com/ladybug-tools/honeybee",
         "category": "environment",
         "image": "",
@@ -2154,54 +2202,6 @@
             "standard"
         ],
         "last_update": "2024-12-25 12:16:55"
-    },
-    {
-        "repo": "https://gitlab.com/fame-framework/fame-core",
-        "category": "environment",
-        "image": "",
-        "title": "fame-framework/fame-core",
-        "description": "Core library of FAME written in Java",
-        "language": null,
-        "stars": 4,
-        "website": "",
-        "keywords": [
-            "FAME",
-            "core",
-            "written",
-            "fame",
-            "library",
-            "java"
-        ],
-        "last_update": "2024-12-25 18:12:25"
-    },
-    {
-        "repo": "https://gitlab.com/diw-evu/oet/openenergytracker",
-        "category": "environment",
-        "image": "",
-        "title": "oet/openenergytracker",
-        "description": "The Open Energy Tracker is an open data platform for monitoring and visualizing energy policy targets.",
-        "language": null,
-        "stars": 7,
-        "website": "",
-        "keywords": [
-            "data visualization",
-            "dataset",
-            "energy",
-            "plotly",
-            "policy",
-            "python",
-            "renewable energy",
-            "policy",
-            "monitoring",
-            "open",
-            "data",
-            "tracker",
-            "platform",
-            "visualizing",
-            "targets",
-            "energy"
-        ],
-        "last_update": "2024-12-25 18:12:25"
     },
     {
         "repo": "https://github.com/danieljfarrell/pvtrace",
@@ -9844,18 +9844,18 @@
             "energy",
             "energy-data",
             "python",
-            "administration",
             "api",
-            "python",
-            "client",
-            "data",
-            "need",
-            "researchers",
-            "energy",
             "eia",
-            "information"
+            "information",
+            "administration",
+            "data",
+            "researchers",
+            "need",
+            "client",
+            "python",
+            "energy"
         ],
-        "last_update": "2024-12-23 06:14:38"
+        "last_update": "2024-12-26 00:44:27"
     },
     {
         "repo": "https://github.com/Matt-Brigida/EIAdata",
@@ -9867,14 +9867,14 @@
         "stars": 16,
         "website": "",
         "keywords": [
-            "administration",
-            "api",
             "eia",
-            "energy",
+            "api",
             "information",
-            "wrapper"
+            "administration",
+            "wrapper",
+            "energy"
         ],
-        "last_update": "2024-12-23 06:14:38"
+        "last_update": "2024-12-26 00:44:27"
     },
     {
         "repo": "https://github.com/Open-Power-System-Data/time_series",
@@ -9886,16 +9886,16 @@
         "stars": 125,
         "website": "http://data.open-power-system-data.org/time_series/",
         "keywords": [
-            "generation",
-            "data",
             "time",
-            "series",
-            "solar",
+            "package",
             "load",
-            "wind",
-            "package"
+            "generation",
+            "solar",
+            "data",
+            "series",
+            "wind"
         ],
-        "last_update": "2024-12-23 06:14:38"
+        "last_update": "2024-12-26 00:44:27"
     },
     {
         "repo": "https://github.com/openCEMorg/openCEM",
@@ -9907,16 +9907,16 @@
         "stars": 18,
         "website": "",
         "keywords": [
-            "australian",
             "national",
-            "energy",
-            "expansion",
             "market",
+            "expansion",
             "capacity",
+            "australian",
             "model",
-            "optimiser"
+            "optimiser",
+            "energy"
         ],
-        "last_update": "2024-12-23 06:14:37"
+        "last_update": "2024-12-26 00:44:27"
     },
     {
         "repo": "https://github.com/bje-/NEMO",
@@ -9928,12 +9928,12 @@
         "stars": 44,
         "website": "",
         "keywords": [
-            "national",
+            "market",
             "optimiser",
             "electricity",
-            "market"
+            "national"
         ],
-        "last_update": "2024-12-23 06:14:37"
+        "last_update": "2024-12-26 00:44:27"
     },
     {
         "repo": "https://github.com/systemcatch/eiapy",
@@ -9949,14 +9949,14 @@
             "eia",
             "energy-data",
             "python",
+            "api",
+            "simple",
             "information",
             "administration",
-            "api",
-            "energy",
-            "simple",
-            "wrapper"
+            "wrapper",
+            "energy"
         ],
-        "last_update": "2024-12-23 06:14:37"
+        "last_update": "2024-12-26 00:44:27"
     },
     {
         "repo": "https://github.com/CliMA/LESbrary.jl",
@@ -9968,17 +9968,17 @@
         "stars": 30,
         "website": "",
         "keywords": [
-            "simulation",
-            "data",
             "parameterizations",
-            "eddy",
-            "generating",
-            "large",
-            "les",
             "calibrating",
-            "oceananigans"
+            "generating",
+            "oceananigans",
+            "les",
+            "data",
+            "simulation",
+            "large",
+            "eddy"
         ],
-        "last_update": "2024-12-23 06:14:37"
+        "last_update": "2024-12-26 00:44:27"
     },
     {
         "repo": "https://github.com/EnergieID/entsoe-py",
@@ -9987,21 +9987,21 @@
         "title": "EnergieID/entsoe-py",
         "description": "Python client for the ENTSO-E API (european network of transmission system operators for electricity)",
         "language": "Python",
-        "stars": 447,
+        "stars": 448,
         "website": "",
         "keywords": [
-            "european",
-            "transmission",
-            "python",
-            "client",
             "api",
-            "operators",
+            "transmission",
             "network",
+            "operators",
+            "european",
             "system",
+            "electricity",
             "entso",
-            "electricity"
+            "client",
+            "python"
         ],
-        "last_update": "2024-12-23 06:14:36"
+        "last_update": "2024-12-26 00:44:27"
     },
     {
         "repo": "https://github.com/HYCOM/HYCOM-src",
@@ -10015,11 +10015,11 @@
         "keywords": [
             "earth-science",
             "ocean-modelling",
-            "hycom",
             "source",
-            "directory"
+            "directory",
+            "hycom"
         ],
-        "last_update": "2024-12-23 06:14:36"
+        "last_update": "2024-12-26 00:44:27"
     },
     {
         "repo": "https://github.com/josuemtzmo/trackeddy",
@@ -10036,11 +10036,11 @@
             "extraction",
             "ocean",
             "oceanic-eddies",
-            "tracking",
+            "algorithm",
             "eddy",
-            "algorithm"
+            "tracking"
         ],
-        "last_update": "2024-12-23 06:14:36"
+        "last_update": "2024-12-26 00:44:28"
     },
     {
         "repo": "https://github.com/pommes-public/pommesdispatch",
@@ -10059,16 +10059,16 @@
             "optimization",
             "power",
             "python",
-            "german",
-            "fundamental",
-            "sector",
+            "bottom",
             "power",
             "market",
+            "german",
             "model",
+            "fundamental",
             "electricity",
-            "bottom"
+            "sector"
         ],
-        "last_update": "2024-12-23 06:14:36"
+        "last_update": "2024-12-26 00:44:28"
     },
     {
         "repo": "https://github.com/NCAR/ccpp-physics",
@@ -10080,17 +10080,17 @@
         "stars": 60,
         "website": "",
         "keywords": [
-            "community",
+            "package",
             "physics",
             "parameterizations",
+            "ccpp",
+            "compliant",
             "framework",
             "collection",
-            "compliant",
-            "package",
             "common",
-            "ccpp"
+            "community"
         ],
-        "last_update": "2024-12-23 06:14:35"
+        "last_update": "2024-12-26 00:44:28"
     },
     {
         "repo": "https://github.com/Mohid-Water-Modelling-System/MOHID-Lagrangian",
@@ -10110,18 +10110,18 @@
             "oop",
             "particle",
             "tracer",
-            "standard",
-            "lagragian",
-            "high",
+            "performance",
+            "tracer",
+            "box",
+            "compliant",
             "ready",
             "use",
-            "compliant",
             "model",
-            "tracer",
-            "performance",
-            "box"
+            "high",
+            "lagragian",
+            "standard"
         ],
-        "last_update": "2024-12-23 06:14:35"
+        "last_update": "2024-12-26 00:44:28"
     },
     {
         "repo": "https://github.com/MET-OM/dnora",
@@ -10133,13 +10133,13 @@
         "stars": 17,
         "website": "",
         "keywords": [
+            "dynamical",
             "wave",
             "hindcast",
             "nora3",
-            "dynamical",
             "downscaling"
         ],
-        "last_update": "2024-12-23 06:14:35"
+        "last_update": "2024-12-26 00:44:28"
     },
     {
         "repo": "https://github.com/Open-Power-System-Data/conventional_power_plants",
@@ -10151,13 +10151,13 @@
         "stars": 48,
         "website": "http://data.open-power-system-data.org/conventional_power_plants/",
         "keywords": [
-            "data",
-            "plants",
-            "power",
+            "package",
             "conventional",
-            "package"
+            "power",
+            "plants",
+            "data"
         ],
-        "last_update": "2024-12-23 06:14:35"
+        "last_update": "2024-12-26 00:44:28"
     },
     {
         "repo": "https://github.com/MITgcm/MITgcm",
@@ -10176,15 +10176,15 @@
             "gfd",
             "mitgcm",
             "ocean-modelling",
-            "general",
-            "circulation",
-            "documentation",
             "code",
-            "repository",
+            "circulation",
+            "model",
             "master",
-            "model"
+            "general",
+            "documentation",
+            "repository"
         ],
-        "last_update": "2024-12-23 06:14:34"
+        "last_update": "2024-12-26 00:44:28"
     },
     {
         "repo": "https://github.com/xoceanmodel/xroms",
@@ -10197,13 +10197,13 @@
         "website": "https://xroms.readthedocs.io/",
         "keywords": [
             "output",
-            "ocean",
-            "roms",
-            "model",
+            "xarray",
             "work",
-            "xarray"
+            "model",
+            "ocean",
+            "roms"
         ],
-        "last_update": "2024-12-23 06:14:34"
+        "last_update": "2024-12-26 00:44:28"
     },
     {
         "repo": "https://github.com/SalishSeaCast/SalishSeaNowcast",
@@ -10221,18 +10221,18 @@
             "salishsea",
             "salishseacast",
             "ubc-moad",
-            "daily",
-            "nemo",
+            "package",
+            "salishseacast",
+            "time",
+            "near",
             "models",
-            "real",
             "ocean",
-            "running",
+            "produce",
             "associated",
-            "python",
-            "nowcasts",
-            "produce"
+            "running",
+            "daily"
         ],
-        "last_update": "2024-12-23 06:14:34"
+        "last_update": "2024-12-26 00:44:28"
     },
     {
         "repo": "https://github.com/wavespectra/wavespectra",
@@ -10250,12 +10250,12 @@
             "statistics",
             "wave",
             "xarray",
-            "wave",
-            "ocean",
             "spectra",
-            "library"
+            "ocean",
+            "library",
+            "wave"
         ],
-        "last_update": "2024-12-23 06:14:34"
+        "last_update": "2024-12-26 00:44:29"
     },
     {
         "repo": "https://github.com/ESMG/pyroms",
@@ -10267,15 +10267,15 @@
         "stars": 142,
         "website": "",
         "keywords": [
-            "regional",
-            "ocean",
-            "python",
-            "modeling",
             "roms",
+            "python",
             "tools",
-            "system"
+            "regional",
+            "system",
+            "ocean",
+            "modeling"
         ],
-        "last_update": "2024-12-23 06:14:33"
+        "last_update": "2024-12-26 00:44:29"
     },
     {
         "repo": "https://github.com/NCAR/wrf_hydro_py",
@@ -10284,16 +10284,16 @@
         "title": "NCAR/wrf_hydro_py",
         "description": "Python API for the WRF-Hydro model",
         "language": "Python",
-        "stars": 59,
+        "stars": 60,
         "website": "",
         "keywords": [
             "api",
-            "python",
-            "wrf",
             "hydro",
-            "model"
+            "wrf",
+            "model",
+            "python"
         ],
-        "last_update": "2024-12-23 06:14:33"
+        "last_update": "2024-12-26 00:44:29"
     },
     {
         "repo": "https://github.com/CliMA/Oceananigans.jl",
@@ -10302,7 +10302,7 @@
         "title": "CliMA/Oceananigans.jl",
         "description": "🌊  Julia software for fast, friendly, flexible, ocean-flavored fluid dynamics on CPUs and GPUs",
         "language": "Julia",
-        "stars": 1010,
+        "stars": 1025,
         "website": "https://clima.github.io/OceananigansDocumentation/stable",
         "keywords": [
             "climate",
@@ -10313,18 +10313,18 @@
             "julia",
             "machine-learning",
             "ocean",
-            "gpus",
-            "dynamics",
-            "ocean",
-            "fluid",
             "flexible",
             "friendly",
             "cpus",
-            "fast",
             "flavored",
-            "software"
+            "software",
+            "julia",
+            "gpus",
+            "fast",
+            "fluid",
+            "ocean"
         ],
-        "last_update": "2024-12-23 06:14:33"
+        "last_update": "2024-12-26 00:44:29"
     },
     {
         "repo": "https://github.com/team-ocean/veros",
@@ -10345,15 +10345,15 @@
             "oceanography",
             "parallel",
             "python",
-            "jax",
+            "simulator",
             "versatile",
+            "python",
             "pure",
             "ocean",
-            "python",
-            "powered",
-            "simulator"
+            "jax",
+            "powered"
         ],
-        "last_update": "2024-12-23 06:14:33"
+        "last_update": "2024-12-26 00:44:29"
     },
     {
         "repo": "https://github.com/respec/BASINS",
@@ -10371,17 +10371,17 @@
             "modeling",
             "water-quality",
             "watershed",
-            "development",
-            "releases",
-            "source",
-            "code",
-            "repository",
+            "official",
             "see",
             "basins",
-            "official",
-            "epa"
+            "source",
+            "code",
+            "development",
+            "releases",
+            "epa",
+            "repository"
         ],
-        "last_update": "2024-12-23 06:14:32"
+        "last_update": "2024-12-26 00:44:29"
     },
     {
         "repo": "https://github.com/inbo/niche_vlaanderen",
@@ -10398,14 +10398,14 @@
             "package",
             "python",
             "vegetation",
-            "niche",
-            "python",
-            "run",
-            "model",
+            "vlaanderen",
             "package",
-            "vlaanderen"
+            "model",
+            "run",
+            "python",
+            "niche"
         ],
-        "last_update": "2024-12-23 06:14:32"
+        "last_update": "2024-12-26 00:44:29"
     },
     {
         "repo": "https://github.com/NorESMhub/BLOM",
@@ -10417,12 +10417,12 @@
         "stars": 17,
         "website": "",
         "keywords": [
-            "layered",
-            "ocean",
             "bergen",
-            "model"
+            "model",
+            "ocean",
+            "layered"
         ],
-        "last_update": "2024-12-23 06:14:32"
+        "last_update": "2024-12-26 00:44:29"
     },
     {
         "repo": "https://github.com/Mohid-Water-Modelling-System/Mohid",
@@ -10447,14 +10447,14 @@
             "open-source",
             "watershed",
             "watershed-modeling",
-            "modelling",
-            "water",
+            "official",
             "mohid",
-            "repository",
+            "water",
             "system",
-            "official"
+            "modelling",
+            "repository"
         ],
-        "last_update": "2024-12-23 06:14:32"
+        "last_update": "2024-12-26 00:44:29"
     },
     {
         "repo": "https://github.com/earthai-tech/watex",
@@ -10472,12 +10472,12 @@
             "python",
             "water",
             "research",
-            "exploration",
             "learning",
+            "machine",
             "water",
-            "machine"
+            "exploration"
         ],
-        "last_update": "2024-12-23 06:14:31"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/tribshms/tRIBS",
@@ -10492,18 +10492,18 @@
             "hydrology",
             "hydrology-modeling",
             "hydrology-simulation",
+            "simulator",
+            "time",
             "distributed",
-            "real",
+            "tin",
+            "hydrological",
+            "based",
+            "basin",
             "integrated",
             "tribs",
-            "tin",
-            "basin",
-            "time",
-            "model",
-            "based",
-            "simulator"
+            "model"
         ],
-        "last_update": "2024-12-23 06:14:31"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/NOAA-GFDL/MOM6",
@@ -10515,11 +10515,11 @@
         "stars": 28,
         "website": "",
         "keywords": [
-            "model",
             "ocean",
+            "model",
             "modular"
         ],
-        "last_update": "2024-12-23 06:14:31"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/gaelforget/MITgcm.jl",
@@ -10547,10 +10547,10 @@
             "tracers",
             "transport",
             "interface",
-            "mitgcm",
-            "julia"
+            "julia",
+            "mitgcm"
         ],
-        "last_update": "2024-12-23 06:14:31"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/KIT-HYD/Hy2DL",
@@ -10559,18 +10559,18 @@
         "title": "KIT-HYD/Hy2DL",
         "description": "Hybrid Hydrological modeling using Deep Learning methods",
         "language": "Jupyter Notebook",
-        "stars": 19,
+        "stars": 20,
         "website": "",
         "keywords": [
+            "using",
+            "hydrological",
             "methods",
             "learning",
-            "modeling",
             "deep",
-            "using",
             "hybrid",
-            "hydrological"
+            "modeling"
         ],
-        "last_update": "2024-12-23 06:14:30"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/GEB-model/GEB",
@@ -10582,7 +10582,7 @@
         "stars": 5,
         "website": "https://geb-model.github.io/GEB/",
         "keywords": [],
-        "last_update": "2024-12-23 06:14:30"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/meom-group/CDFTOOLS",
@@ -10594,16 +10594,16 @@
         "stars": 32,
         "website": "",
         "keywords": [
+            "package",
             "output",
-            "nemo",
             "analysis",
-            "ocean",
             "diagnostics",
             "fortran",
             "model",
-            "package"
+            "ocean",
+            "nemo"
         ],
-        "last_update": "2024-12-23 06:14:30"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/zae-bayern/elpv-dataset",
@@ -10612,7 +10612,7 @@
         "title": "zae-bayern/elpv-dataset",
         "description": "A dataset of functional and defective solar cells extracted from EL images of solar modules",
         "language": "Python",
-        "stars": 234,
+        "stars": 236,
         "website": "",
         "keywords": [
             "computer-vision",
@@ -10620,16 +10620,16 @@
             "photovoltaic",
             "solar-cells",
             "solar-energy",
-            "images",
-            "dataset",
-            "extracted",
-            "functional",
             "cells",
-            "defective",
+            "functional",
+            "dataset",
             "solar",
-            "modules"
+            "extracted",
+            "defective",
+            "modules",
+            "images"
         ],
-        "last_update": "2024-12-23 06:14:29"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/mom-ocean/MOM5",
@@ -10641,11 +10641,11 @@
         "stars": 82,
         "website": "https://mom-ocean.github.io/",
         "keywords": [
-            "model",
             "ocean",
+            "model",
             "modular"
         ],
-        "last_update": "2024-12-23 06:14:29"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/environmental-modeling-workflows/watershed-workflow",
@@ -10657,18 +10657,18 @@
         "stars": 67,
         "website": "",
         "keywords": [
+            "workflows",
             "models",
-            "rich",
-            "python",
             "data",
-            "resolution",
+            "watersheds",
             "hyper",
             "hydrologic",
-            "watersheds",
+            "rich",
+            "python",
             "simulations",
-            "workflows"
+            "resolution"
         ],
-        "last_update": "2024-12-23 06:14:29"
+        "last_update": "2024-12-26 00:44:30"
     },
     {
         "repo": "https://github.com/Hydrology-IFH/roger",
@@ -10685,7 +10685,7 @@
             "generation",
             "runoff"
         ],
-        "last_update": "2024-12-23 06:14:29"
+        "last_update": "2024-12-26 00:44:31"
     },
     {
         "repo": "https://github.com/amanzi/amanzi",
@@ -10701,7 +10701,7 @@
             "amanzi",
             "primary"
         ],
-        "last_update": "2024-12-23 06:14:28"
+        "last_update": "2024-12-26 00:44:31"
     },
     {
         "repo": "https://github.com/FluvialGeomorph/fluvgeo",
@@ -10717,13 +10717,13 @@
             "lidar",
             "r",
             "r-package",
+            "package",
             "geomrphology",
-            "analysis",
             "fluvial",
-            "performing",
-            "package"
+            "analysis",
+            "performing"
         ],
-        "last_update": "2024-12-23 06:14:28"
+        "last_update": "2024-12-26 00:44:31"
     },
     {
         "repo": "https://github.com/ecosyste-ms/ost",
@@ -10735,18 +10735,18 @@
         "stars": 7,
         "website": "https://ost.ecosyste.ms",
         "keywords": [
-            "sustain",
-            "projects",
-            "://",
-            "tech",
-            "data",
-            "natural",
+            "technology",
             "resources",
-            "https",
-            "climate",
-            "biodiversity"
+            "natural",
+            "open",
+            "curated",
+            "opensustain",
+            "tech",
+            "projects",
+            "list",
+            "supply"
         ],
-        "last_update": "2024-12-23 06:14:28"
+        "last_update": "2024-12-26 00:44:31"
     },
     {
         "repo": "https://github.com/mwmbl/mwmbl",
@@ -10757,19 +10757,19 @@
         "title": "mwmbl/mwmbl",
         "description": "An open source, non-profit web search engine",
         "language": "Python",
-        "stars": 1518,
+        "stars": 1517,
         "keywords": [
             "non-profit",
             "search-engine",
-            "engine",
+            "profit",
+            "search",
+            "source",
             "web",
             "open",
-            "source",
             "non",
-            "search",
-            "profit"
+            "engine"
         ],
-        "last_update": "2024-12-23 06:14:28"
+        "last_update": "2024-12-26 00:44:31"
     },
     {
         "repo": "https://github.com/DOI-USGS/delaware-basin-story",
@@ -10781,13 +10781,13 @@
         "stars": 6,
         "website": "",
         "keywords": [
-            "vue",
             "using",
-            "project",
             "framework",
+            "project",
+            "vue",
             "javascript"
         ],
-        "last_update": "2024-12-23 06:14:27"
+        "last_update": "2024-12-26 00:44:31"
     },
     {
         "repo": "https://github.com/monocongo/climate_indices",
@@ -10800,11 +10800,11 @@
         "website": "https://monocongo.github.io/climate_indices/",
         "keywords": [
             "drought",
+            "indices",
             "monitoring",
-            "climate",
-            "indices"
+            "climate"
         ],
-        "last_update": "2024-12-23 06:14:27"
+        "last_update": "2024-12-26 00:44:31"
     },
     {
         "repo": "https://github.com/kjhall01/xcast",
@@ -10827,15 +10827,15 @@
             "predictive-analytics",
             "python",
             "xarray",
-            "toolkit",
-            "science",
-            "high",
-            "data",
+            "earth",
             "performance",
+            "science",
+            "data",
             "sciences",
-            "earth"
+            "high",
+            "toolkit"
         ],
-        "last_update": "2024-12-23 06:14:27"
+        "last_update": "2024-12-26 00:44:31"
     },
     {
         "repo": "https://github.com/dlr-pa/climaccf",
@@ -10847,13 +10847,13 @@
         "stars": 12,
         "website": "",
         "keywords": [
+            "algorithmic",
+            "calculation",
             "functions",
             "climate",
-            "change",
-            "algorithmic",
-            "calculation"
+            "change"
         ],
-        "last_update": "2024-12-23 06:14:27"
+        "last_update": "2024-12-26 00:44:31"
     },
     {
         "repo": "https://github.com/ECCC-CCCS/geomet-climate",
@@ -10872,13 +10872,13 @@
             "cmip5",
             "downscale",
             "climate",
-            "web",
             "services",
-            "canadian",
+            "geospatial",
             "data",
-            "geospatial"
+            "canadian",
+            "web"
         ],
-        "last_update": "2024-12-23 06:14:26"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/slacgismo/pv-system-profiler",
@@ -10890,16 +10890,16 @@
         "stars": 8,
         "website": "",
         "keywords": [
-            "location",
-            "real",
-            "orientation",
-            "estimating",
-            "world",
             "power",
+            "estimating",
+            "orientation",
+            "array",
+            "real",
             "datasets",
-            "array"
+            "world",
+            "location"
         ],
-        "last_update": "2024-12-23 06:14:26"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/ghislainv/gecevar",
@@ -10915,18 +10915,18 @@
             "environment-variables",
             "r",
             "species-distribution-models",
-            "earth_americas",
-            "sunny",
-            "get",
-            "cloud",
-            "environmental",
             "climatic",
-            "seedling",
-            "mountain",
+            "package",
+            "earth_americas",
+            "get",
+            "environmental",
             "variables",
-            "package"
+            "cloud",
+            "sunny",
+            "seedling",
+            "mountain"
         ],
-        "last_update": "2024-12-23 06:14:26"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/secondlaw-ai/skyrim",
@@ -10942,7 +10942,7 @@
             "united",
             "weather"
         ],
-        "last_update": "2024-12-22 18:12:12"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/ColasGael/Machine-Learning-for-Solar-Energy-Prediction",
@@ -10960,18 +10960,18 @@
             "neural-network",
             "python",
             "tensorflow",
-            "panel",
-            "solar",
-            "measurements",
-            "predict",
+            "production",
             "using",
             "power",
+            "panel",
+            "solar",
             "weather",
             "farm",
-            "production",
-            "learning"
+            "learning",
+            "predict",
+            "measurements"
         ],
-        "last_update": "2024-12-22 18:12:12"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/sentinel-hub/sentinelhub-py",
@@ -10980,7 +10980,7 @@
         "title": "sentinel-hub/sentinelhub-py",
         "description": "Download and process satellite imagery in Python using Sentinel Hub services.",
         "language": "Python",
-        "stars": 819,
+        "stars": 820,
         "website": "http://sentinelhub-py.readthedocs.io/en/latest/",
         "keywords": [
             "aws",
@@ -10988,17 +10988,17 @@
             "python-library",
             "satellite-imagery",
             "sentinel-hub",
-            "python",
-            "hub",
-            "using",
-            "services",
             "download",
+            "using",
+            "hub",
+            "sentinel",
+            "services",
             "process",
             "imagery",
-            "sentinel",
-            "satellite"
+            "satellite",
+            "python"
         ],
-        "last_update": "2024-12-22 18:12:11"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/AER-RC/LBLRTM",
@@ -11013,15 +11013,15 @@
             "atmospheric-modelling",
             "radiative-transfer",
             "radiative-transfer-models",
-            "research",
-            "environmental",
-            "atmospheric",
             "line",
+            "atmospheric",
+            "environmental",
+            "research",
             "model",
             "transfer",
             "radiative"
         ],
-        "last_update": "2024-12-22 18:12:11"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/microsoft/PlanetaryComputerDataCatalog",
@@ -11034,13 +11034,13 @@
         "website": "https://planetarycomputer.microsoft.com",
         "keywords": [
             "aiforearth",
-            "computer",
+            "microsoft",
+            "planetary",
             "catalog",
             "data",
-            "planetary",
-            "microsoft"
+            "computer"
         ],
-        "last_update": "2024-12-22 18:12:11"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/eWaterCycle/era5cli",
@@ -11052,17 +11052,17 @@
         "stars": 47,
         "website": "https://era5cli.readthedocs.io/",
         "keywords": [
-            "interface",
-            "service",
-            "command",
-            "data",
             "download",
             "line",
-            "era5",
+            "copernicus",
             "climate",
-            "copernicus"
+            "era5",
+            "data",
+            "interface",
+            "service",
+            "command"
         ],
-        "last_update": "2024-12-22 18:12:11"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/ropensci/rfishbase",
@@ -11080,12 +11080,12 @@
             "r-package",
             "rstats",
             "taxonomy",
-            "fishbase",
-            "database",
             "interface",
-            "org"
+            "fishbase",
+            "org",
+            "database"
         ],
-        "last_update": "2024-12-22 18:12:10"
+        "last_update": "2024-12-26 00:44:32"
     },
     {
         "repo": "https://github.com/JuliaOcean/PlanktonIndividuals.jl",
@@ -11097,14 +11097,14 @@
         "stars": 31,
         "website": "",
         "keywords": [
+            "package",
             "behaviors",
             "simulates",
             "ensemble",
             "individuals",
-            "phytoplankton",
-            "package"
+            "phytoplankton"
         ],
-        "last_update": "2024-12-22 18:12:10"
+        "last_update": "2024-12-26 00:44:33"
     },
     {
         "repo": "https://github.com/r-lidar/lasR",
@@ -11116,14 +11116,14 @@
         "stars": 10,
         "website": "https://r-lidar.github.io/lasR/",
         "keywords": [
-            "fast",
-            "data",
-            "pipable",
             "airborne",
             "lidar",
-            "tools"
+            "tools",
+            "pipable",
+            "data",
+            "fast"
         ],
-        "last_update": "2024-12-22 18:12:10"
+        "last_update": "2024-12-26 00:44:33"
     },
     {
         "repo": "https://github.com/blaylockbk/goes2go",
@@ -37068,177 +37068,909 @@
     {
         "repo": "https://github.com/CharlesGillanders/homeassistant-alphaESS",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "CharlesGillanders/homeassistant-alphaESS",
+        "description": "Monitor your energy generation, storage, and usage data using the official API from Alpha ESS.",
+        "language": "Python",
+        "stars": 101,
+        "website": "",
+        "keywords": [
+            "hacs",
+            "home-assistant",
+            "homeassistant",
+            "solar-energy",
+            "solar-system",
+            "api",
+            "official",
+            "using",
+            "generation",
+            "storage",
+            "data",
+            "energy",
+            "alpha",
+            "monitor",
+            "ess"
+        ],
+        "last_update": "2024-12-26 00:44:58"
     },
     {
         "repo": "https://github.com/openeemeter/eemeter",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "openeemeter/eemeter",
+        "description": "An open source python package for implementing and developing standard methods for calculating normalized metered energy consumption and avoided energy use.",
+        "language": "Python",
+        "stars": 220,
+        "website": "http://eemeter.openee.io/",
+        "keywords": [
+            "building-energy",
+            "efficiency",
+            "energy",
+            "energy-data",
+            "energy-efficiency",
+            "avoided",
+            "package",
+            "implementing",
+            "standard",
+            "normalized",
+            "source",
+            "methods",
+            "use",
+            "metered",
+            "developing"
+        ],
+        "last_update": "2024-12-26 00:44:58"
     },
     {
         "repo": "https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "BottlecapDave/HomeAssistant-OctopusEnergy",
+        "description": "Unofficial Home Assistant integration for interacting with Octopus Energy",
+        "language": "Python",
+        "stars": 643,
+        "website": "https://bottlecapdave.github.io/HomeAssistant-OctopusEnergy/",
+        "keywords": [
+            "energy-consumption",
+            "home-assistant",
+            "home-automation",
+            "octopus-energy",
+            "smart-home",
+            "unofficial",
+            "integration",
+            "interacting",
+            "octopus",
+            "assistant",
+            "energy",
+            "home"
+        ],
+        "last_update": "2024-12-26 00:44:58"
     },
     {
         "repo": "https://github.com/klaasnicolaas/home-assistant-glow",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "klaasnicolaas/home-assistant-glow",
+        "description": "⚡ The power of energy measurements in your house",
+        "language": null,
+        "stars": 1083,
+        "website": "https://glow-energy.io/",
+        "keywords": [
+            "electricity",
+            "energy",
+            "esp32",
+            "esp8266",
+            "esphome",
+            "glow",
+            "hacktoberfest",
+            "home-assistant",
+            "iot",
+            "smartmeter",
+            "house",
+            "power",
+            "energy",
+            "measurements"
+        ],
+        "last_update": "2024-12-26 00:44:58"
     },
     {
         "repo": "https://github.com/nielsbasjes/dsmr-tools",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "nielsbasjes/dsmr-tools",
+        "description": "A java simulator/parser/toolkit for the Dutch Smart Meter Requirements (DSMR)",
+        "language": "Java",
+        "stars": 16,
+        "website": "https://dsmr.basjes.nl",
+        "keywords": [
+            "dsmr",
+            "dsmr-parser",
+            "iot",
+            "nifi",
+            "nifi-processors",
+            "raspberry-pi",
+            "slimme-meters",
+            "slimmemeter",
+            "smartmeter",
+            "simulator",
+            "smart",
+            "requirements",
+            "dutch",
+            "parser",
+            "dsmr",
+            "java",
+            "meter",
+            "toolkit"
+        ],
+        "last_update": "2024-12-26 00:44:58"
     },
     {
         "repo": "https://github.com/PyPSA/PyPSA",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "PyPSA/PyPSA",
+        "description": "PyPSA: Python for Power System Analysis",
+        "language": "Python",
+        "stars": 1283,
+        "website": "https://pypsa.readthedocs.io",
+        "keywords": [
+            "capacity-expansion-planning",
+            "clean-energy",
+            "climate-change",
+            "electrical-engineering",
+            "electricity",
+            "energy",
+            "energy-system",
+            "energy-systems",
+            "linopy",
+            "loadflow",
+            "optimal-power-flow",
+            "optimisation",
+            "power-flow",
+            "power-systems",
+            "power-systems-analysis",
+            "powerflow",
+            "pypsa",
+            "python",
+            "renewable-energy",
+            "renewables",
+            "pypsa",
+            "power",
+            "system",
+            "python",
+            "analysis"
+        ],
+        "last_update": "2024-12-26 00:44:58"
     },
     {
         "repo": "https://github.com/PyPSA/whobs-server",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "PyPSA/whobs-server",
+        "description": "Online optimisation tool for wind+solar+storage systems",
+        "language": "Python",
+        "stars": 36,
+        "website": "",
+        "keywords": [
+            "optimisation",
+            "systems",
+            "storage",
+            "solar",
+            "wind",
+            "tool",
+            "online"
+        ],
+        "last_update": "2024-12-26 00:44:58"
     },
     {
         "repo": "https://github.com/NREL/SAM",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "NREL/SAM",
+        "description": "System Advisor Model (SAM)",
+        "language": "C++",
+        "stars": 347,
+        "website": "",
+        "keywords": [
+            "system",
+            "sam",
+            "model",
+            "advisor"
+        ],
+        "last_update": "2024-12-26 00:44:58"
     },
     {
         "repo": "https://github.com/IIT-EnergySystemModels/openTEPES",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "IIT-EnergySystemModels/openTEPES",
+        "description": "Open Generation, Storage, and Transmission Operation and Expansion Planning Model with RES and ESS (openTEPES)",
+        "language": "Python",
+        "stars": 39,
+        "website": "https://opentepes.readthedocs.io/en/latest/index.html",
+        "keywords": [
+            "dc-power-flow",
+            "dynamic-investment-decisions",
+            "energy-storage-systems",
+            "generation-storage-networks-investments",
+            "hourly-resolution",
+            "hydro-cascade-basins",
+            "network-constrained-unit-commitment",
+            "power-to-hydrogen",
+            "tight-and-compact-formulation",
+            "very-large-scale-systems",
+            "planning",
+            "transmission",
+            "generation",
+            "opentepes",
+            "expansion",
+            "storage",
+            "model",
+            "ess",
+            "open",
+            "operation"
+        ],
+        "last_update": "2024-12-26 00:44:58"
     },
     {
         "repo": "https://github.com/NREL/REopt_API",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "NREL/REopt_API",
+        "description": "The model for the REopt API, which is used as the back-end for the REopt Webtool (reopt.nrel.gov/tool), and can be accessed directly via the NREL Developer Network (https://developer.nrel.gov/docs/energy-optimization/reopt)",
+        "language": "Python",
+        "stars": 91,
+        "website": "https://developer.nrel.gov/docs/energy-optimization/reopt",
+        "keywords": [
+            "nrel",
+            "optimization",
+            "renewable-energy",
+            "reopt-api",
+            "reopt-lite-api",
+            "reoptjl",
+            "reopt",
+            "model",
+            "network",
+            "accessed",
+            "via",
+            "tool",
+            "optimization",
+            "developer",
+            "docs",
+            "used"
+        ],
+        "last_update": "2024-12-26 00:44:59"
     },
     {
         "repo": "https://github.com/e2nIEE/pandapower",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "e2nIEE/pandapower",
+        "description": "Convenient Power System Modelling and Analysis based on PYPOWER and pandas",
+        "language": "Python",
+        "stars": 902,
+        "website": "https://www.pandapower.org",
+        "keywords": [
+            "analysis",
+            "loadflow",
+            "optimization",
+            "power",
+            "powerflow",
+            "python",
+            "short-circuit",
+            "state-estimation",
+            "system",
+            "power",
+            "based",
+            "system",
+            "pypower",
+            "convenient",
+            "pandas",
+            "modelling",
+            "analysis"
+        ],
+        "last_update": "2024-12-26 00:44:59"
     },
     {
         "repo": "https://github.com/tum-ens/urbs",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "tum-ens/urbs",
+        "description": "A linear optimisation model for distributed energy systems",
+        "language": "Python",
+        "stars": 186,
+        "website": "",
+        "keywords": [
+            "energy-system",
+            "linear-programming",
+            "mathematical-modelling",
+            "optimisation-model",
+            "pandas",
+            "pyomo",
+            "python",
+            "distributed",
+            "linear",
+            "optimisation",
+            "systems",
+            "model",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:44:59"
     },
     {
         "repo": "https://github.com/energy-modelling-toolkit/Dispa-SET",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "energy-modelling-toolkit/Dispa-SET",
+        "description": "The Dispa-SET unit-commitment and optimal dispatch model, developed at the JRC",
+        "language": "Python",
+        "stars": 84,
+        "website": "",
+        "keywords": [
+            "dispatch",
+            "power",
+            "python",
+            "commitment",
+            "set",
+            "unit",
+            "dispatch",
+            "dispa",
+            "model",
+            "optimal",
+            "jrc",
+            "developed"
+        ],
+        "last_update": "2024-12-26 00:44:59"
     },
     {
         "repo": "https://github.com/calliope-project/calliope",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "calliope-project/calliope",
+        "description": "A multi-scale energy systems modelling framework",
+        "language": "Python",
+        "stars": 303,
+        "website": "https://www.callio.pe",
+        "keywords": [
+            "energy",
+            "energy-system",
+            "optimisation",
+            "pyomo",
+            "python",
+            "multi",
+            "scale",
+            "systems",
+            "framework",
+            "modelling",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:44:59"
     },
     {
         "repo": "https://github.com/OSeMOSYS/OSeMOSYS",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "OSeMOSYS/OSeMOSYS",
+        "description": "OSeMOSYS - the Open Source Energy Modelling System",
+        "language": null,
+        "stars": 157,
+        "website": "http://www.osemosys.org",
+        "keywords": [
+            "energy",
+            "energy-model",
+            "energy-planners",
+            "investment",
+            "osemosys",
+            "students",
+            "osemosys",
+            "source",
+            "system",
+            "open",
+            "modelling",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:44:59"
     },
     {
         "repo": "https://github.com/FZJ-IEK3-VSA/FINE",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "FZJ-IEK3-VSA/FINE",
+        "description": "The ETHOS.FINE python package provides a framework for modeling, optimizing and assessing energy systems",
+        "language": "Python",
+        "stars": 73,
+        "website": "https://vsa-fine.readthedocs.io",
+        "keywords": [
+            "package",
+            "systems",
+            "optimizing",
+            "energy",
+            "framework",
+            "ethos",
+            "provides",
+            "modeling",
+            "python",
+            "assessing"
+        ],
+        "last_update": "2024-12-26 00:44:59"
     },
     {
         "repo": "https://github.com/com-pas/compas-architecture",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "com-pas/compas-architecture",
+        "description": "Project's architecture documentation",
+        "language": "CSS",
+        "stars": 9,
+        "website": "",
+        "keywords": [
+            "documentation",
+            "architecture",
+            "project"
+        ],
+        "last_update": "2024-12-26 00:44:59"
     },
     {
         "repo": "https://github.com/NREL-Sienna/PowerSimulations.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "NREL-Sienna/PowerSimulations.jl",
+        "description": "Julia for optimization simulation and modeling of PowerSystems. Part of the Scalable Integrated Infrastructure Planning Initiative at the National Renewable Energy Lab.",
+        "language": "Julia",
+        "stars": 284,
+        "website": "https://nrel-sienna.github.io/Sienna",
+        "keywords": [
+            "analysis",
+            "electricity",
+            "energy",
+            "julia",
+            "optimization",
+            "powersystems",
+            "simulations",
+            "renewable",
+            "lab",
+            "planning",
+            "optimization",
+            "national",
+            "infrastructure",
+            "integrated",
+            "powersystems",
+            "part",
+            "julia"
+        ],
+        "last_update": "2024-12-26 00:44:59"
     },
     {
         "repo": "https://github.com/NREL-Sienna/PowerSystems.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "NREL-Sienna/PowerSystems.jl",
+        "description": "Data structures in Julia to enable power systems analysis. Part of the Scalable Integrated Infrastructure Planning Initiative at the National Renewable Energy Lab.",
+        "language": "Julia",
+        "stars": 316,
+        "website": "https://nrel-sienna.github.io/Sienna",
+        "keywords": [
+            "electrical",
+            "energy-system",
+            "julia",
+            "nrel",
+            "powersystems",
+            "renewable",
+            "lab",
+            "planning",
+            "national",
+            "power",
+            "infrastructure",
+            "integrated",
+            "systems",
+            "data",
+            "part"
+        ],
+        "last_update": "2024-12-26 00:45:00"
     },
     {
         "repo": "https://github.com/AntaresSimulatorTeam/Antares_Simulator",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "AntaresSimulatorTeam/Antares_Simulator",
+        "description": "Antares-Simulator is an Open Source power system simulator to quantify the adequacy or the economic performance of interconnected energy systems, at short or remote time horizons.",
+        "language": "C",
+        "stars": 59,
+        "website": "https://antares-simulator.org",
+        "keywords": [
+            "adequacy",
+            "power-systems",
+            "simulation",
+            "simulator",
+            "time",
+            "short",
+            "performance",
+            "antares",
+            "economic",
+            "horizons",
+            "power",
+            "interconnected",
+            "adequacy"
+        ],
+        "last_update": "2024-12-26 00:45:00"
     },
     {
         "repo": "https://github.com/GMLC-TDC/HELICS",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "GMLC-TDC/HELICS",
+        "description": "Hierarchical Engine for Large-scale Infrastructure Co-Simulation (HELICS) ",
+        "language": "C++",
+        "stars": 129,
+        "website": "https://docs.helics.org/en/latest/",
+        "keywords": [
+            "co-simulation",
+            "hacktoberfest",
+            "power-grids",
+            "simulation",
+            "simulation-framework",
+            "scale",
+            "infrastructure",
+            "simulation",
+            "large",
+            "hierarchical",
+            "helics",
+            "engine"
+        ],
+        "last_update": "2024-12-26 00:45:00"
     },
     {
         "repo": "https://github.com/oemof/oemof-solph",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "oemof/oemof-solph",
+        "description": "A model generator for energy system modelling and optimisation (LP/MILP).",
+        "language": "Python",
+        "stars": 304,
+        "website": "https://oemof.org",
+        "keywords": [
+            "energy",
+            "energy-system",
+            "modelling",
+            "modelling-framework",
+            "generator",
+            "optimisation",
+            "system",
+            "milp",
+            "model",
+            "modelling",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:45:00"
     },
     {
         "repo": "https://github.com/oemof/oemof-thermal",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "oemof/oemof-thermal",
+        "description": "Thermal energy components for the Open Energy Modeling Framework (oemof).",
+        "language": "Python",
+        "stars": 28,
+        "website": "https://oemof.org",
+        "keywords": [
+            "components",
+            "framework",
+            "energy",
+            "oemof",
+            "open",
+            "thermal",
+            "modeling"
+        ],
+        "last_update": "2024-12-26 00:45:00"
     },
     {
         "repo": "https://github.com/JuliaEnergy/Joulia.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "JuliaEnergy/Joulia.jl",
+        "description": "Joulia.jl: A Large-Scale Spatial Power System Model for Julia",
+        "language": "Julia",
+        "stars": 32,
+        "website": "",
+        "keywords": [
+            "joulia",
+            "large",
+            "scale",
+            "power",
+            "system",
+            "julia",
+            "model",
+            "spatial"
+        ],
+        "last_update": "2024-12-26 00:45:00"
     },
     {
         "repo": "https://github.com/IDAES/idaes-pse",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "IDAES/idaes-pse",
+        "description": "The IDAES Process Systems Engineering Framework",
+        "language": "Python",
+        "stars": 223,
+        "website": "https://idaes-pse.readthedocs.io/",
+        "keywords": [
+            "chemical-engineering",
+            "process-modeling",
+            "process-systems-engineering",
+            "engineering",
+            "systems",
+            "process",
+            "idaes",
+            "framework"
+        ],
+        "last_update": "2024-12-26 00:45:00"
     },
     {
         "repo": "https://github.com/TemoaProject/temoa",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "TemoaProject/temoa",
+        "description": "Tools for Energy Model Optimization and Analysis",
+        "language": "Jupyter Notebook",
+        "stars": 83,
+        "website": "http://temoacloud.com",
+        "keywords": [
+            "optimization",
+            "tools",
+            "model",
+            "analysis",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:45:00"
     },
     {
         "repo": "https://github.com/ie3-institute/PowerSystemDataModel",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "ie3-institute/PowerSystemDataModel",
+        "description": "Provides an elaborated data model to model energy systems with a high granularity e.g. for bottom-up simulations. Additionally, useful functionalities to handle the model i/o are provided as well.",
+        "language": "Java",
+        "stars": 20,
+        "website": "",
+        "keywords": [
+            "datamodel",
+            "powersystem",
+            "simulation",
+            "functionalities",
+            "additionally",
+            "handle",
+            "bottom",
+            "useful",
+            "provided",
+            "systems",
+            "data",
+            "high",
+            "model"
+        ],
+        "last_update": "2024-12-26 00:45:01"
     },
     {
         "repo": "https://github.com/rte-antares-rpackage/antaresViz",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "rte-antares-rpackage/antaresViz",
+        "description": "ANTARES Visualizations",
+        "language": "R",
+        "stars": 20,
+        "website": "https://rte-antares-rpackage.github.io/antaresViz",
+        "keywords": [
+            "adequacy",
+            "bilan",
+            "dygraphs",
+            "electric",
+            "energy",
+            "leaflet",
+            "linear-programming",
+            "manipulatewidge",
+            "monte-carlo-simulation",
+            "optimization",
+            "plotly",
+            "previsionnel",
+            "r",
+            "renewable-energy",
+            "rte",
+            "shiny",
+            "shiny-apps",
+            "simulation",
+            "stochastic-simulation-algorithm",
+            "tyndp",
+            "visualizations",
+            "antares"
+        ],
+        "last_update": "2024-12-26 00:45:01"
     },
     {
         "repo": "https://github.com/rte-antares-rpackage/antaresRead",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "rte-antares-rpackage/antaresRead",
+        "description": "Import, manipulate and explore the results of an Antares simulation",
+        "language": "R",
+        "stars": 13,
+        "website": "https://rte-antares-rpackage.github.io/antaresRead/",
+        "keywords": [
+            "adequacy",
+            "bilan",
+            "electricity",
+            "energy",
+            "hdf5",
+            "linear-algebra",
+            "monte-carlo-simulation",
+            "optimisation",
+            "previsionnel",
+            "r",
+            "rhdf5",
+            "rte",
+            "simulation",
+            "tyndp",
+            "antares",
+            "manipulate",
+            "simulation",
+            "explore",
+            "import",
+            "results"
+        ],
+        "last_update": "2024-12-26 00:45:01"
     },
     {
         "repo": "https://github.com/spine-tools/Spine-Toolbox",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "spine-tools/Spine-Toolbox",
+        "description": "Spine Toolbox is an open source Python package to manage data, scenarios and workflows for modelling and simulation. You can have your local workflow, but work as a team through version control and SQL databases.",
+        "language": "Python",
+        "stars": 76,
+        "website": "https://www.tools-for-energy-system-modelling.org/",
+        "keywords": [
+            "anaconda",
+            "data",
+            "energy",
+            "miniconda",
+            "python",
+            "simulation-model",
+            "spine-toolbox",
+            "workflow",
+            "version",
+            "source",
+            "control",
+            "open",
+            "scenarios",
+            "workflows",
+            "simulation",
+            "spine",
+            "modelling",
+            "local"
+        ],
+        "last_update": "2024-12-26 00:45:01"
     },
     {
         "repo": "https://github.com/reegis/deflex",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "reegis/deflex",
+        "description": "Simple heat and power model of Germany",
+        "language": "Python",
+        "stars": 12,
+        "website": "",
+        "keywords": [
+            "heat",
+            "simple",
+            "power",
+            "model",
+            "germany"
+        ],
+        "last_update": "2024-12-26 00:45:01"
     },
     {
         "repo": "https://github.com/ADGEfficiency/energy-py-linear",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "ADGEfficiency/energy-py-linear",
+        "description": "Optimize energy assets using mixed-integer linear programming",
+        "language": "Python",
+        "stars": 90,
+        "website": "",
+        "keywords": [
+            "batteries",
+            "electric-vehicles",
+            "energy",
+            "optimization",
+            "python",
+            "renewable-energy",
+            "solar",
+            "wind",
+            "using",
+            "optimize",
+            "assets",
+            "linear",
+            "integer",
+            "mixed",
+            "programming",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:45:01"
     },
     {
         "repo": "https://github.com/leonardgoeke/AnyMOD.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "leonardgoeke/AnyMOD.jl",
+        "description": "Julia framework for energy system models with a focus on multi-period capacity expansion",
+        "language": "Julia",
+        "stars": 70,
+        "website": "",
+        "keywords": [
+            "capacity-expansion-planning",
+            "energy",
+            "julia",
+            "linear-programming",
+            "optimization",
+            "multi",
+            "focus",
+            "models",
+            "expansion",
+            "period",
+            "system",
+            "julia",
+            "capacity",
+            "framework",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:45:01"
     },
     {
         "repo": "https://github.com/FlexiGIS/FlexiGIS",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "FlexiGIS/FlexiGIS",
+        "description": "FlexiGIS: Open source GIS-based platform for the optimisation of flexibility options in urban areas",
+        "language": "Python",
+        "stars": 20,
+        "website": "",
+        "keywords": [
+            "platform",
+            "options",
+            "gis",
+            "based",
+            "optimisation",
+            "source",
+            "urban",
+            "open",
+            "flexibility",
+            "flexigis"
+        ],
+        "last_update": "2024-12-26 00:45:01"
     },
     {
         "repo": "https://github.com/YoungFaithful/CapacityExpansion.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "YoungFaithful/CapacityExpansion.jl",
+        "description": "Capacity Expansion Problem Formulation for Julia",
+        "language": "Julia",
+        "stars": 24,
+        "website": "https://youngfaithful.github.io/CapacityExpansion.jl/stable",
+        "keywords": [
+            "california",
+            "capacity-expansion-planning",
+            "clustering",
+            "energy",
+            "energy-optimization-model",
+            "germany",
+            "julia",
+            "jump",
+            "formulation",
+            "expansion",
+            "julia",
+            "capacity",
+            "problem"
+        ],
+        "last_update": "2024-12-26 00:45:01"
     },
     {
         "repo": "https://github.com/epri-dev/StorageVET",
@@ -37268,102 +38000,472 @@
     {
         "repo": "https://github.com/upb-lea/ElectricGrid.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "upb-lea/ElectricGrid.jl",
+        "description": "A time domain electrical energy grid modeling and simulation tool with a focus on the control of power electronics converters",
+        "language": "Julia",
+        "stars": 33,
+        "website": "https://upb-lea.github.io/ElectricGrid.jl/",
+        "keywords": [
+            "time",
+            "focus",
+            "electrical",
+            "power",
+            "simulation",
+            "converters",
+            "control",
+            "modeling",
+            "electronics",
+            "tool"
+        ],
+        "last_update": "2024-12-26 00:45:02"
     },
     {
         "repo": "https://github.com/arras-energy/gridlabd",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "arras-energy/gridlabd",
+        "description": "Arras Energy simulator",
+        "language": "C++",
+        "stars": 6,
+        "website": "https://www.arras.energy/",
+        "keywords": [
+            "agent-based",
+            "gridlabd",
+            "powerflow",
+            "simulation",
+            "simulator",
+            "arras",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:45:02"
     },
     {
         "repo": "https://github.com/Breakthrough-Energy/PowerSimData",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "Breakthrough-Energy/PowerSimData",
+        "description": "Simulation framework",
+        "language": "Python",
+        "stars": 52,
+        "website": "https://breakthrough-energy.github.io/docs/",
+        "keywords": [
+            "framework",
+            "simulation"
+        ],
+        "last_update": "2024-12-26 00:45:02"
     },
     {
         "repo": "https://github.com/lanl-ansi/PowerModels.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "lanl-ansi/PowerModels.jl",
+        "description": "A Julia/JuMP Package for Power Network Optimization",
+        "language": "Julia",
+        "stars": 401,
+        "website": "https://lanl-ansi.github.io/PowerModels.jl/stable/",
+        "keywords": [
+            "network",
+            "optimal-power-flow",
+            "optimization",
+            "power-network",
+            "optimization",
+            "package",
+            "network",
+            "power",
+            "julia",
+            "jump"
+        ],
+        "last_update": "2024-12-26 00:45:02"
     },
     {
         "repo": "https://github.com/lanl-ansi/PowerModelsAnnex.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "lanl-ansi/PowerModelsAnnex.jl",
+        "description": "A PowerModels.jl Extension Package for Exploratory Work ",
+        "language": "Julia",
+        "stars": 22,
+        "website": "",
+        "keywords": [
+            "network",
+            "optimal-power-flow",
+            "optimization",
+            "power-network",
+            "package",
+            "work",
+            "exploratory",
+            "powermodels",
+            "extension"
+        ],
+        "last_update": "2024-12-26 00:45:02"
     },
     {
         "repo": "https://github.com/power-grid-lib/pglib-opf",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "power-grid-lib/pglib-opf",
+        "description": "Benchmarks for the Optimal Power Flow Problem",
+        "language": "MATLAB",
+        "stars": 311,
+        "website": "",
+        "keywords": [
+            "benchmark",
+            "dataset",
+            "matpower",
+            "optimal-power-flow",
+            "benchmarks",
+            "power",
+            "optimal",
+            "flow",
+            "problem"
+        ],
+        "last_update": "2024-12-26 00:45:02"
     },
     {
         "repo": "https://github.com/MarvinLer/pypownet",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "MarvinLer/pypownet",
+        "description": "A power network simulator with a Reinforcement Learning-focused usage.",
+        "language": "Python",
+        "stars": 112,
+        "website": "https://pypownet.readthedocs.io/",
+        "keywords": [
+            "gym-environments",
+            "power-network",
+            "powergrid",
+            "reinforcement-learning",
+            "reinforcement-learning-environments",
+            "simulator",
+            "simulator",
+            "network",
+            "power",
+            "reinforcement",
+            "learning",
+            "focused",
+            "usage"
+        ],
+        "last_update": "2024-12-26 00:45:02"
     },
     {
         "repo": "https://github.com/rte-france/Grid2Op",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "rte-france/Grid2Op",
+        "description": "Grid2Op a testbed platform to model sequential decision making in power systems.",
+        "language": "Python",
+        "stars": 303,
+        "website": "https://grid2op.readthedocs.io/",
+        "keywords": [
+            "grid2op",
+            "gym-environments",
+            "powergrid",
+            "powergrid-operation",
+            "reinforcement-learning",
+            "reinforcement-learning-environments",
+            "sequential",
+            "testbed",
+            "platform",
+            "making",
+            "power",
+            "systems",
+            "decision",
+            "model",
+            "grid2op"
+        ],
+        "last_update": "2024-12-26 00:45:03"
     },
     {
         "repo": "https://github.com/GridMod/RTS-GMLC",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "GridMod/RTS-GMLC",
+        "description": "Reliability Test System - Grid Modernization Lab Consortium",
+        "language": "HTML",
+        "stars": 162,
+        "website": "",
+        "keywords": [
+            "energy-data",
+            "energy-system",
+            "matpower",
+            "power-systems",
+            "power-systems-analysis",
+            "rts",
+            "lab",
+            "consortium",
+            "test",
+            "reliability",
+            "modernization",
+            "system",
+            "grid"
+        ],
+        "last_update": "2024-12-26 00:45:03"
     },
     {
         "repo": "https://github.com/JuliaEnergy/PowerDynamics.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "JuliaEnergy/PowerDynamics.jl",
+        "description": "Package for dynamical modeling of power grids",
+        "language": "Julia",
+        "stars": 107,
+        "website": "https://juliaenergy.github.io/PowerDynamics.jl/latest/",
+        "keywords": [
+            "package",
+            "dynamical",
+            "power",
+            "grids",
+            "modeling"
+        ],
+        "last_update": "2024-12-26 00:45:03"
     },
     {
         "repo": "https://github.com/SanPen/GridCal",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "SanPen/GridCal",
+        "description": "GridCal, a cross-platform power systems software written in Python with user interface, used in academia and industry.",
+        "language": "MATLAB",
+        "stars": 428,
+        "website": "https://www.advancedgridinsights.com/gridcal",
+        "keywords": [
+            "acdc",
+            "cim",
+            "comon-information-model",
+            "electrical",
+            "electrical-engineering",
+            "helm",
+            "latin-hypercube",
+            "monte-carlo-simulation",
+            "multi-terminal",
+            "newton-raphson",
+            "optimization",
+            "power-systems",
+            "powerflow",
+            "python",
+            "stochastic-power-flow",
+            "platform",
+            "written",
+            "gridcal",
+            "power",
+            "used",
+            "software",
+            "systems",
+            "interface",
+            "user",
+            "cross"
+        ],
+        "last_update": "2024-12-26 00:45:03"
     },
     {
         "repo": "https://github.com/ie3-institute/OSMoGrid",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "ie3-institute/OSMoGrid",
+        "description": "OSMoGrid is a tool to generate life like electrical grid models based on publicly available data, mainly OpenStreetMap. The tool puts a special focus on low voltage grids.",
+        "language": "Scala",
+        "stars": 11,
+        "website": "",
+        "keywords": [
+            "clustering",
+            "graph",
+            "opendata",
+            "openstreetmap",
+            "powersystems",
+            "openstreetmap",
+            "grid",
+            "focus",
+            "mainly",
+            "generate",
+            "grids",
+            "osmogrid",
+            "tool",
+            "puts",
+            "voltage"
+        ],
+        "last_update": "2024-12-26 00:45:03"
     },
     {
         "repo": "https://github.com/openinframap/openinframap",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "openinframap/openinframap",
+        "description": "Open Infrastructure Map",
+        "language": "TypeScript",
+        "stars": 196,
+        "website": "https://openinframap.org",
+        "keywords": [
+            "gis",
+            "imposm3",
+            "maplibre-gl-js",
+            "openstreetmap",
+            "postgis",
+            "tegola",
+            "open",
+            "infrastructure",
+            "map"
+        ],
+        "last_update": "2024-12-26 00:45:03"
     },
     {
         "repo": "https://github.com/MicroGridsPy/MicroGridsPy",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "MicroGridsPy/MicroGridsPy",
+        "description": null,
+        "language": "Python",
+        "stars": 32,
+        "website": "",
+        "keywords": [],
+        "last_update": "2024-12-26 00:45:03"
     },
     {
         "repo": "https://github.com/OSGP/open-smart-grid-platform",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "OSGP/open-smart-grid-platform",
+        "description": "This repository combines the code from and supersedes the prior existing Shared, Platform, Protocol-Adapter-OSLP, Protocol-Adapter-IEC61850, Protocol-Adapter-DLMS, PublicLightingDemoApp and Integration-Tests repositories. The old repositories have been kept online for now in readonly mode to preserve the historical information.",
+        "language": "Java",
+        "stars": 104,
+        "website": "https://www.lfenergy.org/projects/gxf/",
+        "keywords": [
+            "cucumber-tests",
+            "distribution-automation",
+            "dlms",
+            "iec61850",
+            "iot-platform",
+            "java",
+            "oslp",
+            "public-lighting",
+            "smartmetering",
+            "springframework",
+            "combines",
+            "adapter",
+            "online",
+            "repository",
+            "platform",
+            "kept",
+            "readonly",
+            "old",
+            "publiclightingdemoapp",
+            "historical"
+        ],
+        "last_update": "2024-12-26 00:45:03"
     },
     {
         "repo": "https://github.com/OpenLEADR/openleadr-python",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "OpenLEADR/openleadr-python",
+        "description": "Python library for OpenADR 2.0b",
+        "language": "Python",
+        "stars": 139,
+        "website": "https://openleadr.org/docs",
+        "keywords": [
+            "energy",
+            "lf-energy",
+            "openadr",
+            "python3",
+            "python",
+            "openadr",
+            "library"
+        ],
+        "last_update": "2024-12-26 00:45:03"
     },
     {
         "repo": "https://github.com/seapath/meta-seapath",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "seapath/meta-seapath",
+        "description": "This is the core of the seapath project. The meta-seapath repo contains the yocto Seapath layer, which contains all the code (yocto recipes) needed to build the seapath images used to install seapath (host, guest, flasher, etc.)",
+        "language": "BitBake",
+        "stars": 6,
+        "website": "https://lfenergy.org/projects/seapath/",
+        "keywords": [
+            "build",
+            "guest",
+            "etc",
+            "flasher",
+            "meta",
+            "used",
+            "needed",
+            "yocto",
+            "project",
+            "install"
+        ],
+        "last_update": "2024-12-26 00:45:04"
     },
     {
         "repo": "https://github.com/NREL-Sienna/InfrastructureSystems.jl",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "NREL-Sienna/InfrastructureSystems.jl",
+        "description": "Utility package for Sienna's simulation infrastructure ",
+        "language": "Julia",
+        "stars": 38,
+        "website": "https://nrel-sienna.github.io/InfrastructureSystems.jl/stable/",
+        "keywords": [
+            "julia",
+            "nrel",
+            "package",
+            "sienna",
+            "infrastructure",
+            "simulation",
+            "utility"
+        ],
+        "last_update": "2024-12-26 00:45:04"
     },
     {
         "repo": "https://github.com/Energinet-DataHub/greenforce-frontend",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "Energinet-DataHub/greenforce-frontend",
+        "description": "GreenForce monorepo for the DataHub and Energy Origin frontends. Part of Energinet DataHub.",
+        "language": "TypeScript",
+        "stars": 74,
+        "website": "",
+        "keywords": [
+            "angular",
+            "dotnet",
+            "energy",
+            "energy-origin",
+            "green-energy-hub",
+            "monorepo",
+            "nx",
+            "typescript",
+            "origin",
+            "frontends",
+            "part",
+            "energinet",
+            "greenforce",
+            "datahub",
+            "monorepo",
+            "energy"
+        ],
+        "last_update": "2024-12-26 00:45:04"
     },
     {
         "repo": "https://github.com/opfab/operatorfabric-core",
         "category": "environment",
-        "image": ""
+        "image": "",
+        "title": "opfab/operatorfabric-core",
+        "description": "Main operatorfabric program",
+        "language": "TypeScript",
+        "stars": 40,
+        "website": "https://opfab.github.io",
+        "keywords": [
+            "alerting",
+            "collaboration",
+            "energy",
+            "hypervision",
+            "linux-foundation",
+            "platform",
+            "main",
+            "operatorfabric",
+            "program"
+        ],
+        "last_update": "2024-12-26 00:45:04"
     },
     {
         "repo": "https://github.com/Energy-Sparks/energy-sparks",
