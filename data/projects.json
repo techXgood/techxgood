@@ -43827,5 +43827,27 @@
             "tech"
         ],
         "last_update": "2024-12-29 14:29:36"
+    },
+    {
+        "repo": "https://github.com/nyss-platform-norcross/nyss",
+        "category": "society",
+        "image": "",
+        "website": "https://cbs.ifrc.org/what-nyss",
+        "poc": [],
+        "title": "nyss-platform-norcross/nyss",
+        "description": "Nyss: a tool developed with the Red Cross for Community-Based Surveillance",
+        "language": "C#",
+        "stars": 20,
+        "keywords": [
+            "developed",
+            "red",
+            "cross",
+            "nyss",
+            "surveillance",
+            "tool",
+            "community",
+            "based"
+        ],
+        "last_update": "2024-12-29 14:30:38"
     }
 ]
