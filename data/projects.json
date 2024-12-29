@@ -43798,5 +43798,34 @@
             "odoo"
         ],
         "last_update": "2024-12-29 14:28:36"
+    },
+    {
+        "repo": "https://github.com/TechforgoodCAST/awesome-techforgood",
+        "category": "society",
+        "image": "",
+        "website": "",
+        "poc": [
+            "PoC"
+        ],
+        "title": "TechforgoodCAST/awesome-techforgood",
+        "description": "A selection of projects, organisations and useful tools for social-impact tech",
+        "language": null,
+        "stars": 175,
+        "keywords": [
+            "awesome",
+            "awesome-list",
+            "social-impact",
+            "tech",
+            "tech-for-good",
+            "social",
+            "selection",
+            "tools",
+            "useful",
+            "organisations",
+            "projects",
+            "impact",
+            "tech"
+        ],
+        "last_update": "2024-12-29 14:29:36"
     }
 ]
