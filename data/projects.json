@@ -43849,5 +43849,41 @@
             "based"
         ],
         "last_update": "2024-12-29 14:30:38"
+    },
+    {
+        "repo": "https://github.com/unicef/magicbox",
+        "category": "humanitarian",
+        "image": "",
+        "website": "https://www.unicef.org/innovation/Magicbox",
+        "poc": [],
+        "title": "unicef/magicbox",
+        "description": "A platform that uses real-time data to inform life-saving humanitarian responses to emergency situations",
+        "language": null,
+        "stars": 86,
+        "keywords": [
+            "data",
+            "data-science",
+            "emergency-response",
+            "emergency-situation",
+            "geospatial",
+            "geospatial-data",
+            "humanitarian",
+            "javascript",
+            "magicbox",
+            "nodejs",
+            "unicef",
+            "united-nations",
+            "uses",
+            "data",
+            "emergency",
+            "humanitarian",
+            "saving",
+            "situations",
+            "inform",
+            "responses",
+            "real",
+            "platform"
+        ],
+        "last_update": "2024-12-29 14:31:39"
     }
 ]
