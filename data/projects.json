@@ -43669,5 +43669,46 @@
             "source"
         ],
         "last_update": "2024-12-29 14:21:27"
+    },
+    {
+        "repo": "https://github.com/margaritahumanitarian/helpafamily",
+        "category": "humanitarian",
+        "image": "",
+        "website": "https://helpafamily.margaritahumanitarian.org/",
+        "poc": [],
+        "title": "margaritahumanitarian/helpafamily",
+        "description": "Impactful ways to help families in need through donated meals, hygiene kits, and more. By Margarita Humanitarian Foundation.",
+        "language": "JavaScript",
+        "stars": 67,
+        "keywords": [
+            "charity",
+            "food-pantries",
+            "hacktober",
+            "hacktoberfest",
+            "hacktoberfest-2021",
+            "hacktoberfest-accepted",
+            "hacktoberfest2021",
+            "health",
+            "homelessness",
+            "humanitarian",
+            "humanitarianism",
+            "hygiene",
+            "nextjs",
+            "nonprofit",
+            "react",
+            "reactjs",
+            "tailwindcss",
+            "humanitarian",
+            "margarita",
+            "help",
+            "foundation",
+            "donated",
+            "meals",
+            "ways",
+            "kits",
+            "impactful",
+            "need"
+        ],
+        "last_update": "2024-12-29 14:22:53"
     }
 ]
