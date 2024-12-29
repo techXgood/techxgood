@@ -43778,5 +43778,25 @@
             "imagery"
         ],
         "last_update": "2024-12-29 14:25:36"
+    },
+    {
+        "repo": "https://github.com/OCA/stock-logistics-transport",
+        "category": "humanitarian",
+        "image": "",
+        "website": "",
+        "poc": [],
+        "title": "OCA/stock-logistics-transport",
+        "description": "Transport management in Odoo ",
+        "language": "Python",
+        "stars": 63,
+        "keywords": [
+            "erp",
+            "hackt",
+            "odoo",
+            "transport",
+            "management",
+            "odoo"
+        ],
+        "last_update": "2024-12-29 14:28:36"
     }
 ]
