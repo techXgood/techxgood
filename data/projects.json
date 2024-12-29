@@ -43757,5 +43757,26 @@
             "help"
         ],
         "last_update": "2024-12-29 14:24:27"
+    },
+    {
+        "repo": "https://github.com/hotosm/drone-tm",
+        "category": "tech",
+        "image": "",
+        "website": "https://dronetm.org/",
+        "poc": [],
+        "title": "hotosm/drone-tm",
+        "description": "Drone Tasking Manager - community-driven drone imagery collection.",
+        "language": "TypeScript",
+        "stars": 16,
+        "keywords": [
+            "community",
+            "manager",
+            "tasking",
+            "drone",
+            "collection",
+            "driven",
+            "imagery"
+        ],
+        "last_update": "2024-12-29 14:25:36"
     }
 ]
