@@ -43710,5 +43710,23 @@
             "need"
         ],
         "last_update": "2024-12-29 14:22:53"
+    },
+    {
+        "repo": "https://github.com/qcri-social/AIDR",
+        "category": "humanitarian",
+        "image": "",
+        "website": "http://aidr.qcri.org/",
+        "poc": [],
+        "title": "qcri-social/AIDR",
+        "description": "Artificial Intelligence for Digital Response",
+        "language": "Java",
+        "stars": 98,
+        "keywords": [
+            "digital",
+            "response",
+            "artificial",
+            "intelligence"
+        ],
+        "last_update": "2024-12-29 14:23:46"
     }
 ]
