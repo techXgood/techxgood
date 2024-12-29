@@ -43728,5 +43728,34 @@
             "intelligence"
         ],
         "last_update": "2024-12-29 14:23:46"
+    },
+    {
+        "repo": "https://github.com/melizeche/ayudapy",
+        "category": "humanitarian",
+        "image": "",
+        "website": "https://AyudaPy.org",
+        "poc": [],
+        "title": "melizeche/ayudapy",
+        "description": "Humanitarian platform to help people help people",
+        "language": "JavaScript",
+        "stars": 113,
+        "keywords": [
+            "bulma",
+            "django",
+            "django-rest-framework",
+            "hacktoberfest",
+            "hacktoberfest2020",
+            "humanitarian",
+            "leafletjs",
+            "openstreetmap",
+            "osm",
+            "python",
+            "vanillajs",
+            "humanitarian",
+            "platform",
+            "people",
+            "help"
+        ],
+        "last_update": "2024-12-29 14:24:27"
     }
 ]
