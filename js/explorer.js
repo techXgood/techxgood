@@ -21,7 +21,7 @@ async function loadFilterCategories() {
     try {
         const response = await fetch('conf/categories.json');
         const { cat } = await response.json();
-        populateDropdown('filter_cat', cat.map(c => ({ id: c.id, name: c.name })));
+        populateDropdown('filter_cat', cat.map(c => ({ id: c.id, name: c.name })), defaultOption = { value: "None", label: "All categories" });
     } catch (error) {
         console.error('Error loading categories:', error);
     }
@@ -40,7 +40,7 @@ async function loadOrderByConfig() {
         }));
 
         // Populate the dropdown once the options are loaded
-        populateDropdown('orderBy', orderByOptions);
+        populateDropdown('orderBy', orderByOptions, defaultOption = { value: "None", label: "Order by" });
     } catch (error) {
         console.error('Error loading order-by configuration:', error);
     }

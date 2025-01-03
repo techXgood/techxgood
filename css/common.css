@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* white background */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4CAF50; /* light green navbar */
+}
+
+.tech_good {
+    color: #e84aa0;
+    font-size: 4.2em;
+    display: inline;
+    align-items: center;
+    font-family: "Jersey 20 Charted", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.x {
+    color: #00ff00;
+    font-size: 5.2em;
+    display: inline;
+    align-item: center;
+    margin: 0em;
+    font-family: "Jersey 20 Charted", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Footer */
+.footer {
+    background-color: #4CAF50; /* light green (the same of navbar) */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -4,49 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech X Good</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Oxanium:wght@200..800&family=Tiny5&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
     <!-- Navbar -->
-    <div class="navbar">
-        <a href="#" class="navbar-logo">
-            <img src="imgs/index/logo.png" class="navbar-logo">
-            <div class="paragraph-title">
-                <p>TECH</p> 
-                <p style="padding-left: 5px; color: rgb(6, 234, 6); ">X</p> 
-                <p>GOOD</p>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <p class="navbar-logo">
+                <div class="tech_good">tech</div><div class="x">X</div><div class="tech">good</div>
+            </p>
         </a>
-        <span class="hamburger" onclick="toggleMenu()">&#9776;</span>
-        <div class="navbar-links">
-            <a href="#about">About</a>
-            <a href="./explorer.html">Explore</a>
-            <!--<a href="#contacts">Contacts</a>-->
-            <a href="#submit-project">Submit Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ali ml-auto">
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="./explorer.html">Explore</a>
+                <a class="nav-item nav-link" href="#submit-project">Submit Project</a>
+                <a class="nav-item nav-link" href="#collaborate">Join us</a>
+            </div>
         </div>
-    </div>
+    </nav>
 
     <!-- About Section -->
     <div id="about" class="about-section">
-        <h2>Open source projects for a better world.</h2>
-
+        <h2><strong>Open source projects for a better world. </strong></h2>
+        <br>
         <div class="about-text">
-            <p>We are a community of developers who believe in the power of technology to create a more sustainable future.
+            This platform showcases <strong>open source</strong> projects that make a significant <strong>positive impact on society and the environment</strong>.
             <br>
+            Discover innovative solutions, collaborate with like-minded developers, and contribute to projects that matter.
             <br>
-            This site is a showcase for open source projects that have a big positive impact on society and the environment. Here you can find inspiration, collaborate with other developers and contribute to projects.
-            <br>
-            <br>
-            Join us and help solve our Planet's problems. Follow us on GitHub <link gh>.
-            <br>
-            <br>
-            Are you a student looking for a project for your thesis? Explore projects tagged with ‘new idea’ and choose the project you are most passionate about! Don't waste your time with little projects for their own sake, help us make the world a better place and contribute to a remarkable project! 💪
         </div>
     </div>
 
@@ -59,17 +54,6 @@
         <div id="partners-grid" class="partners"></div>
     </div>
 
-    <!-- Contact Section 
-    <div id="contacts" class="contact-section">
-        <h2>Contact Me</h2>
-        <form action="mailto:example@example.com" method="post" enctype="text/plain">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </div> -->
-
     <!-- Submit New Project Section --> 
     <div id="submit-project" class="contact-section">
         <h2>Submit New Project</h2>
@@ -78,11 +62,35 @@
         </a>
     </div>
 
+    <!-- join us section -->
+    <div id="join_us" class="join_us-section">
+        <h2>Join Us! 🤝</h2>
+        <ul class="join_us-ul">
+            <li>Collaborate with a global network to solve real-world challenges.</li>
+            <li>Contribute to projects addressing social and environmental issues.</li>
+            <li>Discover impactful open-source projects that inspire you.</li>
+        </ul>
+        <br>
+        <p><strong>Students, Make Your Thesis Count! 🎓</strong>
+            <br>
+            Browse projects and choose one that sparks your passion. Contribute to something extraordinary and make a real impact. 💡
+        </p>
+        <br>
+        <p>
+            <strong>Contribute to this project:</strong>
+            <br>
+            <a src="https://github.com/techXgood/techXgood">GitHub Repository 🧑‍💻</a>
+        </p>
+    </div>
+
     <!-- Footer -->
     <div class="footer">
         <p>Tech X Good © 2024</p>
     </div>
 
     <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

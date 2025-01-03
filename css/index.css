@@ -1,90 +1,36 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f4f4f4; /* Sfondo bianco */
+/* Increase spacing between navbar links */
+.navbar-nav .nav-link {
+    font-size: 1.6rem; /* Increase link size (optional) */
+    margin-right: 3rem; /* Add spacing between links */
+    font-weight: 700;
+    color: #295833;
 }
 
-/* Navbar */
-.navbar {
-    background-color: #4CAF50; /* Verde chiaro per la navbar */
-    overflow: hidden;
-    padding: 0%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 1%;
-    font-size: 100%;
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0; /* Remove margin on the last link */
 }
 
-.navbar-logo {
-    color: white;
-    font-size: 20%;
-    text-decoration: none;
-    font-weight: bold;
-    width: 20%; /* Adjust the percentage as needed */
-    height: 3%;
-    margin-left: 1%;
-    border-radius: 15%;
-    display: flex;
-    align-items: center;
-}
-
-@media (min-width: 768px) {
-    .paragraph-title {
-        align-items: center;
-        display: flex;
-        font-family: "Tiny5", sans-serif;
-        font-weight: 200;
-        font-style: normal;
-        color: rgb(2, 20, 2);
-        font-size: 1400%;
-    }
-}
-
-@media (max-width: 768px) {
-    .paragraph-title {
-        display: none;
-    }
-}
-
-.navbar-links {
-    display: flex;
-    float: right;
-}
-
-.navbar-links a {
-    color: rgb(223, 231, 227);
+.join_us-section {
+    padding: 2rem;
+    font-size: 1.5rem;
+    background-color: #d1d3c5;
     text-align: center;
-    padding: 1% 5%;
-    text-decoration: none;
-    font-size: 150%;
-    font: bold;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
-.navbar-links a:hover {
-    background-color: #b4beb4; /* Verde ancora più chiaro al passaggio del mouse */
-    color: black;
-}
-
-.hamburger {
-    display: none;
-    font-size: 100%;
-    color: rgb(27, 55, 35);
-    cursor: pointer;
+.join_us-ul {
+    display: inline-block;
+    text-align: left;
 }
 
 /* About Section */
-.about-text {
-    font-size: 120%;
-    color: #173219;
-}
-
 .about-section {
-    padding: 5%;
+    padding: 1.5rem;
     text-align: center;
     background-color: #d1d3c5;
+    font-size: 1.5rem;
+    color: #4c524d;
 }
 
 /* Grid of categories */
@@ -110,18 +56,6 @@ body {
     display: block;
     border-radius: 5%;
     margin-bottom: 2%;
-}
-
-.banner-content {
-    background-color: #96cc9600;
-    color: hsl(124, 49%, 22%);
-    padding: 10% 3% 10% 3%;
-    border-radius: 30%;
-    position: relative;
-    top: 5%;
-    left: 0%;
-    display: none;
-    font-size: small;
 }
 
 .category-item img:hover + .banner-content{display:block;}
@@ -188,41 +122,6 @@ body {
     display: block;
 }
 
-/* Contact Section */
-.contact-section {
-    background-color: #f4f4f4;
-    padding: 50px;
-    text-align: center;
-}
-
-.contact-section form {
-    display: inline-block;
-    text-align: left;
-    width: 100%;
-    max-width: 500px;
-}
-
-.contact-section input, .contact-section textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact-section button {
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Verde chiaro per il pulsante */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.contact-section button:hover {
-    background-color: #388E3C; /* Verde più scuro al passaggio del mouse */
-}
-
 .submit-project-button {
     font-size: 150%;
     padding: 20% 40%;
@@ -232,63 +131,3 @@ body {
     border: none;
     cursor: pointer;
   }
-
-/* Footer */
-.footer {
-    background-color: #4CAF50; /* Stesso verde chiaro della navbar */
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-/* Media Queries for Mobile Responsiveness */
-@media (max-width: 768px) {
-    .categories {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-
-    .category-item {
-        padding: 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    /* Modifica della navbar con icona hamburger */
-    .navbar-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .hamburger.active + .navbar-links {
-        display: flex;
-    }
-
-    .navbar-links a {
-        padding: 10px;
-        text-align: left;
-        background-color: #4CAF50; /* Verde chiaro */
-        width: 100%;
-    }
-
-    .navbar-links a:hover {
-        background-color: #81C784;
-    }
-
-    .categories {
-        grid-template-columns: 1fr;
-    }
-
-    .about-section, .contact-section {
-        padding: 20px;
-    }
-
-    .category-item {
-        padding: 20px;
-    }
-}
