@@ -13,7 +13,7 @@
 .join_us-section {
     padding: 2rem;
     font-size: 1.5rem;
-    background-color: #d1d3c5;
+    background-color: #f4f4f4; /*grigio chiaro*/
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 5rem;
@@ -58,7 +58,11 @@
     margin-bottom: 2%;
 }
 
-.category-item img:hover + .banner-content{display:block;}
+.banner-content {
+    display: none;
+}
+
+.category-item img:hover + .banner-content{display: block;}
 
 .category-item a {
     color: white;
@@ -131,3 +135,40 @@
     border: none;
     cursor: pointer;
   }
+
+/* Contact Section */
+.contact-section {
+    background-color: #d1d3c5;
+    padding: 2rem;
+    text-align: center;
+}
+
+/*
+.contact-section form {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+*/
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Verde chiaro per il pulsante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #388E3C; /* Verde più scuro al passaggio del mouse */
+}

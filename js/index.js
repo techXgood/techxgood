@@ -15,12 +15,11 @@ async function loadCategories() {
             card.innerHTML = `
                 <a href="explorer.html?cat=${item.id}">
                     <img src="${item.preview_img}" alt="${item.name}">
-                    ${item.name}
+                    <strong>${item.name}</strong>
                     <div class="banner-content">
                         ${item.description}
                     </div>
                 </a>
-
             `;
             cardGrid.appendChild(card);
             });
