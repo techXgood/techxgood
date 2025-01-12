@@ -25,6 +25,6 @@ def convert_toml_to_requirements_txt(cwd: Optional[str] = '.'):
 if __name__ == '__main__':
     import sys
 
-    if len(sys.argv) > 0:
+    if len(sys.argv) > 1:
         cwd = sys.argv[-1]
     convert_toml_to_requirements_txt(cwd)
