@@ -1,3 +1,8 @@
+/* navbar */
+.navbar-toggler {
+    color: black;
+}
+
 /* Griglia delle card */
 .grid {
     display: grid;
