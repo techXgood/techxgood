@@ -1,0 +1,36 @@
+name: Crawl new projects
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,6,12,18 * * *" # Runs every 6 hours
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip3 install -r requirements.txt
+      - name: Run Python script
+        run: python3 backend/crawler/crawler.py ${{ secrets.GH_TOKEN_PUBLIC_ACCESS }}
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions-update_db[bot]"
+          git config user.email "github-actions-update_db[bot]@users.noreply.github.com"
+          git add "data/projects.json"
+          git add "backend/crawler/status.json"
+          git commit -m "data: Automatically add new projects to DB"
+          git push
