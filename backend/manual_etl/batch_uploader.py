@@ -4,7 +4,7 @@ import json
 
 # Input and output file paths
 input_csv = "crawled_projects.csv"  # Input CSV file
-projects_file = "../data/projects.json"
+projects_file = "../../data/projects.json"
 output_file = projects_file       # Output JSON file
 
 # Open and process the CSV file
