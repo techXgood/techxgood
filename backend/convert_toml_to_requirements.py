@@ -3,7 +3,7 @@ import tomllib
 
 
 def convert_toml_to_requirements_txt(cwd: Optional[str] = '.'):
-    with open(f"{cwd}/pyproject.toml", "r") as file:
+    with open(f"{cwd}/pyproject.toml", "rb") as file:
         pyproject = tomllib.load(file)
 
     # Extract dependencies
