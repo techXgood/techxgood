@@ -48343,5 +48343,61 @@
         "image": null,
         "stars": 279,
         "last_update": "2024-12-12 20:04:13"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "bioinformatics",
+            "containers",
+            "docker",
+            "dockerfiles",
+            "singularity",
+            ")</",
+            "el_gato",
+            "bowtie2",
+            "hnhalstead",
+            "trimmomatic",
+            "snippy",
+            "```",
+            "sage",
+            "dutilh",
+            "benjamesmetcalf"
+        ],
+        "title": "StaPH-B/docker-builds",
+        "description": null,
+        "repo": "https://github.com/StaPH-B/docker-builds",
+        "forks_count": 126,
+        "language": "Dockerfile",
+        "website": null,
+        "image": null,
+        "stars": 199,
+        "last_update": "2025-01-13 22:47:27"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "health-icons",
+            "icon-requests",
+            "icons",
+            "###",
+            "credit",
+            "media",
+            "enforce",
+            "gender",
+            "obligated",
+            "deemed",
+            "orientation",
+            "liable",
+            "touch"
+        ],
+        "title": "resolvetosavelives/healthicons",
+        "description": null,
+        "repo": "https://github.com/resolvetosavelives/healthicons",
+        "forks_count": 49,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 676,
+        "last_update": "2025-01-15 18:33:25"
     }
 ]
