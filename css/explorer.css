@@ -49,6 +49,14 @@
     color: rgb(8, 119, 119);
 }
 
+.oxanium-title-img {
+  font-family: "Oxanium", sans-serif;
+  font-size: 120%;
+  font-weight: 500;
+  font-style: normal;
+  color:rgb(26, 97, 97);
+}
+
 .card_category {
     margin-left: 0%;
     vertical-align: middle;
