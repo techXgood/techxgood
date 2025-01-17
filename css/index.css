@@ -1,13 +1,26 @@
 /* Increase spacing between navbar links */
-.navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     font-size: 1.6rem; /* Increase link size (optional) */
     margin-right: 3rem; /* Add spacing between links */
     font-weight: 700;
-    color: #295833;
+    color: white;
 }
 
 .navbar-nav .nav-item:last-child .nav-link {
     margin-right: 0; /* Remove margin on the last link */
+}
+
+.bg-img {
+    width: 100vw;
+    object-fit: cover;
+    height: 100vw;
+    display: block;
+}
+
+.welcome-section {
+    width: 100vw; /* Larghezza al 100% della viewport */
+    max-height: 100vw; /* Altezza al 100% della viewport */
+    overflow: hidden; /* Nasconde le parti dell'immagine che escono dal contenitore */
 }
 
 .join_us-section {
@@ -31,6 +44,10 @@
     background-color: #d1d3c5;
     font-size: 1.5rem;
     color: #4c524d;
+}
+
+.about-text{
+    padding-top: 0.3rem;
 }
 
 /* Grid of categories */
