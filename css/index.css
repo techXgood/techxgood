@@ -79,7 +79,10 @@
     display: none;
 }
 
-.category-item:hover .banner-content{display: block;}
+/* Media Queries */
+@media (min-width: 1023px) {
+    .category-item:hover .banner-content{display: block;}
+}
 
 .category-item:hover {
     background-color: #81C784; /* Verde più chiaro al passaggio del mouse */
