@@ -8,12 +8,12 @@ body {
 
 /* Navbar */
 .navbar {
-    height: 9.4rem;
     background-color: #4CAF50;
     /*#4CAF50; light green navbar */
 }
 
 .navbar-brand {
+    border: 0rem;
     padding: 0rem;
 }
 

@@ -11,9 +11,9 @@
 }
 
 .bg-img {
-    width: 100vw;
     object-fit: cover;
-    height: 100vw;
+    height: 90vh;
+    width: 100vw;
     display: block;
 }
 
