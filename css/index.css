@@ -79,7 +79,11 @@
     display: none;
 }
 
-.category-item img:hover + .banner-content{display: block;}
+.category-item:hover .banner-content{display: block;}
+
+.category-item:hover {
+    background-color: #81C784; /* Verde più chiaro al passaggio del mouse */
+}
 
 .category-item a {
     color: white;
@@ -87,10 +91,6 @@
     text-decoration: none;
     padding: 1%;
     border-radius: 5%;
-}
-
-.category-item a:hover {
-    background-color: #81C784; /* Verde più chiaro al passaggio del mouse */
 }
 
 /* Grid of partners */
