@@ -12,11 +12,15 @@ import nltk
 from beartype import beartype
 from beartype.typing import *
 from sklearn.metrics.pairwise import cosine_similarity
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, util
 
 
 nltk.download('stopwords')
 nltk.download('punkt_tab')
+
+
+# load model once
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 
 @beartype
@@ -127,7 +131,7 @@ def repository_labeling(
     # Load the pre-trained model and tokenizer
     #tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
     #model = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
-    model = SentenceTransformer('all-MiniLM-L6-v2')
+
 
     if repo_title is None:
         repo_title = ""
@@ -157,6 +161,33 @@ def repository_labeling(
     #
     # # Return the category with the highest similarity
     # return max(similarities, key=similarities.get)
+
+
+@beartype
+def get_extensive_description(text: str, num_sentences: Optional[int] = 3):
+    # Split the text into sentences
+    sentences = text.split(". ")
+    if len(sentences) <= num_sentences:
+        raise Exception("text too short")
+
+    # Encode sentences into embeddings
+    sentence_embeddings = model.encode(sentences, convert_to_tensor=True)
+
+    # Compute the embedding of the entire text (mean of sentence embeddings)
+    text_embedding = sentence_embeddings.mean(dim=0)
+
+    # Compute similarity of each sentence to the overall text embedding
+    similarities = util.pytorch_cos_sim(sentence_embeddings, text_embedding).squeeze()
+
+    # Rank sentences by similarity and pick the top ones
+    top_sentence_indices = similarities.argsort(descending=True)[:num_sentences]
+    top_sentences = [sentences[i] for i in top_sentence_indices]
+
+    # Sort sentences by their original order in the text
+    top_sentences.sort(key=lambda s: sentences.index(s))
+
+    # Return the summary as a single string
+    return ". ".join(top_sentences)
 
 
 @beartype

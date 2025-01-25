@@ -24,7 +24,7 @@ jobs:
           python3 -m pip install --upgrade pip
           pip3 install -r requirements.txt
       - name: Run Python script
-        run: python3 backend/recurrent_db_updating.py "data/projects.json"
+        run: python3 backend/recurrent_db_updating.py "data/projects.json" ${{ secrets.GH_TOKEN_PUBLIC_ACCESS }}
       
       - name: Commit and push changes
         run: |
