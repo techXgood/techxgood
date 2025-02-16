@@ -1,35 +1,97 @@
-/* Increase spacing between navbar links */
-.navbar-light .navbar-nav .nav-link {
-    font-size: 1.6rem; /* Increase link size (optional) */
-    margin-right: 3rem; /* Add spacing between links */
-    font-weight: 700;
-    color: #f4f4f4;
-}
-
-.navbar-nav .nav-item:last-child .nav-link {
-    margin-right: 0; /* Remove margin on the last link */
-}
+import url("palette_green.css");
 
 .bg-img {
-    object-fit: cover;
-    height: 95vh;
-    width: 100vw;
-    display: block;
+    object-fit: fill;
+    max-height: 55vh;
+    width: auto;
+    overflow: hidden;
+}
+
+.bg-image {
+    height: 89vh;
+    width: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 0.5; }
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 100%;
+}
+
+.subtitle-text {
+    position: absolute;
+    top: 57%;
+    left: 60%;
+    font-family: cursive;
+    font-style: italic;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .overlay-text {
+        text-align: top;
+        font-size: 1.8rem;
+        padding-bottom: 20vh;
+    }
+
+    .subtitle-text {
+        text-align: top;
+        padding-bottom: 25vh;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .overlay-text {
+        text-align: right;
+        padding-bottom: 40vh;
+        padding-right: 15vw;
+    }
+
+    .subtitle-text {
+        text-align: right;
+        padding-bottom: 45vh;
+        padding-right: 15vw;
+        font-size: 0.7rem;
+    }
 }
 
 .welcome-section {
-    width: 100vw; /* Larghezza al 100% della viewport */
-    max-height: 100vw; /* Altezza al 100% della viewport */
+    max-height: 90vh; /* Altezza al 100% della viewport */
     overflow: hidden; /* Nasconde le parti dell'immagine che escono dal contenitore */
+    display: block;
 }
 
 .join_us-section {
     padding: 2rem;
     font-size: 1.5rem;
-    background-color: #f4f4f4; /*grigio chiaro*/
+    background-color: var(--green);
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 5rem;
+    border-radius: 0.5rem;
 }
 
 .join_us-ul {
@@ -41,13 +103,19 @@
 .about-section {
     padding: 1.5rem;
     text-align: center;
-    background-color: #d1d3c5;
+    background-color: var(--beige);
     font-size: 1.5rem;
-    color: #4c524d;
+    border-radius: 1%;
+    padding-bottom: 5rem;
 }
 
 .about-text{
-    padding-top: 0.3rem;
+    padding-top: 1rem;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%
+    overflow-wrap: break-word;
 }
 
 /* Grid of categories */
@@ -59,7 +127,7 @@
 }
 
 .category-item {
-    background-color: #66BB6A; /* Verde chiaro per le categorie */
+    background-color: var(--green);
     color: white;
     text-align: center;
     border-radius: 6%;
@@ -85,7 +153,7 @@
 }
 
 .category-item:hover {
-    background-color: #81C784; /* Verde più chiaro al passaggio del mouse */
+    background-color: var(--light_green);
 }
 
 .category-item a {
@@ -98,7 +166,7 @@
 
 /* Grid of partners */
 .partners-section {
-    background-color: #d1d3c5;
+    background-color: var(--beige);
     padding: 50px;
     text-align: center;
 }
@@ -111,7 +179,7 @@
 }
 
 .partner-item {
-    background-color: #b0cc96a5; /* Verde chiaro per le categorie */
+    background-color: var(--green); /* Verde chiaro per le categorie */
     color: white;
     text-align: center;
     border-radius: 10px;
@@ -137,7 +205,7 @@
 }
 
 .partner-item a:hover {
-    background-color: #81C784; /* Verde più chiaro al passaggio del mouse */
+    background-color: var(--light_green);
 }
 
 .partner-name {
@@ -150,7 +218,7 @@
     font-size: 150%;
     padding: 20% 40%;
     border-radius: 10%;
-    background-color: #388E3C; /* Green */
+    background-color: var(--green);
     color: white;
     border: none;
     cursor: pointer;
@@ -158,9 +226,12 @@
 
 /* Contact Section */
 .contact-section {
-    background-color: #d1d3c5;
-    padding: 2rem;
+    background-color: var(--green);
+    padding: 1.5rem;
+    padding-top: 3rem;
     text-align: center;
+    height: 30vh;
+    border-radius: 0.6rem;
 }
 
 /*
@@ -181,14 +252,25 @@
 */
 
 .contact-section button {
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Verde chiaro per il pulsante */
-    color: white;
+    padding: 2% 4%;
+    font-size: 1.3rem;
+    background-color: var(--beige);
+    color: black;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
 .contact-section button:hover {
-    background-color: #388E3C; /* Verde più scuro al passaggio del mouse */
+    background-color: var(--anthracite);
+}
+
+.repository_logo {
+    max-width: 1.4rem;
+}
+
+.rouge-script-regular {
+  font-family: "Rouge Script", serif;
+  font-weight: 400;
+  font-style: normal;
 }

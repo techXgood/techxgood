@@ -1,15 +1,24 @@
+@import url("palette_green.css");
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4; /* white background */
+    background-color: var(--beige);
 }
 
 /* Navbar */
 .navbar {
-    background-color: #4CAF50;
-    /*#4CAF50; light green navbar */
+    background-color: var(--dark_green);
+    height: 11vh;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        background-color: var(--dark_green);
+        height: 15vh;
+    }
 }
 
 .navbar-brand {
@@ -17,30 +26,49 @@ body {
     padding: 0rem;
 }
 
+/* Increase spacing between navbar links */
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.6rem; /* Increase link size (optional) */
+    margin-right: 3rem; /* Add spacing between links */
+    font-weight: 700;
+    color: var(--white);
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0; /* Remove margin on the last link */
+    margin-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--yellow);
+}
+
 .tech_good {
-    color: #e84aa0;
-    font-size: 4.2em;
+    color: var(--white); /*#e84aa0*/
+    font-size: 7vh;
     display: inline;
     align-items: center;
-    font-family: "Jersey 20 Charted", serif;
+    font-family: "Lobster", serif; /*"Jersey 20 Charted", serif;*/
     font-weight: 400;
     font-style: normal;
+    line-height: normal;
 }
 
 .x {
-    color: #00ff00;
-    font-size: 5.2em;
+    color: var(--yellow); /*#00ff00;*/
+    font-size: 9vh;
     display: inline;
     align-item: center;
     margin: 0em;
-    font-family: "Jersey 20 Charted", serif;
+    font-family: "Lobster", serif; /*"Jersey 20 Charted", serif;*/
     font-weight: 400;
     font-style: normal;
+    line-height: normal;
 }
 
 /* Footer */
 .footer {
-    background-color: #4CAF50; /* light green (the same of navbar) */
+    background-color: var(--green); /* light green (the same of navbar) */
     color: white;
     text-align: center;
     padding: 10px 0;

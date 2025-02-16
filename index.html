@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20+Charted&family=Lobster&family=Rouge+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20+Charted&family=Rouge+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
@@ -14,11 +16,10 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light py-0 rounded-bottom">
         <a class="navbar-brand" href="#">
             <p class="navbar-logo">
-                <div class="tech_good">tech</div><div class="x">X</div><div class="tech_good">good</div>
-                <!--<small class="text-muted" style="display: block; padding: 0.2rem;">Code for a Better World</small>-->
+                <div class="tech_good py-0 pb-0">tech</div><div class="x py-0 pb-0">X</div><div class="tech_good py-0 pb-0">good</div>
             </p>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,33 +37,21 @@
 
     <!-- Welcome Section -->
     <div id="welcome" class="welcome-section">
-        <!--<h2>Open source projects for a better world.</h2>-->
-        <picture class="bg-img">
-            <source media="(max-width: 1024px)" srcset="imgs/index/bg.png">
-            <img src="imgs/index/big-bg.png" alt="lego forest">
-        </picture>
-    </div>
-
-    <!-- About Section -->
-    <div id="about" class="about-section">
-        <br>
-        <h2><strong>Code for a Better World.</strong></h2>
-        <div class="about-text">
-            This platform showcases <strong>open source</strong> projects that make a significant <strong>positive impact on society and the environment</strong>.
-            <br>
-            Discover innovative solutions, collaborate with like-minded developers, and contribute to projects that matter.
-            <br>
+        <div class="welcome-section">
+            <div class="bg-image">
+                <picture>
+                    <source media="(min-width:1918px)" srcset="imgs/index/bg/bg-1280.png">
+                    <source media="(min-width:550px)" srcset="imgs/index/bg/bg-1280-2.png">
+                    <img src="imgs/index/bg/bg-390.png" alt="Flowers" style="width:auto;">
+                </picture>
+            </div>
+            <div class="overlay-text">Code for a better World</div>
+            <div class="subtitle-text">Contribute to projects that matter</div>
         </div>
     </div>
 
     <!-- Categories Grid -->
-    <div id="categories-grid" class="categories"></div>
-
-    <!-- Partners Grid -->
-    <div id="partners" class="partners-section">
-        <h2>Partners</h2>
-        <div id="partners-grid" class="partners"></div>
-    </div>
+    <div id="categories-grid" class="categories"><!-- JUST A PLACEHOLDER --></div>
 
     <!-- Submit New Project Section --> 
     <div id="submit-project" class="contact-section">
@@ -73,25 +62,56 @@
         </a>
     </div>
 
+    <!-- About section -->
+    <div id="about" class="about-section">
+        <h2>About</h2>
+        <div class="about-text">
+            This platform collects <strong>open source</strong> projects that make a significant <strong>positive impact on society and the environment</strong>.
+            🌳🫂🌳<br>
+            <br>
+            Discover innovative solutions, collaborate with like-minded developers, and contribute to projects that matter.
+            🧑‍💻
+            <br>
+        </div>
+    </div>
+
     <!-- join us section -->
     <div id="join_us" class="join_us-section">
         <h2>Join Us! 🤝</h2>
-        <ul class="join_us-ul">
-            <li>Collaborate with a global network to solve real-world challenges.</li>
-            <li>Contribute to projects addressing social and environmental issues.</li>
-            <li>Discover impactful open-source projects that inspire you.</li>
-        </ul>
-        <br>
-        <p><strong>Students, Make Your Thesis Count! 🎓</strong>
-            <br>
-            Browse projects and choose one that sparks your passion. Contribute to something extraordinary and make a real impact. 💡
+        <p style="font-size: 1.2rem;">
+           Collaborate with a global network to solve real-world challenges.
+            <a href="https://github.com/techXgood/techxgood/discussions">
+                <br>
+                💬 | Forum
+            </a>
         </p>
         <br>
+        <p>Students, Make your thesis matter! 🎓
+            <br>
+            <p style="font-size: 1.2rem;">
+                Browse projects and choose one that sparks your passion.
+                <br>
+                <a href="./explorer.html">
+                🔎 | explorer
+            </a>
+            </p>
+        </p>
         <p>
+            <br>
             <strong>Contribute to this project:</strong>
             <br>
-            <a src="https://github.com/techXgood/techXgood">GitHub Repository 🧑‍💻</a>
+            <p style="font-size: 1.2rem;">
+                <a href="https://github.com/techxgood/techxgood">
+                    <img src="imgs/explorer/github-logo.png" class="repository_logo"> | GitHub
+                </a>
+            </p>
         </p>
+    </div>
+
+    <!-- Partners Grid -->
+    <div id="partners" class="partners-section">
+        <h2>Partners</h2>
+        <div id="partners-grid" class="partners"></div>
     </div>
 
     <!-- Footer -->

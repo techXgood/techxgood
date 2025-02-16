@@ -7,7 +7,7 @@
                 "energy": "energy"
             },
             "preview_img": "imgs/index/category-cards/environment.png",
-            "description": "Efforts aimed at fostering environmental sustainability, protecting natural resources, and combating climate change.",
+            "description": "Sustainability, resource protection, and climate action.",
             "long_description": "Projects and initiatives focused on addressing environmental challenges, promoting sustainability, and preserving natural ecosystems. This includes efforts to combat climate change, develop renewable energy solutions, reduce pollution, conserve biodiversity, and encourage responsible management of natural resources to ensure a sustainable future for all."
         },
         {
@@ -15,7 +15,7 @@
             "name": "tech",
             "subcat": {},
             "preview_img": "imgs/index/category-cards/tech.png",
-            "description": "Innovative projects centered on creating, advancing, or utilizing software, hardware, and digital technologies to solve real-world problems and drive progress.",
+            "description": "Innovative solutions using software, hardware, and digital technology.",
             "long_description": "Innovative projects that harness the power of technology to address real-world problems, drive progress, and improve lives. This includes advancements in software development, hardware engineering, artificial intelligence, machine learning, robotics, and digital platforms that enable new possibilities in various domains."
         },
         {
@@ -23,7 +23,7 @@
             "name": "humanitarian",
             "subcat": {},
             "preview_img": "imgs/index/category-cards/humanitarian.png",
-            "description": "Initiatives dedicated to humanitarian aid, disaster response, and improving social welfare systems.",
+            "description": "Aid, disaster response, and social welfare improvement.",
             "long_description": "Initiatives that aim to alleviate human suffering and improve living conditions, particularly in crisis-stricken areas. This includes humanitarian aid efforts, disaster response and recovery, poverty alleviation, and projects designed to enhance the welfare and dignity of vulnerable communities worldwide."
         },
         {
@@ -31,7 +31,7 @@
             "name": "health",
             "subcat": {},
             "preview_img": "imgs/index/category-cards/health.png",
-            "description": "Endeavors focused on advancing healthcare, medical science, public health, and personal wellness.",
+            "description": "Healthcare, medical advancements, and public wellness.",
             "long_description": "Projects dedicated to advancing healthcare, improving medical knowledge, and promoting public health. This includes innovations in medical technology, research into diseases and treatments, public health campaigns, and initiatives to enhance personal wellness, mental health, and overall quality of life."
         },
         {
@@ -39,7 +39,7 @@
             "name": "open knowledge",
             "subcat": {},
             "preview_img": "imgs/index/category-cards/open-knoledge.png",
-            "description": "Programs designed to advocate for open data, democratize education, and facilitate the sharing of knowledge.",
+            "description": "Open data, education access, and knowledge sharing.",
             "long_description": "Efforts to democratize access to information, promote the sharing of knowledge, and advocate for open data practices. This includes initiatives that focus on expanding educational resources, fostering collaborative research, and creating platforms that encourage the free exchange of ideas and information to empower communities globally."
         },
         {
@@ -47,8 +47,8 @@
             "name": "society",
             "subcat": {},
             "preview_img": "imgs/index/category-cards/society.png",
-            "description": "Projects tackling societal challenges, fostering community growth, and enriching cultural heritage.",
-            "long_description":   "Projects aimed at addressing societal challenges and fostering community growth. This includes initiatives that promote cultural enrichment, support social justice, enhance urban development, and create opportunities for civic engagement to build stronger, more inclusive societies."
+            "description": "Community development, social justice, and cultural enrichment.",
+            "long_description": "Projects aimed at addressing societal challenges and fostering community growth. This includes initiatives that promote cultural enrichment, support social justice, enhance urban development, and create opportunities for civic engagement to build stronger, more inclusive societies."
         }
     ],
     "extracat": [
@@ -57,14 +57,14 @@
             "name": "PoC",
             "subcat": {},
             "preview_img": "https://via.placeholder.com/300x200",
-            "description": "environmental problems"
+            "description": "Environmental problems"
         },
         {
             "id": "new-idea",
             "name": "new idea",
             "subcat": {},
             "preview_img": "https://via.placeholder.com/300x200",
-            "description": "environmental problems"
+            "description": "Environmental problems"
         }
     ]
 }
