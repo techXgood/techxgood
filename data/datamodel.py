@@ -56,6 +56,8 @@ class GithubValidator(BaseModel):
 
     @field_validator('created_at', 'pushed_at', 'updated_at', mode="before")
     def parse_datetime(cls, value):
+        if value is None:
+            return None
         return datetime.fromisoformat(value.replace('Z', '+00:00'))
 
     @model_validator(mode="after")
@@ -129,7 +131,7 @@ class ValidatorModel(BaseModel):
 
 class ProjectDataModel(BaseModel):
     category: str | None = None
-    keywords: list = Field(default=[], alias='topics')
+    keywords: list = Field(default_factory=[], alias='topics')
     title: str = Field(alias="name")
     description: str | None = None
     repo: str = Field(alias='url')
