@@ -12,9 +12,9 @@ from beartype.typing import *
 from pydantic import ValidationError
 
 sys.path.append(os.path.abspath(os.getcwd()))
-from data.datamodel import validate_repo_info
 from backend.utils import extract_info_from_repo, open_projects_db, get_repo_readme, repository_labeling, extract_kw, \
     save_projects_db, get_extensive_description
+from data.datamodel import validate_repo_info
 
 
 def get_timestamp(x):
