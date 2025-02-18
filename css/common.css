@@ -21,6 +21,15 @@ body {
     }
 }
 
+@media (max-width: 900px) {
+    .menu-mobile {
+        background-color: var(--beige);
+        min-width: 100vw;
+        min-height: 100vh;
+        z-index: 1050;
+    }
+}
+
 .navbar-brand {
     border: 0rem;
     padding: 0rem;
