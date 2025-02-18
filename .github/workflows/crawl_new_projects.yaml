@@ -21,8 +21,11 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: |
-          python3 -m pip install --upgrade pip
-          pip3 install -r requirements.txt
+          apt update && apt install -y curl apt clean
+          curl -sSL https://install.python-poetry.org | python3 -
+          /github/home/.local/bin/poetry config virtualenvs.create false
+          /github/home/.local/bin/poetry install --all-extras
+
       - name: Run Python script
         run: python3 backend/crawler/crawler.py ${{ secrets.GH_TOKEN_PUBLIC_ACCESS }}
 
@@ -32,5 +35,4 @@ jobs:
           git config user.email "github-actions-update_db[bot]@users.noreply.github.com"
           git add "data/projects.json"
           git add "backend/crawler/status.json"
-          git commit -m "data: Automatically add new projects to DB"
-          git push
+          git commit -m "data: Automatically add new projects to DB" && git push || echo 'Nothing new'
