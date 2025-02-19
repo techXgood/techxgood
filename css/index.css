@@ -49,35 +49,6 @@ import url("palette_green.css");
     width: 100%;
 }
 
-@media (max-width: 900px) {
-    .overlay-text {
-        text-align: top;
-        font-size: 1.8rem;
-        padding-bottom: 20vh;
-    }
-
-    .subtitle-text {
-        text-align: top;
-        padding-bottom: 25vh;
-        font-size: 0.7rem;
-    }
-}
-
-@media (max-width: 550px) {
-    .overlay-text {
-        text-align: right;
-        padding-bottom: 40vh;
-        padding-right: 15vw;
-    }
-
-    .subtitle-text {
-        text-align: right;
-        padding-bottom: 45vh;
-        padding-right: 15vw;
-        font-size: 0.7rem;
-    }
-}
-
 .welcome-section {
     max-height: 90vh; /* Altezza al 100% della viewport */
     overflow: hidden; /* Nasconde le parti dell'immagine che escono dal contenitore */
@@ -147,11 +118,6 @@ import url("palette_green.css");
     display: none;
 }
 
-/* Media Queries */
-@media (min-width: 1023px) {
-    .category-item:hover .banner-content{display: block;}
-}
-
 .category-item:hover {
     background-color: var(--light_green);
 }
@@ -184,7 +150,7 @@ import url("palette_green.css");
     text-align: center;
     border-radius: 10px;
     overflow: hidden;
-    font-size: 3vw; 
+    font-size: 3vw;
     font-size: 1vh;
 }
 
@@ -273,4 +239,61 @@ import url("palette_green.css");
   font-family: "Rouge Script", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+/* --------------------- */
+/* --- Media Queries --- */
+/* --------------------- */
+
+@media (min-width: 1023px) {
+    .category-item:hover .banner-content{display: block;}
+}
+
+media (max-width: 900px) {
+    .overlay-text {
+        text-align: top;
+        font-size: 1.8rem;
+        padding-bottom: 20vh;
+        left: 53%;
+    }
+
+    .subtitle-text {
+        text-align: top;
+        top: 60%;
+        left:53%;
+        padding-bottom: 25vh;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .overlay-text {
+        text-align: right;
+        padding-bottom: 40vh;
+        padding-right: 15vw;
+    }
+
+    .subtitle-text {
+        text-align: right;
+        padding-bottom: 45vh;
+        padding-right: 15vw;
+        font-size: 0.7rem;
+        top: 67%;
+    }
+}
+
+@media (max-width: 430px) {
+    .overlay-text {
+        text-align: right;
+        padding-bottom: 40vh;
+        padding-right: 15vw;
+    }
+
+    .subtitle-text {
+        text-align: right;
+        padding-bottom: 45vh;
+        padding-right: 15vw;
+        font-size: 0.7rem;
+        top: 70%;
+    }
 }

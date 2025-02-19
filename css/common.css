@@ -14,22 +14,6 @@ body {
     height: 11vh;
 }
 
-@media (max-width: 900px) {
-    .navbar {
-        background-color: var(--dark_green);
-        height: 15vh;
-    }
-}
-
-@media (max-width: 900px) {
-    .menu-mobile {
-        background-color: var(--beige);
-        min-width: 100vw;
-        min-height: 100vh;
-        z-index: 1050;
-    }
-}
-
 .navbar-brand {
     border: 0rem;
     padding: 0rem;
@@ -81,4 +65,22 @@ body {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+/* --------------------- */
+/* --- Media Queries --- */
+/* --------------------- */
+
+@media (max-width: 900px) {
+    .navbar {
+        background-color: var(--dark_green);
+        height: 15vh;
+    }
+
+    .menu-mobile {
+        background-color: var(--beige);
+        min-width: 100vw;
+        min-height: 100vh;
+        z-index: 1050;
+    }
 }
