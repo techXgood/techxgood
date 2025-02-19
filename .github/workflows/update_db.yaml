@@ -21,10 +21,12 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: |
-          apt update && apt install -y curl apt clean
+          sudo apt update
+          sudo apt install -y curl 
+          sudo apt clean
           curl -sSL https://install.python-poetry.org | python3 -
-          /github/home/.local/bin/poetry config virtualenvs.create false
-          /github/home/.local/bin/poetry install --all-extras
+          /home/runner/.local/bin/poetry config virtualenvs.create false
+          /home/runner/.local/bin/poetry install --all-extras
 
       - name: Run Python script
         run: python3 backend/update_db/recurrent_db_updating.py "data/projects.json" ${{ secrets.GH_TOKEN_PUBLIC_ACCESS }}
