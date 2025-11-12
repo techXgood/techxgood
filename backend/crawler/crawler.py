@@ -80,6 +80,9 @@ def main(gh_token: Optional[str] = None):
             iter += 1
         except requests.exceptions.HTTPError as e:
             print(f"HTTPError with code {e.response.status_code}: probably we reached the maximum number of requests")
+            # save repo into db
+            first_kw_item["status"] += 1
+            status = status[1:] + [first_kw_item]
             break
 
     # commit
