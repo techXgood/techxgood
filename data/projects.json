@@ -49408,5 +49408,32 @@
         "repo": "https://github.com/protontypes/open-sustainable-technology/graphs/contributors",
         "category": "environment",
         "image": ""
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "green-web",
+            "sustainability",
+            "web-performance",
+            "manifesto",
+            "eco",
+            "world",
+            "withcabin",
+            "engineering",
+            "discover",
+            "climatescape",
+            "climateaction",
+            "global",
+            "ecograder"
+        ],
+        "title": "thomkrupa/awesome-climate-tech",
+        "description": null,
+        "repo": "https://github.com/thomkrupa/awesome-climate-tech",
+        "forks_count": 5,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 31,
+        "last_update": "2025-11-10 20:07:40"
     }
 ]
