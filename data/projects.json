@@ -49804,5 +49804,34 @@
         "repo": "https://github.com/protontypes/open-sustainable-technology/graphs/contributors",
         "category": "environment",
         "image": ""
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "data-science",
+            "dssg",
+            "machine-learning",
+            "training",
+            "tutorial-exercises",
+            "number",
+            "effectively",
+            "fairness",
+            "heart",
+            "surrounding",
+            "1_getting_and_keeping_data",
+            "line",
+            "remotely",
+            "anti",
+            "able"
+        ],
+        "title": "dssg/hitchhikers-guide",
+        "description": null,
+        "repo": "https://github.com/dssg/hitchhikers-guide",
+        "forks_count": 284,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 1036,
+        "last_update": "2025-11-08 20:57:52"
     }
 ]
