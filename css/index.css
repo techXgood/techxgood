@@ -1,4 +1,4 @@
-import url("palette_green.css");
+@import url("palette_green.css");
 
 .bg-img {
     object-fit: fill;
@@ -85,7 +85,7 @@ import url("palette_green.css");
     color: black;
     font-size: 1.2rem;
     text-align: center;
-    width: 100%
+    width: 100%;
     overflow-wrap: break-word;
 }
 
@@ -150,8 +150,7 @@ import url("palette_green.css");
     text-align: center;
     border-radius: 10px;
     overflow: hidden;
-    font-size: 3vw;
-    font-size: 1vh;
+    font-size: 1rem; /* Dimensione più gestibile */
 }
 
 .partner-item img {
@@ -181,9 +180,9 @@ import url("palette_green.css");
 }
 
 .submit-project-button {
-    font-size: 150%;
-    padding: 20% 40%;
-    border-radius: 10%;
+    font-size: 1.5rem; /* Modificato da % a rem */
+    padding: 1rem 2rem; /* CORRETTO: padding fisso invece di % */
+    border-radius: 10px; /* Modificato da % a px */
     background-color: var(--green);
     color: white;
     border: none;
@@ -196,7 +195,8 @@ import url("palette_green.css");
     padding: 1.5rem;
     padding-top: 3rem;
     text-align: center;
-    height: 30vh;
+    /* height: 30vh; Rimuovo altezza fissa per flessibilità */
+    padding-bottom: 3rem;
     border-radius: 0.6rem;
 }
 
@@ -218,7 +218,7 @@ import url("palette_green.css");
 */
 
 .contact-section button {
-    padding: 2% 4%;
+    padding: 1rem 1.5rem; /* CORRETTO: padding fisso invece di % */
     font-size: 1.3rem;
     background-color: var(--beige);
     color: black;
@@ -249,51 +249,101 @@ import url("palette_green.css");
     .category-item:hover .banner-content{display: block;}
 }
 
-media (max-width: 900px) {
+/* Stili per tablet e dispositivi mobili (fino a 768px) */
+@media (max-width: 768px) {
+
+    /* --- Welcome Section (Hero) --- */
     .overlay-text {
-        text-align: top;
+        font-size: 2.2rem; /* Riduci la dimensione del carattere */
+        top: 45%;
+        left: 50%; /* Centra il testo */
+        width: 90%; /* Evita che il testo esca dai bordi */
+    }
+
+    .subtitle-text {
+        font-size: 1.1rem; /* Riduci la dimensione del carattere */
+        top: 55%;
+        left: 50%; /* Centra il testo */
+        width: 90%; /* Evita che il testo esca dai bordi */
+    }
+
+    .bg-image {
+        height: 70vh; /* Riduci l'altezza su mobile */
+    }
+
+    .welcome-section {
+        max-height: 75vh; /* Riduci l'altezza su mobile */
+    }
+
+    /* --- Grid (Categories & Partners) --- */
+    .categories {
+        grid-template-columns: 1fr; /* Una colonna per mobile */
+        gap: 15px;
+        padding: 3%;
+    }
+
+    .partners {
+        grid-template-columns: repeat(2, 1fr); /* Due colonne per i partner */
+        gap: 15px;
+        padding: 3%;
+    }
+
+    .partners-section {
+        padding: 20px; /* Riduci il padding della sezione */
+    }
+
+    /* --- Immagini nelle Grid --- */
+    .category-item img {
+        height: 50vw; /* Altezza relativa alla larghezza per mantenere la forma */
+        object-fit: cover;
+    }
+
+    .partner-item img {
+        height: 30vw; /* Altezza relativa per i loghi partner */
+        object-fit: cover;
+    }
+
+    /* --- Font Sizes e Padding Sezioni --- */
+    h2 {
+        font-size: 1.8rem; /* Riduci la dimensione degli h2 */
+    }
+
+    .join_us-section,
+    .about-section {
+        font-size: 1.1rem; /* Riduci il font base delle sezioni */
+        padding: 1.5rem;
+    }
+
+    .about-text {
+        font-size: 1rem; /* Riduci il font del testo "about" */
+    }
+}
+
+/* Ulteriori aggiustamenti per schermi molto piccoli (fino a 480px) */
+@media (max-width: 480px) {
+    .overlay-text {
         font-size: 1.8rem;
-        padding-bottom: 20vh;
-        left: 53%;
+        top: 40%;
     }
 
     .subtitle-text {
-        text-align: top;
-        top: 60%;
-        left:53%;
-        padding-bottom: 25vh;
-        font-size: 0.7rem;
-    }
-}
-
-@media (max-width: 550px) {
-    .overlay-text {
-        text-align: right;
-        padding-bottom: 40vh;
-        padding-right: 15vw;
+        font-size: 1rem;
+        top: 52%;
     }
 
-    .subtitle-text {
-        text-align: right;
-        padding-bottom: 45vh;
-        padding-right: 15vw;
-        font-size: 0.7rem;
-        top: 67%;
-    }
-}
-
-@media (max-width: 430px) {
-    .overlay-text {
-        text-align: right;
-        padding-bottom: 40vh;
-        padding-right: 15vw;
+    .partners {
+        grid-template-columns: 1fr; /* Una colonna per i partner su schermi molto piccoli */
     }
 
-    .subtitle-text {
-        text-align: right;
-        padding-bottom: 45vh;
-        padding-right: 15vw;
-        font-size: 0.7rem;
-        top: 70%;
+    .partner-item img {
+        height: 40vw; /* Regola l'altezza per la colonna singola */
+    }
+
+    .contact-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-section button {
+        font-size: 1rem;
     }
 }
