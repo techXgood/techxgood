@@ -49833,5 +49833,29 @@
         "repo": "https://github.com/protontypes/open-sustainable-technology/graphs/contributors",
         "category": "environment",
         "image": ""
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "sustainability",
+            "clean",
+            "published",
+            "csv",
+            "units",
+            "changes",
+            "input",
+            "design",
+            "faligns",
+            "applications"
+        ],
+        "title": "aws-solutions-library-samples/guidance-for-aws-sustainability-insights-framework",
+        "description": null,
+        "repo": "https://github.com/aws-solutions-library-samples/guidance-for-aws-sustainability-insights-framework",
+        "forks_count": 9,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 29,
+        "last_update": "2025-08-28 02:20:46"
     }
 ]
