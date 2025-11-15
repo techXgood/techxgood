@@ -49857,5 +49857,53 @@
         "repo": "https://github.com/protontypes/open-sustainable-technology/graphs/contributors",
         "category": "environment",
         "image": ""
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "names",
+            "final",
+            "jupyter",
+            "diagrams",
+            "application",
+            "whenever",
+            "increasing",
+            "documents",
+            "dashboard",
+            "completed"
+        ],
+        "title": "OmdenaAI/omdena-philippines-renewable",
+        "description": null,
+        "repo": "https://github.com/OmdenaAI/omdena-philippines-renewable",
+        "forks_count": 16,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 56,
+        "last_update": "2025-03-29 19:31:49"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "international",
+            "finally",
+            "combines",
+            "storage",
+            "bulkfiles",
+            "acun",
+            "chakkaravarthy",
+            "kiwan",
+            "conference",
+            "architectural"
+        ],
+        "title": "facebookresearch/CarbonExplorer",
+        "description": null,
+        "repo": "https://github.com/facebookresearch/CarbonExplorer",
+        "forks_count": 13,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 82,
+        "last_update": "2025-08-15 03:44:13"
     }
 ]
