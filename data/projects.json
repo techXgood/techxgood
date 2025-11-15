@@ -50074,5 +50074,34 @@
         "repo": "https://github.com/protontypes/open-sustainable-technology/graphs/contributors",
         "category": "environment",
         "image": ""
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "dapps",
+            "decentralized-finance",
+            "digital-wallet",
+            "erc-2615",
+            "solidity-contracts",
+            "actions",
+            "lease",
+            "website",
+            "dwelling",
+            "demo",
+            "global",
+            "application",
+            "identify",
+            "existing",
+            "decentralized"
+        ],
+        "title": "maitree7/BlocHome_DeFi",
+        "description": null,
+        "repo": "https://github.com/maitree7/BlocHome_DeFi",
+        "forks_count": 15,
+        "language": "HTML",
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2025-09-24 13:39:22"
     }
 ]
