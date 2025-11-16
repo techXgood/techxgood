@@ -50184,5 +50184,35 @@
         "repo": "https://github.com/protontypes/open-sustainable-technology/graphs/contributors",
         "category": "environment",
         "image": ""
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "awesome-list",
+            "datasets",
+            "natural-language-processing",
+            "nlp",
+            "ukrainian",
+            "ukrainian-nlp",
+            "parameters",
+            "grammatical",
+            "latest",
+            "disambiguation",
+            "coreference",
+            "speech",
+            "based",
+            "dataset",
+            "modernbert",
+            "youscan"
+        ],
+        "title": "osyvokon/awesome-ukrainian-nlp",
+        "description": null,
+        "repo": "https://github.com/osyvokon/awesome-ukrainian-nlp",
+        "forks_count": 22,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 218,
+        "last_update": "2025-11-12 20:11:29"
     }
 ]
