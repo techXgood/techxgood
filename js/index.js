@@ -69,6 +69,6 @@ function toggleMenu() {
 
 
 /* Call functions at the end of loading */
-loadPartners();
+//loadPartners();
 loadCategories();
-toggleMenu();
+//toggleMenu();
