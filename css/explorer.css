@@ -162,3 +162,97 @@ import url("palette_green.css");
     margin-right: 30px;
     }
 }
+
+/* --- LIST VIEW MODE --- */
+/* Quando il contenitore ha la classe .list-mode, forza 1 colonna */
+.grid.list-mode {
+    grid-template-columns: 1fr; /* Una sola card per riga */
+    padding: 20px 50px; /* Riduci un po' il gap verticale */
+    max-width: 1200px; /* Evita che le righe diventino troppo lunghe su schermi enormi */
+    margin: 0 auto;
+}
+
+/* Stile della Card in modalità Lista */
+.grid.list-mode .card {
+    display: flex;
+    flex-direction: row; /* Dispone il contenuto in orizzontale */
+    align-items: center;
+    justify-content: space-between;
+    text-align: left; /* Allinea il testo a sinistra stile Google */
+    padding: 20px 30px;
+    height: auto;
+    min-height: auto;
+}
+
+/* Contenitore principale interno alla card */
+.grid.list-mode .card > div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Sezione Sinistra: Titolo e Descrizione */
+.grid.list-mode .card-overview {
+    flex: 3; /* Prende più spazio (3 parti su 5) */
+    padding-right: 20px;
+    border-right: 1px solid rgba(255,255,255,0.2); /* Separatore verticale opzionale */
+    margin-right: 20px;
+}
+
+/* Reset delle immagini titolo per la lista */
+.grid.list-mode .card-project-title-img {
+    padding: 0;
+    margin: 0 0 10px 0;
+    background: transparent;
+    min-width: auto;
+    text-align: left;
+    width: auto;
+    display: block;
+}
+
+.grid.list-mode .card-description {
+    margin-bottom: 0;
+}
+
+/* Nascondi le righe orizzontali HR in modalità lista */
+.grid.list-mode hr {
+    display: none;
+}
+
+/* Sezione Destra: Link, Categorie, Stats raggruppati */
+.grid.list-mode .card-links,
+.grid.list-mode .card_category,
+.grid.list-mode .card_stats {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Allinea a sinistra nel blocco destro */
+    justify-content: center;
+    margin: 0 10px;
+}
+
+/* Aggiustamenti specifici per i link e loghi */
+.grid.list-mode .card_github_logo,
+.grid.list-mode .card_gitlab_logo {
+    margin-bottom: 5px;
+}
+
+/* MEDIA QUERY PER LIST MODE SU MOBILE */
+/* Su mobile, la lista deve tornare a comportarsi come una pila verticale per mancanza di spazio */
+@media (max-width: 768px) {
+    .grid.list-mode .card > div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .grid.list-mode .card-overview {
+        border-right: none;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        padding-right: 0;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}

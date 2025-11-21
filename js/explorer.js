@@ -151,3 +151,48 @@ window.onload = async () => {
     const category = urlParams.get("cat");
     await loadCards(category);
 };
+
+
+// Funzioni per cambiare vista
+
+function setGridView() {
+    const grid = document.getElementById('cardGrid');
+    const btnGrid = document.getElementById('btnGridView');
+    const btnList = document.getElementById('btnListView');
+
+    // Rimuovi classe list-mode
+    grid.classList.remove('list-mode');
+
+    // Aggiorna stato pulsanti (stile Bootstrap)
+    btnGrid.classList.add('active');
+    btnList.classList.remove('active');
+
+    // Opzionale: Salva preferenza utente nel localStorage
+    localStorage.setItem('viewMode', 'grid');
+}
+
+function setListView() {
+    const grid = document.getElementById('cardGrid');
+    const btnGrid = document.getElementById('btnGridView');
+    const btnList = document.getElementById('btnListView');
+
+    // Aggiungi classe list-mode
+    grid.classList.add('list-mode');
+
+    // Aggiorna stato pulsanti
+    btnList.classList.add('active');
+    btnGrid.classList.remove('active');
+
+    // Opzionale: Salva preferenza
+    localStorage.setItem('viewMode', 'list');
+}
+
+// Opzionale: Carica la preferenza all'avvio della pagina
+document.addEventListener('DOMContentLoaded', () => {
+    const savedMode = localStorage.getItem('viewMode');
+    if (savedMode === 'list') {
+        setListView();
+    } else {
+        setGridView(); // Default
+    }
+});

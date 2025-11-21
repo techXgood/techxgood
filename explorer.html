@@ -24,21 +24,23 @@
             <div class="navbar-nav ml-auto">
                 <form class="form-inline">
                     <div class="form-group mb-2 mx-sm-3">
-                        <!--<label for="exampleFormControlInput1">keywords</label>-->
                         <input id="searchInput" type="text" class="form-control" placeholder="keywords">
                     </div>
                     <div class="form-group mb-2 mx-sm-3">
-                        <!--<label for="exampleFormControlSelect1">category</label>-->
-                        <select class="form-control" id="filter_cat">
-                        </select>
+                        <select class="form-control" id="filter_cat"></select>
                     </div>
                     <div class="form-group mb-2 mx-sm-3">
-                        <!--<label for="exampleFormControlSelect1">category</label>-->
-                        <select class="form-control" id="orderBy">
-                        </select>
+                        <select class="form-control" id="orderBy"></select>
                     </div>
                     <div class="form-group mb-2 mx-sm-3">
                         <button id="submitButton" class="btn" type="button" onclick="loadCards()">search</button>
+                    </div>
+
+                    <div class="btn-group mb-2 ml-3" role="group" aria-label="View Mode">
+                        <button type="button" class="btn btn-secondary active" id="btnGridView" onclick="setGridView()">
+                            Grid </button>
+                        <button type="button" class="btn btn-secondary" id="btnListView" onclick="setListView()">
+                            List </button>
                     </div>
                 </form>
             </div>
@@ -52,7 +54,10 @@
 
     <!-- footer -->
     <div id="footer" class="footer"></div>
-    <script>include('footer.html', 'div.footer');</script>
+    <p>
+        Tech X Good © <span id="year"></span>
+        <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+    </p>
 
     <script src="js/explorer.js"></script>
 

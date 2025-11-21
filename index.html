@@ -111,7 +111,10 @@
 
     <!-- footer -->
     <div id="footer" class="footer"></div>
-    <script>include('footer.html', 'div.footer');</script>
+    <p>
+        Tech X Good © <span id="year"></span>
+        <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+    </p>
 
     <script src="js/index.js"></script>
 
