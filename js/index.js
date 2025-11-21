@@ -70,54 +70,70 @@ function toggleMenu() {
 
 async function loadStats() {
     try {
-        // Assicurati che il percorso sia corretto (es. data/projects.json)
+        // --- 1. Caricamento dati Progetti (JSON locale) ---
         const response = await fetch('data/projects.json');
         const projects = await response.json();
 
-        // 1. Calcolo Totale Progetti
+        // Calcolo Totale Progetti
         const totalProjects = projects.length;
         animateValue("totalProjects", 0, totalProjects, 1500);
 
-        // 2. Calcolo Totale Stelle
+        // Calcolo Totale Stelle
         const totalStars = projects.reduce((acc, curr) => acc + (curr.stars || 0), 0);
         animateValue("totalStars", 0, totalStars, 1500);
 
-        // 3. Logica per Linguaggi (Top 10)
-        const langCounts = {};
-        projects.forEach(p => {
-            if (p.language) {
-                langCounts[p.language] = (langCounts[p.language] || 0) + 1;
+        // Generazione Grafici (Linguaggi e Keywords)
+        generateCharts(projects);
+
+        // --- 2. Caricamento Data Ultimo Commit (API GitHub) ---
+        const githubResponse = await fetch('https://api.github.com/repos/techXgood/techxgood/commits?path=data/projects.json&page=1&per_page=1');
+
+        if (githubResponse.ok) {
+            const commits = await githubResponse.json();
+            if (commits.length > 0) {
+                // Prendi la data dell'ultimo commit
+                const dateString = commits[0].commit.committer.date;
+                const dateObj = new Date(dateString);
+
+                // Formatta la data
+                const options = { minute: 'numeric', hour: 'numeric', day: 'numeric', month: 'short', year: 'numeric' };
+                const formattedDate = dateObj.toLocaleDateString('en-GB', options);
+
+                document.getElementById("lastUpdate").innerText = formattedDate;
             }
-        });
-
-        const sortedLangs = Object.entries(langCounts)
-            .sort((a, b) => b[1] - a[1])
-            .slice(0, 10);
-
-        renderPieChart(sortedLangs);
-
-        // 4. Logica per Keywords (Top 20)
-        const keywordCounts = {};
-        projects.forEach(p => {
-            if (p.keywords && Array.isArray(p.keywords)) {
-                p.keywords.forEach(k => {
-                    // Normalizza keyword (lowercase)
-                    const key = k.toLowerCase();
-                    keywordCounts[key] = (keywordCounts[key] || 0) + 1;
-                });
-            }
-        });
-
-        const sortedKeywords = Object.entries(keywordCounts)
-            .sort((a, b) => b[1] - a[1])
-            .slice(0, 20);
-
-        renderWordCloud(sortedKeywords);
+        } else {
+            console.warn("Cannot retrieve data from GitHub");
+        }
 
     } catch (error) {
         console.error('Cannot load stats:', error);
     }
 }
+
+// Funzione di supporto per generare i grafici (spostata qui per pulizia)
+function generateCharts(projects) {
+    // Logica Linguaggi
+    const langCounts = {};
+    projects.forEach(p => {
+        if (p.language) langCounts[p.language] = (langCounts[p.language] || 0) + 1;
+    });
+    const sortedLangs = Object.entries(langCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+    renderPieChart(sortedLangs);
+
+    // Logica Keywords
+    const keywordCounts = {};
+    projects.forEach(p => {
+        if (p.keywords && Array.isArray(p.keywords)) {
+            p.keywords.forEach(k => {
+                const key = k.toLowerCase();
+                keywordCounts[key] = (keywordCounts[key] || 0) + 1;
+            });
+        }
+    });
+    const sortedKeywords = Object.entries(keywordCounts).sort((a, b) => b[1] - a[1]).slice(0, 20);
+    renderWordCloud(sortedKeywords);
+}
+
 
 // Funzione per animare i numeri
 function animateValue(id, start, end, duration) {
