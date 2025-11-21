@@ -24,7 +24,7 @@ async function loadCategories() {
             cardGrid.appendChild(card);
             });
     } catch (error) {
-        console.error('Errore durante il caricamento dei dati:', error);
+        console.error('Cannot load categories:', error);
     }
 }
 
@@ -54,7 +54,7 @@ async function loadPartners() {
                 });
         }
     } catch (error) {
-        console.error('Errore durante il caricamento dei dati:', error);
+        console.error('Cannot load stats', error);
         var partners_section = document.getElementById('partners');
         partners_section.style.display = "none";
     }
@@ -68,7 +68,135 @@ function toggleMenu() {
 }
 
 
+async function loadStats() {
+    try {
+        // Assicurati che il percorso sia corretto (es. data/projects.json)
+        const response = await fetch('data/projects.json');
+        const projects = await response.json();
+
+        // 1. Calcolo Totale Progetti
+        const totalProjects = projects.length;
+        animateValue("totalProjects", 0, totalProjects, 1500);
+
+        // 2. Calcolo Totale Stelle
+        const totalStars = projects.reduce((acc, curr) => acc + (curr.stars || 0), 0);
+        animateValue("totalStars", 0, totalStars, 1500);
+
+        // 3. Logica per Linguaggi (Top 10)
+        const langCounts = {};
+        projects.forEach(p => {
+            if (p.language) {
+                langCounts[p.language] = (langCounts[p.language] || 0) + 1;
+            }
+        });
+
+        const sortedLangs = Object.entries(langCounts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10);
+
+        renderPieChart(sortedLangs);
+
+        // 4. Logica per Keywords (Top 20)
+        const keywordCounts = {};
+        projects.forEach(p => {
+            if (p.keywords && Array.isArray(p.keywords)) {
+                p.keywords.forEach(k => {
+                    // Normalizza keyword (lowercase)
+                    const key = k.toLowerCase();
+                    keywordCounts[key] = (keywordCounts[key] || 0) + 1;
+                });
+            }
+        });
+
+        const sortedKeywords = Object.entries(keywordCounts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 20);
+
+        renderWordCloud(sortedKeywords);
+
+    } catch (error) {
+        console.error('Cannot load stats:', error);
+    }
+}
+
+// Funzione per animare i numeri
+function animateValue(id, start, end, duration) {
+    const obj = document.getElementById(id);
+    if(!obj) return;
+    let startTimestamp = null;
+    const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        obj.innerHTML = Math.floor(progress * (end - start) + start).toLocaleString();
+        if (progress < 1) {
+            window.requestAnimationFrame(step);
+        }
+    };
+    window.requestAnimationFrame(step);
+}
+
+function renderPieChart(dataArray) {
+    const ctx = document.getElementById('languagesChart');
+    if(!ctx) return;
+
+    new Chart(ctx, {
+        type: 'doughnut', // o 'pie'
+        data: {
+            labels: dataArray.map(i => i[0]),
+            datasets: [{
+                data: dataArray.map(i => i[1]),
+                backgroundColor: [
+                    '#2a9d8f', '#e9c46a', '#f4a261', '#e76f51', '#264653',
+                    '#8ab17d', '#b5e48c', '#52b788', '#40916c', '#1b4332'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'bottom' }
+            }
+        }
+    });
+}
+
+function renderWordCloud(dataArray) {
+    const canvas = document.getElementById('keywordsCloud');
+    if(!canvas) return;
+
+    // Il canvas deve avere dimensioni fisiche impostate
+    canvas.width = canvas.parentElement.offsetWidth;
+    canvas.height = canvas.parentElement.offsetHeight;
+
+    // Fattore di scala per rendere le parole visibili
+    // Trova il conteggio massimo per normalizzare
+    const maxCount = dataArray[0][1];
+
+    // Formatta per wordcloud2: [[word, size], ...]
+    const list = dataArray.map(([word, count]) => {
+        // Scala la dimensione: min 12px, max 60px
+        const size = 15 + ((count / maxCount) * 50);
+        return [word, size];
+    });
+
+    WordCloud(canvas, {
+        list: list,
+        gridSize: 8,
+        weightFactor: 1,
+        fontFamily: 'Arial, sans-serif',
+        color: 'random-dark',
+        rotateRatio: 0.5,
+        rotationSteps: 2,
+        backgroundColor: '#ffffff',
+        drawOutOfBound: false
+    });
+}
+
+
 /* Call functions at the end of loading */
 //loadPartners();
 loadCategories();
 //toggleMenu();
+loadStats();

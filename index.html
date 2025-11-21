@@ -24,6 +24,7 @@
             <div class="navbar-nav ali ml-auto">
                 <a class="nav-item nav-link" href="#about">About</a>
                 <a class="nav-item nav-link" href="./explorer.html">Explore</a>
+                <a class="nav-item nav-link" href="#stats">Stats</a>
                 <a class="nav-item nav-link" href="#submit-project">Submit Project</a>
                 <a class="nav-item nav-link" href="#join_us">Join us</a>
             </div>
@@ -47,6 +48,37 @@
     <div id="categories-grid" class="categories">
         <!-- Categories will be inserted here dynamically -->
     </div>
+
+    <!-- stats -->
+    <div id="stats" class="stats-section">
+    <h2>Project Statistics 📊</h2>
+
+    <div class="stats-counters">
+        <div class="stat-card">
+            <h3 id="totalProjects">0</h3>
+            <p>Total Projects</p>
+        </div>
+        <div class="stat-card">
+            <h3 id="totalStars">0</h3>
+            <p>Total Stars</p>
+        </div>
+    </div>
+
+    <div class="stats-charts-container">
+        <div class="chart-box">
+            <h4>Top 10 Languages</h4>
+            <div class="canvas-container">
+                <canvas id="languagesChart"></canvas>
+            </div>
+        </div>
+        <div class="chart-box">
+            <h4>Top 20 Keywords</h4>
+            <div class="canvas-container">
+                <canvas id="keywordsCloud"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- Submit New Project Section --> 
     <div id="submit-project" class="contact-section">
@@ -117,6 +149,8 @@
         </p>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.2/wordcloud2.min.js"></script>
     <script src="js/index.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
