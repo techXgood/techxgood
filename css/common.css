@@ -21,8 +21,8 @@ body {
 
 /* Increase spacing between navbar links */
 .navbar-light .navbar-nav .nav-link {
-    font-size: 1.6rem; /* Increase link size (optional) */
-    margin-right: 3rem; /* Add spacing between links */
+    font-size: 1rem; /* Increase link size (optional) */
+    margin-right: 1rem; /* Add spacing between links */
     font-weight: 700;
     color: var(--white);
 }
@@ -80,6 +80,50 @@ body {
     .menu-mobile {
         background-color: var(--beige);
         min-width: 100vw;
+        min-height: 100vh;
+        z-index: 1050;
+    }
+}
+
+/* ... (tutto il codice precedente in common.css) ... */
+
+
+/* --------------------- */
+/* --- Media Queries --- */
+/* --------------------- */
+
+/* 1. FIX VISIVO: NAVBAR FULL WIDTH */
+/* Applicato a Mobile e Tablet (incluso iPad Pro a 1024px) */
+/* Rimuove i bordi arrotondati e forza la larghezza massima */
+@media (max-width: 1024px) {
+    .navbar {
+        width: 100% !important;
+        max-width: 100% !important;
+        border-radius: 0 !important; /* Rimuove l'effetto rounded-bottom */
+        margin: 0 !important;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* 2. FIX MENU MOBILE: STILE DEL MENU A TENDINA */
+/* Applicato solo quando scatta il menu "hamburger" di Bootstrap (sotto 992px) */
+@media (max-width: 991px) {
+    .navbar {
+        background-color: var(--dark_green);
+        min-height: 12vh; /* Altezza specifica per mobile */
+    }
+
+    .menu-mobile {
+        background-color: var(--beige);
+
+        /* Fix per evitare scroll orizzontali e coprire tutto lo schermo */
+        width: 100%;
+        min-width: 100%;
+        left: 0;
+        margin: 0;
+        box-sizing: border-box;
+
         min-height: 100vh;
         z-index: 1050;
     }

@@ -435,3 +435,41 @@
         height: 300px;
     }
 }
+
+/* ------------------------------------------------------- */
+/* --- FIX IMMAGINE HERO SU TABLET/IPAD PRO/MOBILE --- */
+/* ------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+
+    /* 1. Adatta il contenitore dell'immagine */
+    .bg-image {
+        width: 100%;          /* Forza larghezza piena */
+        max-width: 100%;      /* Evita sforamenti */
+        height: 80vh;         /* Altezza leggermente ridotta rispetto al desktop (89vh) per bilanciare */
+        border-radius: 0;     /* Rimuove i bordi arrotondati per attaccarsi alla navbar */
+        margin: 0;            /* Rimuove eventuali margini esterni */
+    }
+
+    /* 2. Adatta il tag <img> specifico */
+    /* Usiamo un selettore specifico per sovrascrivere lo style inline dell'HTML */
+    .bg-image img {
+        width: 100% !important; /* !important vince su style="width:auto" nel tuo HTML */
+        height: 100%;
+        object-fit: cover;      /* FONDAMENTALE: riempie tutto il riquadro tagliando l'eccesso, niente bande bianche */
+        border-radius: 0;       /* Rimuove arrotondamento dall'immagine stessa */
+    }
+
+    /* 3. Aggiustamento opzionale del testo sopra l'immagine per iPad Pro */
+    .overlay-text {
+        width: 90%;           /* Più spazio laterale per il testo */
+        left: 50%;            /* Centratura perfetta */
+        top: 50%;
+    }
+
+    .subtitle-text {
+        width: 90%;
+        left: 50%;
+        top: 60%;             /* Leggermente più in basso */
+    }
+}
