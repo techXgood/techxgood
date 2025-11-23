@@ -52142,5 +52142,41 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "3d-modelling",
+            "3d-object-detection",
+            "3d-object-tracking",
+            "autonomous-vehicles",
+            "autoware",
+            "awsim",
+            "data-association",
+            "digital-twins",
+            "perception",
+            "pointcloud-processing",
+            "ros2-humble",
+            "unity3d",
+            "detection",
+            "9e35",
+            "objects",
+            "methodology",
+            "creation",
+            "setting",
+            "resource",
+            "environments",
+            "2549ab65",
+            "digital_twin"
+        ],
+        "title": "rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM",
+        "description": null,
+        "repo": "https://github.com/rzninvo/Digital-Twin-of-a-Traffic-Scene-Using-RSU-and-AWSIM",
+        "forks_count": 3,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 30,
+        "last_update": "2025-09-03 13:46:15"
     }
 ]
