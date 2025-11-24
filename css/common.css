@@ -103,6 +103,8 @@ body {
         margin: 0 !important;
         padding-left: 1rem;
         padding-right: 1rem;
+        border-bottom: 1rem;
+        /*margin-right: 1rem;*/
     }
 }
 
@@ -123,8 +125,8 @@ body {
         left: 0;
         margin: 0;
         box-sizing: border-box;
-
         min-height: 100vh;
         z-index: 1050;
+        margin-top: 1rem;
     }
 }
