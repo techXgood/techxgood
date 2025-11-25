@@ -53015,5 +53015,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "special",
+            "model",
+            "docker",
+            "using",
+            "overview",
+            "exisiting",
+            "curl",
+            "client",
+            "suppress",
+            "comments"
+        ],
+        "title": "FightPandemics/FightPandemics",
+        "description": null,
+        "repo": "https://github.com/FightPandemics/FightPandemics",
+        "forks_count": 137,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 108,
+        "last_update": "2025-07-25 22:07:50"
     }
 ]
