@@ -53423,5 +53423,81 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "report",
+            "github",
+            "/).",
+            "lychee",
+            "start",
+            "require",
+            "installation",
+            "gem",
+            "weekly",
+            "server"
+        ],
+        "title": "GSA/resources.data.gov",
+        "description": null,
+        "repo": "https://github.com/GSA/resources.data.gov",
+        "forks_count": 120,
+        "language": "HTML",
+        "website": null,
+        "image": null,
+        "stars": 75,
+        "last_update": "2025-11-19 19:46:01"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "agents",
+            "ai",
+            "software-engineering",
+            "prioritizes",
+            "commits",
+            "anthropic",
+            "specialized",
+            "level",
+            "request",
+            "specified",
+            "start",
+            "bottom",
+            "require"
+        ],
+        "title": "ai-christianson/RA.Aid",
+        "description": null,
+        "repo": "https://github.com/ai-christianson/RA.Aid",
+        "forks_count": 215,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 2190,
+        "last_update": "2025-11-24 04:22:44"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "documentation",
+            "github",
+            "range",
+            "level",
+            "/).",
+            "gaming",
+            "docs",
+            "programming",
+            "different",
+            "windows",
+            "rocm"
+        ],
+        "title": "ROCm/ROCm",
+        "description": null,
+        "repo": "https://github.com/ROCm/ROCm",
+        "forks_count": 495,
+        "language": "Shell",
+        "website": null,
+        "image": null,
+        "stars": 5917,
+        "last_update": "2025-11-26 00:37:07"
     }
 ]
