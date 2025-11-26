@@ -53499,5 +53499,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "interactive",
+            "process",
+            "functions",
+            "require",
+            "creates",
+            "listening",
+            "shift",
+            "plays",
+            "component",
+            "use"
+        ],
+        "title": "Significant-Gravitas/AutoGPT-Code-Ability",
+        "description": null,
+        "repo": "https://github.com/Significant-Gravitas/AutoGPT-Code-Ability",
+        "forks_count": 49,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 155,
+        "last_update": "2025-11-15 22:34:38"
     }
 ]
