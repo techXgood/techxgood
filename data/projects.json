@@ -53844,5 +53844,57 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "design-system",
+            "hacktoberfest",
+            "react",
+            "web-components",
+            "texthighlighter",
+            "getting",
+            "opting",
+            "enabling",
+            "documentation",
+            "also",
+            "web",
+            "carbondesignsystem",
+            "57545698",
+            "storybooks"
+        ],
+        "title": "carbon-design-system/carbon-labs",
+        "description": null,
+        "repo": "https://github.com/carbon-design-system/carbon-labs",
+        "forks_count": 48,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 37,
+        "last_update": "2025-11-26 12:20:30"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            ".``",
+            "review",
+            "formats",
+            "models",
+            "respository",
+            "leading",
+            "binary",
+            "expertise",
+            "everywhere",
+            "senior"
+        ],
+        "title": "open-organization/organize-for-innovation",
+        "description": null,
+        "repo": "https://github.com/open-organization/organize-for-innovation",
+        "forks_count": 11,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2025-01-14 22:43:53"
     }
 ]
