@@ -54244,5 +54244,60 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "computer-science",
+            "curriculum",
+            "engineering",
+            "covers",
+            "bit",
+            "progressive",
+            "basic",
+            "new",
+            "mongodb",
+            "computational",
+            "specialized",
+            "boolean"
+        ],
+        "title": "bitprj/curriculum",
+        "description": null,
+        "repo": "https://github.com/bitprj/curriculum",
+        "forks_count": 19,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 57,
+        "last_update": "2025-07-06 02:33:11"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "dweb",
+            "filecoin",
+            "ipfs",
+            "nft",
+            "web3",
+            "detailed",
+            "new",
+            "svg",
+            "vuejs",
+            "application",
+            "7772970677d3",
+            "welcome",
+            "space",
+            "creativecommons",
+            "code"
+        ],
+        "title": "protocol/nft-website",
+        "description": null,
+        "repo": "https://github.com/protocol/nft-website",
+        "forks_count": 96,
+        "language": "Shell",
+        "website": null,
+        "image": null,
+        "stars": 358,
+        "last_update": "2025-09-23 08:26:52"
     }
 ]
