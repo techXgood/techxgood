@@ -54299,5 +54299,37 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "change",
+            "climate",
+            "dadlihack",
+            "hackathon",
+            "inception-v3",
+            "raspberry-pi",
+            "reactjs",
+            "tensorflow",
+            "saved",
+            "collection",
+            "4924614",
+            "machine",
+            "2012",
+            "datasets",
+            "https",
+            "claim",
+            "none",
+            "download"
+        ],
+        "title": "antiplasti/Plastic-Detection-Model",
+        "description": null,
+        "repo": "https://github.com/antiplasti/Plastic-Detection-Model",
+        "forks_count": 53,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 92,
+        "last_update": "2025-11-26 18:47:35"
     }
 ]
