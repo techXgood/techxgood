@@ -54331,5 +54331,60 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "github-profile",
+            "profile-readme",
+            "readme-generator-template",
+            "readme-md",
+            "readme-profil",
+            "readme-profile",
+            "readme-template",
+            "vercel",
+            "going",
+            "blow",
+            "contribute",
+            "amazing",
+            "tools",
+            "developers",
+            "mayer",
+            "badge",
+            "2021pulls"
+        ],
+        "title": "somekindofwallflower/somekindofwallflower",
+        "description": null,
+        "repo": "https://github.com/somekindofwallflower/somekindofwallflower",
+        "forks_count": 24,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 61,
+        "last_update": "2025-11-29 18:07:55"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "prompt",
+            "curating",
+            "vercel",
+            "backend",
+            "framework",
+            "orchestrator",
+            "related",
+            "national",
+            "used",
+            "peer"
+        ],
+        "title": "behtar-foundation/Sukoon",
+        "description": null,
+        "repo": "https://github.com/behtar-foundation/Sukoon",
+        "forks_count": 16,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 27,
+        "last_update": "2025-10-30 17:52:31"
     }
 ]
