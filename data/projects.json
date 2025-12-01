@@ -54745,5 +54745,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "evolving",
+            "innovationengine_gecco15",
+            "award",
+            "2015",
+            ":**",
+            "year",
+            "project",
+            "engines",
+            "github",
+            "cite"
+        ],
+        "title": "Evolving-AI-Lab/innovation-engine",
+        "description": null,
+        "repo": "https://github.com/Evolving-AI-Lab/innovation-engine",
+        "forks_count": 8,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 31,
+        "last_update": "2025-02-19 03:23:55"
     }
 ]
