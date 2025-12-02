@@ -54769,5 +54769,81 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "progress",
+            "twitter",
+            "](/",
+            "types",
+            "content",
+            "always",
+            "lib",
+            "ftp",
+            "lazy",
+            "bytes"
+        ],
+        "title": "danicat/datasus",
+        "description": null,
+        "repo": "https://github.com/danicat/datasus",
+        "forks_count": 28,
+        "language": "R",
+        "website": null,
+        "image": null,
+        "stars": 114,
+        "last_update": "2025-11-23 21:08:50"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "decision",
+            "med",
+            "-----------------------",
+            "nlp",
+            "scientific",
+            "--------------",
+            "pathai",
+            "early",
+            "chexbert",
+            "models"
+        ],
+        "title": "ExpertOpsAI/ModelLibrary",
+        "description": null,
+        "repo": "https://github.com/ExpertOpsAI/ModelLibrary",
+        "forks_count": 14,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 44,
+        "last_update": "2025-11-23 19:22:41"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "civic-tech",
+            "fhir",
+            "hl7",
+            "public-health",
+            "website",
+            "generate",
+            "cc0",
+            "action",
+            "request",
+            "types",
+            "waived",
+            "perpetual",
+            "expectation",
+            "documents"
+        ],
+        "title": "CDCgov/prime-reportstream",
+        "description": null,
+        "repo": "https://github.com/CDCgov/prime-reportstream",
+        "forks_count": 44,
+        "language": "Kotlin",
+        "website": null,
+        "image": null,
+        "stars": 81,
+        "last_update": "2025-12-01 23:01:35"
     }
 ]
