@@ -54896,5 +54896,77 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "opencapi3",
+            "ddr3",
+            "chip",
+            "integration",
+            "support",
+            "purpose",
+            "ee272a",
+            "pysysc",
+            "resources",
+            "one"
+        ],
+        "title": "aolofsson/awesome-opensource-hardware",
+        "description": null,
+        "repo": "https://github.com/aolofsson/awesome-opensource-hardware",
+        "forks_count": 205,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 2199,
+        "last_update": "2025-12-02 01:00:59"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "copyright",
+            "composability",
+            "import",
+            "componentdidmount",
+            "using",
+            "master",
+            "{...",
+            "ensure",
+            "let",
+            "led"
+        ],
+        "title": "iamdustan/react-hardware",
+        "description": null,
+        "repo": "https://github.com/iamdustan/react-hardware",
+        "forks_count": 32,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 805,
+        "last_update": "2025-11-26 12:59:08"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "cost",
+            "added",
+            "pick",
+            "color",
+            "may",
+            "border",
+            "covers",
+            "designer",
+            "army",
+            "received"
+        ],
+        "title": "PacktPublishing/Artificial-Intelligence-for-Robotics",
+        "description": null,
+        "repo": "https://github.com/PacktPublishing/Artificial-Intelligence-for-Robotics",
+        "forks_count": 38,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 62,
+        "last_update": "2025-10-30 05:08:33"
     }
 ]
