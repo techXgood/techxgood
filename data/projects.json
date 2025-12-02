@@ -54845,5 +54845,56 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "practices",
+            "repository",
+            "actions",
+            "}**",
+            "example",
+            "steps",
+            "improvements",
+            "===",
+            "stacks",
+            "contributing"
+        ],
+        "title": "aws-actions/sustainability-scanner",
+        "description": null,
+        "repo": "https://github.com/aws-actions/sustainability-scanner",
+        "forks_count": 4,
+        "language": "Shell",
+        "website": null,
+        "image": null,
+        "stars": 26,
+        "last_update": "2025-11-08 07:33:48"
+    },
+    {
+        "category": "society",
+        "keywords": [
+            "parametric-design",
+            "sustainability",
+            "urban-design",
+            "parameters",
+            "introduction",
+            "9_extractcentroidline",
+            "implied",
+            "sustainable",
+            "networkstructure_roaddensity",
+            "methods",
+            "groups",
+            "lead",
+            "suggestions"
+        ],
+        "title": "CAUPDxUrbanXLab/UrbanXTools",
+        "description": null,
+        "repo": "https://github.com/CAUPDxUrbanXLab/UrbanXTools",
+        "forks_count": 21,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 99,
+        "last_update": "2025-12-02 05:06:57"
     }
 ]
