@@ -55155,5 +55155,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "one",
+            "simondlr",
+            "participant",
+            "creativecommons",
+            "context",
+            "international",
+            "book",
+            "much",
+            "found",
+            "new"
+        ],
+        "title": "simondlr/computingcommons",
+        "description": null,
+        "repo": "https://github.com/simondlr/computingcommons",
+        "forks_count": 17,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 199,
+        "last_update": "2025-10-04 22:46:30"
     }
 ]
