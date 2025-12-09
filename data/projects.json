@@ -56472,5 +56472,37 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "best-practices",
+            "digital-public-goods",
+            "hacktoberfest",
+            "hugo",
+            "hugo-site",
+            "open-source",
+            "unicef",
+            "unicef-innovation",
+            "restrictions",
+            "base",
+            "way",
+            "cannot",
+            "created",
+            "international",
+            ")][",
+            "commons",
+            "also",
+            "governed"
+        ],
+        "title": "unicef/inventory",
+        "description": null,
+        "repo": "https://github.com/unicef/inventory",
+        "forks_count": 28,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 40,
+        "last_update": "2025-12-04 18:48:16"
     }
 ]
