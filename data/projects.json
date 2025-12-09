@@ -56504,5 +56504,35 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "healthcare-website",
+            "healthcare-website-react",
+            "react",
+            "react-website",
+            "reactjs",
+            "responsive-web-design",
+            "plus",
+            "router",
+            "allows",
+            "schedule",
+            "footer",
+            "section",
+            "aimed",
+            "seamless",
+            "image2",
+            "git"
+        ],
+        "title": "Alkaison/Health-Plus",
+        "description": null,
+        "repo": "https://github.com/Alkaison/Health-Plus",
+        "forks_count": 65,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 72,
+        "last_update": "2025-09-06 16:47:08"
     }
 ]
