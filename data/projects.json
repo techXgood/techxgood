@@ -56534,5 +56534,39 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "awesome",
+            "awesome-list",
+            "carbon-accounting",
+            "carbon-footprint",
+            "climate-change",
+            "climate-finance",
+            "financial-inclusion",
+            "sustainability",
+            "sustainable-development-goals",
+            "sustainable-finance",
+            "create",
+            "openghg",
+            "message_ix",
+            "team",
+            "apache",
+            "platform",
+            "entrepreneurs",
+            "ntnu_iam_2022",
+            "behind",
+            "linux"
+        ],
+        "title": "open-risk/awesome-sustainable-finance",
+        "description": null,
+        "repo": "https://github.com/open-risk/awesome-sustainable-finance",
+        "forks_count": 5,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 70,
+        "last_update": "2025-11-24 22:00:05"
     }
 ]
