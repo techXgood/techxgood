@@ -56780,5 +56780,63 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "combines",
+            "requires",
+            "hardening",
+            "ongoing",
+            "20handout_eng",
+            "white",
+            "software",
+            "upon",
+            "flow",
+            "might"
+        ],
+        "title": "SSC-ICT-Innovatie/nl-kat-coordination",
+        "description": null,
+        "repo": "https://github.com/SSC-ICT-Innovatie/nl-kat-coordination",
+        "forks_count": 66,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 145,
+        "last_update": "2025-12-08 14:55:38"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "company-database",
+            "database",
+            "datenanfragen",
+            "eu-gdpr",
+            "gdpr",
+            "json",
+            "json-records",
+            "privacy",
+            "supervisory-authorities",
+            "templates",
+            "catches",
+            "two",
+            "existing",
+            "common",
+            "cases",
+            "3166",
+            "services",
+            "help",
+            "respond",
+            "ensure"
+        ],
+        "title": "datenanfragen/data",
+        "description": null,
+        "repo": "https://github.com/datenanfragen/data",
+        "forks_count": 91,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 116,
+        "last_update": "2025-11-27 11:13:39"
     }
 ]
