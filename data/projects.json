@@ -56568,5 +56568,36 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "compiler",
+            "hardware",
+            "hardware-construction-language",
+            "high-level-synthesis",
+            "python",
+            "pyverilog",
+            "verilog-hdl",
+            "neural",
+            "getting",
+            "output",
+            "http",
+            "controls",
+            "none",
+            "springer",
+            "\");",
+            "small",
+            "1024"
+        ],
+        "title": "PyHDI/veriloggen",
+        "description": null,
+        "repo": "https://github.com/PyHDI/veriloggen",
+        "forks_count": 59,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 323,
+        "last_update": "2025-11-07 05:43:43"
     }
 ]
