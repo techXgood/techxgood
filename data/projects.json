@@ -57068,5 +57068,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "x20",
+            "project",
+            "reach",
+            "across",
+            "learning",
+            "similar",
+            "professionals",
+            "tableofcontents",
+            "url",
+            "work"
+        ],
+        "title": "orico/www.opscompendium.com",
+        "description": null,
+        "repo": "https://github.com/orico/www.opscompendium.com",
+        "forks_count": 4,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 26,
+        "last_update": "2025-09-09 10:19:24"
     }
 ]
