@@ -57486,5 +57486,59 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ais-transponder",
+            "pcba",
+            "licensed",
+            "hpp",
+            "hdop",
+            "repeatable",
+            "src",
+            "household",
+            "define",
+            "looks",
+            "resealing",
+            "use"
+        ],
+        "title": "peterantypas/maiana",
+        "description": null,
+        "repo": "https://github.com/peterantypas/maiana",
+        "forks_count": 91,
+        "language": "C",
+        "website": null,
+        "image": null,
+        "stars": 412,
+        "last_update": "2025-12-11 12:34:17"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "computer-vision",
+            "deep-learning",
+            "natural-language-processing",
+            "recommender-system",
+            "due",
+            "linked",
+            "extra",
+            "grant",
+            "see",
+            "couple",
+            "3_nlp",
+            "major",
+            "projects",
+            "5_deployment"
+        ],
+        "title": "AIPI540/AIPI540-Deep-Learning-Applications",
+        "description": null,
+        "repo": "https://github.com/AIPI540/AIPI540-Deep-Learning-Applications",
+        "forks_count": 44,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 40,
+        "last_update": "2025-09-17 00:33:05"
     }
 ]
