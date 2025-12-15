@@ -57714,5 +57714,80 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "cloud-database",
+            "microservices",
+            "opendata",
+            "badges",
+            "step",
+            "url",
+            "etc",
+            "execution",
+            "datasources",
+            "://",
+            "channel",
+            "soon",
+            "fetches"
+        ],
+        "title": "jvalue/ods",
+        "description": null,
+        "repo": "https://github.com/jvalue/ods",
+        "forks_count": 23,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 35,
+        "last_update": "2025-05-13 14:20:46"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "logical",
+            "data",
+            "valid",
+            "know",
+            "demographic",
+            "way",
+            "possible",
+            "members",
+            "step",
+            "user"
+        ],
+        "title": "drnikko/open-demographics",
+        "description": null,
+        "repo": "https://github.com/drnikko/open-demographics",
+        "forks_count": 30,
+        "language": "TeX",
+        "website": null,
+        "image": null,
+        "stars": 108,
+        "last_update": "2025-02-01 11:03:55"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "published",
+            "data",
+            "medium",
+            "copy",
+            "minimal",
+            "willing",
+            "intention",
+            "way",
+            "electoral",
+            "number"
+        ],
+        "title": "filipvanlaenen/eopaod",
+        "description": null,
+        "repo": "https://github.com/filipvanlaenen/eopaod",
+        "forks_count": 46,
+        "language": "Ruby",
+        "website": null,
+        "image": null,
+        "stars": 28,
+        "last_update": "2025-07-03 22:19:13"
     }
 ]
