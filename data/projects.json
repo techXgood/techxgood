@@ -58196,5 +58196,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "industrial",
+            "semantic_scholar_api_key",
+            "internal",
+            "point",
+            "creating",
+            "discord_token",
+            "clearly",
+            "minimum",
+            "want",
+            "narrow"
+        ],
+        "title": "nasa-petal/bidara",
+        "description": null,
+        "repo": "https://github.com/nasa-petal/bidara",
+        "forks_count": 77,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 448,
+        "last_update": "2025-12-15 14:32:40"
     }
 ]
