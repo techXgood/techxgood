@@ -58342,5 +58342,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "video",
+            "jquery",
+            "high",
+            "etc",
+            "implied",
+            "components",
+            "risk",
+            "samples",
+            "automated",
+            "earth"
+        ],
+        "title": "openlab/OGDI-DataLab",
+        "description": null,
+        "repo": "https://github.com/openlab/OGDI-DataLab",
+        "forks_count": 16,
+        "language": "C#",
+        "website": null,
+        "image": null,
+        "stars": 61,
+        "last_update": "2025-10-31 19:41:38"
     }
 ]
