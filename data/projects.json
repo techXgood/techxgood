@@ -58366,5 +58366,53 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "traffic",
+            "reference",
+            "installing",
+            "exceptional",
+            "discovered",
+            "delivery",
+            "2023",
+            "support",
+            "enable",
+            "service"
+        ],
+        "title": "18F/guides",
+        "description": null,
+        "repo": "https://github.com/18F/guides",
+        "forks_count": 143,
+        "language": "HTML",
+        "website": null,
+        "image": null,
+        "stars": 91,
+        "last_update": "2025-12-17 00:07:03"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "expanded",
+            "target",
+            "solutions",
+            "citadel",
+            "system",
+            "alerts",
+            "powerful",
+            "**\ud83d\udcb3",
+            "safety",
+            "support"
+        ],
+        "title": "Azure-Samples/ai-hub-gateway-solution-accelerator",
+        "description": null,
+        "repo": "https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator",
+        "forks_count": 119,
+        "language": "Bicep",
+        "website": null,
+        "image": null,
+        "stars": 230,
+        "last_update": "2025-12-16 16:19:20"
     }
 ]
