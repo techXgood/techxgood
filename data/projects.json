@@ -58414,5 +58414,32 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "implementation",
+            "machine-learning",
+            "python",
+            "distributed",
+            "introduction",
+            "none",
+            "sigmoid",
+            "standard_deviation",
+            "regression",
+            "distribution",
+            "logistic",
+            "learning",
+            "autogradient"
+        ],
+        "title": "tobegit3hub/ml_implementation",
+        "description": null,
+        "repo": "https://github.com/tobegit3hub/ml_implementation",
+        "forks_count": 187,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 408,
+        "last_update": "2025-12-09 01:59:07"
     }
 ]
