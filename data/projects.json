@@ -58586,5 +58586,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "proc\u00e9dure",
+            "prot\u00e9g\u00e9",
+            "davantage",
+            "image",
+            "ba39",
+            "comment",
+            "4d39",
+            "afin",
+            "groupes",
+            "work"
+        ],
+        "title": "gc-da11yn/gc-da11yn.github.io",
+        "description": null,
+        "repo": "https://github.com/gc-da11yn/gc-da11yn.github.io",
+        "forks_count": 39,
+        "language": "Nunjucks",
+        "website": null,
+        "image": null,
+        "stars": 37,
+        "last_update": "2025-12-15 21:13:39"
     }
 ]
