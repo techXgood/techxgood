@@ -58560,5 +58560,31 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "icra2023",
+            "robotics",
+            "localizationandmappingiii",
+            "center",
+            "understanding",
+            "agricultural",
+            "autonomousnavigation",
+            "slam2",
+            "humanoids",
+            "align",
+            "prosthetics",
+            "sensor"
+        ],
+        "title": "CAST-Robotics/ICRA-2023-review",
+        "description": null,
+        "repo": "https://github.com/CAST-Robotics/ICRA-2023-review",
+        "forks_count": 8,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 124,
+        "last_update": "2025-11-18 15:44:42"
     }
 ]
