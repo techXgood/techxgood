@@ -58683,5 +58683,31 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "biodiversity-data-visualizations",
+            "r",
+            "svg",
+            "11777972",
+            "bdsummary",
+            "visualize",
+            "tomato",
+            "examples",
+            "format_bdvis",
+            "com",
+            "cran_status_badge",
+            "data"
+        ],
+        "title": "vijaybarve/bdvis",
+        "description": null,
+        "repo": "https://github.com/vijaybarve/bdvis",
+        "forks_count": 12,
+        "language": "R",
+        "website": null,
+        "image": null,
+        "stars": 28,
+        "last_update": "2025-11-25 23:06:12"
     }
 ]
