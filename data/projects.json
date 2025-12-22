@@ -58709,5 +58709,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "positions",
+            "plans",
+            "ipynb",
+            "objectives",
+            "urbanmatrix_unet_trainer",
+            "bash",
+            "across",
+            "automated",
+            "hyperparameters",
+            "applications"
+        ],
+        "title": "ChenZuii/UrbanMatrix",
+        "description": null,
+        "repo": "https://github.com/ChenZuii/UrbanMatrix",
+        "forks_count": 4,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 33,
+        "last_update": "2025-12-03 00:45:39"
     }
 ]
