@@ -58733,5 +58733,38 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "agentic-ai",
+            "ethical-hacking-ai-tool",
+            "kali",
+            "kali-linux-tools",
+            "kali-scripts",
+            "kali-tools",
+            "kaligpt",
+            "kaligpt-installer",
+            "sudohopex",
+            "disclaimer",
+            "pretty",
+            "20clones",
+            "report",
+            "want",
+            "source",
+            "sudo",
+            "automation",
+            "third",
+            "included"
+        ],
+        "title": "SudoHopeX/KaliGPT",
+        "description": null,
+        "repo": "https://github.com/SudoHopeX/KaliGPT",
+        "forks_count": 11,
+        "language": "Shell",
+        "website": null,
+        "image": null,
+        "stars": 36,
+        "last_update": "2025-12-22 00:52:46"
     }
 ]
