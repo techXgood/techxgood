@@ -58767,5 +58767,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "klemm",
+            "example_google",
+            "gym",
+            "algorithms",
+            "/):",
+            "doi",
+            "pip",
+            "press",
+            "isaaclab",
+            "nvidia"
+        ],
+        "title": "leggedrobotics/rsl_rl",
+        "description": null,
+        "repo": "https://github.com/leggedrobotics/rsl_rl",
+        "forks_count": 458,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 2020,
+        "last_update": "2025-12-23 16:45:37"
     }
 ]
