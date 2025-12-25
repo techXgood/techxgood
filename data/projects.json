@@ -58791,5 +58791,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "computer",
+            "accessible",
+            "computational",
+            "advanced",
+            "interdisciplinary",
+            "bringing",
+            "roadmap",
+            "electrical",
+            "cognition",
+            "data"
+        ],
+        "title": "aath0/AlgorithmsNeuroscience",
+        "description": null,
+        "repo": "https://github.com/aath0/AlgorithmsNeuroscience",
+        "forks_count": 9,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2025-11-27 03:20:58"
     }
 ]
