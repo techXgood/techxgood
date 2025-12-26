@@ -58815,5 +58815,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "independent",
+            "distribution",
+            "analyze",
+            "title",
+            "limited",
+            "project",
+            "seeking",
+            "implications",
+            "lead",
+            "dominance"
+        ],
+        "title": "DavieObi/Mental-Health-Survey-Analysis",
+        "description": null,
+        "repo": "https://github.com/DavieObi/Mental-Health-Survey-Analysis",
+        "forks_count": 38,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 55,
+        "last_update": "2025-12-03 12:34:54"
     }
 ]
