@@ -58892,5 +58892,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "training",
+            "metadata_docs",
+            "elsewhere",
+            "smaller",
+            "standardize",
+            "across",
+            "citation",
+            "worldwide",
+            "full",
+            "enhancements"
+        ],
+        "title": "fishglob/FishGlob_data",
+        "description": null,
+        "repo": "https://github.com/fishglob/FishGlob_data",
+        "forks_count": 9,
+        "language": "R",
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2025-12-16 20:02:25"
     }
 ]
