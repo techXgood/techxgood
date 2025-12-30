@@ -58839,5 +58839,58 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "boxes",
+            "meet",
+            "salesman",
+            "see",
+            "dependency",
+            "github",
+            "advanced",
+            "reports",
+            "bite",
+            "tiny"
+        ],
+        "title": "SergioFierens/ai4r",
+        "description": null,
+        "repo": "https://github.com/SergioFierens/ai4r",
+        "forks_count": 123,
+        "language": "Ruby",
+        "website": null,
+        "image": null,
+        "stars": 718,
+        "last_update": "2025-10-25 00:09:58"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "artificial-intelligence",
+            "awesome",
+            "awesome-list",
+            "blockchain",
+            "machine-learning",
+            "specific",
+            "statistical",
+            "york",
+            "focused",
+            "sunyaev",
+            "fehrsam",
+            "study",
+            "github",
+            "etc",
+            "tpds"
+        ],
+        "title": "steven2358/awesome-blockchain-ai",
+        "description": null,
+        "repo": "https://github.com/steven2358/awesome-blockchain-ai",
+        "forks_count": 175,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 1080,
+        "last_update": "2025-12-28 07:22:47"
     }
 ]
