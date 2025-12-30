@@ -58948,5 +58948,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "highlighting",
+            "especially",
+            "install_github",
+            "pilot",
+            "overview",
+            "ought",
+            "<!--",
+            "stresstest",
+            "clima",
+            "development"
+        ],
+        "title": "2DegreesInvesting/r2dii.climate.stress.test",
+        "description": null,
+        "repo": "https://github.com/2DegreesInvesting/r2dii.climate.stress.test",
+        "forks_count": 15,
+        "language": "HTML",
+        "website": null,
+        "image": null,
+        "stars": 27,
+        "last_update": "2025-12-16 09:06:53"
     }
 ]
