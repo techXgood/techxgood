@@ -58916,5 +58916,37 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "catalog",
+            "cms",
+            "django",
+            "hacktoberfest",
+            "lms",
+            "moodle",
+            "openeducation",
+            "openedx",
+            "lingual",
+            "license",
+            "moderation",
+            "regularly",
+            "developing",
+            "overview",
+            "party",
+            "back",
+            "tools",
+            "portal"
+        ],
+        "title": "openfun/richie",
+        "description": null,
+        "repo": "https://github.com/openfun/richie",
+        "forks_count": 92,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 300,
+        "last_update": "2025-12-19 13:46:15"
     }
 ]
