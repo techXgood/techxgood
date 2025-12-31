@@ -58972,5 +58972,77 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "society",
+        "keywords": [
+            "training",
+            "van",
+            "familes",
+            "web",
+            "docs",
+            "anywhere",
+            "see",
+            "www",
+            "developing",
+            "hill"
+        ],
+        "title": "gobridge/about-us",
+        "description": null,
+        "repo": "https://github.com/gobridge/about-us",
+        "forks_count": 41,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 417,
+        "last_update": "2025-12-25 13:07:04"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "admin",
+            "right",
+            "get",
+            "questions",
+            "overview",
+            "docs",
+            "faq",
+            "proceed",
+            "high",
+            "see"
+        ],
+        "title": "forem/admin-docs",
+        "description": null,
+        "repo": "https://github.com/forem/admin-docs",
+        "forks_count": 35,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 32,
+        "last_update": "2025-12-26 04:07:38"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "library",
+            "improve",
+            "opencollective",
+            "kick",
+            "launch",
+            "get",
+            "see",
+            "join",
+            "pick",
+            "provides"
+        ],
+        "title": "openpracticelibrary/openpracticelibrary",
+        "description": null,
+        "repo": "https://github.com/openpracticelibrary/openpracticelibrary",
+        "forks_count": 99,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 214,
+        "last_update": "2025-12-28 08:16:30"
     }
 ]
