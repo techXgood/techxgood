@@ -59044,5 +59044,34 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "algorithms",
+            "artificial-intelligence",
+            "machine-learning",
+            "machine-learning-algorithms",
+            "python",
+            "well",
+            "_img",
+            "supervisor",
+            "nbdoc_",
+            "10919",
+            "=====================",
+            "tool",
+            "neighbors",
+            "blob",
+            "ipynb"
+        ],
+        "title": "instillai/machine-learning-course",
+        "description": null,
+        "repo": "https://github.com/instillai/machine-learning-course",
+        "forks_count": 1251,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 7055,
+        "last_update": "2025-12-31 16:13:23"
     }
 ]
