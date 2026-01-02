@@ -59073,5 +59073,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "contain",
+            "utm_medium",
+            "]](",
+            "utm_campaign",
+            "understanding",
+            "potential",
+            "folders",
+            "contains",
+            ".</",
+            "deep"
+        ],
+        "title": "PacktPublishing/Artificial-Intelligence-By-Example",
+        "description": null,
+        "repo": "https://github.com/PacktPublishing/Artificial-Intelligence-By-Example",
+        "forks_count": 84,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 104,
+        "last_update": "2025-12-24 14:26:15"
     }
 ]
