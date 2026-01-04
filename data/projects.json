@@ -59097,5 +59097,41 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "society",
+        "keywords": [
+            "air-quality",
+            "citizen-reporting",
+            "fastapi",
+            "fiware",
+            "geospatial",
+            "ml-classification",
+            "nextjs",
+            "ngsi-ld",
+            "open-data",
+            "orion-ld",
+            "smart-city",
+            "urban-infrastructure",
+            "styling",
+            "automatically",
+            "eslint",
+            "info",
+            "made",
+            "broken",
+            "issues",
+            "stats",
+            "modulenotfounderror",
+            "similarity"
+        ],
+        "title": "minhe51805/UrbanReflex",
+        "description": null,
+        "repo": "https://github.com/minhe51805/UrbanReflex",
+        "forks_count": 7,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 135,
+        "last_update": "2025-12-28 15:49:31"
     }
 ]
