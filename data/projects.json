@@ -59133,5 +59133,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "\ud83d\udd3d</",
+            "playlist",
+            "repository",
+            "diffusion",
+            "vision",
+            "even",
+            "topics",
+            "2021",
+            "mellon",
+            "spring"
+        ],
+        "title": "boudribila/AI-Learning-Resources",
+        "description": null,
+        "repo": "https://github.com/boudribila/AI-Learning-Resources",
+        "forks_count": 7,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 67,
+        "last_update": "2025-10-10 19:53:22"
     }
 ]
