@@ -59249,5 +59249,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "west",
+            "computational",
+            "product",
+            "forms",
+            "list",
+            "software",
+            "githubusercontent",
+            "practitioners",
+            "model",
+            "text"
+        ],
+        "title": "PacktPublishing/Artificial-Intelligence-with-Python-Cookbook",
+        "description": null,
+        "repo": "https://github.com/PacktPublishing/Artificial-Intelligence-with-Python-Cookbook",
+        "forks_count": 65,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 77,
+        "last_update": "2025-12-15 09:27:14"
     }
 ]
