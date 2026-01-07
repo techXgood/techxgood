@@ -59273,5 +59273,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "pathway",
+            "shared",
+            "none",
+            "spark",
+            "twelve",
+            "outcomes",
+            "transitions",
+            "workshops",
+            "analytics",
+            "aligns"
+        ],
+        "title": "nikbearbrown/AI4ED",
+        "description": null,
+        "repo": "https://github.com/nikbearbrown/AI4ED",
+        "forks_count": 22,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 83,
+        "last_update": "2025-12-23 03:53:27"
     }
 ]
