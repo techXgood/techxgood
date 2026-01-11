@@ -59393,5 +59393,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "developing",
+            "popular",
+            "follow",
+            "far",
+            "make",
+            "improving",
+            "licenses",
+            "creator",
+            "hw4",
+            "able"
+        ],
+        "title": "mikeizbicki/ucr-cs100",
+        "description": null,
+        "repo": "https://github.com/mikeizbicki/ucr-cs100",
+        "forks_count": 412,
+        "language": "C++",
+        "website": null,
+        "image": null,
+        "stars": 497,
+        "last_update": "2026-01-09 11:30:45"
     }
 ]
