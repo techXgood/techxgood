@@ -59417,5 +59417,42 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai-art",
+            "artificial-intelligence",
+            "generative-art",
+            "image-generation",
+            "img2img",
+            "inpainting",
+            "latent-diffusion",
+            "linux",
+            "macos",
+            "outpainting",
+            "stable-diffusion",
+            "txt2img",
+            "windows",
+            "across",
+            "empower",
+            "combined",
+            "full",
+            "passionate",
+            "much",
+            "node",
+            "query",
+            "net",
+            "3aopen"
+        ],
+        "title": "invoke-ai/InvokeAI",
+        "description": null,
+        "repo": "https://github.com/invoke-ai/InvokeAI",
+        "forks_count": 2757,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 26539,
+        "last_update": "2026-01-11 23:48:44"
     }
 ]
