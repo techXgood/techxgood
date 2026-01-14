@@ -59543,5 +59543,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "\u60a8\u7684\u8d21\u732e\u90fd\u5c06\u4f7f\u8fd9\u4e2a\u4ed3\u5e93\u53d8\u5f97\u66f4\u597d",
+            "\u8bf7\u5b89\u88c5rust\u76f8\u5173\u5de5\u5177\u94fe",
+            "github",
+            "\u5206\u9694\u7b26\u9700\u8981\u989d\u5916\u7684\u53cd\u659c\u6760\u624d\u80fd\u5de5\u4f5c",
+            "\u5b89\u5168\u76f8\u5173\u7684\u77e5\u8bc6",
+            "rust\u7684\u5723\u7ecf",
+            "computer",
+            "\u8bfb\u535a\u4f53\u9a8c\u7b49",
+            "\u672c\u5730\u90e8\u7f72",
+            "collectively"
+        ],
+        "title": "CS-BAOYAN/CSBasicKnowledge",
+        "description": null,
+        "repo": "https://github.com/CS-BAOYAN/CSBasicKnowledge",
+        "forks_count": 49,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 709,
+        "last_update": "2025-12-27 11:01:49"
     }
 ]
