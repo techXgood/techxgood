@@ -59567,5 +59567,37 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "agentops",
+            "crewai",
+            "duckduckgo-search",
+            "langchain",
+            "openai",
+            "serperdev",
+            "tavily-api",
+            "youtube",
+            "intelligent",
+            "steps",
+            "**:",
+            "enabling",
+            "comprehensive",
+            "find",
+            "make",
+            "disease_research",
+            "details",
+            "privacy"
+        ],
+        "title": "Dharm3438/Healthcare-Assistant",
+        "description": null,
+        "repo": "https://github.com/Dharm3438/Healthcare-Assistant",
+        "forks_count": 0,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2026-01-04 11:51:32"
     }
 ]
