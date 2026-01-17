@@ -59640,5 +59640,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "user",
+            "configuration",
+            "automated",
+            "uses",
+            "www",
+            "native",
+            "file",
+            "run",
+            "launch",
+            "aws"
+        ],
+        "title": "aws-solutions/innovation-sandbox-on-aws",
+        "description": null,
+        "repo": "https://github.com/aws-solutions/innovation-sandbox-on-aws",
+        "forks_count": 36,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 137,
+        "last_update": "2026-01-16 20:11:42"
     }
 ]
