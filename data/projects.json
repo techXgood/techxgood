@@ -59731,5 +59731,43 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "3d-object-detection",
+            "3d-object-recognition",
+            "cnn",
+            "computer-vision",
+            "deep-learning",
+            "literature-review",
+            "machine-learning",
+            "medical",
+            "medical-imaging",
+            "paper",
+            "paper-reading",
+            "paper-review",
+            "point-cloud",
+            "reinforcement-learning",
+            "segmentation",
+            "model",
+            "graph_spectrum",
+            "hongyang",
+            "03396",
+            "06709v5",
+            "s0921889018301234",
+            "highlight",
+            "voxnet_maturana_scherer_iros15",
+            "11790"
+        ],
+        "title": "patrick-llgc/Learning-Deep-Learning",
+        "description": null,
+        "repo": "https://github.com/patrick-llgc/Learning-Deep-Learning",
+        "forks_count": 178,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 1237,
+        "last_update": "2026-01-23 01:57:23"
     }
 ]
