@@ -59769,5 +59769,35 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai",
+            "artificial-intelligence",
+            "information",
+            "news",
+            "timeline",
+            "timeline-view",
+            "scroll",
+            "com",
+            "build",
+            "event",
+            "creative",
+            "attribution",
+            "input",
+            "preview",
+            "timeline",
+            "updated"
+        ],
+        "title": "NHLOCAL/AiTimeline",
+        "description": null,
+        "repo": "https://github.com/NHLOCAL/AiTimeline",
+        "forks_count": 7,
+        "language": "SCSS",
+        "website": null,
+        "image": null,
+        "stars": 149,
+        "last_update": "2026-01-21 10:36:27"
     }
 ]
