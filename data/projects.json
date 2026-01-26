@@ -59838,5 +59838,38 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "society",
+        "keywords": [
+            "3d",
+            "3d-models",
+            "awesome-list",
+            "city",
+            "citygml",
+            "list",
+            "list-of-open-city-models",
+            "semantic-city-models",
+            "semantic-models",
+            "buildings",
+            "finland",
+            "opendata",
+            "still",
+            "width",
+            "click",
+            "japan",
+            "docuuid",
+            "legend",
+            "bayern"
+        ],
+        "title": "OloOcki/awesome-citygml",
+        "description": null,
+        "repo": "https://github.com/OloOcki/awesome-citygml",
+        "forks_count": 38,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 359,
+        "last_update": "2026-01-26 16:10:21"
     }
 ]
