@@ -59914,5 +59914,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "mmu",
+            "services",
+            "net",
+            "8094",
+            "enthusiasts",
+            "according",
+            "instructions",
+            "lab",
+            "synced",
+            "sanjanasogimatt"
+        ],
+        "title": "PSMRI/AMRIT",
+        "description": null,
+        "repo": "https://github.com/PSMRI/AMRIT",
+        "forks_count": 37,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2026-01-29 06:34:53"
     }
 ]
