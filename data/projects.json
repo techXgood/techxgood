@@ -59938,5 +59938,57 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "automation",
+            "gemini-ai",
+            "generative-ai",
+            "pentest-tool",
+            "penetration",
+            "://",
+            "throttling",
+            "automation",
+            "code",
+            "subfinder",
+            "available",
+            "opensource",
+            "injection",
+            "expand"
+        ],
+        "title": "zakirkun/guardian-cli",
+        "description": null,
+        "repo": "https://github.com/zakirkun/guardian-cli",
+        "forks_count": 132,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 613,
+        "last_update": "2026-01-29 22:36:26"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "://",
+            "code",
+            "release",
+            "available",
+            "first",
+            "landscapes",
+            "biodiversity",
+            "location",
+            "components",
+            "program"
+        ],
+        "title": "cbig/zonation-core",
+        "description": null,
+        "repo": "https://github.com/cbig/zonation-core",
+        "forks_count": 14,
+        "language": "C++",
+        "website": null,
+        "image": null,
+        "stars": 30,
+        "last_update": "2026-01-14 07:24:16"
     }
 ]
