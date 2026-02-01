@@ -59990,5 +59990,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "professionals",
+            "guideline",
+            "21757v1",
+            "21503",
+            "none",
+            "softcom",
+            "03328",
+            "expert",
+            "agentclinic",
+            "yuille"
+        ],
+        "title": "AgenticHealthAI/Awesome-AI-Agents-for-Healthcare",
+        "description": null,
+        "repo": "https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare",
+        "forks_count": 55,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 600,
+        "last_update": "2026-02-01 10:35:20"
     }
 ]
