@@ -60042,5 +60042,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "judgement",
+            "validation",
+            "license",
+            "fresh",
+            "two",
+            "per",
+            "claude",
+            "inside",
+            "thanks",
+            "debug"
+        ],
+        "title": "obra/superpowers",
+        "description": null,
+        "repo": "https://github.com/obra/superpowers",
+        "forks_count": 3483,
+        "language": "Shell",
+        "website": null,
+        "image": null,
+        "stars": 46065,
+        "last_update": "2026-02-06 18:54:09"
     }
 ]
