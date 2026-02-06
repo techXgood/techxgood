@@ -60018,5 +60018,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "`).",
+            "accompanying",
+            "destination",
+            "vcerqueira",
+            "tasks",
+            "climate",
+            "used",
+            "formats",
+            "79c8fed6af89",
+            "source"
+        ],
+        "title": "vcerqueira/tsa4climate",
+        "description": null,
+        "repo": "https://github.com/vcerqueira/tsa4climate",
+        "forks_count": 4,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 31,
+        "last_update": "2026-01-02 16:09:00"
     }
 ]
