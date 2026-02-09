@@ -60066,5 +60066,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "docs",
+            "referenced",
+            "used",
+            "published",
+            "repository",
+            "software",
+            "terms",
+            "discussions",
+            "tracked",
+            "2025"
+        ],
+        "title": "andreamari/polyquantum",
+        "description": null,
+        "repo": "https://github.com/andreamari/polyquantum",
+        "forks_count": 2,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 29,
+        "last_update": "2026-02-06 15:14:02"
     }
 ]
