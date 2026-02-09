@@ -60090,5 +60090,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "venture",
+            "generative",
+            "guide",
+            "advocate",
+            "system",
+            "mysql",
+            "exciting",
+            "features",
+            "test",
+            "hardware"
+        ],
+        "title": "PacktPublishing/Hands-On-Artificial-Intelligence-for-Banking",
+        "description": null,
+        "repo": "https://github.com/PacktPublishing/Hands-On-Artificial-Intelligence-for-Banking",
+        "forks_count": 78,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 151,
+        "last_update": "2026-02-05 12:50:52"
     }
 ]
