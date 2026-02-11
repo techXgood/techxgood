@@ -60114,5 +60114,31 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "agent",
+            "llm",
+            "boundaries",
+            "directions",
+            "documentation",
+            "revolutionary",
+            "exhibit",
+            "components",
+            "block",
+            "future",
+            "collaborate",
+            "novel"
+        ],
+        "title": "mind-network/Awesome-LLM-based-AI-Agents-Knowledge",
+        "description": null,
+        "repo": "https://github.com/mind-network/Awesome-LLM-based-AI-Agents-Knowledge",
+        "forks_count": 4,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 26,
+        "last_update": "2026-02-08 11:23:29"
     }
 ]
