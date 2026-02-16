@@ -60318,5 +60318,33 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "agentic-ai",
+            "langchain",
+            "langgraph",
+            "model",
+            "functional",
+            "dev",
+            "mini",
+            "level",
+            "applications",
+            "delete",
+            "http",
+            "system",
+            "refer",
+            "sql"
+        ],
+        "title": "ThalesGroup/fred",
+        "description": null,
+        "repo": "https://github.com/ThalesGroup/fred",
+        "forks_count": 15,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 37,
+        "last_update": "2026-02-15 16:11:42"
     }
 ]
