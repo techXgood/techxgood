@@ -60346,5 +60346,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "large",
+            "parallel",
+            "digital",
+            "schedulers",
+            "end",
+            "mistaking",
+            "top",
+            "current",
+            "cheap",
+            "used"
+        ],
+        "title": "jorditorresBCN/supercomputing-for-ai",
+        "description": null,
+        "repo": "https://github.com/jorditorresBCN/supercomputing-for-ai",
+        "forks_count": 16,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 63,
+        "last_update": "2026-02-14 23:34:22"
     }
 ]
