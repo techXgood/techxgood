@@ -60370,5 +60370,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "17241",
+            "deepearth_logo",
+            "modeling",
+            "ngp",
+            "aa2a4b7",
+            "nature",
+            "2024",
+            "achieving",
+            "pdf",
+            "temporal"
+        ],
+        "title": "legel/deepearth",
+        "description": null,
+        "repo": "https://github.com/legel/deepearth",
+        "forks_count": 3,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 26,
+        "last_update": "2026-02-18 11:06:30"
     }
 ]
