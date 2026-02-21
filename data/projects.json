@@ -60394,5 +60394,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "project",
+            "bash",
+            "number",
+            "linkedin",
+            "running",
+            "acknowledgments",
+            "github",
+            "http",
+            "services",
+            "starting"
+        ],
+        "title": "revolutionarybukhari/ai-calling-agent",
+        "description": null,
+        "repo": "https://github.com/revolutionarybukhari/ai-calling-agent",
+        "forks_count": 13,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 38,
+        "last_update": "2026-02-10 11:11:21"
     }
 ]
