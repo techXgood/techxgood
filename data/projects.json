@@ -60418,5 +60418,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "society",
+        "keywords": [
+            "variables",
+            "coders",
+            "without",
+            "contribute",
+            "clone",
+            "status",
+            "ubuntu",
+            "local",
+            "bundle",
+            "callback"
+        ],
+        "title": "CodeMontageHQ/codemontage",
+        "description": null,
+        "repo": "https://github.com/CodeMontageHQ/codemontage",
+        "forks_count": 71,
+        "language": "Ruby",
+        "website": null,
+        "image": null,
+        "stars": 82,
+        "last_update": "2026-03-01 11:23:25"
     }
 ]
