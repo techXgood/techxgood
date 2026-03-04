@@ -60442,5 +60442,58 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai",
+            "arduino",
+            "blockly",
+            "ide",
+            "iot",
+            "cli",
+            "purely",
+            "partner",
+            "current",
+            "projects",
+            "webp",
+            "block",
+            "achieve",
+            "sponsorship",
+            "code"
+        ],
+        "title": "ailyProject/aily-blockly",
+        "description": null,
+        "repo": "https://github.com/ailyProject/aily-blockly",
+        "forks_count": 102,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 1360,
+        "last_update": "2026-03-04 02:08:34"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "blog",
+            "berkeley",
+            "microsoft",
+            "arxiv",
+            "inference",
+            "services",
+            "intelligence",
+            "\"></",
+            "intelligence2",
+            "recent"
+        ],
+        "title": "vishalshar/awesome_ML_AI_RSS_feed",
+        "description": null,
+        "repo": "https://github.com/vishalshar/awesome_ML_AI_RSS_feed",
+        "forks_count": 23,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 264,
+        "last_update": "2026-03-01 05:09:49"
     }
 ]
