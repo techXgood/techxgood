@@ -60495,5 +60495,38 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "approximate-inference",
+            "awesome",
+            "awesome-list",
+            "curriculum-learning",
+            "deep-learning",
+            "deep-reinforcement-learning",
+            "machine-learning",
+            "reinforcement-learning",
+            "robotics",
+            "methods",
+            "many",
+            "graves",
+            "oudeyer",
+            "neural",
+            "medium",
+            "04133",
+            "432b6883",
+            "lillicrap",
+            "n7540"
+        ],
+        "title": "Phylliade/awesome-machine-learning-robotics",
+        "description": null,
+        "repo": "https://github.com/Phylliade/awesome-machine-learning-robotics",
+        "forks_count": 48,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 324,
+        "last_update": "2026-02-28 23:32:29"
     }
 ]
