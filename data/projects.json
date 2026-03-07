@@ -60528,5 +60528,34 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "ai",
+            "bastiongpt",
+            "chatgpt",
+            "healthcare",
+            "openai",
+            "reduce",
+            "knowledge",
+            "secure",
+            "47a5",
+            "interactions",
+            "regulations",
+            "identify",
+            "aware",
+            "monitored",
+            "find"
+        ],
+        "title": "FortaTech/prompts-for-health",
+        "description": null,
+        "repo": "https://github.com/FortaTech/prompts-for-health",
+        "forks_count": 8,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2026-01-29 15:15:06"
     }
 ]
