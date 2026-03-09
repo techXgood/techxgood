@@ -60604,5 +60604,43 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "appsec",
+            "bug",
+            "bug-bounty",
+            "bug-tracker",
+            "bugbounty",
+            "bugbountytips",
+            "devsecops",
+            "django",
+            "owasp",
+            "python",
+            "security",
+            "security-tools",
+            "security-vulnerability",
+            "tool",
+            "vulnerabilities",
+            "workflows",
+            "actions",
+            "bugs",
+            "@#`",
+            "receive",
+            "protection",
+            "key",
+            "2026",
+            "svg"
+        ],
+        "title": "OWASP-BLT/BLT",
+        "description": null,
+        "repo": "https://github.com/OWASP-BLT/BLT",
+        "forks_count": 402,
+        "language": "HTML",
+        "website": null,
+        "image": null,
+        "stars": 291,
+        "last_update": "2026-03-06 15:41:04"
     }
 ]
