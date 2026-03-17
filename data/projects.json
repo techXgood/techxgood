@@ -60666,5 +60666,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "pie",
+            "installation",
+            "flatter",
+            "location",
+            "none",
+            "explore",
+            "demonstrations",
+            "follows",
+            "installations",
+            "environmental"
+        ],
+        "title": "Nelvinebi/Geospatial-Suitability-Analysis-for-Renewable-Energy-Sites",
+        "description": null,
+        "repo": "https://github.com/Nelvinebi/Geospatial-Suitability-Analysis-for-Renewable-Energy-Sites",
+        "forks_count": 20,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 30,
+        "last_update": "2026-03-12 08:59:24"
     }
 ]
