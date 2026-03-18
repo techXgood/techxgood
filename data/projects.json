@@ -60690,5 +60690,32 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "civic-tech",
+            "gsoc-2026",
+            "open-source",
+            "geospatial",
+            "behavioral",
+            "suffer",
+            "poor",
+            "actionable",
+            "limited",
+            "reduce",
+            "formatted",
+            "oriented",
+            "growing"
+        ],
+        "title": "ChronalLabs/ChronOS",
+        "description": null,
+        "repo": "https://github.com/ChronalLabs/ChronOS",
+        "forks_count": 5,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2026-03-18 06:45:10"
     }
 ]
