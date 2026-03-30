@@ -60717,5 +60717,42 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "climate",
+            "climate-change",
+            "climate-change-adaptation",
+            "climate-risk",
+            "csrd",
+            "esrs",
+            "financial-analysis",
+            "financial-reporting",
+            "regulation",
+            "supply-chain",
+            "sustainability-analysis",
+            "sustainability-reporting",
+            "sustainabiliy",
+            "configurations",
+            "score",
+            "/`**",
+            "art",
+            "google",
+            "svg",
+            "description",
+            "streamlit_app_backend",
+            "sectors",
+            "simple"
+        ],
+        "title": "climateandtech/report-analyst",
+        "description": null,
+        "repo": "https://github.com/climateandtech/report-analyst",
+        "forks_count": 7,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 28,
+        "last_update": "2026-03-30 00:59:45"
     }
 ]
