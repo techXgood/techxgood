@@ -60754,5 +60754,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "www",
+            "advent",
+            "lists",
+            "testbench",
+            "tends",
+            "varying",
+            "simulator",
+            "\u2502\u2502\u250c\u2500\u2500\u2500\u2510",
+            "convert",
+            "hardcaml_xilinx_reports"
+        ],
+        "title": "janestreet/hardcaml",
+        "description": null,
+        "repo": "https://github.com/janestreet/hardcaml",
+        "forks_count": 57,
+        "language": "OCaml",
+        "website": null,
+        "image": null,
+        "stars": 993,
+        "last_update": "2026-04-02 19:00:43"
     }
 ]
