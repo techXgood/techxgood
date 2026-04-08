@@ -60808,5 +60808,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "openai",
+            "planning_artifacts",
+            "paper",
+            "need",
+            "machine",
+            "tiktoken",
+            "latex",
+            "name",
+            "03762",
+            "requirements"
+        ],
+        "title": "going-doer/Paper2Code",
+        "description": null,
+        "repo": "https://github.com/going-doer/Paper2Code",
+        "forks_count": 630,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 4362,
+        "last_update": "2026-04-08 12:26:15"
     }
 ]
