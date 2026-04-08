@@ -60778,5 +60778,35 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "agent",
+            "autonomous-agents",
+            "gpt",
+            "llm",
+            "llm-agent",
+            "openai",
+            "sxhx_liang",
+            "contact",
+            "live",
+            "headfirst",
+            "society",
+            "inference",
+            "backend",
+            "communicative",
+            "significant",
+            "offers"
+        ],
+        "title": "OpenAgentX/AgentX",
+        "description": null,
+        "repo": "https://github.com/OpenAgentX/AgentX",
+        "forks_count": 6,
+        "language": "Rust",
+        "website": null,
+        "image": null,
+        "stars": 28,
+        "last_update": "2026-04-04 18:37:11"
     }
 ]
