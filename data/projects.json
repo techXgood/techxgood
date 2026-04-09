@@ -60832,5 +60832,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "09241",
+            "irislab",
+            "gentle",
+            "avatar",
+            "animation",
+            "implicit",
+            "08485",
+            "22336",
+            "heracles",
+            "wild"
+        ],
+        "title": "YanjieZe/awesome-humanoid-robot-learning",
+        "description": null,
+        "repo": "https://github.com/YanjieZe/awesome-humanoid-robot-learning",
+        "forks_count": 124,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 2068,
+        "last_update": "2026-04-09 02:33:23"
     }
 ]
