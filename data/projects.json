@@ -60856,5 +60856,61 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "society",
+        "keywords": [
+            "aggregated",
+            "ways",
+            "monday",
+            "existing",
+            "mac",
+            "integrated",
+            "easier",
+            "state",
+            "file",
+            "instructions"
+        ],
+        "title": "DCActionforChildren/dcaction",
+        "description": null,
+        "repo": "https://github.com/DCActionforChildren/dcaction",
+        "forks_count": 63,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 46,
+        "last_update": "2026-03-20 14:10:59"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "attendance-system",
+            "calendar",
+            "calendar-events",
+            "church",
+            "church-management",
+            "churchcrm",
+            "crm",
+            "database",
+            "team",
+            ")](",
+            "invaluable",
+            "people",
+            "tester",
+            "input",
+            "contribute",
+            "language",
+            "management",
+            "contributions"
+        ],
+        "title": "ChurchCRM/CRM",
+        "description": null,
+        "repo": "https://github.com/ChurchCRM/CRM",
+        "forks_count": 528,
+        "language": "PHP",
+        "website": null,
+        "image": null,
+        "stars": 849,
+        "last_update": "2026-04-11 03:20:57"
     }
 ]
