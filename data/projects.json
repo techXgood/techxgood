@@ -60912,5 +60912,53 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "bring",
+            "curiosity",
+            "google",
+            "planner",
+            "notebook",
+            "treating",
+            "key",
+            "team",
+            "utilize",
+            "building"
+        ],
+        "title": "Amyssjj/Agent_Exploration",
+        "description": null,
+        "repo": "https://github.com/Amyssjj/Agent_Exploration",
+        "forks_count": 66,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 239,
+        "last_update": "2026-04-15 10:25:18"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "hepatocellula",
+            "specialities",
+            "target",
+            "prognosis",
+            "jpg",
+            "2306",
+            "08378",
+            "herbal",
+            "patient",
+            "differential"
+        ],
+        "title": "FreedomIntelligence/Awesome-Specialized-Medical-LLMs",
+        "description": null,
+        "repo": "https://github.com/FreedomIntelligence/Awesome-Specialized-Medical-LLMs",
+        "forks_count": 7,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 42,
+        "last_update": "2026-04-13 06:24:24"
     }
 ]
