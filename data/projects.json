@@ -60960,5 +60960,32 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "society",
+        "keywords": [
+            "airtable",
+            "airtable-api",
+            "laravel",
+            "changes",
+            "github",
+            "support",
+            "found",
+            "readme",
+            "example",
+            "import",
+            "creativecommons",
+            "install",
+            "superbloom"
+        ],
+        "title": "sprblm/CTFG",
+        "description": null,
+        "repo": "https://github.com/sprblm/CTFG",
+        "forks_count": 6,
+        "language": "PHP",
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2026-04-10 18:04:01"
     }
 ]
