@@ -60987,5 +60987,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "shogun",
+            "nodes",
+            ":**",
+            "published",
+            "like",
+            "backward",
+            "due",
+            "python",
+            "technical",
+            "execution"
+        ],
+        "title": "yohey-w/codd-dev",
+        "description": null,
+        "repo": "https://github.com/yohey-w/codd-dev",
+        "forks_count": 3,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 54,
+        "last_update": "2026-04-20 03:43:55"
     }
 ]
