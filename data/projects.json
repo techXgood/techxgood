@@ -61011,5 +61011,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "<!--",
+            "describing",
+            "next",
+            "exists",
+            "create",
+            "lists",
+            "sure",
+            "found",
+            "suggest",
+            "fit"
+        ],
+        "title": "mateusarcedev/devlist",
+        "description": null,
+        "repo": "https://github.com/mateusarcedev/devlist",
+        "forks_count": 9,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 75,
+        "last_update": "2026-03-29 20:38:22"
     }
 ]
