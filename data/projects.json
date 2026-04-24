@@ -61035,5 +61035,34 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "artificial-intelligence",
+            "courses",
+            "deep-learning",
+            "machine-learning",
+            "summer-school",
+            "475",
+            "sanad",
+            "artificial",
+            "regular",
+            "wiavers",
+            "org",
+            "electronics",
+            "italy",
+            "programme",
+            "icc2026"
+        ],
+        "title": "hazratali/awesome-ai-summerschool",
+        "description": null,
+        "repo": "https://github.com/hazratali/awesome-ai-summerschool",
+        "forks_count": 46,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 571,
+        "last_update": "2026-04-24 14:39:55"
     }
 ]
