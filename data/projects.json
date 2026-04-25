@@ -61064,5 +61064,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "dedicated",
+            "202",
+            "github",
+            "day11_rnn_image_captioning",
+            "exercise_1",
+            "challenges",
+            "lab_9",
+            "george",
+            "domains",
+            "rag"
+        ],
+        "title": "KAUST-Academy/2025_Artificial-Intelligence-Summer",
+        "description": null,
+        "repo": "https://github.com/KAUST-Academy/2025_Artificial-Intelligence-Summer",
+        "forks_count": 36,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 256,
+        "last_update": "2026-04-16 12:10:48"
     }
 ]
