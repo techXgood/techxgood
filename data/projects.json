@@ -61088,5 +61088,42 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "autonomous-driving",
+            "c-plus-plus",
+            "computer-vision",
+            "maps",
+            "mobile-robotics",
+            "mobile-robots",
+            "mrpt",
+            "particle-filter",
+            "robot-framework",
+            "robot-motion-estimate",
+            "robot-programming",
+            "robotics",
+            "slam",
+            "://",
+            "svg",
+            "doi",
+            "mrpt2",
+            "]`](",
+            "windows",
+            "mrpt_",
+            "workflows",
+            "bash",
+            "mrpt_core"
+        ],
+        "title": "MRPT/mrpt",
+        "description": null,
+        "repo": "https://github.com/MRPT/mrpt",
+        "forks_count": 658,
+        "language": "C++",
+        "website": null,
+        "image": null,
+        "stars": 2128,
+        "last_update": "2026-04-26 21:17:10"
     }
 ]
