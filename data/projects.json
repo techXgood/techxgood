@@ -61125,5 +61125,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "---",
+            "launcher",
+            "prep",
+            "git",
+            "release",
+            "film",
+            "composio",
+            "calculator",
+            "sub",
+            "issues_guide"
+        ],
+        "title": "fetchai/innovation-lab-examples",
+        "description": null,
+        "repo": "https://github.com/fetchai/innovation-lab-examples",
+        "forks_count": 34,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 993,
+        "last_update": "2026-05-01 06:01:10"
     }
 ]
