@@ -61218,5 +61218,33 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "agentic-ai",
+            "artificial-intelligence",
+            "jakartaee",
+            "java",
+            "channel",
+            "release",
+            "3on2topheuvqtugideawlg",
+            "technology",
+            "###",
+            "rather",
+            "someone",
+            "bit",
+            "compatible",
+            "standardize"
+        ],
+        "title": "jakartaee/agentic-ai",
+        "description": null,
+        "repo": "https://github.com/jakartaee/agentic-ai",
+        "forks_count": 12,
+        "language": "Java",
+        "website": null,
+        "image": null,
+        "stars": 26,
+        "last_update": "2026-05-13 20:38:54"
     }
 ]
