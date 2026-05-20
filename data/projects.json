@@ -61294,5 +61294,34 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "robotics",
+            "robotics-libraries",
+            "vehicles",
+            "avoid",
+            "belts",
+            "road",
+            "field",
+            "academia",
+            "products",
+            "resources",
+            "2020",
+            "roadrunner"
+        ],
+        "title": "mathworks-robotics/awesome-matlab-robotics",
+        "description": null,
+        "repo": "https://github.com/mathworks-robotics/awesome-matlab-robotics",
+        "forks_count": 220,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 1393,
+        "last_update": "2026-05-20 09:36:43"
     }
 ]
