@@ -61364,5 +61364,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "value_creation",
+            "runs",
+            "effect",
+            "default",
+            "load",
+            "defaults",
+            "exposes",
+            "**,",
+            "environment",
+            "serve"
+        ],
+        "title": "joejoe168168/impact-vision",
+        "description": null,
+        "repo": "https://github.com/joejoe168168/impact-vision",
+        "forks_count": 0,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 32,
+        "last_update": "2026-05-16 18:57:58"
     }
 ]
