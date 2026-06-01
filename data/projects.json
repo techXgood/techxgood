@@ -61453,5 +61453,40 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "agent-to-agent",
+            "ai-for-good",
+            "climate-tech",
+            "flood-intelligence",
+            "flood-prediction",
+            "h2o-ai-cloud",
+            "h2ogpte-agent-orchestration",
+            "nvidia-agent-toolkit",
+            "nvidia-nemotron",
+            "nvidia-nim",
+            "real-time-monitoring",
+            "disaster",
+            "brev",
+            "requires",
+            "bars",
+            "stations",
+            "---",
+            "apis",
+            "entered",
+            "errors",
+            "guidance"
+        ],
+        "title": "h2oai/h2oai-flood-intelligence-agent",
+        "description": null,
+        "repo": "https://github.com/h2oai/h2oai-flood-intelligence-agent",
+        "forks_count": 7,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 27,
+        "last_update": "2026-06-01 09:02:53"
     }
 ]
