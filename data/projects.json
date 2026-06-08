@@ -61488,5 +61488,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "path",
+            "conda",
+            "shlab",
+            "host",
+            "installation",
+            "supporting",
+            "front",
+            "citation",
+            "segment",
+            "article"
+        ],
+        "title": "opendatalab/labelU",
+        "description": null,
+        "repo": "https://github.com/opendatalab/labelU",
+        "forks_count": 182,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 1585,
+        "last_update": "2026-06-08 03:57:56"
     }
 ]
