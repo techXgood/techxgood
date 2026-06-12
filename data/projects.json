@@ -61541,5 +61541,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "citation",
+            "junnosuke",
+            "ecosystem",
+            "picture",
+            "star",
+            "```",
+            "raw",
+            "230px",
+            "request",
+            "regional"
+        ],
+        "title": "OmniLRS/OmniLRS",
+        "description": null,
+        "repo": "https://github.com/OmniLRS/OmniLRS",
+        "forks_count": 46,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 219,
+        "last_update": "2026-06-12 05:30:11"
     }
 ]
