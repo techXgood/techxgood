@@ -61512,5 +61512,34 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "c-plus-plus",
+            "chemical-data",
+            "chemical-toolbox",
+            "cheminformatics",
+            "chemistry",
+            "file",
+            "13319995025871922899",
+            "details",
+            "store",
+            "distribution",
+            "----------",
+            "svg",
+            "organic",
+            "collaborative",
+            "molecular"
+        ],
+        "title": "openbabel/openbabel",
+        "description": null,
+        "repo": "https://github.com/openbabel/openbabel",
+        "forks_count": 476,
+        "language": "C++",
+        "website": null,
+        "image": null,
+        "stars": 1338,
+        "last_update": "2026-06-11 18:13:46"
     }
 ]
