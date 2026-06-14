@@ -61565,5 +61565,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "dependent",
+            "typically",
+            "classes",
+            "extremely",
+            "replaces",
+            "learn",
+            "performed",
+            "original",
+            "finding",
+            "changing"
+        ],
+        "title": "NiluK/SolidGoldMagikarp",
+        "description": null,
+        "repo": "https://github.com/NiluK/SolidGoldMagikarp",
+        "forks_count": 57,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 79,
+        "last_update": "2026-06-07 18:16:36"
     }
 ]
