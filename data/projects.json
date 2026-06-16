@@ -61589,5 +61589,38 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai",
+            "ai-agent",
+            "ai-agents",
+            "ai-memory",
+            "context-engineering",
+            "java",
+            "memory",
+            "openclaw",
+            "spring-ai",
+            "highest",
+            "ingestion",
+            "instead",
+            "welcome",
+            "match",
+            "document",
+            "benchmarks",
+            "supports",
+            "hop",
+            "revealing"
+        ],
+        "title": "openmemind/memind",
+        "description": null,
+        "repo": "https://github.com/openmemind/memind",
+        "forks_count": 85,
+        "language": "Java",
+        "website": null,
+        "image": null,
+        "stars": 901,
+        "last_update": "2026-06-16 02:18:05"
     }
 ]
