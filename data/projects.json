@@ -61654,5 +61654,36 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "good-first-issue",
+            "iot",
+            "javascript",
+            "mern-stack",
+            "open-source",
+            "python",
+            "ui-design",
+            "long",
+            "learning",
+            "success",
+            "area",
+            "aims",
+            "node",
+            "googlechrome",
+            "biodiversity",
+            "api",
+            "based"
+        ],
+        "title": "SuryaNarayananDev/ECORAIZ-The_Smart_Planting",
+        "description": null,
+        "repo": "https://github.com/SuryaNarayananDev/ECORAIZ-The_Smart_Planting",
+        "forks_count": 19,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 28,
+        "last_update": "2026-06-10 08:42:28"
     }
 ]
