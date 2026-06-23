@@ -61685,5 +61685,34 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "digital-image-processing",
+            "lightweight-neural-network",
+            "low-cost",
+            "neon-acceleration",
+            "target-tracking",
+            "time",
+            "object",
+            "gpc0",
+            "ean13",
+            "commentsedit",
+            "\u8fd8\u53ef\u4ee5\u642d\u5efa",
+            "\u4e14\u8bc6\u522b",
+            "\u4e3b\u51fd\u6570",
+            "code",
+            "build"
+        ],
+        "title": "BluesYu/MarStech_Vision_Sensor",
+        "description": null,
+        "repo": "https://github.com/BluesYu/MarStech_Vision_Sensor",
+        "forks_count": 18,
+        "language": "C++",
+        "website": null,
+        "image": null,
+        "stars": 152,
+        "last_update": "2026-06-04 14:35:02"
     }
 ]
