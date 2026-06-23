@@ -61714,5 +61714,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "16m",
+            "bootstrap",
+            "dashboard",
+            "documents",
+            "east",
+            "://",
+            "extraction",
+            "legal",
+            "method",
+            "limits"
+        ],
+        "title": "worldwidelaw/legal-sources",
+        "description": null,
+        "repo": "https://github.com/worldwidelaw/legal-sources",
+        "forks_count": 53,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 283,
+        "last_update": "2026-06-23 03:22:03"
     }
 ]
