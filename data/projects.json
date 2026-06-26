@@ -61738,5 +61738,34 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "awesome",
+            "awesome-list",
+            "hardware",
+            "open-hardware",
+            "open-source-hardware",
+            "2881929",
+            "integrated",
+            "autumn",
+            "better",
+            "source",
+            "journal",
+            "wheeled",
+            "nathan",
+            "partanen",
+            "bunnie"
+        ],
+        "title": "delftopenhardware/awesome-open-hardware",
+        "description": null,
+        "repo": "https://github.com/delftopenhardware/awesome-open-hardware",
+        "forks_count": 44,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 946,
+        "last_update": "2026-06-26 08:46:41"
     }
 ]
