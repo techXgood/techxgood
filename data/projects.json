@@ -61767,5 +61767,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "inspection",
+            "11898",
+            "plug",
+            "9811543",
+            "7989116",
+            "classifier",
+            "gelsightinc",
+            "communications",
+            "dtactive",
+            "stylization"
+        ],
+        "title": "linchangyi1/Awesome-Touch",
+        "description": null,
+        "repo": "https://github.com/linchangyi1/Awesome-Touch",
+        "forks_count": 53,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 717,
+        "last_update": "2026-06-26 13:16:29"
     }
 ]
