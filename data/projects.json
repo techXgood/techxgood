@@ -61791,5 +61791,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "cost",
+            "specs",
+            "prerequisites",
+            "replay",
+            "lab",
+            "bugs",
+            "tools",
+            "via",
+            "programmable",
+            "expressive"
+        ],
+        "title": "humancomputerlab/LeLamp",
+        "description": null,
+        "repo": "https://github.com/humancomputerlab/LeLamp",
+        "forks_count": 92,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 515,
+        "last_update": "2026-06-27 04:35:38"
     }
 ]
