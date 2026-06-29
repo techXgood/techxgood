@@ -61815,5 +61815,31 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai-azd-templates",
+            "azd-templates",
+            "**](#",
+            "20code",
+            "[**",
+            "accelerators",
+            "repositories",
+            "financial",
+            "serious",
+            "technicalarchitecture",
+            "managed",
+            "tier"
+        ],
+        "title": "microsoft/agentic-applications-for-unified-data-foundation-solution-accelerator",
+        "description": null,
+        "repo": "https://github.com/microsoft/agentic-applications-for-unified-data-foundation-solution-accelerator",
+        "forks_count": 195,
+        "language": "TSQL",
+        "website": null,
+        "image": null,
+        "stars": 109,
+        "last_update": "2026-06-26 20:49:05"
     }
 ]
