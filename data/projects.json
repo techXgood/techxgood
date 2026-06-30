@@ -61841,5 +61841,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "collaboration",
+            "eol",
+            "com",
+            "use_panels",
+            "technical",
+            "introduction",
+            "users",
+            "taught",
+            "windows",
+            "sign_up"
+        ],
+        "title": "naturalis/mebioda",
+        "description": null,
+        "repo": "https://github.com/naturalis/mebioda",
+        "forks_count": 84,
+        "language": "HTML",
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2026-06-11 16:26:21"
     }
 ]
