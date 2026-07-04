@@ -61909,5 +61909,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "society",
+        "keywords": [
+            "label",
+            "students",
+            "color",
+            "foster",
+            "effectiveness",
+            "collaborations",
+            "professional",
+            "q_95",
+            "hit",
+            "0077b5"
+        ],
+        "title": "CodeForGoodTech/C4GT",
+        "description": null,
+        "repo": "https://github.com/CodeForGoodTech/C4GT",
+        "forks_count": 553,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 424,
+        "last_update": "2026-07-01 12:30:42"
     }
 ]
