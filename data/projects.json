@@ -61933,5 +61933,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "whether",
+            "advanced",
+            "ideas",
+            "security",
+            "card",
+            "display",
+            "access",
+            "firmware",
+            "lcd",
+            "content"
+        ],
+        "title": "TechHacki/BUG",
+        "description": null,
+        "repo": "https://github.com/TechHacki/BUG",
+        "forks_count": 5,
+        "language": "C++",
+        "website": null,
+        "image": null,
+        "stars": 30,
+        "last_update": "2026-06-29 14:41:27"
     }
 ]
