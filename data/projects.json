@@ -62000,5 +62000,33 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "bughunter",
+            "burpsuite",
+            "data-security",
+            "vscode",
+            "list",
+            "award",
+            "tagging",
+            ")\\]",
+            "fine",
+            "labs",
+            "></",
+            "dedicated",
+            "starlink",
+            "code"
+        ],
+        "title": "overspace-labs/HaE",
+        "description": null,
+        "repo": "https://github.com/overspace-labs/HaE",
+        "forks_count": 313,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 4300,
+        "last_update": "2026-07-09 11:37:12"
     }
 ]
