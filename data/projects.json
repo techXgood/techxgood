@@ -62028,5 +62028,31 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "government-data",
+            "legislative-data",
+            "domain",
+            "usgpo",
+            "shell",
+            "includes",
+            "install",
+            "process",
+            "directly",
+            "branch",
+            "need",
+            "app"
+        ],
+        "title": "usgpo/innovation",
+        "description": null,
+        "repo": "https://github.com/usgpo/innovation",
+        "forks_count": 14,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 58,
+        "last_update": "2026-06-23 23:19:37"
     }
 ]
