@@ -62054,5 +62054,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "able",
+            "towards",
+            "knowledge",
+            "crowducate",
+            "initiatives",
+            "opinion",
+            "uploads",
+            "========",
+            "run",
+            "linked"
+        ],
+        "title": "Crowducate/crowducate-platform",
+        "description": null,
+        "repo": "https://github.com/Crowducate/crowducate-platform",
+        "forks_count": 66,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 186,
+        "last_update": "2026-06-21 22:32:15"
     }
 ]
