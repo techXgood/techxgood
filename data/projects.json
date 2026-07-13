@@ -62107,5 +62107,43 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "3d-printing",
+            "arduino",
+            "diy-electronics",
+            "diy-project",
+            "esp32",
+            "esp32-arduino",
+            "home-assistant",
+            "lidar",
+            "lidar-slam",
+            "raspberry-pi",
+            "ros2",
+            "slam",
+            "vacuum-cleaner",
+            "vacuum-robot",
+            "commercial",
+            "hair",
+            "kaiaai",
+            "chart",
+            "flipped",
+            "zero",
+            "navigation",
+            "driving",
+            "encoder",
+            "outdoor"
+        ],
+        "title": "makerspet/oomwoo",
+        "description": null,
+        "repo": "https://github.com/makerspet/oomwoo",
+        "forks_count": 195,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 4177,
+        "last_update": "2026-07-13 19:15:07"
     }
 ]
