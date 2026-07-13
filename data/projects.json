@@ -62078,5 +62078,34 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "collaborative-editing",
+            "markdown",
+            "nextcloud",
+            "nextcloud-app",
+            "wiki",
+            "githubusercontent",
+            "gmbh",
+            "badge",
+            "collective",
+            "viewer",
+            "search",
+            "contributors",
+            "2618694936",
+            "designed",
+            "documentation"
+        ],
+        "title": "nextcloud/collectives",
+        "description": null,
+        "repo": "https://github.com/nextcloud/collectives",
+        "forks_count": 48,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 187,
+        "last_update": "2026-07-13 10:20:52"
     }
 ]
