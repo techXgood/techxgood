@@ -62145,5 +62145,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "sparkfun",
+            "browser",
+            "users",
+            "139",
+            "nvidia",
+            "using",
+            "jetbot",
+            "discuss",
+            "<!--[<",
+            "shields"
+        ],
+        "title": "NVIDIA-AI-IOT/jetbot",
+        "description": null,
+        "repo": "https://github.com/NVIDIA-AI-IOT/jetbot",
+        "forks_count": 1072,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 3319,
+        "last_update": "2026-07-16 18:26:44"
     }
 ]
