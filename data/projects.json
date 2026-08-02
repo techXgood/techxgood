@@ -62274,5 +62274,34 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "environment",
+            "hacktoberfest",
+            "hacktoberfest-plant",
+            "hacktoberfest2021",
+            "tree",
+            "world",
+            "iniciativas",
+            "semarnat",
+            "programa",
+            "jpg",
+            "isha",
+            "organization",
+            "org",
+            "woodland",
+            "img"
+        ],
+        "title": "OtacilioN/awesome-hacktoberfest-plant-a-tree",
+        "description": null,
+        "repo": "https://github.com/OtacilioN/awesome-hacktoberfest-plant-a-tree",
+        "forks_count": 157,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 39,
+        "last_update": "2026-07-23 06:31:33"
     }
 ]
