@@ -62303,5 +62303,31 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai-azd-templates",
+            "azd-templates",
+            "offerings",
+            "high",
+            "integration",
+            "nbsp",
+            "soc",
+            "learn",
+            "disclaimers",
+            "provide",
+            "people",
+            "launch"
+        ],
+        "title": "microsoft/customer-chatbot-solution-accelerator",
+        "description": null,
+        "repo": "https://github.com/microsoft/customer-chatbot-solution-accelerator",
+        "forks_count": 44,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 46,
+        "last_update": "2026-08-02 12:47:52"
     }
 ]
