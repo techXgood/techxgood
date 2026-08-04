@@ -62329,5 +62329,35 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai",
+            "artificial-intelligence",
+            "deep-learning",
+            "deep-neural-networks",
+            "machine-learning",
+            "transformers",
+            "regression",
+            "new",
+            "modifications",
+            "prediction",
+            "https",
+            "series",
+            "materias",
+            "expertise",
+            "injection",
+            "director"
+        ],
+        "title": "rasbt/MachineLearning-QandAI-book",
+        "description": null,
+        "repo": "https://github.com/rasbt/MachineLearning-QandAI-book",
+        "forks_count": 184,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 934,
+        "last_update": "2026-07-28 14:43:25"
     }
 ]
