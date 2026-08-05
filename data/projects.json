@@ -62359,5 +62359,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ucla",
+            "**.",
+            "fellow",
+            "demos",
+            "perfect",
+            "com",
+            "conceived",
+            "creation",
+            "publishing",
+            "owned"
+        ],
+        "title": "EricYufengWu/q8bot",
+        "description": null,
+        "repo": "https://github.com/EricYufengWu/q8bot",
+        "forks_count": 40,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 325,
+        "last_update": "2026-08-04 13:28:19"
     }
 ]
