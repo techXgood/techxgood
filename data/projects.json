@@ -62427,5 +62427,42 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "carbon-design-system",
+            "clinical-laboratory",
+            "digital-public-goods",
+            "fhir",
+            "global-health",
+            "health-informatics",
+            "hl7",
+            "java",
+            "laboratory-information-system",
+            "lims",
+            "lis",
+            "react",
+            "spring",
+            "npm",
+            "ensure",
+            "compose",
+            "customize",
+            "options",
+            "mvn",
+            "task",
+            "project",
+            "management",
+            "badges"
+        ],
+        "title": "DIGI-UW/OpenELIS-Global-2",
+        "description": null,
+        "repo": "https://github.com/DIGI-UW/OpenELIS-Global-2",
+        "forks_count": 602,
+        "language": "Java",
+        "website": null,
+        "image": null,
+        "stars": 242,
+        "last_update": "2026-08-10 08:57:54"
     }
 ]
