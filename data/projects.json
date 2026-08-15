@@ -62563,5 +62563,36 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "mental-health",
+            "psychology",
+            "psychotherapy",
+            "selfhelp",
+            "curriculum",
+            "improve",
+            "shared",
+            "29k",
+            "technology",
+            "detecting",
+            "edison",
+            "hacker",
+            "conference",
+            "eyeloop"
+        ],
+        "title": "jasiek-net/awesome-psychology-projects",
+        "description": null,
+        "repo": "https://github.com/jasiek-net/awesome-psychology-projects",
+        "forks_count": 8,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 25,
+        "last_update": "2026-08-01 11:26:29"
     }
 ]
