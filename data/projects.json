@@ -62594,5 +62594,39 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai",
+            "community-health",
+            "computer-vision",
+            "deep-learning",
+            "github",
+            "issue-templates",
+            "machine-learning",
+            "ml",
+            "ultralytics",
+            "yolo",
+            "yolo",
+            "linkedin",
+            "explore",
+            "license",
+            "solutions",
+            "necessary",
+            "questions",
+            "value",
+            "processes",
+            "workflows"
+        ],
+        "title": "ultralytics/.github",
+        "description": null,
+        "repo": "https://github.com/ultralytics/.github",
+        "forks_count": 9,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 73,
+        "last_update": "2026-08-15 18:25:04"
     }
 ]
