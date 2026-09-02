@@ -62799,5 +62799,41 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "computer-vision-interview-questions",
+            "data-science-interview",
+            "data-science-interview-questions",
+            "data-science-interviews",
+            "deep-learning-interview",
+            "deep-learning-interview-questions",
+            "machine-learning-interview",
+            "machine-learning-interview-questions",
+            "ml-interview",
+            "ml-interview-prep",
+            "ml-interviews",
+            "nlp-interview-questions",
+            "finds",
+            "sklearn",
+            "8f044e",
+            "similarities",
+            "normalizing",
+            "bagging",
+            "level",
+            "gather",
+            "current",
+            "sparsity"
+        ],
+        "title": "andrewekhalel/MLQuestions",
+        "description": null,
+        "repo": "https://github.com/andrewekhalel/MLQuestions",
+        "forks_count": 796,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 4869,
+        "last_update": "2026-09-02 10:14:52"
     }
 ]
