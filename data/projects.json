@@ -62835,5 +62835,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "models",
+            "class",
+            "library",
+            "classical",
+            "spend",
+            "language",
+            "server",
+            "vga",
+            "workload",
+            "easy"
+        ],
+        "title": "ztachip/ztachip",
+        "description": null,
+        "repo": "https://github.com/ztachip/ztachip",
+        "forks_count": 52,
+        "language": "VHDL",
+        "website": null,
+        "image": null,
+        "stars": 330,
+        "last_update": "2026-09-03 01:25:40"
     }
 ]
