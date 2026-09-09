@@ -62903,5 +62903,41 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai-agents",
+            "bun",
+            "claude-code",
+            "codex",
+            "cursor",
+            "developer-tools",
+            "memory",
+            "qmd",
+            "rag",
+            "smriti",
+            "sqlite",
+            "team-collaboration",
+            "session",
+            "qmd",
+            "team",
+            "macos",
+            "rate",
+            "smriti_purge",
+            "license",
+            "start",
+            "teams",
+            "scoped"
+        ],
+        "title": "zero8dotdev/smriti",
+        "description": null,
+        "repo": "https://github.com/zero8dotdev/smriti",
+        "forks_count": 5,
+        "language": "TypeScript",
+        "website": null,
+        "image": null,
+        "stars": 38,
+        "last_update": "2026-09-08 08:50:49"
     }
 ]
