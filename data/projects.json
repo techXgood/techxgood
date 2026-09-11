@@ -62963,5 +62963,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "python",
+            "commons",
+            "final",
+            "environment",
+            "may",
+            "**.",
+            "python3",
+            "simplified",
+            "international",
+            "place"
+        ],
+        "title": "IOAI-official/IOAI-2025",
+        "description": null,
+        "repo": "https://github.com/IOAI-official/IOAI-2025",
+        "forks_count": 42,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 231,
+        "last_update": "2026-09-07 08:10:03"
     }
 ]
