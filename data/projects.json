@@ -62939,5 +62939,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "quickly",
+            "architecture",
+            "introduction",
+            "badge",
+            "=======",
+            "worrying",
+            "crowd",
+            "guidelines",
+            "boards",
+            "**\\"
+        ],
+        "title": "mercedes-benz/ardep",
+        "description": null,
+        "repo": "https://github.com/mercedes-benz/ardep",
+        "forks_count": 158,
+        "language": "C",
+        "website": null,
+        "image": null,
+        "stars": 545,
+        "last_update": "2026-09-11 08:18:58"
     }
 ]
