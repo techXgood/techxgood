@@ -63054,5 +63054,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "society",
+        "keywords": [
+            "orleans",
+            "fest",
+            "opendatacon",
+            "partnerships",
+            "center",
+            "ukraine",
+            "house",
+            "connect",
+            "transportation",
+            "com"
+        ],
+        "title": "compilerla/civic-tech-events",
+        "description": null,
+        "repo": "https://github.com/compilerla/civic-tech-events",
+        "forks_count": 6,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 31,
+        "last_update": "2026-09-02 18:58:23"
     }
 ]
