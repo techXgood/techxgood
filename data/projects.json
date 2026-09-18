@@ -63102,5 +63102,33 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "federated-learning",
+            "hierarchical-agents",
+            "machine-learning-algorithms",
+            "prompt-engineering",
+            "grok",
+            "scaffolding",
+            "denoise",
+            "https",
+            "polishes",
+            "align",
+            "dynamics",
+            "matmul",
+            "quick",
+            "agents"
+        ],
+        "title": "iblameandrew/open-deepthink",
+        "description": null,
+        "repo": "https://github.com/iblameandrew/open-deepthink",
+        "forks_count": 21,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 149,
+        "last_update": "2026-09-07 08:39:56"
     }
 ]
