@@ -63078,5 +63078,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "waveforms",
+            "fundamental",
+            "introduction",
+            "folder",
+            "compilers",
+            "culminating",
+            "sandip",
+            "edx",
+            "basic",
+            "solid"
+        ],
+        "title": "iam-sandipmaity/learn-embedded-systems",
+        "description": null,
+        "repo": "https://github.com/iam-sandipmaity/learn-embedded-systems",
+        "forks_count": 15,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 28,
+        "last_update": "2026-09-08 03:25:44"
     }
 ]
