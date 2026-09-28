@@ -63130,5 +63130,33 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai-red-team",
+            "generative-ai",
+            "red-team-tools",
+            "responsible-ai",
+            "file",
+            "authorized",
+            "teaming",
+            "python",
+            "pyrit_whitepaper_2026",
+            "products",
+            "server",
+            "pdf",
+            "third",
+            "tooling"
+        ],
+        "title": "microsoft/PyRIT",
+        "description": null,
+        "repo": "https://github.com/microsoft/PyRIT",
+        "forks_count": 915,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 4556,
+        "last_update": "2026-09-28 03:34:13"
     }
 ]
