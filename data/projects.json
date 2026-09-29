@@ -63182,5 +63182,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "gate",
+            "governed",
+            "prompt",
+            "platform",
+            "read",
+            "reviewable",
+            "detect",
+            "offs",
+            "become",
+            "responsible"
+        ],
+        "title": "rohitbhardwaj/ChatGPTSoftwareArchitects",
+        "description": null,
+        "repo": "https://github.com/rohitbhardwaj/ChatGPTSoftwareArchitects",
+        "forks_count": 40,
+        "language": "JavaScript",
+        "website": null,
+        "image": null,
+        "stars": 40,
+        "last_update": "2026-08-25 12:37:01"
     }
 ]
