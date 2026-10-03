@@ -63212,5 +63212,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "contains",
+            "icon",
+            "mail",
+            "successors",
+            "garrett",
+            "html",
+            "future",
+            "operating",
+            "intends",
+            "kei"
+        ],
+        "title": "ros2/rviz",
+        "description": null,
+        "repo": "https://github.com/ros2/rviz",
+        "forks_count": 320,
+        "language": "C++",
+        "website": null,
+        "image": null,
+        "stars": 494,
+        "last_update": "2026-10-02 15:20:12"
     }
 ]
