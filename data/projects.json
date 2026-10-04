@@ -63236,5 +63236,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "complete",
+            "potential",
+            "opentelemetry",
+            "native",
+            "remains",
+            "pediatric",
+            "queries",
+            "observability",
+            "fixed",
+            "deduplicated"
+        ],
+        "title": "hastimal/gemini-healthcare-agentic-platform",
+        "description": null,
+        "repo": "https://github.com/hastimal/gemini-healthcare-agentic-platform",
+        "forks_count": 35,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 39,
+        "last_update": "2026-09-28 23:08:16"
     }
 ]
