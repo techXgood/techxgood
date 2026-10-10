@@ -63260,5 +63260,39 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "ai",
+            "ai-tools-directory",
+            "ai-top-tools",
+            "artificial-intelligence",
+            "awesome-list",
+            "machine-learning",
+            "ml",
+            "open-source",
+            "productivity-tools",
+            "top-ai-tools",
+            "apps_building_platform",
+            "research",
+            "video_marketing_automation",
+            "mental_wellness",
+            "analysis",
+            "disclaimer",
+            "photography",
+            "ios",
+            "ai_video",
+            "vulnerability"
+        ],
+        "title": "ToolkitlyAI/awesome-ai-tools",
+        "description": null,
+        "repo": "https://github.com/ToolkitlyAI/awesome-ai-tools",
+        "forks_count": 133,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 29,
+        "last_update": "2026-10-06 12:24:53"
     }
 ]
