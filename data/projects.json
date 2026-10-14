@@ -63318,5 +63318,40 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "binary-analysis",
+            "firmware",
+            "firmware-analysis",
+            "firmware-security",
+            "firmware-tools",
+            "iot",
+            "iot-security",
+            "iot-security-tools",
+            "reverse-engineering",
+            "security",
+            "vulnerability-scanner",
+            "work",
+            "field",
+            "source",
+            "maintainers",
+            "contributing",
+            "identify",
+            "material",
+            "tests",
+            "guides",
+            "see"
+        ],
+        "title": "attify/firmware-analysis-toolkit",
+        "description": null,
+        "repo": "https://github.com/attify/firmware-analysis-toolkit",
+        "forks_count": 288,
+        "language": "Rust",
+        "website": null,
+        "image": null,
+        "stars": 1615,
+        "last_update": "2026-10-13 19:03:29"
     }
 ]
