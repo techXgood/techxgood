@@ -63354,5 +63354,29 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "fidelity",
+            "detailed",
+            "demo",
+            "instructions",
+            "peking",
+            "build",
+            "thank",
+            "top",
+            "hallucinations",
+            "citing"
+        ],
+        "title": "AIGeeksGroup/Code2Worlds",
+        "description": null,
+        "repo": "https://github.com/AIGeeksGroup/Code2Worlds",
+        "forks_count": 9,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 139,
+        "last_update": "2026-10-13 09:21:03"
     }
 ]
