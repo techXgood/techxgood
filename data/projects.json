@@ -63379,5 +63379,61 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "a11y",
+            "accessibility",
+            "assistive-technology",
+            "awesome",
+            "awesome-list",
+            "inclusive-design",
+            "screen-readers",
+            "wcag",
+            "litigation",
+            "image",
+            "pixel",
+            "agnostic",
+            "codes",
+            "functional",
+            "information",
+            "asterics",
+            "translation",
+            "gameaccessibilityguidelines"
+        ],
+        "title": "lukeslp/awesome-accessibility",
+        "description": null,
+        "repo": "https://github.com/lukeslp/awesome-accessibility",
+        "forks_count": 79,
+        "language": null,
+        "website": null,
+        "image": null,
+        "stars": 94,
+        "last_update": "2026-10-22 17:37:30"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "computer",
+            "image",
+            "folder",
+            "diseases",
+            "reinforcement",
+            "using",
+            "2djkyts4hafhmkpm8",
+            "integrate",
+            "via",
+            "potential"
+        ],
+        "title": "llSourcell/AlphaCare",
+        "description": null,
+        "repo": "https://github.com/llSourcell/AlphaCare",
+        "forks_count": 13,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": null,
+        "stars": 44,
+        "last_update": "2026-09-25 01:15:10"
     }
 ]
