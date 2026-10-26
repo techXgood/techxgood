@@ -63435,5 +63435,53 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "procurement",
+            "want",
+            "simulation",
+            "rpi",
+            "chain",
+            "imu",
+            "kit",
+            "com",
+            "hzdfgn7kuw",
+            "order"
+        ],
+        "title": "menloresearch/asimov-1",
+        "description": null,
+        "repo": "https://github.com/menloresearch/asimov-1",
+        "forks_count": 229,
+        "language": "Python",
+        "website": null,
+        "image": null,
+        "stars": 1331,
+        "last_update": "2026-10-25 18:24:58"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "homework",
+            "maps",
+            "briefly",
+            "linux",
+            "com",
+            "real",
+            "probability",
+            "courses",
+            "environment",
+            "conference"
+        ],
+        "title": "ariarobotics/robotic-mapping",
+        "description": null,
+        "repo": "https://github.com/ariarobotics/robotic-mapping",
+        "forks_count": 95,
+        "language": "C++",
+        "website": null,
+        "image": null,
+        "stars": 598,
+        "last_update": "2026-10-24 19:35:43"
     }
 ]
