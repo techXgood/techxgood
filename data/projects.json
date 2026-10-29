@@ -63551,5 +63551,35 @@
         "category": "environment",
         "image": "",
         "title": "protontypes/open-sustainable-technology"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "climate-change",
+            "conservation",
+            "ecology",
+            "niche-modeling",
+            "r-package",
+            "species-distribution-models",
+            "28px",
+            "also",
+            "represent",
+            "positive",
+            "location",
+            "contributing",
+            "make",
+            "pull",
+            "evaluated",
+            "sets"
+        ],
+        "title": "Bohao0813/climniche",
+        "description": null,
+        "repo": "https://github.com/Bohao0813/climniche",
+        "forks_count": 9,
+        "language": "R",
+        "website": null,
+        "image": null,
+        "stars": 43,
+        "last_update": "2026-10-20 03:26:10"
     }
 ]
