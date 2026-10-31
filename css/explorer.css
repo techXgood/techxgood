@@ -1,258 +1,564 @@
-import url("palette_green.css");
+/* ------------------------------ */
+/* --- Header with the search box --- */
+/* ------------------------------ */
 
-/* navbar */
-.navbar-toggler {
-    color: black;
+.explorer-header .search-box {
+    flex: 1;
 }
 
-/* Griglia delle card */
-.grid {
+.explorer-header .site-nav {
+    margin-left: 0;
+}
+
+.search-clear {
+    flex: none;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--anthracite);
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    padding: 50px;
+    place-items: center;
+}
+
+.search-clear svg {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.search-clear:hover {
+    background-color: var(--beige);
+}
+
+/* --------------- */
+/* --- Filters --- */
+/* --------------- */
+
+.toolbar {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.4rem 1.5rem 0;
+}
+
+.category-chips {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0.3rem 1.5rem 0.6rem 0.2rem;
+    scrollbar-width: none;
+    /* faded right edge: there are more chips to scroll */
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 2.5rem), transparent);
+    mask-image: linear-gradient(90deg, #000 calc(100% - 2.5rem), transparent);
+}
+
+.category-chips::-webkit-scrollbar {
+    display: none;
+}
+
+.category-chips .chip {
+    flex: none;
+    cursor: pointer;
+}
+
+.toolbar-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+    padding-top: 0.4rem;
+}
+
+.results-summary {
+    margin: 0;
+    font-family: var(--font-title);
+    font-size: 1.05rem;
+}
+
+.results-summary strong {
+    font-weight: 800;
+}
+
+.toolbar-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.select-pill {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 42px;
+    padding: 0 0.4rem 0 0.9rem;
+    border-radius: var(--radius-pill);
+    background-color: var(--white);
+    border: 1px solid var(--line);
+    margin: 0;
+}
+
+.select-pill svg {
+    width: 1rem;
+    height: 1rem;
+    color: var(--black_green);
+}
+
+.select-pill select {
+    height: 100%;
+    border: 0;
+    background: transparent;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding-right: 0.4rem;
+    cursor: pointer;
+}
+
+.select-pill select:focus {
+    outline: none;
+}
+
+.select-pill:focus-within {
+    outline: 3px solid var(--black_green);
+    outline-offset: 2px;
+}
+
+.view-toggle {
+    display: inline-flex;
+    padding: 3px;
+    border-radius: var(--radius-pill);
+    background-color: var(--white);
+    border: 1px solid var(--line);
+}
+
+.view-toggle button {
+    width: 36px;
+    height: 34px;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--anthracite);
+    display: grid;
+    place-items: center;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.view-toggle svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.view-toggle button[aria-pressed="true"] {
+    background-color: var(--black_green);
+    color: var(--white);
+}
+
+/* ---------------------- */
+/* --- Griglia delle card --- */
+/* ---------------------- */
+
+.grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.2rem 1.5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 1.3rem;
 }
 
 .card {
-    background-color: var(--green);
-    color: var(--white);
-    padding: 10px;
-    border-radius: 15px;
-    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1.2rem 1.2rem 1rem;
+    border-radius: var(--radius);
+    background-color: var(--white);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-sm);
     overflow: hidden;
+    transition: transform 0.3s var(--ease-bounce), box-shadow 0.3s, border-color 0.2s;
+    animation: pop-in 0.5s var(--ease-bounce) both;
+    animation-delay: calc(var(--i, 0) * 35ms);
 }
 
-.card-project-logo-img {
-    max-width: 90%;
-    min-height: 15%;
-    max-height: 15%;
-    object-fit: fill;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    /*margin-right: 1%;*/
+/* coloured bar that grows on hover */
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--black_green), var(--light_green), var(--yellow));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: rgba(76, 175, 80, 0.5);
+}
+
+.card:hover::before {
+    transform: scaleX(1);
+}
+
+.card-head {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
 }
 
-.card-project-title-img {
-    min-width: 90%;
-    max-width: 90%;
-    min-height: 15%;
-    max-height: 15%;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    display: inline-block;
-    text-align: center;
-    margin-top: 0%;
-    padding-top: 5vw;     /* Adjust padding to center text */
-    padding-bottom: 5vw;  /* Adjust padding to center text */
-    box-sizing: border-box; /* Ensure padding doesn't affect total height */
+.card-category {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.7rem 0.25rem 0.4rem;
+    border: 0;
+    border-radius: var(--radius-pill);
     background-color: var(--beige);
-    overflow: auto;
-    color: rgb(8, 119, 119);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: background-color 0.2s, color 0.2s;
 }
 
-.oxanium-title-img {
-  font-family: "Oxanium", sans-serif;
-  font-size: 120%;
-  font-weight: 500;
-  font-style: normal;
-  color:rgb(26, 97, 97);
+.card-category img {
+    width: 1.1rem;
+    height: 1.1rem;
 }
 
-.card_category {
-    margin-left: 0%;
-    vertical-align: middle;
+.card-category:hover {
+    background-color: var(--black_green);
+    color: var(--white);
+}
+
+.card-category:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.card-poc {
     display: inline-flex;
-    align-items: flex-start;
-}
-
-.category_item {
-    display: inline-flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.card-category-img {
-    width: 3vh;
-    height: auto;
-    border-radius: 3px;
-    margin-right: 7px;
-    float: left;
     align-items: center;
+    gap: 0.3rem;
+    padding: 0.2rem 0.65rem;
+    border-radius: var(--radius-pill);
+    background-color: var(--yellow);
+    font-family: var(--font-title);
+    font-size: 0.78rem;
+    font-weight: 700;
 }
 
-.card-category-name {
+.card-poc img {
+    width: 0.95rem;
+    height: 0.95rem;
+}
+
+.card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 0.45rem;
+    overflow-wrap: anywhere;
+}
+
+.card-title-link {
+    text-decoration: none;
+    color: var(--anthracite);
+}
+
+.card-owner {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+/* highlighter that runs under the name on hover */
+.card-name {
+    background: linear-gradient(var(--yellow), var(--yellow)) no-repeat 0 88% / 0 45%;
+    transition: background-size 0.35s ease;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.card:hover .card-name,
+.card-title-link:focus-visible .card-name {
+    background-size: 100% 45%;
+}
+
+.card-description {
+    font-size: 0.92rem;
+    margin: 0 0 0.7rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+}
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.tag {
+    padding: 0.15rem 0.6rem;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--line);
+    background: transparent;
+    font-size: 0.78rem;
+    font-weight: 600;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: background-color 0.2s, transform 0.2s var(--ease-bounce);
+}
+
+.tag::before {
+    content: "#";
+    color: var(--black_green);
+    font-weight: 800;
+    margin-right: 1px;
+}
+
+.tag:hover {
+    background-color: var(--yellow);
+    transform: translateY(-2px);
+}
+
+.card-footer {
+    margin-top: auto;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    padding-top: 0.8rem;
+    border-top: 1px dashed var(--line);
 }
 
 .card_stats {
-    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+}
+
+.card-stat {
     display: inline-flex;
     align-items: center;
-}
-
-.card_stats_info {
-    margin-left: 1px;
-    padding: 2px;
-}
-
-.card_github_logo {
-    max-width: 7%
-}
-
-.card_gitlab_logo {
-    max-width: 12%;
-    vertical-align: middle;
-    display: inline-flex;
-}
-
-.card_homepage_icon {
-    max-width: 7%;
+    gap: 0.3rem;
+    font-family: var(--font-title);
+    font-size: 0.88rem;
+    font-weight: 600;
 }
 
 .card_stats_icons {
-    margin-left: 2vh;
-    margin-right: 2px;
-    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+}
+
+.card-links {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.card-links a {
     display: inline-flex;
-    min-width: 2vh;
-    max-width: 2vh;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.3rem 0.75rem;
+    border-radius: var(--radius-pill);
+    background-color: var(--beige);
+    color: var(--anthracite);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s, transform 0.25s var(--ease-bounce);
+}
+
+.card-links a:hover {
+    background-color: var(--black_green);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.card-links img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.card-links a:hover img {
+    filter: brightness(0) invert(1);
+}
+
+/* ---------------------------------- */
+/* --- Placeholders while loading --- */
+/* ---------------------------------- */
+
+.card.skeleton {
+    min-height: 230px;
+    animation: none;
+}
+
+.skeleton-line {
+    height: 0.9rem;
+    border-radius: 6px;
+    background: linear-gradient(90deg, rgba(209, 211, 197, 0.5) 25%, var(--beige) 50%, rgba(209, 211, 197, 0.5) 75%);
+    background-size: 800px 100%;
+    animation: shimmer 1.4s linear infinite;
+}
+
+.skeleton-line.short { width: 35%; }
+.skeleton-line.title { width: 70%; height: 1.3rem; }
+.skeleton-line.footer { margin-top: auto; width: 55%; }
+
+/* ------------------------------- */
+/* --- Empty results, load more --- */
+/* ------------------------------- */
+
+.empty-state {
+    max-width: 560px;
+    margin: 1rem auto 4rem;
+    padding: 0 1.5rem;
+    text-align: center;
+    animation: pop-in 0.5s var(--ease-bounce) both;
+}
+
+.empty-emoji {
+    display: inline-block;
+    font-size: 4.5rem;
+    animation: float 4s ease-in-out infinite;
+}
+
+.empty-state h2 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.empty-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.empty-suggestions .chip {
+    cursor: pointer;
+}
+
+.load-more {
+    text-align: center;
+    padding: 0 1.5rem 3rem;
+}
+
+/* --- LIST VIEW MODE --- */
+/* Quando il contenitore ha la classe .list-mode, forza 1 colonna */
+.grid.list-mode {
+    grid-template-columns: 1fr;
+    max-width: 1100px;
+    gap: 0.9rem;
+}
+
+/* Stile della Card in modalità Lista: titolo e descrizione a sinistra, link e stats a destra */
+.grid.list-mode .card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+        "head head"
+        "overview footer";
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.grid.list-mode .card-head {
+    grid-area: head;
+    justify-content: flex-start;
+}
+
+.grid.list-mode .card-overview {
+    grid-area: overview;
+    min-width: 0;
+}
+
+.grid.list-mode .card-description {
+    -webkit-line-clamp: 2;
+}
+
+.grid.list-mode .card-footer {
+    grid-area: footer;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0;
+    padding: 0 0 0 1.5rem;
+    border-top: 0;
+    border-left: 1px dashed var(--line);
+    align-self: stretch;
+    justify-content: center;
+}
+
+.grid.list-mode .card_stats {
+    justify-content: flex-end;
 }
 
 /* --------------------- */
 /* --- Media Queries --- */
 /* --------------------- */
 
-@media (max-width: 1023px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 @media (max-width: 900px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
+    .explorer-header {
+        flex-wrap: wrap;
+        row-gap: 0.6rem;
+    }
+
+    .explorer-header .search-box {
+        order: 3;
+        flex-basis: 100%;
+        max-width: none;
+    }
+
+    .explorer-header .nav-toggle {
+        margin-left: auto;
+    }
+
+    .search-kbd {
+        display: none;
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
+    .toolbar {
+        padding: 1rem 1rem 0;
+    }
+
     .grid {
+        padding: 1rem 1rem 2rem;
         grid-template-columns: 1fr;
     }
 
-    .search-bar input[type="text"] {
-        width: 80%;
-    }
-
-    .search-bar select {
-        width: 40%;
-    }
-
-    .filters {
-        flex-wrap: wrap;
-    }
-
-    .filters .searching-button {
-        font-size: 12px;
-    }
-
-    .search-bar-logo {
-    border-radius: 10px;
-    max-width: 7%;
-    margin-right: 30px;
-    }
-}
-
-/* --- LIST VIEW MODE --- */
-/* Quando il contenitore ha la classe .list-mode, forza 1 colonna */
-.grid.list-mode {
-    grid-template-columns: 1fr; /* Una sola card per riga */
-    padding: 20px 50px; /* Riduci un po' il gap verticale */
-    max-width: 1200px; /* Evita che le righe diventino troppo lunghe su schermi enormi */
-    margin: 0 auto;
-}
-
-/* Stile della Card in modalità Lista */
-.grid.list-mode .card {
-    display: flex;
-    flex-direction: row; /* Dispone il contenuto in orizzontale */
-    align-items: center;
-    justify-content: space-between;
-    text-align: left; /* Allinea il testo a sinistra stile Google */
-    padding: 20px 30px;
-    height: auto;
-    min-height: auto;
-}
-
-/* Contenitore principale interno alla card */
-.grid.list-mode .card > div {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Sezione Sinistra: Titolo e Descrizione */
-.grid.list-mode .card-overview {
-    flex: 3; /* Prende più spazio (3 parti su 5) */
-    padding-right: 20px;
-    border-right: 1px solid rgba(255,255,255,0.2); /* Separatore verticale opzionale */
-    margin-right: 20px;
-}
-
-/* Reset delle immagini titolo per la lista */
-.grid.list-mode .card-project-title-img {
-    padding: 0;
-    margin: 0 0 10px 0;
-    background: transparent;
-    min-width: auto;
-    text-align: left;
-    width: auto;
-    display: block;
-}
-
-.grid.list-mode .card-description {
-    margin-bottom: 0;
-}
-
-/* Nascondi le righe orizzontali HR in modalità lista */
-.grid.list-mode hr {
-    display: none;
-}
-
-/* Sezione Destra: Link, Categorie, Stats raggruppati */
-.grid.list-mode .card-links,
-.grid.list-mode .card_category,
-.grid.list-mode .card_stats {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Allinea a sinistra nel blocco destro */
-    justify-content: center;
-    margin: 0 10px;
-}
-
-/* Aggiustamenti specifici per i link e loghi */
-.grid.list-mode .card_github_logo,
-.grid.list-mode .card_gitlab_logo {
-    margin-bottom: 5px;
-}
-
-/* MEDIA QUERY PER LIST MODE SU MOBILE */
-/* Su mobile, la lista deve tornare a comportarsi come una pila verticale per mancanza di spazio */
-@media (max-width: 768px) {
-    .grid.list-mode .card > div {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .grid.list-mode .card-overview {
-        border-right: none;
-        border-bottom: 1px solid rgba(255,255,255,0.2);
-        padding-right: 0;
-        padding-bottom: 15px;
-        margin-bottom: 15px;
+    .toolbar-controls {
         width: 100%;
+        justify-content: space-between;
+    }
+
+    /* MEDIA QUERY PER LIST MODE SU MOBILE: torna una pila verticale per mancanza di spazio */
+    .grid.list-mode .card {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .grid.list-mode .card-footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.8rem 0 0;
+        border-left: 0;
+        border-top: 1px dashed var(--line);
     }
 }

@@ -1,31 +1,39 @@
 <template id="card-template">
-    <div class="card">
-        <div>
-            <div class="card-overview">
-                <h3 class="oxanium-title-img"></h3>
-                <p class="card-description"></p>
-            </div>
-            <hr>
-            <div class="card-links">
-                <a class="repo-link">
-                    <img class="repo-logo">
-                    code
+    <article class="card">
+        <div class="card-head">
+            <button type="button" class="card-category" title="Show only this category">
+                <img class="card-category-img" alt="">
+                <span class="card-category-name"></span>
+            </button>
+            <span class="card-poc" title="Proof of Concept" hidden>
+                <img src="imgs/explorer/poc-icon.png" alt="">
+                PoC
+            </span>
+        </div>
+        <div class="card-overview">
+            <h3 class="card-title">
+                <a class="card-title-link" target="_blank" rel="noopener noreferrer">
+                    <span class="card-owner"></span><span class="card-name"></span>
                 </a>
-                <span class="website-link"></span>
-            </div>
-            <hr>
-            <div class="card_category">
-                <div class="category_item">
-                    <img class="card-category-img">
-                    <p class="card-category-name"></p>
-                </div>
-            </div>
-            <hr>
+            </h3>
+            <p class="card-description"></p>
+            <div class="card-tags"></div>
+        </div>
+        <div class="card-footer">
             <div class="card_stats">
-                <p class="card-stats-info language"></p>
-                <p class="card-stats-info stars"></p>
-                <p class="card-stats-info poc"></p>
+                <span class="card-stat language" hidden></span>
+                <span class="card-stat stars" hidden></span>
+            </div>
+            <div class="card-links">
+                <a class="repo-link" target="_blank" rel="noopener noreferrer">
+                    <img class="repo-logo" alt="">
+                    <span>code</span>
+                </a>
+                <a class="website-link" target="_blank" rel="noopener noreferrer" hidden>
+                    <img src="imgs/explorer/homepage-icon.png" alt="">
+                    <span>site</span>
+                </a>
             </div>
         </div>
-    </div>
+    </article>
 </template>

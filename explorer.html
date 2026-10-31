@@ -13,68 +13,109 @@
     <!-- end google tag -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search open source projects with a positive impact on society and the environment.">
+    <meta name="theme-color" content="#4CAF50">
     <title>Tech X Good | Explorer</title>
-    <script src="js/common.js"></script>
-    <script>include('header-import.html', 'head', 'top');</script>
+    <link rel="icon" type="image/png" href="imgs/index/short-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oxanium:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/explorer.css">
+    <script src="js/common.js"></script>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="./index.html">
-            <p class="navbar-logo">
-                <div class="tech_good">tech</div><div class="x">X</div><div class="tech_good">good</div>
-            </p>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse menu-mobile" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <form class="form-inline">
-                    <div class="form-group mb-2 mx-sm-3">
-                        <input id="searchInput" type="text" class="form-control" placeholder="keywords">
-                    </div>
-                    <div class="form-group mb-2 mx-sm-3">
-                        <select class="form-control" id="filter_cat"></select>
-                    </div>
-                    <div class="form-group mb-2 mx-sm-3">
-                        <select class="form-control" id="orderBy"></select>
-                    </div>
-                    <div class="form-group mb-2 mx-sm-3">
-                        <button id="submitButton" class="btn" type="button" onclick="loadCards()">search</button>
-                    </div>
+    <!-- Navbar with the search box -->
+    <header class="site-header">
+        <div class="header-inner explorer-header">
+            <a class="logo logo--small" href="./index.html" aria-label="techXgood home">tech<span class="logo-x">X</span>good</a>
 
-                    <div class="btn-group mb-2 ml-3" role="group" aria-label="View Mode">
-                        <button type="button" class="btn btn-secondary active" id="btnGridView" onclick="setGridView()">
-                            Grid </button>
-                        <button type="button" class="btn btn-secondary" id="btnListView" onclick="setListView()">
-                            List </button>
-                    </div>
-                </form>
-            </div>
+            <form id="searchForm" class="search-box search-box--compact" role="search" action="explorer.html" method="get" autocomplete="off">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+                <label for="searchInput" class="sr-only">Search projects</label>
+                <input id="searchInput" name="q" type="search" maxlength="100" placeholder="Search projects, keywords, languages…">
+                <button id="clearSearch" class="search-clear" type="button" aria-label="Clear the search" hidden>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+                </button>
+                <kbd class="search-kbd" title="Press / to search">/</kbd>
+                <button class="search-submit" type="submit" aria-label="Search">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </button>
+            </form>
+
+            <button class="nav-toggle" type="button" aria-label="Open the menu" aria-expanded="false" aria-controls="siteNav"><span></span></button>
+            <nav id="siteNav" class="site-nav" aria-label="Main">
+                <a href="./index.html">Home</a>
+                <a href="./explorer.html" aria-current="page">Explore</a>
+                <a href="./index.html#stats">Stats</a>
+                <a class="nav-cta" href="./index.html#submit-project">Submit project</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <!-- Card grid -->
-    <div class="grid" id="cardGrid">
-        <!-- Cards will be inserted here dynamically -->
-    </div>
+    <main>
+        <!-- Filters -->
+        <section class="toolbar" aria-label="Filters">
+            <div id="categoryChips" class="category-chips" role="group" aria-label="Filter by category">
+                <!-- Category chips will be inserted here dynamically -->
+            </div>
+            <div class="toolbar-row">
+                <p id="resultsSummary" class="results-summary" aria-live="polite">Loading projects…</p>
+                <div class="toolbar-controls">
+                    <label class="select-pill">
+                        <span class="sr-only">Order by</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4v16M3 16l4 4 4-4M17 20V4M13 8l4-4 4 4"/></svg>
+                        <select id="orderBy"></select>
+                    </label>
+                    <div class="view-toggle" role="group" aria-label="View Mode">
+                        <button type="button" id="btnGridView" aria-pressed="true" aria-label="Grid view" title="Grid">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>
+                        </button>
+                        <button type="button" id="btnListView" aria-pressed="false" aria-label="List view" title="List">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="3" y="4" width="18" height="4" rx="2"/><rect x="3" y="10" width="18" height="4" rx="2"/><rect x="3" y="16" width="18" height="4" rx="2"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Card grid -->
+        <div class="grid" id="cardGrid" aria-busy="true">
+            <!-- Cards will be inserted here dynamically -->
+        </div>
+
+        <div id="emptyState" class="empty-state" hidden>
+            <span class="empty-emoji" aria-hidden="true">🌱</span>
+            <h2>No projects found</h2>
+            <p id="emptyText">Try other words, or one of these:</p>
+            <div id="emptySuggestions" class="empty-suggestions"></div>
+        </div>
+
+        <div id="loadMore" class="load-more" hidden>
+            <button class="btn btn-green" type="button">Show more projects</button>
+        </div>
+    </main>
 
     <!-- footer -->
-    <div id="footer" class="footer">
-        <p>
-            Tech X Good © <span id="year"></span>
-            <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
-        </p>
-    </div>
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <a class="logo" href="./index.html">tech<span class="logo-x">X</span>good</a>
+            <nav class="footer-links" aria-label="Footer">
+                <a href="./index.html">Home</a>
+                <a href="./index.html#submit-project">Submit project</a>
+                <a href="https://github.com/techXgood/techxgood/discussions">Forum</a>
+                <a href="https://github.com/techxgood/techxgood">GitHub</a>
+            </nav>
+            <p class="footer-copy">Tech X Good © <span class="current-year"></span></p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to the top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+    </button>
 
     <script src="js/explorer.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -13,163 +13,242 @@
     <!-- end google tag -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search open source projects with a positive impact on society and the environment.">
+    <meta name="theme-color" content="#388E3C">
     <title>Tech X Good</title>
-    <script src="js/common.js"></script>
-    <script>include('header-import.html', 'head', 'top');</script>
+    <link rel="icon" type="image/png" href="imgs/index/short-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oxanium:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/common.js"></script>
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light py-0 rounded-bottom">
-        <a class="navbar-brand" href="#">
-            <p class="navbar-logo">
-                <div class="tech_good py-0 pb-0">tech</div><div class="x py-0 pb-0">X</div><div class="tech_good py-0 pb-0">good</div>
-            </p>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse menu-mobile" id="navbarNavAltMarkup">
-            <div class="navbar-nav ali ml-auto">
-                <a class="nav-item nav-link" href="#about">About</a>
-                <a class="nav-item nav-link" href="./explorer.html">Explore</a>
-                <a class="nav-item nav-link" href="#stats">Stats</a>
-                <a class="nav-item nav-link" href="#submit-project">Submit Project</a>
-                <a class="nav-item nav-link" href="#join_us">Join us</a>
+    <header class="site-header site-header--overlay">
+        <div class="header-inner">
+            <a class="logo logo--small" href="#top" aria-label="techXgood, back to the top">tech<span class="logo-x">X</span>good</a>
+            <button class="nav-toggle" type="button" aria-label="Open the menu" aria-expanded="false" aria-controls="siteNav"><span></span></button>
+            <nav id="siteNav" class="site-nav" aria-label="Main">
+                <a href="./explorer.html">Explore</a>
+                <a href="#stats">Stats</a>
+                <a href="#about">About</a>
+                <a href="#join_us">Join us</a>
+                <a class="nav-github" href="https://github.com/techxgood/techxgood" aria-label="techXgood on GitHub"><img src="imgs/explorer/github-logo.png" alt=""><span class="nav-github-label"> GitHub</span></a>
+                <a class="nav-cta" href="#submit-project">Submit project</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <!-- Search Section (hero) -->
+        <section id="welcome" class="hero">
+            <div class="hero-blobs" aria-hidden="true">
+                <span class="blob blob-1"></span>
+                <span class="blob blob-2"></span>
+                <span class="blob blob-3"></span>
             </div>
-        </div>
-    </nav>
-
-    <!-- Welcome Section -->
-    <div id="welcome" class="welcome-section">
-            <div class="bg-image">
-                <picture>
-                    <source media="(min-width:1024px)" srcset="imgs/index/bg/bg-1280.png">
-                    <source media="(min-width:991px)" srcset="imgs/index/bg/bg-791.png">
-                    <img src="imgs/index/bg/bg-390.png" alt="Flowers" style="width:auto;">
-                </picture>
+            <div class="hero-floaters" aria-hidden="true">
+                <span style="--x: 8%; --y: 22%; --d: 0s;">🌍</span>
+                <span style="--x: 86%; --y: 18%; --d: -2s;">💡</span>
+                <span style="--x: 14%; --y: 72%; --d: -4s;">🩺</span>
+                <span style="--x: 90%; --y: 66%; --d: -1s;">📚</span>
+                <span style="--x: 74%; --y: 86%; --d: -3s;">🤝</span>
+                <span style="--x: 28%; --y: 88%; --d: -5s;">🌱</span>
             </div>
-            <div class="overlay-text">Code for a better World</div>
-            <div class="subtitle-text">Contribute to projects that matter</div>
-    </div>
 
-    <!-- Categories Grid -->
-    <div id="categories-grid" class="categories">
-        <!-- Categories will be inserted here dynamically -->
-    </div>
+            <div class="hero-inner">
+                <h1 class="hero-logo logo">tech<span class="logo-x">X</span>good</h1>
+                <p class="hero-tagline">Code for a better World. <span>Find open source projects that matter.</span></p>
 
-    <!-- stats -->
-    <div id="stats" class="stats-section">
-    <h2>Databases Statistics 📊</h2>
+                <form id="searchForm" class="search-box" role="search" action="explorer.html" method="get" autocomplete="off">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+                    <label for="searchInput" class="sr-only">Search projects</label>
+                    <input id="searchInput" name="q" type="search" maxlength="100" placeholder="Search projects, e.g. climate"
+                           role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions">
+                    <kbd class="search-kbd" title="Press / to search">/</kbd>
+                    <button class="search-submit" type="submit" aria-label="Search">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </button>
+                    <ul id="suggestions" class="suggestions" role="listbox" aria-label="Suggestions" hidden></ul>
+                </form>
 
-    <div class="stats-counters">
-        <div class="stat-card">
-            <h3 id="totalProjects">0</h3>
-            <p>Total Projects</p>
-        </div>
-        <div class="stat-card">
-            <h3 id="totalStars">0</h3>
-            <p>Total Project Stars</p>
-        </div>
-        <div class="stat-card">
-            <h3 id="lastUpdate" style="font-size: 1.8rem; padding-top: 1rem;">-</h3>
-            <p>Last DB Update</p>
-        </div>
-    </div>
+                <div class="hero-actions">
+                    <button class="btn btn-yellow" type="submit" form="searchForm">Search projects</button>
+                    <button id="luckyButton" class="btn btn-ghost" type="button">🎲 Surprise me</button>
+                </div>
 
-    <div class="stats-charts-container">
-        <div class="chart-box">
-            <h4>Top 10 Languages</h4>
-            <div class="canvas-container">
-                <canvas id="languagesChart"></canvas>
+                <nav id="heroChips" class="hero-chips" aria-label="Browse by category">
+                    <!-- Category chips will be inserted here dynamically -->
+                </nav>
+
+                <p class="hero-stat"><strong id="heroCount">2,700+</strong> open source projects for people &amp; planet 🌱</p>
             </div>
-        </div>
-        <div class="chart-box">
-            <h4>Top 20 Keywords</h4>
-            <div class="canvas-container">
-                <canvas id="keywordsCloud"></canvas>
-            </div>
-        </div>
-    </div>
-</div>
 
-    <!-- Submit New Project Section --> 
-    <div id="submit-project" class="contact-section">
-        <h2>Submit New Project 📁</h2>
-        <br><br>
-        <a href="https://github.com/techXgood/techXgood/issues/new?assignees=&labels=new+project&projects=&template=submit-new-project.yaml&title=%5BSubmit+new+project+%F0%9F%86%95%5D%3A+%3Cproject+name%3E">
-            <button class="btn btn-primary btn-lg">Submit Project</button>
-        </a>
-    </div>
-
-    <!-- About section -->
-    <div id="about" class="about-section">
-        <h2>About</h2>
-        <div class="about-text">
-            This platform collects <strong>open source</strong> projects that make a significant <strong>positive impact on society and the environment</strong>.
-            🌳🫂🌳<br>
-            <br>
-            Discover innovative solutions, collaborate with like-minded developers, and contribute to projects that matter.
-            🧑‍💻
-            <br>
-        </div>
-    </div>
-
-    <!-- join us section -->
-    <div id="join_us" class="join_us-section">
-        <h2>Join Us! 🤝</h2>
-        <p style="font-size: 1.2rem;">
-           Collaborate with a global network to solve real-world challenges.
-            <a href="https://github.com/techXgood/techxgood/discussions">
-                <br>
-                💬 | Forum
+            <a class="scroll-hint" href="#categories" aria-label="Scroll to the categories">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
             </a>
-        </p>
-        <br>
-        <p>Students, Make your thesis matter! 🎓
-            <br>
-            <p style="font-size: 1.2rem;">
-                Browse projects and choose one that sparks your passion.
-                <br>
-                <a href="./explorer.html">
-                🔎 | Explorer
-            </a>
-            </p>
-        </p>
-        <p>
-            <br>
-            <strong>Contribute to this project:</strong>
-            <br>
-            <p style="font-size: 1.2rem;">
-                <a href="https://github.com/techxgood/techxgood">
-                    <img src="imgs/explorer/github-logo.png" class="repository_logo"> | GitHub
+        </section>
+
+        <!-- Categories Grid -->
+        <section id="categories" class="section">
+            <div class="section-inner">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Pick a cause</span>
+                    <h2>Explore by <span class="hl">impact</span></h2>
+                    <p>Six areas where code is changing things. Choose one and start digging.</p>
+                </div>
+                <div id="categories-grid" class="categories">
+                    <!-- Categories will be inserted here dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- stats -->
+        <section id="stats" class="section section--light">
+            <div class="section-inner">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Live numbers</span>
+                    <h2>The database <span class="hl">in numbers</span> 📊</h2>
+                </div>
+
+                <div class="stats-counters">
+                    <div class="stat-card reveal" style="--reveal-delay: 0;">
+                        <span class="stat-emoji" aria-hidden="true">🗂️</span>
+                        <h3 id="totalProjects">0</h3>
+                        <p>Total Projects</p>
+                    </div>
+                    <div class="stat-card reveal" style="--reveal-delay: 1;">
+                        <span class="stat-emoji" aria-hidden="true">⭐</span>
+                        <h3 id="totalStars">0</h3>
+                        <p>Total Project Stars</p>
+                    </div>
+                    <div class="stat-card reveal" style="--reveal-delay: 2;">
+                        <span class="stat-emoji" aria-hidden="true">🔄</span>
+                        <h3 id="lastUpdate" class="stat-date">-</h3>
+                        <p>Last DB Update</p>
+                    </div>
+                </div>
+
+                <div class="stats-charts-container">
+                    <div class="chart-box reveal">
+                        <h4>Top 10 Languages</h4>
+                        <div class="canvas-container">
+                            <canvas id="languagesChart" aria-label="Top 10 languages of the projects" role="img"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-box reveal" style="--reveal-delay: 1;">
+                        <h4>Top 20 Keywords</h4>
+                        <div class="canvas-container">
+                            <canvas id="keywordsCloud" aria-label="Top 20 keywords of the projects" role="img"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Submit New Project Section -->
+        <section id="submit-project" class="cta-section">
+            <div class="cta-inner reveal">
+                <span class="cta-emoji" aria-hidden="true">🚀</span>
+                <div>
+                    <h2>Built something that matters?</h2>
+                    <p>Submit your open source project: after a quick check it will be listed here for everyone to find.</p>
+                </div>
+                <a class="btn btn-yellow btn-big" href="https://github.com/techXgood/techXgood/issues/new?assignees=&labels=new+project&projects=&template=submit-new-project.yaml&title=%5BSubmit+new+project+%F0%9F%86%95%5D%3A+%3Cproject+name%3E">
+                    Submit Project
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                 </a>
-            </p>
-        </p>
-    </div>
+            </div>
+        </section>
 
-    <!-- Partners Grid -->
-    <div id="partners" class="partners-section">
-        <h2>Partners</h2>
-        <div id="partners-grid" class="partners"></div>
-    </div>
+        <!-- About section -->
+        <section id="about" class="section">
+            <div class="section-inner about-grid">
+                <div class="about-text reveal">
+                    <span class="eyebrow">About</span>
+                    <h2>Open source, <span class="hl">for good</span></h2>
+                    <p>
+                        This platform collects <strong>open source</strong> projects that make a significant
+                        <strong>positive impact on society and the environment</strong>. 🌳🫂🌳
+                    </p>
+                    <p>
+                        Discover innovative solutions, collaborate with like-minded developers, and contribute to projects that matter. 🧑‍💻
+                    </p>
+                    <a class="btn btn-green" href="./explorer.html">Start exploring</a>
+                </div>
+                <div class="about-visual reveal" style="--reveal-delay: 1;" aria-hidden="true">
+                    <div class="about-circle"></div>
+                    <img src="imgs/index/bg/bg-390.png" alt="" loading="lazy" width="390" height="724">
+                </div>
+            </div>
+        </section>
+
+        <!-- join us section -->
+        <section id="join_us" class="section section--light">
+            <div class="section-inner">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Community</span>
+                    <h2>Join Us! 🤝</h2>
+                    <p>Collaborate with a global network to solve real-world challenges.</p>
+                </div>
+                <div class="join-grid">
+                    <a class="join-card reveal" href="https://github.com/techXgood/techxgood/discussions">
+                        <span class="join-emoji" aria-hidden="true">💬</span>
+                        <h3>Forum</h3>
+                        <p>Share ideas, ask questions and meet people building for good.</p>
+                        <span class="join-link">Open the forum →</span>
+                    </a>
+                    <a class="join-card reveal" style="--reveal-delay: 1;" href="./explorer.html">
+                        <span class="join-emoji" aria-hidden="true">🎓</span>
+                        <h3>Students</h3>
+                        <p>Make your thesis matter! Browse projects and choose one that sparks your passion.</p>
+                        <span class="join-link">Open the explorer →</span>
+                    </a>
+                    <a class="join-card reveal" style="--reveal-delay: 2;" href="https://github.com/techxgood/techxgood">
+                        <span class="join-emoji" aria-hidden="true">🧑‍💻</span>
+                        <h3>Contribute</h3>
+                        <p>Help us improve this project: code, data and ideas are all welcome.</p>
+                        <span class="join-link"><img src="imgs/explorer/github-logo.png" alt="" class="repository_logo"> GitHub →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Grid (shown only when data/partners.json has partners) -->
+        <section id="partners" class="section" hidden>
+            <div class="section-inner">
+                <div class="section-head">
+                    <h2>Partners</h2>
+                </div>
+                <div id="partners-grid" class="partners"></div>
+            </div>
+        </section>
+    </main>
 
     <!-- footer -->
-    <div id="footer" class="footer">
-        <p>
-            Tech X Good © <span id="year"></span>
-            <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
-        </p>
-    </div>
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <a class="logo" href="#top">tech<span class="logo-x">X</span>good</a>
+            <nav class="footer-links" aria-label="Footer">
+                <a href="./explorer.html">Explore</a>
+                <a href="#submit-project">Submit project</a>
+                <a href="https://github.com/techXgood/techxgood/discussions">Forum</a>
+                <a href="https://github.com/techxgood/techxgood">GitHub</a>
+            </nav>
+            <p class="footer-copy">Tech X Good © <span class="current-year"></span></p>
+        </div>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.2/wordcloud2.min.js"></script>
+    <button class="back-to-top" type="button" aria-label="Back to the top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.6.1/dist/chart.umd.min.js" integrity="sha384-Emf5ZVIUiarAdhkgtqK+5/Z5qIvM6QoVrS+qAVtfyZVuD5lIHrac0me485+Antp0" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.2/wordcloud2.min.js" integrity="sha512-lGnVsh3WK0YJ7NX7rQmUu6kqF7vqELuDrUTnxpI2iD86VwI+OlQhi3EAJJZbrBUOfDFOAYAkigxkApHGM2IZTg==" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
