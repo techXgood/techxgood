@@ -52742,5 +52742,38 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "catalog",
+            "catalogue",
+            "data",
+            "data-catalog",
+            "data-catalog-backend",
+            "data-catalog-management",
+            "data-documentation-initiative",
+            "data-portal",
+            "ddi-codebook",
+            "nada",
+            "supported",
+            "types",
+            "development",
+            "metadata",
+            "standards",
+            "https",
+            "://",
+            "worldbank",
+            "schemas"
+        ],
+        "title": "ihsn/nada",
+        "description": "National Data Archive (NADA) is an open source data cataloging system that serves as a portal for researchers to browse, search, compare, apply for access, and download relevant census or survey information. It was originally developed to support the establishment of national survey data archives.",
+        "repo": "https://github.com/ihsn/nada",
+        "forks_count": 21,
+        "language": "PHP",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/440790?v=4",
+        "stars": 54,
+        "last_update": "2026-10-31 14:36:48"
     }
 ]
