@@ -52025,5 +52025,37 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "artificial-intelligence",
+            "crunchbase",
+            "data",
+            "deep-learning",
+            "landscape",
+            "lfdl-landscape",
+            "logo",
+            "machine-learning",
+            "svg",
+            "helpdesk",
+            "ticket",
+            "https",
+            "://",
+            "members",
+            "lfx",
+            "tools",
+            "github",
+            "organization"
+        ],
+        "title": "lfai/lfai-landscape",
+        "description": "\ud83c\udf04 Open Source AI & Data Landscape - provides overview of top tier projects in the open source AI and Data ecosystem, shows projects through GitHub data, funding or market cap, first and last commits, contributor count and much other information.",
+        "repo": "https://github.com/lfai/lfai-landscape",
+        "forks_count": 130,
+        "language": null,
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/45347303?v=4",
+        "stars": 387,
+        "last_update": "2026-10-28 20:42:13"
     }
 ]
