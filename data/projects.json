@@ -52100,5 +52100,29 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "required",
+            "instructor",
+            "kaveh",
+            "fathian",
+            "end",
+            "algorithms",
+            "use",
+            "raw",
+            "sensor",
+            "data"
+        ],
+        "title": "ariarobotics/robotic-mapping",
+        "description": "Robotic Mapping and Localization Course",
+        "repo": "https://github.com/ariarobotics/robotic-mapping",
+        "forks_count": 95,
+        "language": "C++",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/143224103?v=4",
+        "stars": 600,
+        "last_update": "2026-10-28 14:51:56"
     }
 ]
