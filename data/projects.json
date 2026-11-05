@@ -52148,5 +52148,29 @@
         "image": "https://avatars.githubusercontent.com/u/95381315?v=4",
         "stars": 86,
         "last_update": "2026-11-02 21:26:42"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "orc",
+            "mailing",
+            "list",
+            "https",
+            "://",
+            "accounts",
+            "jitsi",
+            "link",
+            "www",
+            "matrix"
+        ],
+        "title": "orcwg/cra-attestations",
+        "description": "This project aims to create a practical framework that helps manufacturers meet their due diligence obligations when using open source software, without adding burden to maintainers. By introducing voluntary security attestations, it seeks to strengthen FOSS security, sustainability, and collaboration with authorities and industry actors.",
+        "repo": "https://github.com/orcwg/cra-attestations",
+        "forks_count": 12,
+        "language": null,
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/189788385?v=4",
+        "stars": 36,
+        "last_update": "2026-11-03 21:50:53"
     }
 ]
