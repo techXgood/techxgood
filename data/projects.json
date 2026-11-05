@@ -52124,5 +52124,29 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "healthcare",
+            "frameworks",
+            "eleven",
+            "clinical",
+            "notebooks",
+            "spanning",
+            "breast",
+            "cancer",
+            "classification",
+            "informed"
+        ],
+        "title": "PaulamiB-git/solutions-prototypes",
+        "description": "A working portfolio of end-to-end data engineering, actuarial modelling, and applied ML projects across the insurance and healthcare domains \u2014 from cloud lakehouse pipelines to regulatory-grade longevity models.",
+        "repo": "https://github.com/PaulamiB-git/solutions-prototypes",
+        "forks_count": 85,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/95381315?v=4",
+        "stars": 86,
+        "last_update": "2026-11-02 21:26:42"
     }
 ]
