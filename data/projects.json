@@ -52798,5 +52798,29 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "04476",
+            "jihyung",
+            "kil",
+            "arxiv",
+            "####",
+            "reinforcement",
+            "learning",
+            "###",
+            "evaluating",
+            "social"
+        ],
+        "title": "sotopia-lab/awesome-social-agents",
+        "description": "A collection of works that investigate social agents, simulations and their real-world impact in text, embodied, and robotics contexts.",
+        "repo": "https://github.com/sotopia-lab/awesome-social-agents",
+        "forks_count": 29,
+        "language": "TypeScript",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/144055741?v=4",
+        "stars": 118,
+        "last_update": "2026-10-31 10:40:00"
     }
 ]
