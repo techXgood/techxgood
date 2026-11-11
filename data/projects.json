@@ -52940,5 +52940,29 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "sushmita",
+            "sridhar",
+            "([@",
+            "ss43",
+            "https",
+            "://",
+            "github",
+            "zachary",
+            "konkel",
+            "xonq"
+        ],
+        "title": "theiagen/public_health_bioinformatics",
+        "description": "Bioinformatics workflows for genomic characterization, submission preparation, and genomic epidemiology of pathogens of public health concern.",
+        "repo": "https://github.com/theiagen/public_health_bioinformatics",
+        "forks_count": 27,
+        "language": "WDL",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/50809249?v=4",
+        "stars": 72,
+        "last_update": "2026-11-09 21:44:52"
     }
 ]
