@@ -52906,5 +52906,39 @@
         "image": "https://avatars.githubusercontent.com/u/133036022?v=4",
         "stars": 152,
         "last_update": "2026-11-06 21:07:56"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "education",
+            "jekyll",
+            "libraries",
+            "oer",
+            "open-educational-resources",
+            "research-support",
+            "research-tool",
+            "teaching-materials",
+            "teaching-website",
+            "writing-support",
+            "please",
+            "review",
+            "https",
+            "://",
+            "guides",
+            "much",
+            "since",
+            "h5p",
+            "came",
+            "around"
+        ],
+        "title": "UCLALibrary/research-tips",
+        "description": "The WI+RE (Writing Instruction + Research Education) - a collection of open educational resources designed by learners and for learners!",
+        "repo": "https://github.com/UCLALibrary/research-tips",
+        "forks_count": 36,
+        "language": "HTML",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/2214013?v=4",
+        "stars": 36,
+        "last_update": "2026-11-04 21:12:13"
     }
 ]
