@@ -53003,5 +53003,56 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "environment",
+        "keywords": [
+            "julia",
+            "tutorials",
+            "workshop",
+            "conditional",
+            "statements",
+            "###",
+            "coffee",
+            "break",
+            "```",
+            "git",
+            "clone",
+            "https",
+            "://"
+        ],
+        "title": "vboussange/WSLJuliaWorkshop2023",
+        "description": "Practical introduction to Julia for modelling and data analysis in biodiversity and earth sciences",
+        "repo": "https://github.com/vboussange/WSLJuliaWorkshop2023",
+        "forks_count": 7,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/28376122?v=4",
+        "stars": 27,
+        "last_update": "2026-08-10 20:51:21"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "wrapper",
+            "without",
+            "continuously",
+            "retraining",
+            "combined",
+            "system",
+            "would",
+            "ideally",
+            "gather",
+            "information"
+        ],
+        "title": "tomhartke/knowledge-graph-from-GPT",
+        "description": "Using GPT to organize and access information, and generate questions. Long term goal is to make an agent-like research assistant.",
+        "repo": "https://github.com/tomhartke/knowledge-graph-from-GPT",
+        "forks_count": 50,
+        "language": "Jupyter Notebook",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/98469324?v=4",
+        "stars": 688,
+        "last_update": "2026-11-14 14:04:34"
     }
 ]
