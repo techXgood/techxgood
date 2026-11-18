@@ -53054,5 +53054,32 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "getting-started",
+            "giting-started",
+            "opensource-intro",
+            "```",
+            "bash",
+            "git",
+            "remote",
+            "add",
+            "upstream",
+            "https",
+            "://",
+            "github",
+            "good"
+        ],
+        "title": "zero-to-mastery/start-here-guidelines",
+        "description": "Lets Git started in the world of opensource, starting in the Zero To Mastery's opensource playground. Especially designed for education and practical experience purposes.",
+        "repo": "https://github.com/zero-to-mastery/start-here-guidelines",
+        "forks_count": 17338,
+        "language": "Python",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/35373879?v=4",
+        "stars": 2905,
+        "last_update": "2026-11-16 12:56:18"
     }
 ]
