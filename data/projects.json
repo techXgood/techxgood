@@ -53362,5 +53362,29 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "health",
+        "keywords": [
+            "dependencies",
+            "```",
+            "flutter",
+            "packages",
+            "get",
+            "app",
+            "run",
+            "alternatively",
+            "https",
+            "://"
+        ],
+        "title": "llSourcell/How_to_Build_a_healthcare_startup",
+        "description": "This is the code for \"How to Build a Healthcare Startup\" by Siraj Raval on Youtube",
+        "repo": "https://github.com/llSourcell/How_to_Build_a_healthcare_startup",
+        "forks_count": 116,
+        "language": "Dart",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/1279609?v=4",
+        "stars": 210,
+        "last_update": "2026-09-21 02:06:31"
     }
 ]
