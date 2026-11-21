@@ -53304,5 +53304,63 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "bert",
+            "computer-vision",
+            "deep-learning",
+            "machine-learning",
+            "python",
+            "latim",
+            "american",
+            "summit",
+            "day",
+            "https",
+            "://",
+            "youtu",
+            "traditional",
+            "machine",
+            "learning"
+        ],
+        "title": "kandeldeepak46/Keep-Learning",
+        "description": "Resources and blogs, curated for learning, computer science, mathematics, data science, computer vision, natural language processing, and machine learning. Pull requests and feedbacks are heartly welcomed",
+        "repo": "https://github.com/kandeldeepak46/Keep-Learning",
+        "forks_count": 8,
+        "language": null,
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/33603333?v=4",
+        "stars": 26,
+        "last_update": "2026-06-11 09:10:13"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "community",
+            "drupal",
+            "enterprise-software",
+            "ideation",
+            "innovation",
+            "social-network",
+            "xxxxxxxx",
+            "bytes",
+            "exhausted",
+            "try",
+            "running",
+            "system",
+            "requirements",
+            "https",
+            "://"
+        ],
+        "title": "linnovate/openideal",
+        "description": "OpenideaL (OI) is the leading open source ideas and innovation management system.",
+        "repo": "https://github.com/linnovate/openideal",
+        "forks_count": 64,
+        "language": "CSS",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/307487?v=4",
+        "stars": 128,
+        "last_update": "2026-11-07 17:54:19"
     }
 ]
