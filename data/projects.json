@@ -53601,5 +53601,34 @@
         "image": "https://avatars.githubusercontent.com/u/2420543?v=4",
         "stars": 50496,
         "last_update": "2026-11-22 13:25:25"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "artificial-intelligence-algorithms",
+            "java",
+            "machine-learning",
+            "neural-network",
+            "optimization-algorithms",
+            "grid",
+            "search",
+            "examples",
+            "see",
+            "jython",
+            "https",
+            "://",
+            "github",
+            "versions",
+            "discrete"
+        ],
+        "title": "pushkar/ABAGAIL",
+        "description": "The library contains a number of interconnected Java packages that implement machine learning and artificial intelligence algorithms. These are artificial intelligence algorithms implemented for the kind of people that like to implement algorithms themselves.",
+        "repo": "https://github.com/pushkar/ABAGAIL",
+        "forks_count": 475,
+        "language": "Java",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/1484?v=4",
+        "stars": 255,
+        "last_update": "2026-10-08 17:54:04"
     }
 ]
