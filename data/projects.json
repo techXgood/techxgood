@@ -53633,5 +53633,43 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "501c3",
+            "accessibility",
+            "ai-education",
+            "ai-ethics",
+            "ai-tutoring",
+            "artificial-intelligence",
+            "edtech",
+            "education-technology",
+            "equity",
+            "multilingual",
+            "neurodiversity",
+            "nonprofit",
+            "open-source",
+            "php",
+            "privacy-first",
+            "underserved-communities",
+            "trust",
+            "guiding",
+            "principles",
+            ":**",
+            "fairness",
+            "transparency",
+            "dignity",
+            "impact"
+        ],
+        "title": "aaryansamanta/ai-ethos",
+        "description": "501(c)(3) nonprofit delivering ethical, inclusive, multilingual AI tutoring for underserved learners \u2014 low-income, rural, multilingual & neurodiverse students. 1,500+ students reached across 7 languages. Source code for aiethos.org.",
+        "repo": "https://github.com/aaryansamanta/ai-ethos",
+        "forks_count": 0,
+        "language": "PHP",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/240250776?v=4",
+        "stars": 497,
+        "last_update": "2026-11-10 13:20:09"
     }
 ]
