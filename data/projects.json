@@ -53726,5 +53726,42 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "agile",
+            "clean-architecture",
+            "clean-code",
+            "cqrs-es",
+            "domain-driven-design",
+            "hexagonal-architecture",
+            "learning",
+            "legacy-code",
+            "microservice-architecture",
+            "refactoring",
+            "software-development",
+            "solid-principles",
+            "study-path",
+            "tdd",
+            "driven",
+            "development",
+            "**,",
+            "clean",
+            "architecture",
+            "legacy",
+            "code",
+            "domain",
+            "martin"
+        ],
+        "title": "joebew42/study-path",
+        "description": "A curated, open, and ever-evolving learning path focused on practices of software development, principles of software design, and software architecture.",
+        "repo": "https://github.com/joebew42/study-path",
+        "forks_count": 347,
+        "language": null,
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/1238549?v=4",
+        "stars": 3012,
+        "last_update": "2026-11-24 14:41:19"
     }
 ]
