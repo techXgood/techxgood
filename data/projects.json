@@ -53764,5 +53764,55 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "infrastructure",
+            "machine-learning",
+            "com",
+            ")**",
+            "**[",
+            "slack",
+            "https",
+            "://",
+            "community",
+            "scale",
+            "docs",
+            "img"
+        ],
+        "title": "cortexlabs/cortex",
+        "description": "Production infrastructure for machine learning at scale",
+        "repo": "https://github.com/cortexlabs/cortex",
+        "forks_count": 587,
+        "language": "Go",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/42243165?v=4",
+        "stars": 8005,
+        "last_update": "2026-11-19 23:29:56"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "tensorflow",
+            "object",
+            "detection",
+            "api",
+            "https",
+            "://",
+            "github",
+            "sever",
+            "side",
+            "programming"
+        ],
+        "title": "agdhruv/accident-monitoring",
+        "description": "Automatic detection and reporting of road accidents using a machine learning and vision algorithm. Built as a Smart City project at HackIIITD.",
+        "repo": "https://github.com/agdhruv/accident-monitoring",
+        "forks_count": 11,
+        "language": "JavaScript",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/17107048?v=4",
+        "stars": 25,
+        "last_update": "2026-06-30 16:33:32"
     }
 ]
