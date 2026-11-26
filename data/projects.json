@@ -53790,5 +53790,53 @@
         "category": "environment",
         "image": "",
         "title": "geco-bern/ingestr"
+    },
+    {
+        "category": "tech",
+        "keywords": [
+            "installation",
+            "install",
+            "ros",
+            "kinetic",
+            "```",
+            "bash",
+            "rosdep",
+            "chapter",
+            ":**",
+            "computer"
+        ],
+        "title": "rosbook/effective_robotics_programming_with_ros",
+        "description": "Effective Robotics Programming with ROS",
+        "repo": "https://github.com/rosbook/effective_robotics_programming_with_ros",
+        "forks_count": 152,
+        "language": "C++",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/17693421?v=4",
+        "stars": 234,
+        "last_update": "2026-07-11 10:17:56"
+    },
+    {
+        "category": "open-knowledge",
+        "keywords": [
+            "hvorfor",
+            "dette",
+            "projekt",
+            "eksisterer",
+            "grund",
+            "nuv\u00e6rende",
+            "geopolitiske",
+            "forandringer",
+            "det",
+            "blevet"
+        ],
+        "title": "Reventlow/path-to-digital-sovereignty",
+        "description": "A strategic framework and operational plan for organizations seeking to reduce dependency on US technology vendors and increase digital sovereignty. Designed to support critical infrastructure continuity in times of geopolitical uncertainty or technology access restrictions.",
+        "repo": "https://github.com/Reventlow/path-to-digital-sovereignty",
+        "forks_count": 3,
+        "language": "TeX",
+        "website": null,
+        "image": "https://avatars.githubusercontent.com/u/11211292?v=4",
+        "stars": 33,
+        "last_update": "2026-09-19 17:52:16"
     }
 ]
